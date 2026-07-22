@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChLopVrCrPE2gJClrkhDwHHeW96gV",
+    "created": 1764448011,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Emotional Clarity and Expressive Access: LOW participants report strong clarity of thoughts and emotions with a marked ability to access and articulate feelings. They repeatedly describe a \u201cvault\u201d of feelings opening, brain fog lifting, and an allocated mental \u201clane\u201d for emotions that allows them to sense others\u2019 feelings and communicate them openly. This includes extended, detailed emotional sharing (e.g., wanting to \u201cget everything out,\u201d big embraces with family, heartfelt conversations with friends and even strangers like drivers). In contrast to HIGH participants\u2019 emphasis on foggy, dreamlike visuals and wavering concentration, LOW participants frame MDMA as mentally clear, controlled, and non-intoxicating in how they think.\n\n2. Anxiety Suppression and Social Dearmoring: LOW participants display near-zero anxiety and a pronounced reduction in defensiveness, avoidance, and social vigilance. They describe feeling \u201cless concerned,\u201d becoming less avoidant, making more eye contact, and feeling secure enough to be open and vulnerable, even with new people. This dearmoring enables richer social engagement and emotional sharing. HIGH participants more often reference nerves, mistrust, and discomfort due to professional boundaries or the setting, underlining a contrast in the social-emotional ease seen in LOW.\n\n3. Reality Anchoring (Non-Dissociative Experience): LOW participants strongly emphasize that MDMA keeps them grounded in the real world\u2014\u201cI am here\u2026 I will remember things\u201d\u2014and reject dissociation, tunnel vision, or blurred, dreamy visuals as characteristic of MDMA (attributing such effects to other drugs like LSD). They define intoxication as mental impairment and argue MDMA does not impair cognition. HIGH participants frequently describe brighter colors, foggy/dreamlike perception, and blurrier vision, marking a clear divergence in perceived reality orientation.\n\n4. Lasting Pro-Social Afterglow and Connection Drive: LOW participants highlight enduring prosocial changes and a persistent urge to connect\u2014becoming very chatty, initiating deep talks, embracing loved ones more fully, and maintaining openness for days to a week post-session. They discuss wanting MDMA-supported therapy and sustained gains in emotional sharing. While HIGH participants note acute positivity and tactile sensitivity, their accounts center more on immediate context and constraints; LOW participants emphasize extended, relationship-focused aftereffects.\n\nDifferentiator variable names:\nemotional_clarity_and_expression, anxiety_reduction_social_dearmoring, reality_anchoring_non_dissociative, lasting_prosocial_afterglow",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 2752,
+        "prompt_tokens": 12391,
+        "total_tokens": 15143,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2240,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

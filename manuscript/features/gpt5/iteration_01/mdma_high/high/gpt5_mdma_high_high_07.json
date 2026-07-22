@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChN1GpK219QbJn9lXD8K8OK7qesjR",
+    "created": 1764452626,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Mechanistic Neuropharmacology Curiosity: High-group participants spontaneously discuss receptors, neurotransmitters, and drug classes, and ask mechanistic questions tying experience to biology. They reference SSRIs, dopamine vs. serotonin receptors, Shulgin, and specific molecules while comparing MDMA to psilocybin and ketamine, and they actively inquire about contraindications and mechanisms. In contrast, low-group participants largely stay at the level of subjective feelings, context, and lay references; they rarely probe pharmacology or link their experiences to neurobiological models.\n\n2. Task Meta-Analysis and Hidden-Structure Hypothesizing: High-group participants actively infer study design motives and hidden variables while performing tasks. They speculate about psychological flexibility tests, non-random stimulus orders, the purpose of crosshairs and faces, and even room temperature differences, integrating bias concepts (e.g., Kahneman) to critique measures. Low-group participants mostly report task difficulty, noticing simple patterns (e.g., red appeared twice) without constructing overarching hypotheses about the experimenters\u2019 intentions.\n\n3. Deliberate Somatic Self-Regulation: High-group participants frequently use intentional regulation strategies like breath control, body scanning, and tension release to manage discomfort or anxiety. They describe recognizing curling toes, releasing muscle tension, grounding via breath, and reframing challenges as passing valleys, demonstrating an internal toolkit for state regulation. Low-group participants tend to narrate sensations (chills, jaw tension, tingling, shifting vision) and overwhelm without detailing concrete, practiced techniques to alter their state in the moment.\n\n4. Warm Sociability with Boundary Sensitivity: High-group participants display strong affiliative impulses\u2014hugging, touch, mirroring, concern for others\u2019 comfort\u2014paired with explicit awareness of social boundaries and consent. They express love of human contact and empathy under MDMA while self-monitoring (e.g., \u201cI\u2019m a male; I don\u2019t want to make you uncomfortable\u201d) and inviting open dialogue. Low-group participants often describe shyness, fear of imposing, or holding back in the lab, with sociability more constrained by self-consciousness and context.\n\n5. Research-Policy Engagement and Action Orientation: High-group participants connect their experience to the research ecosystem and industry, discussing NIH, protocol leadership, Compass Pathways, monetization, and plans to contact PIs or expand studies. They weigh societal control and therapy-coupled applications, situating MDMA within broader translational and regulatory landscapes. Low-group participants focus on personal takeaways, relationships, and workplace dynamics, with minimal system-level analysis or plans to engage institutions.\n\n6. Philosophical Abstraction and Cross-Domain Analogies: High-group participants generalize from personal episodes to universal themes and historical parallels, exploring human happiness, resilience, and transcendence. They invoke analogies (e.g., Holocaust diaries, depression as bad trips) and debate constructs (transcendence vs. dissociation), framing experiences within broader existential or societal narratives. Low-group discourse is more localized to immediate feelings, family stories, and contextual comfort without consistent abstraction to cross-domain principles.\n\n7. Epistemic Confidence and Openness to Experience: High-group participants communicate decisively, rate intensities, label themselves as open, volunteer full transparency, and converge on net-positive interpretations. They express readiness for varied settings and draw clear conclusions amid arousal. Low-group participants repeatedly hedge (\u201cI don\u2019t know,\u201d \u201cmaybe placebo\u201d), oscillate between interpretations, and question the reality of sensations, conveying persistent uncertainty and conditionality.\n\nDifferentiator variable names:\ndifferentiator_01_name=mechanistic_neuropharmacology_curiosity, differentiator_02_name=task_meta_analysis_hidden_structure, differentiator_03_name=deliberate_somatic_self_regulation, differentiator_04_name=sociability_with_boundary_sensitivity, differentiator_05_name=research_policy_action_orientation, differentiator_06_name=philosophical_abstraction_analogy, differentiator07_name=epistemic_confidence_openness",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 3264,
+        "prompt_tokens": 14494,
+        "total_tokens": 17758,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2432,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

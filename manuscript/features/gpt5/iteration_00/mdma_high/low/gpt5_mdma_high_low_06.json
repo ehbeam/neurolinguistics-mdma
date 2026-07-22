@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChM0WMyfKBUjD3fWMipT28bb5rOIW",
+    "created": 1764448736,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Feeling\u2013Thinking Lane Metacognition: Habitually analyzes and allocates separate mental \u201clanes\u201d for feelings and thoughts, monitoring balance and utility.\nParticipants in the LOW group repeatedly describe their inner experience as a managed allocation between feeling and thinking, using metaphors like \u201clanes,\u201d \u201ccapacity,\u201d and \u201cutility functions.\u201d They actively track when feelings \u201covertake\u201d thoughts, worry about whether MDMA adds a new emotional pathway, and try to re-balance attention to complete tasks. This sustained, technical introspection about how cognition and emotion are partitioned is largely absent in the HIGH group, who emphasize openness, breath control, and broad phenomenology rather than dissecting internal resource allocation.\n\n2. Dose Ambivalence and Muted Euphoria: Reports muted euphoria and pervasive uncertainty about dose, drug identity, and expected effects.\nLOW participants frequently question whether they received a placebo or a low dose, compare their experience unfavorably to peers\u2019 \u201chappiest ever\u201d narratives, and note being \u201cless chatty\u201d or less intense than expected. They revisit the possibility that setting dampened effects and wonder if prior experiences were stronger. In contrast, HIGH participants express confident expectations (e.g., empathy, sociability, touch enhancement) and generally frame outcomes as \u201cnet positive,\u201d focusing on harnessing the experience rather than doubting its authenticity.\n\n3. Boundary\u2011Conscious, Non\u2011Imposing Interpersonal Style: Strongly avoids imposing on others, emphasizing consent, confidentiality, and gentle, boundary\u2011respecting communication.\nLOW participants voice persistent concern about not \u201cinserting\u201d themselves into others\u2019 lives, protecting confidences, and avoiding pressure in sensitive conversations (e.g., open relationships, proposals, family dynamics). Even when emotionally open, they calibrate disclosure to respect others\u2019 comfort and autonomy, often labeling themselves introverted or socially anxious. HIGH participants, while considerate, more readily describe \u201copen book\u201d disclosure, hugging, and sociable engagement, reflecting a more assertively outward interpersonal stance.\n\n4. Somatic Sensitivity and Environmental Attunement: Heightened somatic awareness and comfort\u2011seeking, with detailed attention to temperature, touch, movement, and minor visual distortions.\nLOW transcripts foreground body sensations\u2014warmth, sweaty palms, jaw clenching, tingling, stretching relief\u2014and environmental textures (e.g., floor feel, blanket warmth, room temperature), including idiosyncratic visual effects (double vision, reflections). They comment on the MRI being \u201ccozy\u201d or overly warm and describe movement and posture adjustments to feel better. HIGH participants note bodily cues but focus more on macro themes (breath regulation, empathic touch, task meaning), making detailed somatic tracking less central.\n\n5. Fluctuating Task Focus with Self\u2011Regulation Narration: Self\u2011narrates fluctuating task engagement, noting distractions and strategies to regain focus without harsh self\u2011judgment.\nLOW participants frequently recount missing items, being drawn to irrelevant features (e.g., faces, screen reflections), and shifting from baseline competitiveness to a kinder, \u201ctrying my best\u201d approach. They describe concrete tactics\u2014closing eyes, treating distractors as \u201cnoise,\u201d guiding thoughts back\u2014to manage variable attention. HIGH participants also reflect on tasks, but more often through analytic interpretations or breath\u2011based control; LOW narratives dwell on moment\u2011to\u2011moment performance variability and gentle self\u2011coaching.\n\n6. Family\u2011Centric Reflection and Prosocial Planning: Extensive family\u2011centered reflection and concrete planning about roles, relationships, and future conversations.\nLOW participants deliver long, emotionally nuanced stories about parents, siblings, partners, and especially children/nieces, paired with clear plans (e.g., proposing post\u2011study abroad, boundary talks with in\u2011laws, being a safe adult for a niece). They explore values around work\u2013life balance and nontraditional relationships, emphasizing care, safety, and long\u2011term commitments. HIGH participants share interpersonal anecdotes, but the LOW group\u2019s depth, specificity, and forward planning around family roles are more pronounced and pervasive.\n\nDifferentiator variable names:\nfeeling_thinking_segregation,dose_ambivalence,non_imposition_style,somatic_attunement,task_focus_variability,family_reflective_planning",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 3819,
+        "prompt_tokens": 14494,
+        "total_tokens": 18313,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2944,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

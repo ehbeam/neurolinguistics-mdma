@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-CjDAfQzGkDEDXpG0PhnGmdwTtDg8i",
+    "created": 1764891425,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Perceived cognitive clarity with deliberate emotional access: LOW participants describe MDMA as non-intoxicating, maintaining clear mental focus while intentionally opening emotional channels. LOW transcripts repeatedly emphasize being clear-headed, able to think and converse coherently, and distinguishing mental focus from minor visual changes. They frame MDMA as removing anxiety and defensiveness to allow intentional \u201cbandwidth\u201d allocation toward feelings without cognitive impairment, using analytic metaphors (lanes, capacity, allocation) and rejecting dreamlike unreality or dissociation. In contrast to HIGH participants\u2019 reports of foggy, dreamlike vision, brighter colors, sleepiness, and task-focus lapses, LOW participants characterize the experience as sober-like cognition with enhanced sociability and emotional expression under control.\n\nDifferentiator variable names:\nperceived_cognitive_clarity",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 1657,
+        "prompt_tokens": 12392,
+        "total_tokens": 14049,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 1472,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

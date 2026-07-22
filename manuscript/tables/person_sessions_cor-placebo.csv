@@ -1,0 +1,3 @@
+var_x,var_y,n_low,r_[CI]_low,FDR_low,n_high,r_[CI]_high,FDR_high
+gpt5_open_boundary_openness,n_first_person_singular_to_n_words,207,"0.13 [0.01, 0.23]",0.14,93,"0.01 [-0.16, 0.18]",0.91
+gpt5_open_boundary_openness,n_third_person_to_n_words,207,"0.10 [-0.02, 0.20]",0.23,93,"0.45 [0.30, 0.58]",2.50x10-5***

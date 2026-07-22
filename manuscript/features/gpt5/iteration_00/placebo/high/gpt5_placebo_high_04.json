@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChLtfVxNTAfkInXDpmgmd0VPr4JlO",
+    "created": 1764448311,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Dreamlike Sensory Vividness: Brighter colors, foggy/blurred vision, and pleasant touch sensations are prominent, unlike LOW\u2019s clear, reality-anchored perception. In the HIGH group, participants repeatedly describe a dreamlike quality to perception\u2014colors appearing brighter, vision becoming foggy or slightly blurred, and tactile sensations feeling unusually pleasant and \u201cmore sensitive.\u201d They often note pupil dilation and somatic cues (e.g., gentle jaw clenching, skin sensitivity) as part of this altered sensory state. By contrast, LOW participants emphasize clarity and realism, explicitly denying dreamlike or color-shifting effects on MDMA and attributing such phenomena to other substances (e.g., LSD). This vivid, surreal sensory layer is a reliable marker separating HIGH from LOW.\n\n2. Context and Professional Boundary Sensitivity: Heightened sensitivity to setting and professional boundaries, with mistrust and context analysis, versus LOW\u2019s comfort and minimal boundary preoccupation. HIGH participants scrutinize the study environment and social dynamics, voicing discomfort about the \u201cprofessional line,\u201d wondering whether staff are being genuine, and lamenting the lack of \u201cbuddy-buddy\u201d festival-like ambiance. They actively evaluate how the sterile setting, caffeine restrictions, and protocol constraints shape their experience, and propose design modifications (e.g., caffeine inclusion). LOW participants acknowledge setting effects but generally feel secure and supported, worrying more about not overstepping (e.g., hugging) than about authenticity or mistrust. The HIGH group\u2019s strong context salience and boundary awareness sets them apart.\n\n3. Meta-Cognitive Performance Monitoring: Strong meta-cognitive performance monitoring\u2014worrying about confounds, focus, mistakes, and task strategy\u2014versus LOW\u2019s relaxed, emotion-led task approach. HIGH transcripts are rich with self-monitoring about attention, memory, and task execution: concerns about sleepiness confounding results, deliberate pattern-finding strategies, noting mistakes, pushing to \u201cperform at 100%,\u201d and contemplating how placebo or protocol features might bias survey outcomes. They often track their own cognitive state and discuss how to optimize performance under MDMA. In contrast, LOW participants describe being able to do tasks but regularly surrender mental bandwidth to feelings, sometimes missing stimuli when emotions dominate. The HIGH group\u2019s sustained, analytical vigilance around performance is a distinguishing feature.\n\n4. Autobiographical Story Density and Relational Elaboration: Dense, name-rich autobiographical relationship storytelling and connection-making, exceeding LOW\u2019s briefer, feelings-centered reflections. HIGH participants offer detailed, timeline-rich narratives with names, places, cultural identity, and relationship arcs (e.g., ex-partners, Peace Corps history, Salvadorian heritage, \u201cmade love\u201d realizations). They emphasize meaning-making and positive reframing within these stories, drawing explicit connections between events and emotional outcomes. LOW participants discuss relationships and feelings, but in shorter, more generalized ways focused on openness, anxiety reduction, and bonding rather than extended, specific narratives. The HIGH group\u2019s expansive relational storytelling and connection-making is notably more elaborated.\n\nDifferentiator variable names:\ndreamlike_sensory_vividness, context_boundary_sensitivity, performance_meta_monitoring, autobiographical_story_density",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 3470,
+        "prompt_tokens": 12391,
+        "total_tokens": 15861,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2816,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

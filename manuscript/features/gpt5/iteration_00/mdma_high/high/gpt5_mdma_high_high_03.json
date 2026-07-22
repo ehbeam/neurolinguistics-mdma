@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChM3wY9IabTCevM3oFQOf4GlNGV7d",
+    "created": 1764448948,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Research\u2011minded meta\u2011analysis and mechanism curiosity: HIGH participants frequently analyze tasks, cite research, and explore neurobiological mechanisms behind their experience. They reference scientists and studies (e.g., Shulgin, SSRIs, NIH, Kahneman), compare drug classes, and question experimental design elements and motives in real time. This meta-cognitive, science-literate orientation shapes how they interpret sensations and tasks, often linking them to broader frameworks and potential societal impacts. LOW participants focus more on personal narratives, uncertainty about dose and setting, and immediate feelings without sustained scientific framing or design analysis.\n\n2. Deliberate self\u2011regulation through breath and body awareness: HIGH participants consistently use grounding strategies\u2014controlled breathing, tension release, and cognitive reframing\u2014to manage anxiety and sustain focus. They monitor bodily cues (e.g., sweaty palms, curling toes), consciously relax, and emphasize \u201ccontrolling what you can,\u201d often describing valleys and recovery as part of a mindful process. This proactive regulation yields a net-positive trajectory and task persistence. LOW participants more often describe being overwhelmed by feelings, social anxiety, and fluctuating focus, with fewer explicit, repeatable techniques; they sometimes \u201cbring themselves back,\u201d but less systematically.\n\n3. High sociability and tactile\u2011empathic engagement: HIGH participants present strong social openness, friendliness, and a craving for touch, hugs, and shared connection in both festival and intentional settings. They identify as \u201copen books,\u201d attend to others\u2019 reactions, and emphasize empathy, bonding, and mirroring. Their default stance is expansive, affiliative, and eager to engage. LOW participants frequently express reluctance to impose, social hesitation, and guardedness about setting and appropriateness; they describe being less chatty, more self-conscious, and constrained by context.\n\nDifferentiator variable names:\nresearch_meta_orientation,self_regulation_breathing,social_tactile_openness",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 2385,
+        "prompt_tokens": 14494,
+        "total_tokens": 16879,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 1984,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

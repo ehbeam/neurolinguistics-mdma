@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChLzIOHtQIqI5nVs8D1iJefC5XpJN",
+    "created": 1764448660,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Affect\u2013Thought Lane Management: Actively manages a \u201cfeelings lane\u201d versus \u201cthinking lane\u201d to keep attention and performance from being overwhelmed by emotion. LOW participants repeatedly describe a distinct internal partitioning between feelings and thinking, noticing when emotion begins to overtake cognition, and intentionally guiding attention back to tasks. They speak about an \u201cadditional lane\u201d for feelings, reallocating mental capacity, reducing \u201cnoise\u201d to focus (e.g., on the white triangle), and bringing themselves back when feelings dominate. In contrast, HIGH participants emphasize external openness, festival-style sociability, and breath-based calming without the same sustained, metacognitive lane-balancing of affect versus cognition.\n\n2. Boundary-Conscious Non\u2011Imposition: Avoids imposing on others; emphasizes confidentiality, careful timing, and autonomy in relational communication. LOW participants stress not inserting themselves into others\u2019 lives, ask for confidentiality, and carefully manage disclosures to avoid pressuring partners or family; they want conversations as consenting, adult choices. They often identify as introverted or socially anxious, preferring respectful distance and non-intrusive support (e.g., for a niece or partner). HIGH participants present as very outgoing, \u201copen books\u201d who enjoy hugging and high sociability, and are less preoccupied with non-imposition and guarded disclosure.\n\n3. Somatic Interoception and Movement Urges: Provides granular, moment-to-moment tracking of body sensations with strong urges to move, stretch, and self-soothe. LOW accounts richly detail warmth and temperature shifts, sweaty palms, jaw clenching/chattering, tingling, hamstring soreness, floor textures, smiling muscles, and how stretching, massaging, and small movements feel soothing and rewarding\u2014even within the MRI. HIGH participants mention bodily sensations more briefly (e.g., sweaty palms, dilated pupils) and concentrate on abstract reflection or breath regulation, showing less continuous, fine-grained interoceptive narration.\n\n4. Attenuated Euphoria with Context/Dose Uncertainty: Describes muted euphoria and persistent uncertainty about dose, placebo, and setting-driven constraints on expression. LOW participants often report being less chatty or happy than expected, question whether they received placebo or a low dose, and attribute dampened expressiveness to the lab/MRI context; they contemplate needing a higher dose or different setting to be more open. HIGH participants anticipate and affirm classic empathic, sociable effects (music, hugs, openness) and convey confidence in the drug\u2019s experiential profile rather than sustained doubt about dose or environment.\n\nDifferentiator variable names:\ndifferentiator_01_name=affect_vs_thought_lane_management, differentiator_02_name=non_imposing_boundaries, differentiator_03_name=somatic_awareness_movement, differentiator04_name=muted_euphoria_uncertainty",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 3849,
+        "prompt_tokens": 14494,
+        "total_tokens": 18343,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 3264,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

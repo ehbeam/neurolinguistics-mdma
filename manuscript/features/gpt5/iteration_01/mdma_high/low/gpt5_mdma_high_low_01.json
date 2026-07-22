@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-CjDCvhsSdB4iBV2hSmpD4eEkCvLYp",
+    "created": 1764891565,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Emotion-first relational self-disclosure: Low-group participants foreground feelings and relationships, sharing detailed personal stories and plans, while minimizing technical analysis and task/meta-commentary.\nLow-group transcripts are saturated with intimate, emotionally charged narratives about partners, family dynamics, apologies, boundaries, and future relational plans (e.g., proposals, openness conversations), alongside rich descriptions of felt experience (warmth, touch, jaw clenching, stretching). They repeatedly emphasize a \u201cfeelings lane,\u201d present-moment awareness, and comfort with self-disclosure, often processing interpersonal ethics (not imposing, honesty, empathy) and weaving concrete life decisions into their accounts. In contrast, High-group speakers tend to stay analytical and meta\u2014focusing on breath regulation, task performance, study design, neurochemistry, and societal control of drugs\u2014offering fewer detailed personal stories and less emotion-centric reflection. This differentiator captures the Low group\u2019s affective-relational orientation and preference for sharing personal, interpersonal content over abstract, technical commentary.\n\nDifferentiator variable names:\nemotion_relational_disclosure",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 1899,
+        "prompt_tokens": 14494,
+        "total_tokens": 16393,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 1664,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

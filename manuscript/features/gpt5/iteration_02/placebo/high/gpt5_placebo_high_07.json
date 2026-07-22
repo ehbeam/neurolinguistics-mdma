@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChNB8OsxvXOmEpx3M9NY825bNcvAc",
+    "created": 1764453238,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Protocol-aware metacognition: Highs actively analyze study design, confounds, and measurement validity in real time. High-group participants repeatedly monitor and discuss potential confounds (sleepiness, caffeine restriction, environment), anticipate how these might bias tasks (e.g., faces tests), and even propose procedural modifications (sleep measures, allowing caffeine, selecting non\u2013caffeine users). They compare sessions, consider placebo effects, and explicitly reflect on how a lab setting differs from festival use; Lows may ask about randomization or data, but rarely integrate this into sustained, constructive protocol critique.\n\n2. Amplified interoception and sensory salience: Highs richly report bodily and perceptual changes (jaw clench, pupil dilation, skin pleasure, bright colors, dreamlike blur). High participants notice and name specific somatic and visual effects, sometimes seeking confirmation (e.g., pupil dilation) and detailing tactile pleasantness and dreamlike vision. By contrast, Lows frequently minimize or negate sensory alterations (colors unchanged, \u201creal world,\u201d light tingles at most), or attribute such changes to other drugs (e.g., LSD), emphasizing steadiness rather than amplification.\n\n3. Task performance vigilance: Highs strive to perform at 100%, closely track their errors, and worry about confounds to task focus. High-group speech shows continuous self-monitoring during tasks\u2014pushing through perceived MDMA-related distractibility, tracking mistakes, trying to re-enter pattern-detection modes, and considering how drowsiness or setting affects outcomes. Lows discuss \u201cbandwidth allocation\u201d and toggling between feeling and thinking, often noting that feelings can overwhelm tasks or asserting mental focus is unchanged without the same performance-driven vigilance.\n\n4. Active emotional reappraisal: Highs let difficult emotions surface, then deliberately reframe toward positive meaning and connection. When negative or sad content arises, High participants describe choosing to feel it, then pivoting to constructive interpretations (e.g., relationship bonding, learning), emphasizing felt integration over mere analysis. Lows talk about accessing a \u201cvault\u201d of emotions or allocating mental lanes but show more analytical distance, efforts to replicate prior states, and less in-the-moment reappraisal toward positive integration.\n\n5. Relational authenticity sensitivity: Highs are highly attuned to whether others are genuine and how professional boundaries shape trust. They explicitly question whether staff warmth is authentic or purely professional, report becoming more hermetic when mistrust arises, and emphasize how boundary dynamics affect their internal experience. Lows express generalized defensiveness about certain questions or concerns about making others uncomfortable, but less emphasis on authenticity tests or how relational boundaries shift their state.\n\n6. Proactive social bonding: Highs initiate connection, express unconditional friendship ideals, and invite shared experiences beyond the lab. They narrate deliberate, value-driven prosocial choices (e.g., preserving \u201cunconditional friendship,\u201d planning to go out together, celebrating cultural commonalities) and seek to support and physically comfort others. Lows often report being more talkative or open but frame it as a byproduct of reduced anxiety or a \u201ctwo-way street,\u201d with fewer spontaneous bonding initiatives and less emphasis on values-based relationship building.\n\n7. Altered-state acceptance: Highs openly endorse MDMA\u2019s altered-state qualities, while Lows emphasize clarity and \u201csobriety.\u201d High participants comfortably describe dreamlike vision, perceptual brightness, and bodily euphoria as part of the experience. Lows often define intoxication as cognitive impairment, insist MDMA leaves thinking clear and \u201creal,\u201d and deny dissociation or strong visual changes; they frequently compare such phenomena to other substances to underscore MDMA\u2019s normalcy.\n\nDifferentiator variable names:\ndifferentiator_01_name: protocol_metacognition\ndifferentiator_02_name: sensory_interoception_salience\ndifferentiator_03_name: task_performance_vigilance\ndifferentiator_04_name: active_emotional_reappraisal\ndifferentiator_05_name: relational_authenticity_sensitivity\ndifferentiator_06_name: proactive_social_bonding\ndifferentiator07_name: altered_state_acceptance",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 4120,
+        "prompt_tokens": 12392,
+        "total_tokens": 16512,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 3264,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

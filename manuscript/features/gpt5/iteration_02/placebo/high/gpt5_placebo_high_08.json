@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChNBqN4hup9G36AQw1isOqpmUo52N",
+    "created": 1764453282,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Sensory Amplification & Dreamlike Perception: Reports brighter colors, foggy or dreamlike vision, and markedly pleasant tactile sensations during sessions. HIGH participants consistently describe visual brightening, slight blur or \u201cdreamlike\u201d quality, and heightened pleasant touch; they also reference classic MDMA sensory markers (e.g., noticing dilated pupils, brighter colors) and a dreamlike-yet-aware state. LOW participants often deny color changes or dreamlike perception, attribute blurring to other drugs (e.g., LSD), and emphasize feeling clear-headed, with only subtle sensations like light legs or mild tingling.\n\n2. Affectionate Prosocial Drive: Expresses strong urges to hug, touch, and emotionally support others, with broad, spontaneous warmth toward people. HIGH participants portray a robust, embodied desire to connect\u2014wanting to hug everyone, touch, listen, and offer support\u2014and even suggest socializing beyond the study; this warmth is expansive and outward. LOW participants describe sociability mainly as talkativeness or openness to conversation, explicitly guarding physical boundaries (e.g., avoiding hugs with sober staff) and framing friendliness as receiving and listening rather than touch-seeking.\n\n3. Performance Vigilance Under Drug: Maintains or increases task focus, monitors errors, and actively compensates to perform at 100% despite altered state. HIGH participants are hyper-aware of performance\u2014tracking mistakes, worrying about sleep confounds, pushing themselves harder because \u201cMDMA can impair focus,\u201d and proposing adjustments (e.g., caffeine) to optimize task engagement. LOW participants emphasize that mental focus is largely unchanged or alternates between \u201clanes\u201d of feeling vs. thinking, and they accept task simplicity without the same performance pressure or monitoring intensity.\n\n4. Active Positive Reappraisal of Difficult Emotions: Allows sadness, then deliberately reframes experiences to emphasize positive bonding, growth, and constructive meaning. HIGH participants describe letting themselves feel uncomfortable emotions, then intentionally turning toward the positive outcomes (e.g., increased bonding, deeper understanding) and \u201cmaking connections\u201d in real time. LOW participants frequently state that emotions are simply more accessible\u2014not fundamentally changed\u2014and tend to analyze bandwidth allocation or replicate prior feeling states without marked reappraisal or meaning-making shifts.\n\n5. Research & Pharmacology Engagement: Frequently critiques study design and pharmacology, proposing adjustments and considering placebo and context effects. HIGH participants repeatedly interrogate the protocol, context, and pharmacology\u2014discussing placebo impacts, caffeine in pressed pills, environmental differences with festivals, and suggesting inclusion criteria or caffeine allowances to reduce confounds. LOW participants pose questions about data and safety but center personal experience or anxiety around procedures; they do not typically propose methodological optimizations or pharmacologic rationales.\n\n6. Boundary Awareness with Residual Mistrust: Notices and is affected by the professional dynamic, feeling guarded or mistrustful while still cooperating respectfully. HIGH participants explicitly note the tension of a professional setting, questioning staff genuineness, and choosing a more hermetic stance while remaining courteous and compliant; the boundary itself noticeably shapes their experience. LOW participants emphasize feeling secure and supported, discuss word choice around safety vs. security, and worry about not encroaching, but do not dwell on mistrust or genuineness to the same degree.\n\n7. Relational Idealism & Unconditional Friendship Orientation: Articulates deep relationship ideals, prioritizing unconditional friendship and meaningful cultural or romantic connections. HIGH participants narrate value-driven relational choices (e.g., prioritizing unconditional friendship over sex), rich romantic meaning-making (e.g., \u201cmade love\u201d), and cultural resonance (e.g., Salvadorian identity) as central to their experience. LOW participants mention relationships pragmatically (e.g., family hugs, partner support during anxiety) but focus more on operation, bandwidth, and performance in life, with fewer expressions of relational idealism.\n\n8. Somatic Self-Monitoring of MDMA Physiology: Tracks bodily signs like pupil dilation, heart rate, jaw clenching, sleepiness, and safety risk, often seeking confirmation. HIGH participants actively observe and discuss classic MDMA bodily markers\u2014pupil dilation, increased heart rate, jaw tension, and even safety cues (e.g., noticing oxygen equipment)\u2014and ask for confirmation of these signs. LOW participants report milder or diffuse sensations (light legs, tingling, scalp tightness) and frequently deny intoxication or dissociation, showing less emphasis on MDMA-specific physiological monitoring.\n\nDifferentiator variable names:\ndifferentiator_01_name: sensory_amplification, differentiator_02_name: affectionate_prosocial, differentiator_03_name: performance_vigilance, differentiator_04_name: positive_reappraisal, differentiator_05_name: methodology_engagement, differentiator_06_name: boundary_mistrust, differentiator_07_name: relational_idealism, differentiator08_name: somatic_monitoring",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 4585,
+        "prompt_tokens": 12392,
+        "total_tokens": 16977,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 3584,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

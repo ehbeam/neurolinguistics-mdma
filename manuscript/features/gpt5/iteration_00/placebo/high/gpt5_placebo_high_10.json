@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChLxKqi3Fq7K0KIfOCrH52ENxXfmH",
+    "created": 1764448538,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Dreamlike Visuality: HIGH participants report brighter colors and foggy, dreamlike vision while remaining oriented; LOW participants deny visual distortions and emphasize realism.\nHIGH transcripts frequently include descriptions of brighter colors, blurred or \u201cfoggy\u201d vision, and a pleasant dreamlike quality, while maintaining awareness of who and where they are. In contrast, LOW participants consistently characterize their visual experience as unchanged or explicitly \u201creal,\u201d often attributing visual distortions to other drugs (e.g., LSD or ketamine). This sensory softening in HIGH participants distinguishes them as experiencing an altered perceptual field while retaining orientation, a profile absent or rejected in LOW narratives.\n\n2. Pleasant Tactile Sensitivity: HIGH participants describe heightened, pleasant skin sensations and touch appeal; LOW describe minor tingling or lightness without pronounced pleasure.\nHIGH participants emphasize how touch feels especially good\u2014skin becomes more sensitive and affectionate contact is overtly pleasurable\u2014transforming neutral sensations into rewarding ones. LOW participants may note lightness or non-painful tingling but tend to frame bodily sensations as mild, incidental, or non-central to the experience. The pronounced tactile euphoria in HIGH participants aligns with their social warmth and physical-affection motivations, which are comparatively muted in the LOW group.\n\n3. Narrative Self-Disclosure: HIGH participants share long, specific personal stories with names and timelines; LOW keep accounts generic or analytical with fewer intimate details.\nHIGH participants volunteer richly detailed autobiographical narratives, naming people, places, and timeframes, and weaving relationship histories into the discussion. LOW participants focus more on general states, operational definitions, or reflective models (e.g., \u201cbandwidth\u201d between thinking and feeling) and rarely delve into multi-scene, named storytelling. The HIGH group\u2019s expansive self-disclosure signals a stronger drive to connect through personal specifics, differentiating them from the more abstract or guarded style of LOW participants.\n\n4. Protocol Meta-Orientation: HIGH participants actively critique and propose study changes, anticipating confounds; LOW ask clarifying questions without attempting to redesign procedures.\nHIGH participants repeatedly analyze study design and logistics\u2014raising placebo-order effects, environmental context effects on survey responses, sleep confounds during tasks, and proposing protocol modifications (e.g., allowing caffeine to accelerate onset). While LOW participants do inquire about randomization or placebo, they generally seek clarification rather than proposing methodological shifts. This proactive, optimization-oriented stance in HIGH transcripts highlights greater metacognitive engagement with experimental structure.\n\n5. Boundary-Seeking Sociability: HIGH participants seek buddy-buddy rapport and socializing with staff; LOW emphasize respecting boundaries and worry about overstepping.\nHIGH participants explicitly desire a more casual, \u201cbuddy\u201d dynamic with study staff, sometimes even proposing social plans outside the study context and lamenting professional distance as diminishing the experience. LOW participants, though sociable, are careful about boundaries\u2014worrying about making staff uncomfortable or encroaching on personal space. This contrast shows HIGH participants\u2019 stronger pull toward dissolving social distance and creating an informal rapport.\n\n6. Identity-Resonant Bonding: HIGH participants rapidly connect through shared culture or identity; LOW describe closeness more generally, rarely grounding it in specific identity overlap.\nHIGH participants quickly identify and amplify social bonds grounded in shared ethnicity, upbringing, or cultural touchpoints, using identity overlap as a catalyst for instant connection. LOW participants discuss closeness in broader terms\u2014friendliness, openness, or mutual exchange\u2014without anchoring it in common identity. The HIGH group\u2019s identity-based bonding reveals a rapid, specific social attunement that is largely absent from LOW accounts.\n\n7. Performance Hypervigilance: HIGH participants monitor and push task performance despite altered state; LOW perceive stable focus and minimal performance impact.\nHIGH transcripts show vigilant self-monitoring under tasks\u2014tracking concentration lapses, pupil dilation, memory performance, and striving to \u201cperform at 100%\u201d despite drowsiness or altered sensations. The LOW group often reports unchanged mental focus or that tasks required little bandwidth, with less emphasis on pushing or auditing performance. This heightened performance concern in HIGH participants marks a distinct cognitive stance under the drug.\n\n8. Physiological Theorizing: HIGH participants generate physiological explanations (caffeine, glucose, electrolytes, pupils); LOW note sensations without theorizing mechanisms.\nHIGH participants frequently link subjective effects to physiological mechanisms\u2014caffeine metabolism, glucose/electrolytes, heart rate changes, or pupil dilation\u2014and even suggest protocol tweaks based on these hypotheses. LOW participants tend to describe what they feel (e.g., light legs) without constructing mechanistic accounts. The HIGH group\u2019s bioscientific framing underscores a stronger impulse to rationalize and optimize the bodily context of the experience.\n\n9. Emotional Reappraisal: HIGH participants practice emotional acceptance and positive reappraisal; LOW emphasize anxiety relief and attempts to reproduce prior feelings.\nWhen difficult emotions surface, HIGH participants often note letting them arise, then reframing toward the positive outcomes (e.g., bonding, learning), turning potential dips into integrative insights. LOW participants highlight anxiety reduction, clarity, and sometimes a wish to replicate prior \u201clanes for feeling,\u201d but rarely narrate explicit reappraisal arcs from negative to positive. The HIGH group\u2019s reappraisal pattern indicates a more dynamic, process-oriented emotional engagement.\n\n10. Prosocial Touch Drive: HIGH participants show strong urges for affectionate touch and support; LOW increase sociability yet remain hesitant about physical contact.\nHIGH participants repeatedly mention wanting to hug, physically comfort, and support others as a central part of their experience. LOW participants report being more chatty, friendly, and less defensive but are notably cautious about hugging or invading personal space, especially with sober staff. This robust touch-oriented prosociality is a hallmark of the HIGH group relative to the measured sociability of the LOW group.\n\nDifferentiator variable names:\ndreamlike_visuality,pleasant_tactile_sensitivity,narrative_self_disclosure,protocol_meta_orientation,boundary_seeking_sociability,identity_resonant_bonding,performance_hypervigilance,physiological_theorizing,emotional_reappraisal,prosocial_touch_drive",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 5921,
+        "prompt_tokens": 12391,
+        "total_tokens": 18312,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 4672,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

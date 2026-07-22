@@ -1,0 +1,10 @@
+condition,var,n_low,med_low,q1_low,q3_low,n_high,med_high,q1_high,q3_high,stat,p,sig
+combined,Age,5,35.0,35.0,36.0,5,42.0,32.0,46.0,11.0,0.834035229790992,
+combined,Gender,1,,,,1,,,,0.0,1.0,
+combined,Education,1,,,,1,,,,0.0,1.0,
+combined,ehi_handedness,1,,,,1,,,,0.0,1.0,
+combined,Race,1,,,,1,,,,4.0,0.40600584970983794,
+combined,pclc_total,5,20.0,19.0,20.0,5,20.0,19.0,23.0,11.0,0.8298963832086543,
+combined,PHQ9,5,1.0,1.0,2.0,5,2.0,2.0,2.0,9.5,0.5863677146682109,
+combined,GAD7,5,3.0,0.0,3.0,5,0.0,0.0,2.0,18.0,0.2618894876660972,
+combined,ELS,5,0.0,0.0,1.0,5,5.0,2.0,6.0,1.0,0.01811891158566385,*

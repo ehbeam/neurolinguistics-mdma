@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChMwt4jJT5BZrGMvSq7Nlt9pUq5W9",
+    "created": 1764452355,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Metacognitive framing of MDMA effects: LOW participants closely analyze their own state, modeling feelings vs thoughts and questioning dose, placebo, and utility of thinking over feeling. They frequently construct \u201clanes\u201d for feelings and thoughts, debate whether MDMA adds capacity or reallocates it, and test hypotheses (placebo vs dose, setting effects) in real time. This self-auditing includes doubts about being on MDMA, speculations about how training and social pressures shape experience, and efforts to reconcile expectations with observed effects. In contrast, HIGH participants more often accept the drug category and pivot to external topics (neurochemistry, research, industry) than interrogate their immediate phenomenology.\n\n2. Granular interoception and sensory detail: LOW transcripts contain rich, continuous reporting of bodily sensations and environmental textures. They track micro-changes in temperature (warm vs freezing, blankets), sweaty palms, jaw clenching/chattering, tingling, sore hamstrings, and shifting vision (double images, reflections, blink-induced movement), plus tactile appreciation of wood/floor textures and stretching. This meticulous body-scanning dominates their narrative. HIGH speakers mention general sensations (sweaty palms, narrowed periphery) but emphasize cognitive strategies (breath control) and social/experiential themes more than fine-grained interoceptive detail.\n\n3. Non\u2011imposition ethos and social reserve: LOW participants repeatedly emphasize not imposing on others, self\u2011restraint, and careful, transparent communication. They worry about pressuring partners, avoid overstepping with family, and hold back in the lab (e.g., avoiding touch, \u201cmaybe that\u2019s not kosher\u201d). They frame openness as ethical disclosure and courtesy, often linked to introversion and social anxiety. HIGH speakers, by contrast, foreground exuberant sociability (hugs, embracing, \u201copen book\u201d), with only brief concern about making others uncomfortable before proceeding more outwardly.\n\n4. Setting\u2011constrained expressivity: LOW participants\u2019 expressiveness is tightly modulated by context; the lab and MRI shape comfort, affect, and behavior. They report being warmer or colder with blankets, affected by earplugs, shoes, room vibe, and space constraints; they explicitly say the lab is less conducive and that they \u201cheld back\u201d tactile or sensual expression. They prefer or imagine alternative settings (festivals, intimate spaces) where they would interact more freely. HIGH participants acknowledge the setting but focus on coping strategies (breathing) and remain socially forward, often anticipating festival\u2011like openness regardless.\n\n5. Affect\u2011dominant processing with task reorientation: LOW participants describe feelings overtaking cognition and needing deliberate refocus on tasks, accepting errors and narrating performance in detail. They note missing prompts, vision interference, shifting strategies, and evolving from baseline competitiveness to a more accepting stance. They discuss \u201cnoise\u201d reduction, reorienting attention, and working to stay on crosshairs despite affective pull. HIGH participants more often report task ease (e.g., faces), self\u2011training for biases, and breath\u2011mediated control, with less affect\u2011induced derailment.\n\n6. Relational role reflection and long\u2011term caregiving planning: LOW participants deeply examine roles and ethics in close relationships, including nieces, future children, partners, and parents, and lay out concrete plans (e.g., proposal after study abroad). They narrate caregiving identity (safe confidant for a niece), open\u2011relationship boundaries, family micromanagement, work\u2011life values, and hopes for therapeutic help (roommate\u2019s alcoholism). HIGH participants share relational stories but more often pivot to broader research, policy, and societal angles rather than detailed caregiving role design.\n\n7. Moderated affect without peak euphoria: LOW participants consistently report mellow positivity, presence, and talkativeness without extreme MDMA euphoria, and they question whether context or dose limits happiness peaks. They contrast their experience with friends\u2019 \u201chappiest ever,\u201d maintain balanced mood, and entertain placebo/dose explanations for muted highs. HIGH participants anticipate and describe heightened empathic joy, festival energy, tactile craving, and music\u2011driven elevation, painting a more uniformly exuberant profile.\n\nDifferentiator variable names:\nmetacognitive_framing, granular_interoception, non_imposition_ethos, setting_constrained_expressivity, affect_dominant_processing, relational_role_planning, moderated_affect_no_euphoria",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 3791,
+        "prompt_tokens": 14494,
+        "total_tokens": 18285,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2880,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+var,n_low,med_[quantiles]_low,n_high,med_[quantiles]_high,U,CLES,FDR
+gpt5_open_boundary_openness,181,"0.20 [0.00, 0.40]",198,"0.40 [0.30, 0.50]","11,567",0.68,2.11x10-9***
+gpt5_breath_self_regulation,181,"0.00 [0.00, 0.00]",198,"0.00 [0.00, 0.20]","12,121.5",0.66,7.11x10-11***
+gpt5_systems_policy_orientation,181,"0.00 [0.00, 0.00]",198,"0.00 [0.00, 0.00]","17,042",0.52,0.07+
+gpt5_boundary_conscious_social_restraint,182,"0.10 [0.00, 0.50]",198,"0.00 [0.00, 0.00]","26,103",0.72,4.00x10-17***

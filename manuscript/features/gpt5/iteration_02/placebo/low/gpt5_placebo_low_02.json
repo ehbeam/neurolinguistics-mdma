@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChN3eStYbYJGhbr4kyLcVJwyNaMZF",
+    "created": 1764452774,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Systematizing, meta-analytical narration: LOW speakers systematize their experience, using models, definitions, and data-minded comparisons to reason about MDMA effects and study design. They repeatedly frame their experiences through analytical constructs (utility functions, \u201cbandwidth\u201d and \u201cadditional lanes\u201d for feelings), define terms (what \u201cintoxicated\u201d means), question survey wording, and probe randomization/placebo/data procedures. They compare drug classes (MDMA vs LSD/amphetamines), parse cognitive vs visual focus, and evaluate \u201csafety\u201d screens and setting effects with a quasi-scientific mindset. This meta-cognitive, theory-building style contrasts with HIGH participants\u2019 more narrative, sensory-forward accounts (dreaminess, brighter colors, tactile changes) and less emphasis on formal reasoning about mechanisms and methods.\n\n2. Clear\u2011headed emotional access (not intoxication): LOW speakers depict MDMA as unlocking existing feelings while remaining clear-headed, non-dissociated, and boundary-aware, with minimal perceptual alteration. They consistently say MDMA doesn\u2019t change who they are or cloud thinking; instead it \u201copens a vault,\u201d allocates \u201cbandwidth\u201d for emotions, lowers defensiveness, and enables talkativeness and connection (e.g., deeper hugs, easier sharing) while preserving mental clarity and control. Sensory distortions are downplayed (often attributed to LSD instead), time feels unnoticed rather than warped, and setting/boundaries matter (seeking security, careful about hugging staff). This measured, sober-feeling access to emotions stands in contrast to HIGH participants\u2019 reports of foggy, dreamlike vision, brighter colors, strong tactile enhancement, and more immersive affect.\n\nDifferentiator variable names:\nmeta_analytic_systematizing, clearheaded_emotional_access",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 2294,
+        "prompt_tokens": 12392,
+        "total_tokens": 14686,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 1920,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChNDh8RrcsVojKPtS2ahuZOeu4wZl",
+    "created": 1764453397,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Emotion-centered relational introspection: LOW participants fixate on personal feelings and close relationships, using the session to plan conversations, boundaries, and disclosures. They consistently frame the experience as a vehicle for processing intimacy, family dynamics, and identity in relationships\u2014mapping \u201clanes\u201d for feeling versus thinking, rehearsing open, non-impositional communication, and defining roles with partners, nieces, siblings, and parents. Their talk centers on concrete plans (e.g., proposals, check-ins, boundary-setting), guilt/pressure management, and empathy calibration, with strong attention to not imposing on others. Compared with the HIGH group\u2019s abstract comparisons (e.g., SSRIs, CB2/Shulgin, psychedelic phenomenology, study design), LOW participants stay grounded in lived interpersonal scenarios, emotional authenticity, and actionable relational outcomes.\n\n2. Attributional uncertainty and context-sensitive self-doubt: LOW participants repeatedly question whether effects are real, dose-driven, or situational, hedging interpretations and testing alternative explanations. They frequently second-guess the source and magnitude of their experience\u2014wondering about placebo versus dose, earplugs, temperature, footwear, chair comfort, or time effects\u2014while monitoring moment-to-moment bodily and perceptual shifts; they openly say \u201cI don\u2019t know,\u201d revise hypotheses, and suspend certainty. In contrast, HIGH participants more confidently theorize mechanisms, expectations, and task logic (serotonin/dopamine, Kahneman/bias, breath control) and compare drug classes, showing less ongoing self-doubt about whether the drug is \u201con\u201d and more assertive meaning-making than the LOW group\u2019s cautious, attribution-checking posture.\n\nDifferentiator variable names:\nrelational_emotional_introspection,attributional_uncertainty",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 2546,
+        "prompt_tokens": 14494,
+        "total_tokens": 17040,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2176,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

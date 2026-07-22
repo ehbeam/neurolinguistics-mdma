@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChLrc0xB9CwUazTNsHHc9f72EBRhl",
+    "created": 1764448184,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Perceptual realism over dreaminess: LOW participants describe experiences as firmly real, with clear vision and minimal color changes, not like a dream. Unlike HIGH participants\u2019 \u201cbrighter colors\u201d and \u201cfoggy, dreamlike\u201d vision, LOW participants repeatedly insist \u201cI\u2019m in this world,\u201d emphasize that MDMA doesn\u2019t blur or distort their vision (contrasting it with LSD), and reject dissociative or surreal framing. Their reports center on reality feeling more accessible and straightforward, with clarity in what they see and hear rather than cinematic or misty visuals.\n\n2. Marked anxiolysis and social disarmament: Anxiety and vigilance drop sharply in LOW participants, making them less defensive and more comfortable. LOW participants say worries \u201cvanish,\u201d report \u201czero anxiety,\u201d and describe becoming less avoidant with more eye contact and ease around new people. Where HIGH participants emphasize nerves and mistrust in the study\u2019s professional setting, LOW participants describe fear transforming into excitement and a general softening of social armor, enabling warmth and trust.\n\n3. Self-perceived sobriety and cognitive clarity: LOW participants feel mentally clear and in control, not \u201cintoxicated,\u201d even if a bit clumsy physically. They define intoxication as impaired thinking and explicitly state MDMA doesn\u2019t impair their thinking; they can converse, focus on content, and \u201cjust do\u201d tasks. In contrast to HIGH participants\u2019 fogginess, concentration lapses, and sleepiness, LOW participants stress clear-headedness and the ability to compartmentalize, returning to tasks as needed.\n\n4. Metacognitive \u201cbandwidth\u201d management for feelings: LOW participants explicitly allocate mental \u201clanes\u201d or bandwidth to emotion, opening a dedicated channel for feeling without losing themselves. They describe an \u201cadditional lane\u201d for emotions or reallocation of cognitive resources so feelings cannot be overwritten by worries\u2014an intentional, structured way of managing attention between thoughts and feelings. HIGH participants reflect on feelings too, but LOW participants uniquely frame it as systematic bandwidth allocation and monitor lane switching.\n\n5. Prosocial expressiveness with bidirectional awareness: LOW participants become very chatty and open while also carefully defining sociability as both talking and listening. They detail being \u201cvery chatty,\u201d less avoidant, more trusting, and eager to connect (e.g., long conversations with a Lyft driver), while emphasizing reciprocity\u2014receiving and accepting as much as giving. Compared to HIGH participants\u2019 prosocial impulses tempered by professional boundaries, LOW participants sustain openness during and after sessions (e.g., bigger family hugs), framing connection as a thoughtful, two-way practice.\n\n6. Embodied lightness and localized tingling without visual distortion: Body sensations in LOW participants center on light legs/head and pleasant tingling, not visual brightness or fog. Reports include scalp tension that shifts to non-painful tingling, \u201clight\u201d legs, and cozy bodily comfort, sometimes with reduced cold sensitivity\u2014all without visual cross patterns or color changes they associate with LSD. HIGH participants commonly emphasize brighter colors and foggy vision; LOW participants anchor in subtle, localized somatic shifts.\n\n7. Oblivious fast time with low salience: LOW participants experience time as moving quickly but only notice retrospectively, not as a dramatic acceleration. They describe being \u201coblivious\u201d to how fast time moves\u2014realizing after sunrise or when prompted\u2014rather than perceiving an active fast-forward. This contrasts with HIGH participants\u2019 focus on other altered sensations (e.g., fogginess, arousal, task focus), making time distortion a subdued, background feature in LOW accounts.\n\n8. Analytic engagement with study design and language: LOW participants parse question wording, propose alternatives, and probe placebo/randomization and safety semantics. They critique items as \u201cred flags,\u201d differentiate constructs (e.g., \u201cintoxication,\u201d \u201csociable,\u201d \u201csecure\u201d vs \u201csafe\u201d), and compare across substances to clarify experiences. While HIGH participants discuss caffeine and logistics, LOW participants consistently engage in semantic precision and methodological curiosity, revealing a more analytical, meta-cognitive stance toward the study.\n\n9. Positive setting conditioning and security-seeking: LOW participants condition to the lab as a secure, open space, transforming initial fear into comfort and connection. They explicitly link improved experiences to the environment\u2014associating the room and staff with safety and openness\u2014while negotiating boundaries (e.g., worries about hugging sober staff). In contrast to HIGH participants\u2019 emphasis on the professional line reducing comfort, LOW participants leverage context to feel secure, which amplifies their openness and well-being.\n\nDifferentiator variable names:\ndifferentiator_01_name, differentiator_02_name, differentiator_03_name, differentiator_04_name, differentiator_05_name, differentiator_06_name, differentiator_07_name, differentiator_08_name, differentiator09_name",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 3299,
+        "prompt_tokens": 12391,
+        "total_tokens": 15690,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2304,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

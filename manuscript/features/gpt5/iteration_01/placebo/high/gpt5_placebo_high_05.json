@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChMDx0xAyrYOtYhZEt1C6uTKUiJwB",
+    "created": 1764449569,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Relationship-Centered Intimacy Orientation: High participants consistently anchor their experiences in deep, unconditional connections and affectionate engagement. High-group transcripts revolve around making love versus sex, developing \u201cspecial\u201d and unconditional friendships, cultural kinship, and a strong desire to hug, listen, and support others. Their speech is rich with personal relationship narratives, names, places, and life context, indicating that their MDMA experiences are interpreted primarily through the lens of intimacy and bonding. In contrast, low-group participants more often frame sociability as talkativeness or acceptance and discuss \u201cbandwidth\u201d for emotions without the same vivid, relational storytelling or embrace of affection.\n\n2. Methodological Meta-Awareness and Setting Critique: High participants actively analyze the study environment and design, proposing adjustments and anticipating confounds. The high group frequently examines placebo implications, caffeine restrictions, sleep effects in the MRI, survey validity, and how laboratory professionalism alters their behavior, even suggesting protocol modifications. They connect context to outcomes and calibrate self-report accordingly. Low-group transcripts include question-asking about order and placebo but lack the same proactive, detailed critique, optimization mindset, or explicit linkage between contextual constraints and their performance.\n\n3. Sensory Amplification with Dreamlike Qualities: High participants describe brightened colors, pleasant tactile sensitivity, foggy vision, and a dreamlike-but-oriented state. They report enhanced skin sensations, subtle heart-rate awareness, and the feeling of \u201cpleasant dreaming\u201d while still knowing who and where they are. This stands in contrast to the low group, who repeatedly deny color changes, dreamlike unreality, or dissociation, and describe sensations as lightness or tingling without perceptual transformation. High-group sensory narratives are vivid and distinctive; low-group accounts are restrained and grounded.\n\n4. Affective Flexibility and Positive Reframing: High participants allow difficult emotions to arise, then reframe them toward growth, bonding, and meaning-making in real time. They describe noticing initial sadness or mistrust, choosing to feel it, and subsequently highlighting positives (deeper bonding, lessons learned), often shifting from \u201cthinking\u201d to \u201cfeeling\u201d and back as they integrate. Low-group participants emphasize reduced anxiety, compartmentalization, and \u201callocation of bandwidth,\u201d but rarely narrate a clear process of embracing discomfort and reinterpreting it toward constructive outcomes within the same conversation.\n\n5. Performance Vigilance and Self-Monitoring: High participants closely monitor task performance and push to counter stereotypes about MDMA and focus. They report hyper-awareness of mistakes, pupil dilation, concentration lapses from sleepiness, and deliberately redouble efforts to perform at \u201c100%,\u201d even proposing caffeine to normalize baseline functioning. Low-group participants more often describe being pulled into feelings, lanes for thinking versus feeling, or task simplicity rather than active performance optimization; they do not exhibit the same performance-driven self-regulation during the session.\n\nDifferentiator variable names:\ndifferentiator_01_name: intimacy_narrative_focus, differentiator_02_name: meta_methodology_awareness, differentiator_03_name: sensory_dreamlike_amplification, differentiator_04_name: affective_reframing_flexibility, differentiator_05_name: performance_self_monitoring",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 2910,
+        "prompt_tokens": 12392,
+        "total_tokens": 15302,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2240,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

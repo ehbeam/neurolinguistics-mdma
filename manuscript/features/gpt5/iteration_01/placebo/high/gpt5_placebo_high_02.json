@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChMCh2XanZMocTJD2sxCoN8kStPup",
+    "created": 1764449491,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Sensory Elevation and Dreamlike Quality: HIGH participants report pronounced tactile pleasure, brighter colors, foggy dreamlike vision, and bodily arousal; LOW participants report clear-headed realism and minimal perceptual change.\nHigh-group transcripts repeatedly emphasize intensified sensation and altered perception: pleasant touch on skin, brighter colors, \u201cfoggy\u201d or dreamlike visual quality, and bodily signs like jaw clenching, shakiness, dilated pupils, and anticipated heart-rate increases. Several HIGH participants describe feeling \u201cin a pleasant dream\u201d while still knowing who and where they are, and they note heightened sensitivity to touch as distinctly enjoyable. In contrast, LOW participants consistently deny major perceptual shifts (no color changes, no dissociation, \u201cI\u2019m in this world\u201d), and frame MDMA as preserving mental clarity; physical changes, if mentioned, are mild (lightness, tingling) and not transformative. This creates a clear split: the HIGH group experiences robust sensory-perceptual amplification with a dreamlike tone, whereas the LOW group emphasizes realism and cognitive steadiness.\n\n2. Interpersonal Affection and Positive Emotional Reframing: HIGH participants show strong urges to physically and emotionally connect and actively reframe difficult feelings into relationship-building positives; LOW participants remain more guarded, analytical, and compartmentalized.\nHIGH transcripts highlight a powerful affiliative drive: wanting to hug and touch everyone, listen and support others, invite people out, and cultivate \u201cunconditional\u201d friendships. They also describe letting uncomfortable feelings in and then consciously focusing on the positives (e.g., bonding after conflict), converting negative affect into constructive insights and closeness. Even in a professional setting, they notice the constraint and feel hermetic, yet the baseline impulse is to bond. LOW participants do become talkative and less defensive, but they define sociability narrowly (talking/listening), worry about boundaries (e.g., hugging staff), and emphasize cognitive control and compartmentalization. Their narrative centers on allocating \u201cbandwidth\u201d to feelings without substantial reframing or outward affectionate orientation, marking a clear interpersonal and emotional-processing contrast.\n\nDifferentiator variable names:\nsensory_elevation_dreamlike,interpersonal_affection_reframing",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 2184,
+        "prompt_tokens": 12392,
+        "total_tokens": 14576,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 1728,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

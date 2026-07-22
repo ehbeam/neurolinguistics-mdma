@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChLoQWTWSmtJzAfARepPppyTc492u",
+    "created": 1764447986,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Anxiety-free Emotional Openness: LOW participants report vanishing anxiety and a strong drive to share feelings, connect, and drop defenses. LOW transcripts repeatedly describe \u201czero anxiety,\u201d feeling \u201cless concerned,\u201d and becoming \u201cless defensive\u201d and \u201cless avoidant,\u201d alongside an urge to talk, hug, make eye contact, and \u201cget everything out.\u201d They frame MDMA as opening a \u201clane\u201d or allocating \u201cbandwidth\u201d for feelings, enabling deep emotional access and expression without losing control. This openness often persists after sessions (e.g., more embracing with family, extended conversations with strangers), and is sought deliberately for therapeutic conversations, clearly distinguishing LOW from HIGH, who voice more nerves, mistrust, and guardedness in the study setting.\n\n2. Reality-Anchored Cognitive Clarity: LOW participants emphasize clear-headed thinking, intact mental focus, and realness, with minimal sensory distortion. LOW consistently reject dreamlike or dissociative states (\u201cThings are quite real\u2026 I will remember things\u201d; \u201cI define intoxication\u2026 it takes clarity\u2026 with Molly, I don\u2019t think it takes clarity from the way I think\u201d), and often contrast MDMA with LSD/ketamine for visual blurring or dissociation, noting only mild bodily sensations (light legs, tingling). They describe mental focus as preserved even when emotional focus rises, and explicitly deny color changes or fogginess. In contrast, HIGH participants highlight \u201cbrighter colors,\u201d \u201cfoggy vision,\u201d and \u201cdream state\u201d experiences, plus concentration/memory concerns, marking a clear cognitive-sensory divide.\n\n3. Trustful, Pro-social Setting Engagement: LOW participants feel secure with staff and environment, actively seek connection within the study context, and experience reduced social vigilance. LOW describe the room as positively conditioned and \u201csecure,\u201d appreciate care (blankets, socks), worry about respecting boundaries because they want to hug, and report being more sociable as a two-way street (talking and listening), including unusually long, warm interactions (e.g., Lyft driver). They aim to use MDMA in therapy to communicate more freely. In contrast, HIGH participants emphasize discomfort with professional boundaries, mistrust (\u201care they being genuine?\u201d), and being \u201cmore hermetic,\u201d which dampened their engagement; LOW\u2019s trust and pro-social orientation are notably high.\n\nDifferentiator variable names:\nanxiety_free_emotional_openness,reality_anchored_cognitive_clarity,trustful_prosocial_setting_engagement",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 2817,
+        "prompt_tokens": 12391,
+        "total_tokens": 15208,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2304,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

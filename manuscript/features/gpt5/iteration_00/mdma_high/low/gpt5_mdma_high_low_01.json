@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-CjDBKJ7IIKP0iXImgEzOk4EJMs2BV",
+    "created": 1764891466,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Effects Ambivalence and Self-Questioning: LOW participants persistently question whether their sensations are real, placebo-driven, dose-related, or context-induced.\nLOW transcripts are saturated with metacognitive doubt and hedging about the experience itself. They repeatedly wonder \u201cit might be placebo,\u201d \u201cI still don\u2019t know if I am taking Molly,\u201d and attribute sensations to situational factors like not wearing shoes, cold vs. warm blankets, earplugs, or task setup. They compare sessions (\u201clast time vs. this time\u201d), note reduced or absent euphoria relative to peers, and toggle between interpretations (\u201cam I making it up?\u201d). This uncertainty extends to performance (\u201cI wasn\u2019t really invested in the task\u201d), bodily states (jaw clenching, sweaty palms), and relational openness (not wanting to impose, social anxiety). In contrast, HIGH participants speak with confident expectations and domain knowledge (neurotransmitters, molecules like CB2), articulate deliberate regulation strategies (breath control to ground and focus), and describe clear, anticipated social-empathic effects, showing far less ambiguity about what the drug is doing.\n\n...\n1. Effects Ambivalence and Self-Questioning: LOW participants persistently question whether their sensations are real, placebo-driven, dose-related, or context-induced.\nLOW transcripts are saturated with metacognitive doubt and hedging about the experience itself. They repeatedly wonder \u201cit might be placebo,\u201d \u201cI still don\u2019t know if I am taking Molly,\u201d and attribute sensations to situational factors like not wearing shoes, cold vs. warm blankets, earplugs, or task setup. They compare sessions (\u201clast time vs. this time\u201d), note reduced or absent euphoria relative to peers, and toggle between interpretations (\u201cam I making it up?\u201d). This uncertainty extends to performance (\u201cI wasn\u2019t really invested in the task\u201d), bodily states (jaw clenching, sweaty palms), and relational openness (not wanting to impose, social anxiety). In contrast, HIGH participants speak with confident expectations and domain knowledge (neurotransmitters, molecules like CB2), articulate deliberate regulation strategies (breath control to ground and focus), and describe clear, anticipated social-empathic effects, showing far less ambiguity about what the drug is doing.\n\nDifferentiator variable names:\neffects_ambivalence",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 2210,
+        "prompt_tokens": 14494,
+        "total_tokens": 16704,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 1728,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

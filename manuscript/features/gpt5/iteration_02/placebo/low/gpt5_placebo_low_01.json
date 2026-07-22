@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-CjDDafuQ2y54gDu5Qy9U438Tm9ZjL",
+    "created": 1764891606,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Reality-Anchored Cognitive Clarity: LOW participants experience MDMA as enhancing emotional access without impairing thinking, altering reality, or causing dissociation, unlike HIGH participants\u2019 dreamy fogginess and reduced focus.\nLOW group transcripts repeatedly frame the MDMA experience as mentally clear, grounded, and \u201csober-like.\u201d They define intoxication as loss of cognitive control and emphasize that MDMA does not reduce clarity; they describe being clear-headed, retaining mental focus for thinking and conversation, and explicitly rejecting dissociation or dream states. Their changes are characterized as allocating \u201cbandwidth\u201d or \u201clanes\u201d to feelings while remaining able to perform tasks and remember events, with time feeling normal or simply unnoticed rather than distorted. In contrast, HIGH group transcripts frequently highlight altered sensory-perceptual states (brighter colors, foggy or dreamy vision, increased skin sensitivity), and note diminished concentration, sleepiness, and task interference, signaling a more perceptually altered, less reality-anchored experience.\n\nDifferentiator variable names:\nreality_anchored_cognitive_clarity",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 2544,
+        "prompt_tokens": 12392,
+        "total_tokens": 14936,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2304,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

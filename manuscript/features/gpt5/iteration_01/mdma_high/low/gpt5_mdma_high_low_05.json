@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChMvjmLKcwZ9HO62DBHsP7SpP1RHH",
+    "created": 1764452283,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Persistent meta-uncertainty about drug effects: LOW participants repeatedly question whether sensations are real, placebo, dose-related, or self-generated. \nLOW transcripts are saturated with real-time hypothesis testing and doubt (\u201cmaybe placebo,\u201d \u201cI still don\u2019t know if I took Molly,\u201d dose speculations), along with continual reattribution of sensations to alternative causes (e.g., no socks, chair, not wearing shoes). They actively monitor signals (palpitations, vision shifts) as potential \u201cevidence,\u201d revise interpretations minute-by-minute, and compare sessions to prior baselines. In contrast, HIGH participants discuss theory, policy, and personal narratives with far less moment-to-moment uncertainty about whether effects are genuine.\n\n2. Fine-grained interoception and sensory micro-attention: LOW participants offer dense, moment-by-moment reports of bodily sensations and sensory changes. \nLOW speech features granular tracking of sweaty palms, temperature shifts, jaw clenching, tingling, muscle soreness, breath sensations, vision artifacts (double images, periphery cutoffs), and tactile pleasures (wood grain, floor texture, stretching). They repeatedly recalibrate comfort with blankets, socks, and room warmth, and link task strategy to perceptual fluctuations. HIGH participants reference bodily states and breath, but without the same continuous, detailed, or tactilely focused narration.\n\n3. Thought\u2013feeling compartmentalization and task metacognition: LOW participants explicitly separate \u201clanes\u201d for thinking vs feeling and self-monitor cognitive performance. \nThey articulate an internal \u201clane\u201d model\u2014allocating cognitive bandwidth between feelings and thoughts, worrying about \u201cnoise,\u201d and strategizing around tasks (faces vs shapes, gaze diversion, white triangle focus). They assess dose-dependent shifts in processing (more or less chatty, ability to \u201cprocess\u201d vs being flooded by emotion), compare baseline competitiveness with current acceptance, and analyze utility functions that prioritize thinking over feeling. HIGH participants reflect on attention and control but rarely frame it as structured, dual-lane compartmentalization with continuous performance analytics.\n\n4. Relationship non-imposition and cautious openness: LOW participants emphasize not imposing on others and negotiate boundaries with careful, explicit communication. \nThey repeatedly state fears of \u201cimposing\u201d feelings, detail consent-oriented conversations (open relationships, plans to propose, privacy protections), and weigh how disclosures might pressure partners or family. They show pronounced social self-regulation tied to introversion and social anxiety, preferring closeness without intrusion and calibrating expressiveness to context (lab vs friends). HIGH participants are more outwardly effusive (hugging, sociability, open-book stance) and less preoccupied with the ethics of imposition or guarded disclosure.\n\n5. Mellow affect and reduced euphoria orientation: LOW participants describe muted or mixed-positive affect and prioritize reflection over peak bliss. \nLOW speakers frequently report being \u201cmore mellow,\u201d \u201cnot as chatty,\u201d or not experiencing the \u201chappiest moment\u201d friends report, and focus instead on clarity, presence, and processing emotions. They connect affect to setting constraints (lab as less conducive), accept variability across sessions, and value being able to think, decide, and converse thoughtfully over chasing intense euphoria. HIGH participants more often anticipate or describe expansive sociability, empathy surges, and celebratory energy (music, hugs, festivals).\n\nDifferentiator variable names:\nmeta_uncertainty_about_effects, fine_grained_interoception, thought_feeling_compartmentalization, non_imposition_relationship_style, mellow_affect_reduced_euphoria",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 2198,
+        "prompt_tokens": 14494,
+        "total_tokens": 16692,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 1472,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

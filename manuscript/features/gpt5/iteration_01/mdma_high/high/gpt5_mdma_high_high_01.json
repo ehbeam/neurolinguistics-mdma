@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-CjDDE6l6bJMQJirLOeeoEv0kTGgl4",
+    "created": 1764891584,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Deliberate breath-based self-regulation: High participants intentionally use breathing and somatic check-ins to manage anxiety, refocus, and maintain control during tasks and discomfort.\nHigh group transcripts show frequent, explicit deployment of self-regulatory strategies\u2014especially conscious control of breathing, releasing bodily tension, grounding, and cognitive reframing\u2014to steer the experience toward a \u201cnet positive.\u201d They narrate noticing rising anxiety, checking the body (e.g., tense toes), and deliberately calming themselves by controlling breath, which restores focus and emotional equilibrium. This self-directed regulation is coupled with a resilient mindset (\u201cvalleys and hills,\u201d \u201ccontrol what you can\u201d) and meta-awareness of task engagement. In contrast, low group participants predominantly describe sensations, social feelings, and difficulties focusing without articulating concrete, intentional techniques to self-regulate in the moment, indicating far less strategy use.\n\nDifferentiator variable names:\nbreath_based_self_regulation",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 1745,
+        "prompt_tokens": 14494,
+        "total_tokens": 16239,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 1536,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

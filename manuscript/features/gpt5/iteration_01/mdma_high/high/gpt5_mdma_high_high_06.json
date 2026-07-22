@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChN0jTpvKaOmQvHOt5uMKKwqIuZof",
+    "created": 1764452593,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Scientific Neurochemistry Literacy & Inquiry: High participants frequently reference neurotransmitters, mechanisms, and studies; low participants rarely engage at this scientific depth. High-group transcripts are saturated with mechanistic language and technical questions (serotonin vs dopamine, SSRIs, receptor contraindications, CB2, Shulgin), plus informed references to research methods, biases (Kahneman), and protocols. They compare drug classes, ask about neurobiology, and evaluate how tasks might tap specific systems. Low-group participants seldom move beyond lay reflections or anecdote; when research is mentioned, it\u2019s descriptive rather than analytic. This sustained scientific curiosity and mechanistic framing sharply distinguishes the High group.\n\n2. Expressive Sociability and Affiliation-Seeking Touch: High participants show strong sociability, craving physical closeness and shared experiences, coupled with sensitivity to others\u2019 comfort. High-group speakers anticipate hugging, bonding, dancing, and \u201cbeing super present,\u201d and actively try to ensure others feel comfortable; they mirror others\u2019 reactions, describe themselves as \u201copen books,\u201d and frame MDMA as a tool for connection beyond party settings. They also demonstrate situational awareness (holding back hugs to respect boundaries). Low-group participants repeatedly describe shyness, social anxiety, and fear of \u201cimposing\u201d their feelings, often suppressing affiliative impulses in lab contexts and everyday life.\n\n3. Breath-Based Self-Regulation and Panic Control: High participants actively use breath, body scanning, and cognitive reframing to manage discomfort; low participants more often report overwhelm without consistent grounding strategies. High-group narratives include recognizing tension, releasing it, controlling breath in the MRI, translating panic protocols into practice, and reframing \u201cvalleys\u201d as passages they can navigate. They cite examples of grounding (e.g., Holocaust journals emphasizing controllables), and repeatedly reorient to breath and bodily control. Low-group participants describe feeling flooded or distracted and only intermittently \u201cbring themselves back\u201d without an articulated technique or repeatable method.\n\n4. Meta-Task Analysis and Hypothesis Generation: High participants scrutinize task design, infer hidden motives, and evaluate biases; low participants focus on execution without meta-level theorizing. High-group speakers question whether task elements are nonrandom, test psychological flexibility, or serve ulterior measurement aims; they categorize task difficulty, notice order manipulations, and explicitly link task interpretation to cognitive biases. Low-group speakers report missing instructions or struggling with focus, but rarely generate hypotheses about what the tasks are intended to measure or how design choices might influence behavior.\n\n5. Systems-Level Research and Policy Orientation: High participants discuss protocols, commercialization, and societal control of drugs; low participants emphasize personal stories over system analyses. The High group considers NIH roles, study enlargement, federal research priorities, and industry incentives (Compass Pathways, capitalism\u2019s trade-offs), weighing ethical and regulatory implications. They talk about reaching out to PIs and positioning themselves within research ecosystems. Low-group transcripts center on interpersonal dynamics, workplace experiences, and personal meaning, with minimal engagement in policy or commercialization discourse.\n\n6. Intentionality and Confident Openness with Boundaries: High participants are openly self-disclosing and confident while managing boundaries; low participants hold back, fearing to impose or appear inappropriate. High-group speakers invite any questions, self-identify as very open, and articulate clear intentions (e.g., using MDMA in non-festival settings for connection) while actively moderating behavior to avoid discomfort (e.g., limiting touch due to context). Low-group speakers repeatedly worry about burdening others, inserting themselves, or violating norms; they withhold or second-guess expression and often defer to situational constraints rather than set confident, intentional boundaries.\n\nDifferentiator variable names:\nneurochem_inquiry, prosocial_touch_orientation, breath_self_regulation, meta_task_hypothesis, systems_policy_orientation, open_boundary_openness",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 3993,
+        "prompt_tokens": 14494,
+        "total_tokens": 18487,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 3200,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

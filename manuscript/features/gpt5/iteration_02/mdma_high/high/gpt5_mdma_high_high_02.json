@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChNIEfYzI7K7ZlPFaI2ygeozXDcoQ",
+    "created": 1764453678,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Analytical-Scientific Framing of Experience: HIGH participants interpret their experiences through scientific concepts, neurochemistry, and task analysis, frequently citing research and comparing drug classes and mechanisms. Participants in the HIGH group consistently frame their experience in technical and analytical terms: they reference serotonin, SSRIs, dopamine, CB2 and Shulgin; compare MDMA to psilocybin; invoke research bodies and protocols (NIH, clinical studies); and critique or hypothesize about task design, bias, and measurement (e.g., psychological flexibility, ulterior tests, reaction-time paradigms). They integrate literature (e.g., Kahneman) and societal considerations (capitalization of psychedelics, therapeutic coupling) into their reflections. In contrast, LOW group participants largely narrate personal feelings, comfort, relationships, and setting effects, with far fewer external references, mechanistic explanations, or meta-analytic commentary about the study or drug mechanisms.\n\n2. Intentional Self-Regulation and Meta-Awareness: HIGH participants deliberately monitor and regulate internal state\u2014breathing, releasing tension, grounding\u2014to manage discomfort and sustain task focus. HIGH group transcripts show frequent, explicit strategies for maintaining equilibrium and performance: monitoring tension, \u201ccollecting\u201d themselves, controlling breath, grounding to avert panic, reframing difficult moments as \u201cvalleys\u201d to move through, and adjusting attention during tasks. They exhibit meta-awareness of internal sensations and quickly deploy self-regulatory tools to reorient focus. LOW participants more often describe being overwhelmed or reactive, vacillating between feeling lanes and task demands, attributing changes to external comfort factors, and expressing uncertainty about dose/placebo; while they sometimes \u201cbring themselves back,\u201d they offer fewer structured, repeatable regulation strategies and less explicit meta-cognitive control.\n\nDifferentiator variable names:\nanalytical_scientific_framing, deliberate_self_regulation",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 3079,
+        "prompt_tokens": 14494,
+        "total_tokens": 17573,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2688,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

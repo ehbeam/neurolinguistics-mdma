@@ -1,0 +1,5 @@
+condition,var,n_low,med_[quantiles]_low,n_high,med_[quantiles]_high,U,CLES,FDR
+placebo,n_first_person_singular_to_n_words,207,"0.10 [0.07, 0.14]",93,"0.08 [0.04, 0.11]",12216.0,0.63,3.87x10-4***
+placebo,n_third_person_to_n_words,207,"0.00 [0.00, 0.00]",93,"0.00 [0.00, 0.01]",8966.5,0.53,0.18
+mdma_high,n_first_person_singular_to_n_words,182,"0.10 [0.06, 0.14]",198,"0.08 [0.04, 0.12]",21412.5,0.59,3.00x10-3**
+mdma_high,n_third_person_to_n_words,182,"0.00 [0.00, 0.02]",198,"0.00 [0.00, 0.00]",20232.5,0.56,8.18x10-3**

@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChMD1FtdFxlJpLPsckSNI5Es7NsAH",
+    "created": 1764449511,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Protocol-aware meta-cognition: High participants explicitly analyze study design and their own performance, discussing confounds, environment, caffeine restrictions, and consciously monitoring memory, focus, and sleep. In the HIGH group, participants repeatedly step outside the immediate experience to evaluate the research context and their performance within it. They comment on placebo assignment, environmental differences between lab settings and festivals, caffeine restrictions, and potential measurement confounds (e.g., falling asleep in the MRI, pupil dilation). They also push themselves to counter presumptions about MDMA impairing focus, track patterns during tasks, and compare their perceived vs actual memory performance. By contrast, LOW participants mostly focus inward on their feelings, clarity, and personal operation (e.g., \u201clanes\u201d and \u201cbandwidth\u201d) and only sporadically ask procedural questions, showing much less sustained critique of protocol or meta-monitoring of performance.\n\n2. Positive emotional reappraisal: High participants actively process difficult feelings and reframe them, letting sadness surface before emphasizing bonding, positives, and constructive meaning. The HIGH group often narrates a deliberate emotional strategy: noticing negative affect (sadness, discomfort, mistrust), allowing themselves to feel it, then intentionally reorienting toward positive outcomes such as strengthened bonds, gratitude, and lessons learned. They highlight choosing to \u201cfocus on the positives,\u201d letting feelings run their course, and converting stressors into growth. LOW participants describe anxiety reduction and increased access to emotions, sometimes emotional overload, and efforts to \u201ccontrol\u201d or compartmentalize feelings, but show fewer explicit instances of reframing negative experiences into positive narratives during the session.\n\n3. Dreamlike sensory amplification: High participants report pronounced sensory changes\u2014brighter colors, pleasant touch, foggy dreamlike vision\u2014and expect physiological arousal like dilated pupils and increased heart rate. Sensory descriptions in the HIGH group are vivid and global: touch feels markedly pleasant, colors appear brighter, and vision is foggy or dreamlike while maintaining orientation to reality. They also attend to bodily cues (jaw clenching, shakiness) and anticipate physiological changes (pupil dilation, heart rate). In contrast, LOW participants consistently emphasize clarity, being \u201cin this world,\u201d and non-dissociation, with milder sensations like tingling or lightness and frequent denial of dreamlike or unreal qualities; they describe MDMA as not intoxication and as largely non-impairing to cognition.\n\nDifferentiator variable names:\nprotocol_meta_awareness,positive_emotional_reappraisal,dreamlike_sensory_amplification",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 3793,
+        "prompt_tokens": 12392,
+        "total_tokens": 16185,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 3264,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

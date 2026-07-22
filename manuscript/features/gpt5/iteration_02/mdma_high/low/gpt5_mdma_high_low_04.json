@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChNEWJlCbAoLwVeD4qdTA5M4E7ww2",
+    "created": 1764453448,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Differentiator 1: Relational Boundary Ethics\nOne-sentence description: LOW participants prioritize non-imposition, trust, and deliberate, transparent communication in close relationships.\nNarrative description: LOW-group transcripts repeatedly center on ethical care in relationships\u2014not imposing on others, safeguarding confidences, negotiating open-relationship boundaries, and carefully planning difficult conversations with partners, family, and a beloved niece. They articulate guilt, responsibility, and desired roles in others\u2019 lives, and they actively rehearse or execute \u201cgame plans\u201d for honest dialogue. While HIGH participants are sociable and occasionally note concern about making others uncomfortable, their emphasis is more on extroverted connection and broader reflections; LOW participants show sustained, granular attention to relational ethics and boundary sensitivity as a dominant theme.\n\n2. Differentiator 2: Somatic Micro-Awareness\nOne-sentence description: LOW participants provide fine-grained, moment-to-moment body and sensory reports tied to environmental context.\nNarrative description: LOW transcripts catalog detailed bodily states\u2014warmth vs. chill, sweaty palms, jaw clenching, tingling, hamstring soreness, shifting vision, and tactile appreciation of textures\u2014and attribute changes to situational factors like earplugs, blankets, shoes, and room temperature. They describe movement and stretching as regulation, note subtle visual doubling, and continually check in on how their body feels. HIGH participants mention internal sensations and breath control but far less granular sensory tracking; LOW participants display a persistent somatic attentiveness and contextual attribution that distinguishes their experience profile.\n\n3. Differentiator 3: Feelings\u2013Thoughts Lane Model and Task Spillover\nOne-sentence description: LOW participants explicitly frame mind as \u201clanes\u201d for feelings and thoughts and report feelings overtaking task focus.\nNarrative description: LOW-group narratives repeatedly conceptualize mental capacity as separable \u201clanes,\u201d debating whether MDMA adds a new feelings lane or reallocates cognitive bandwidth from thinking. They describe emotions surging to the foreground, making tasks harder, then consciously pulling themselves back to perform; they note missing items, misfocusing on faces, and later adapting strategies to reduce \u201cnoise.\u201d This meta-cognitive framing\u2014capacity allocation, toggling between lanes, and direct impact on task performance\u2014is rare in HIGH transcripts, where participants more often intellectualize task design, biases, and regulate attention by breath, rather than narrating feelings overtaking cognition.\n\n4. Differentiator 4: Euphoria Skepticism and Placebo Doubt\nOne-sentence description: LOW participants downplay classic MDMA euphoria and frequently question dose, authenticity, and their own interpretations.\nNarrative description: LOW participants often state they do not experience intense euphoric happiness, characterizing sessions as mellow or variable and repeatedly wondering whether they received placebo or a lower dose. They attribute differences to context and maintain a self-effacing, uncertain stance (\u201cI\u2019m just some guy\u201d), probing whether their reactions are imagined or real. In contrast, HIGH participants speak with greater confidence about pharmacology, prior experiences, societal implications, and festival-driven empathy and euphoria; the LOW group\u2019s sustained dose/placebo doubt and euphoria skepticism marks a distinctive experiential posture.\n\nDifferentiator variable names:\ndifferentiator_01_name: relational_boundary_ethics, differentiator_02_name: somatic_micro_awareness, differentiator_03_name: feelings_thoughts_lane_spillover, differentiator04_name: euphoria_skepticism_placebo_doubt",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 3667,
+        "prompt_tokens": 14494,
+        "total_tokens": 18161,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2944,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

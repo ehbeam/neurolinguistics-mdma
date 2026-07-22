@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChN5Qg6tTn5FEWpashLgMr5ur59Xk",
+    "created": 1764452884,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Analytical, meta-cognitive orientation: LOW participants use analytical models and study-method language; HIGH participants narrate experiences more emotively without methodological framing.\nLOW group speech is steeped in conceptual frameworks and research-minded scrutiny: they talk about \u201cutility functions,\u201d \u201callocating bandwidth,\u201d \u201cadditional lanes\u201d for feeling, compartmentalization, and positive versus negative conditioning. They question randomization, placebo use, and data handling; flag certain survey items as \u201cred flags\u201d; and distinguish \u201csecure\u201d from \u201csafe\u201d as precise contextual terms. Their reflections often appraise protocol and setting, compare their experience to anecdotal reports, and parse definitions (e.g., intoxication, focus) with careful criteria. In contrast, HIGH group speakers mostly deliver narrative, feeling-forward accounts\u2014relationships, hugging, vivid colors\u2014without building analytical scaffolds around their reports.\n\n2. Perceived sobriety and clear-headedness: LOW describe MDMA as sober and clear-headed, rejecting dissociation and visual distortions; HIGH frequently report dreamlike vision, color shifts, and bodily sensations.\nLOW participants repeatedly assert that MDMA does not intoxicate them in the sense of impairing thinking; they define intoxication as loss of mental control and say they remain \u201cin this world.\u201d They deny dissociation and color changes, sometimes calling such effects \u201cred flags\u201d or more typical of other drugs (e.g., LSD, ketamine). They describe mental clarity alongside perhaps mild physical lightness, and emphasize that time simply becomes less salient rather than dreamlike. By contrast, HIGH participants commonly describe foggy or dreamlike vision, brighter or altered colors, jaw clenching, skin sensitivity, and noticeable shifts in bodily state, readily acknowledging an altered perceptual landscape.\n\n3. Emotions unlocked rather than changed: LOW see MDMA as accessing preexisting feelings and expression, not changing beliefs; HIGH emphasize new emotional states and relationship bonding.\nLOW group speakers frame MDMA as opening a \u201cvault\u201d or activating a lane that grants access to feelings they already hold but usually cannot express, insisting it doesn\u2019t change how they feel about people or situations. They describe week-long aftereffects of increased emotional expression (big embraces, deeper conversations), yet underscore that the sentiments were always present, now simply accessible. Creativity and mind-restructuring are attributed to other substances (e.g., LSD), while MDMA is a tool for emotional availability. HIGH group discourse leans toward feeling newly bonded, hugging, and emphasizing fresh positive states or reframed connections, foregrounding the emergence of novel relational warmth.\n\n4. Setting sensitivity and boundary consciousness: LOW emphasize environmental security and professional boundaries, worrying about staff comfort; HIGH focus on spontaneous closeness and physical affection.\nLOW participants repeatedly anchor their experience in the study environment, saying security is a byproduct of the room and staff, and express concern about making sober staff uncomfortable (e.g., hugging), calibrating behavior to professional norms. They discuss conditioning to the study setting, wonder about protocol order and placebo scenarios, and even consider MDMA-facilitated therapy. HIGH participants more often desire spontaneous closeness\u2014wanting to hug, touch, and \u201cbe buddy-buddy\u201d\u2014and feel constrained by professional boundaries; their concern is less about preserving staff comfort than about reduced social expression due to the setting.\n\n5. Anxiety reduction with increased sociability and lowered defensiveness: LOW report vanishing anxiety, reduced defensiveness, and increased talkativeness; HIGH oscillate between comfort, mistrust, and distraction or sleepiness.\nLOW speakers consistently note that anxiety \u201cvanishes,\u201d they become less guarded, more open, more talkative, friendlier, and more willing to connect with strangers (e.g., long conversations with a Lyft driver, bigger embraces with family). They emphasize being good listeners by default and describe MDMA as shifting them toward expressive sociability while staying emotionally aware. HIGH group accounts mix positivity with moments of mistrust about staff genuineness, discomfort with the professional dynamic, and attention drifting or sleepiness\u2014less a clean drop in anxiety and more fluctuating states that compete with sociable impulses.\n\n6. Compartmentalized cognitive control and attention management: LOW explicitly manage attention via \u201clanes\u201d and compartmentalization; HIGH describe concentration loss without structured self-monitoring.\nLOW participants articulate attention as a system they can manage: separate \u201clanes\u201d for thoughts and feelings, deliberate allocation of bandwidth, and conscious re-centering when feelings threaten task performance. They distinguish mental focus (preserved) from visual focus (sometimes impaired), worry about missing stimuli if the mind wanders, and actively bring themselves back to tasks. HIGH participants acknowledge concentration challenges or drowsiness, but rarely present a structured model for attention control; their reports lack the explicit self-monitoring and compartmentalization language that characterizes the LOW group.\n\nDifferentiator variable names:\ndifferentiator_01_name: analytic_metacognitive_orientation\ndifferentiator_02_name: perceived_sobriety_and_clarity\ndifferentiator_03_name: emotional_access_over_change\ndifferentiator_04_name: setting_and_boundary_consciousness\ndifferentiator_05_name: anxiety_reduction_and_sociability\ndifferentiator06_name: compartmentalized_cognitive_control",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 4282,
+        "prompt_tokens": 12392,
+        "total_tokens": 16674,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 3200,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

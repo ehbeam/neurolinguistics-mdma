@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChLw0OO8wojrsA3iWvGDC0mIWLb2I",
+    "created": 1764448456,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Dreamlike Visual Modulation: High participants report brighter colors, foggy/blurry vision, and a pleasant dreamlike quality while still knowing what\u2019s real; lows emphasize unaltered, \u201creal\u201d vision. High-group speech repeatedly highlights visual alteration\u2014\u201cbrighter,\u201d \u201cfoggy,\u201d \u201cblurrier,\u201d \u201cdreamlike\u201d\u2014and describes reality-testing intact (\u201cknow who I am, where I am\u201d). Low-group speech counters with insistence on realism (\u201cthings are quite real,\u201d \u201cnot in a different world\u201d), denial of color change, and attribution of blurring/tunnel vision to other drugs (acid), making dreamlike visual modulation a clear high-vs-low differentiator.\n\n2. Somatic Arousal & Tactile Sensitivity: High participants emphasize heightened bodily sensations\u2014pleasant skin sensitivity, increased heart rate, jaw clench, and interest in pupil dilation\u2014while lows note minimal, diffuse, noncentral body changes. High-group accounts foreground touch feeling \u201cextra pleasant,\u201d awareness of heart rate, jaw-clenching urges, and curiosity about physiological markers (pupil dilation), reflecting somatic arousal as salient. Low-group participants mention lightness in legs or mild tingling without concern, often asserting MDMA doesn\u2019t feel intoxicating or physically disruptive, distinguishing the intensity and salience of somatic sensitivity in highs.\n\n3. Clinical Boundary Vigilance: High participants are notably vigilant about professional boundaries and sincerity in the research setting, expressing mistrust, discomfort, and hermetic behavior; lows feel secure and collaborative. High-group speech questions whether staff are \u201cbeing genuine,\u201d laments the lack of \u201cbuddy-buddy\u201d dynamics, and describes becoming \u201cmore hermetic\u201d due to mistrust and the unusual setting. Low-group participants discuss safety, respect, and not encroaching on staff space but do not doubt intent; they report feeling secure, cared for, and open, marking boundary vigilance as a high-group signature.\n\n4. Protocol-Minded Metacognition: High participants frequently analyze study design variables (caffeine restrictions, placebo effects, sleep confounds) and suggest protocol tweaks; lows show curiosity but less optimization focus. The high group proposes adding caffeine to speed metabolism, recruiting non-coffee drinkers for baseline consistency, and worries that dozing in the MRI might confound emotion-recognition tasks\u2014demonstrating persistent metacognitive monitoring of methodology. The low group asks occasional procedural questions (placebo, order) but centers on personal experience rather than optimizing study parameters, distinguishing the high group\u2019s protocol-minded stance.\n\n5. Performance Pressure & Error Monitoring: High participants push to counter stereotypes by maximizing task performance, track errors, and worry about cognitive confounds; lows mostly report intact focus and manageable task demands. High-group speech includes explicit pressure to \u201cperform at 100%,\u201d detailed tracking of mistakes and pattern-finding, and hyperawareness of memory limits, often linked to environmental or physiological factors (no coffee, fatigue). Low-group accounts emphasize clarity, the ability to complete tasks, or toggling between feeling and thinking lanes without heavy performance anxiety, making performance pressure a high-group hallmark.\n\n6. Rich Autobiographical Storytelling: High participants deliver long, detailed social narratives (ex-partners, cultural identity, Peace Corps, venues) woven into session content; lows speak more abstractly about feelings and functioning. The high group recounts specific people (ex named, friend stories), shared heritage (\u201cSalvadorian\u201d), places (festivals, clubs), and timelines, integrating life events into their state description. Low-group speech focuses on emotional processing, stress, and operational styles (bandwidth, conditioning), with fewer vivid biographical stories, highlighting narrative richness as a high-group differentiator.\n\n7. Rapid Insight Linking & Reframing: High participants describe quickly \u201cmaking connections,\u201d letting emotions arise, and reframing negatives into positives within-session; lows emphasize clarity and access but less in-the-moment reframing. High-group accounts show dynamic cognitive-emotional integration\u2014allowing sadness, then actively shifting to positive takeaways and bonding, and noting new connections among thoughts. Low-group participants stress reduced anxiety and improved access to emotions or long-term openness, with less emphasis on real-time insight linking and reframing, distinguishing the high group\u2019s rapid integrative style.\n\n8. Stimulation-Seeking Context Preference: High participants prefer high-stimulation social environments (festivals, clubs), feel constrained by the lab\u2019s professional tone, and seek post-session socializing; lows favor secure, conversational contexts. High-group speech situates their prototypical experiences at festivals and electronic music venues, explicitly missing \u201cbuddy-buddy\u201d vibes and even suggesting going out afterward. Low-group participants see the setting as facilitating openness, therapeutic-style dialogue, and security, reinforcing a context preference divide where highs seek stimulation and lows seek calm connection.\n\nDifferentiator variable names:\ndifferentiator_01_name: dreamlike_visual_modulation\ndifferentiator_02_name: somatic_arousal_tactile_sensitivity\ndifferentiator_03_name: clinical_boundary_vigilance\ndifferentiator_04_name: protocol_minded_metacognition\ndifferentiator_05_name: performance_pressure_error_monitoring\ndifferentiator_06_name: autobiographical_storytelling_depth\ndifferentiator_07_name: rapid_insight_linking_reframing\ndifferentiator08_name: stimulation_seeking_context_preference",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 4633,
+        "prompt_tokens": 12391,
+        "total_tokens": 17024,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 3520,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

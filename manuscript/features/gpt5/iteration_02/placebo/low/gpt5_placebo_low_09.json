@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChN6tx1C5cgscpmwX8Tgwsn4pI9NJ",
+    "created": 1764452975,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Metacognitive Bandwidth Modeling: LOW participants frequently frame their experience using analytical constructs like \u201cutility functions,\u201d \u201clanes,\u201d and \u201cbandwidth allocation.\u201d Their transcripts are rich with self-monitoring and resource-allocation metaphors (e.g., \u201cadditional lane for feeling,\u201d \u201callocate bandwidth to emotions,\u201d \u201ccompartmentalize\u201d), showing a habit of modeling internal states and adjusting them. This metacognitive style distinguishes them from HIGH group speakers, who narrate feelings and interpersonal events more directly and less through cognitive engineering language.\n\n2. Clear-Headed Sobriety Under MDMA: LOW participants repeatedly assert feeling sober and mentally clear, defining intoxication as loss of control\u2014which they say MDMA does not cause. They describe preserved mental focus (\u201cmental focus, no\u201d), clear-headedness, and being able to perform tasks, contrasting sharply with HIGH group reports of foggy, dreamlike vision, dilated pupils, and concentration lapses. For LOW participants, MDMA feels compatible with control and clarity, not like a dream state.\n\n3. Emotional Access Without Value Change: LOW participants portray MDMA as opening a vault to preexisting emotions rather than altering what they feel or believe about people and situations. They emphasize \u201caccess\u201d (more bandwidth to express and process long-held feelings) over transformation, stating post-session reflections confirm their feelings were always there. This differs from HIGH narratives that highlight reframing, new connections, or shifting focus toward positives.\n\n4. Minimal Perceptual Alteration Claims: LOW participants often deny classic sensory distortions, reporting no color enhancement, no dreamlike unreality, and at most subtle tunnel vision or bodily lightness. They repeatedly contrast MDMA with LSD for visual changes and creativity, insisting MDMA leaves the world \u201cquite real.\u201d In contrast, HIGH participants describe brighter colors, foggy or dreamlike vision, and noticeable sensory shifts.\n\n5. Listener-Oriented Sociability With Boundaries: LOW participants define sociability as a two-way street anchored in listening, receptivity, and cautious self-disclosure; MDMA increases their talkativeness but they remain boundary-aware. They worry about hugging sober staff, aim to connect respectfully (even via eye contact), and highlight being friendly as accepting and receiving as much as speaking. HIGH participants emphasize strong urges to hug and touch \u201ceverybody,\u201d showing less boundary deliberation.\n\n6. Setting Sensitivity and Security Semantics: LOW participants are highly attuned to context, preferring \u201csecure\u201d over \u201csafe,\u201d and frequently discuss how the setting shapes their experience. They respond defensively to perceived red-flag questions, articulate concerns about professionalism and comfort, and even seek MDMA within therapy to optimize emotional access. HIGH participants note the professional dynamic too, but LOW speakers fixate on semantics, environment-driven effects, and therapeutic structuring.\n\n7. Lasting Openness and Post-Session Carryover: LOW participants report enduring increases in emotional openness\u2014hugging family more, feeling and connecting for a week or longer, and retaining access to feelings after leaving. They describe sustained afterglow and behavioral change beyond the immediate session. HIGH narratives focus more on in-session or next-day dynamics, with fewer claims of multi-day or week-long carryover.\n\n8. Research-Minded Skepticism and Comparison: LOW participants frequently question study design and data (placebo, randomization, order), compare their responses to friends\u2019 experiences, and seek confirmation about effects. They display an evidence-seeking stance and methodological curiosity within the session. HIGH speakers discuss caffeine and performance, but LOW participants more often adopt a comparative, quasi-researcher perspective.\n\n9. Anxiety Offloading and \u201cTime-Out\u201d Framing: LOW participants repeatedly frame the benefit as the vanishing of anxiety\u2014happiness defined as its absence\u2014and a temporary \u201ctime out\u201d from survival-mode pressures. They describe zero anxiety, increased bandwidth for feelings, and the ability to address personal connections without stress. HIGH participants more often report nerves due to the setting and describe emotional content rather than a primary, global suppression of anxiety.\n\nDifferentiator variable names:\ndifferentiator_01_name=metacognitive_bandwidth_modeling,differentiator_02_name=clear_headed_sobriety,differentiator_03_name=emotional_access_not_change,differentiator_04_name=minimal_perceptual_shift,differentiator_05_name=listening_boundaried_sociability,differentiator_06_name=setting_security_sensitivity,differentiator_07_name=lasting_openness_carryover,differentiator_08_name=research_skepticism_comparison,differentiator09_name=anxiety_offloading_time_out",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 2885,
+        "prompt_tokens": 12392,
+        "total_tokens": 15277,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 1920,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

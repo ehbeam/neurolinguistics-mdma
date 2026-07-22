@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-CjDCT4tnEf6rwsOseu8ICsGqRbdIK",
+    "created": 1764891537,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Protocol- and Pharmacology-Savvy Meta-Awareness: High participants show strong meta-awareness of study design, pharmacology, and confounds, actively adjusting behavior and interpretations; lows focus on personal feelings without procedural analysis.\nHigh-group transcripts consistently display analytical, research-minded thinking about the study context and drug mechanisms. They discuss pill composition and metabolism (\u201cpressed ecstasy pills\u2026 caffeine\u201d), anticipate physiological markers (pupil dilation, heart rate, skin sensitivity), and propose methodological adjustments (caffeine restrictions, recruiting non\u2013caffeine users, ecological validity versus festival settings). They monitor and problem-solve for confounds (sleepiness in MRI, task performance, survey interpretation, placebo order effects), and even adapt behavior to protect data quality (\u201cpushing myself\u2026 to perform at 100%,\u201d worries about sleep measures). They also interrogate the professional dynamic and its impact on responses (\u201care they acting professionally or genuine?\u201d), reflecting on how setting and protocol shape their experience and reporting. In contrast, low-group participants center on internal states\u2014emotional bandwidth, anxiety relief, sociability, \u201clanes\u201d for thought versus feeling\u2014offering minimal, often tentative or self-referential comments about study mechanics (e.g., randomization, data curiosity) without sustained methodological or pharmacological analysis.\n\nDifferentiator variable names:\nmeta_study_awareness",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 1889,
+        "prompt_tokens": 12392,
+        "total_tokens": 14281,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 1600,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

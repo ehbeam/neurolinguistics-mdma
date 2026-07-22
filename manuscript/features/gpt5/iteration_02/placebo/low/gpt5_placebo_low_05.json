@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChN4titCnKmfcheibkziBdr6rnzeo",
+    "created": 1764452851,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Analytical Bandwidth Framing: LOW participants describe their states using models like \u201cutility functions,\u201d \u201clanes,\u201d and \u201cbandwidth\u201d rather than feelings. They repeatedly frame MDMA effects in systems-thinking terms\u2014allocating mental resources, debating definitions (e.g., intoxication, sociable vs. talkative, secure vs. safe), and distinguishing mental versus visual focus. Their speech emphasizes compartmentalization, cognitive load management, and explicit model-building to explain experience, which contrasts with HIGH participants\u2019 more narrative, affect-driven descriptions.\n\n2. Deliberate Emotion Access Over Euphoria: LOW participants emphasize intentionally accessing pre-existing emotions rather than feeling new or overwhelming ones. They describe MDMA as opening a \u201cvault\u201d or creating an \u201cadditional lane\u201d for feelings, allocating protected bandwidth to emotions, and reducing anxiety so emotions can be expressed; they note being \u201cbehind\u201d on emotions and sometimes try to \u201creplicate\u201d prior states. This deliberate, effortful emotional access stands in contrast to HIGH participants\u2019 spontaneously positive, affiliative, and touch-oriented affect.\n\n3. Perceptual Realism and Dissociation Skepticism: LOW participants report minimal visual or dream-like changes and actively question or reject dissociation on MDMA. They often assert colors do not change, the world feels real, time simply passes unnoticed, and bodily effects are mild (lightness, tingling), while visual blurring or psychedelic-like phenomena are attributed to LSD, not MDMA. They treat dissociation reports as red flags, distinguishing their clear, reality-anchored phenomenology from HIGH participants\u2019 \u201cdreamy,\u201d foggy vision and brighter color experiences.\n\n4. Control-Preserving Clarity: LOW participants define intoxication as losing cognitive control and insist MDMA does not impair their mental clarity or task performance. They maintain or restore focus during tasks, assert that mental focus remains intact even when visual focus narrows, and describe staying \u201csober\u201d or in control while becoming more open and less defensive. They discuss positive conditioning, boundary management, and bringing themselves back when feelings surge\u2014contrasting with HIGH accounts of concentration lapses, sleepiness, and letting feelings lead.\n\n5. Methodological Curiosity and Placebo Vigilance: LOW participants frequently interrogate study procedures, randomization, measurement intent, placebo likelihood, and data access. They evaluate questionnaires as potential safety screens (e.g., bipolar flags), compare their experiences to peers, and ask for confirmation about drug conditions, reflecting a high meta-awareness of context and methodology. This procedural scrutiny and evidence-seeking differentiates them from HIGH participants\u2019 more experience-centered, relational narratives.\n\nDifferentiator variable names:\ndifferentiator_01_name: analytic_bandwidth_framing,\ndifferentiator_02_name: deliberate_emotion_access,\ndifferentiator_03_name: perceptual_realism_no_dissociation,\ndifferentiator_04_name: control_preserving_clarity,\ndifferentiator_05_name: methodological_curiosity_placebo_vigilance",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 2354,
+        "prompt_tokens": 12392,
+        "total_tokens": 14746,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 1728,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

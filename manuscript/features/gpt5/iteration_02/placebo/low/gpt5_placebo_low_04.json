@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChN4Qw52relhIn0ep2KirL6nTinF4",
+    "created": 1764452822,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Meta-Analytic Processing and Conceptualization: LOW participants heavily analyze their own cognition, modeling experiences with \u201cutility functions,\u201d \u201cbandwidth,\u201d and study-method questions. They frequently describe their inner processes in technical terms (utility functions, lanes for feeling vs thinking, compartmentalization), compare their experiences to peers, and interrogate the study\u2019s procedures (randomization, placebo, survey intent, data). This meta-cognitive stance includes defining intoxication, clarifying terms, and reinterpreting questions, showing a strong inclination to think about thinking. In contrast, HIGH participants more often narrate affective experiences and interpersonal meaning-making rather than constructing explicit models of their mental state or probing methodology.\n\n2. Clarity-Seeking with Minimal Sensory Alteration: LOW participants stress sobriety and clear-headedness, reporting minimal sensory changes and rejecting dreamlike or color-distorted perceptions. They repeatedly assert that MDMA does not impair mental clarity, define intoxication as loss of cognitive control (which they say they do not experience), and downplay perceptual changes (colors unchanged, reality intact, time largely normal or just obliviously fast). Sensations, when noted, are subtle (light legs, mild tingling), and visual distortions are attributed to other drugs (e.g., LSD). HIGH participants, by contrast, commonly report brighter colors, foggy/dreamlike vision, pleasant skin sensitivity, and occasional concentration lapses.\n\n3. Controlled Emotional Access and Compartmentalization: LOW participants frame MDMA as controlled access to existing emotions via compartmentalized \u201clanes,\u201d not as personality or creativity change. They describe MDMA as allocating protected bandwidth to feelings, opening a \u201cvault\u201d to long-held emotions while keeping cognitive oversight and identity intact; emotions are accessed, articulated, and integrated rather than transformed. This includes narratives of reduced defensiveness, deliberate openness, and post-session continuation of emotional availability, all while maintaining the ability to toggle between feeling and task focus. HIGH participants more often emphasize emergent affect (e.g., hugging, bonding, reinterpreting negative events into positives) without the same emphasis on compartmentalized control structures.\n\n4. Setting-Driven Caution and Procedural Engagement: LOW participants\u2019 tone is boundary-conscious and setting-dependent, engaging with protocols, safety semantics, and avoiding encroachment. They stress \u201csecure\u201d versus \u201csafe\u201d language, worry about making staff uncomfortable (e.g., hugging sober researchers), note potential red flags in questionnaires, and assert that the environment strongly shapes their experience. They seek therapist-administered MDMA, ask about order randomization and placebo, and calibrate social openness to context. HIGH participants do mention the professional dynamic, but they focus more on interpersonal warmth and sensory experience than on procedural scrutiny and boundary management.\n\nDifferentiator variable names:\nmeta_analytic_processing,sober_clarity_orientation,compartmentalized_emotion_access,setting_procedural_caution",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 2975,
+        "prompt_tokens": 12392,
+        "total_tokens": 15367,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2368,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

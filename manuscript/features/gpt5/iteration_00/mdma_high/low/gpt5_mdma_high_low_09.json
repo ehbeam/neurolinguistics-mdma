@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChM2ETHvWTNlxwLfDJuweuiYfqyc1",
+    "created": 1764448842,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Feeling\u2013Thinking Lane Partitioning: LOW participants explicitly describe separate \u201clanes\u201d for thoughts and feelings and actively manage traffic between them. They repeatedly frame their inner experience as parallel or competing \u201clanes,\u201d asking whether MDMA adds an extra feelings lane or reallocates capacity from thinking. They narrate feelings surging to the point of eclipsing cognition and then consciously bringing themselves \u201cback\u201d to task, discuss a personal \u201cutility function\u201d that usually privileges thinking, and note MDMA helps preserve a dedicated feelings lane. HIGH participants talk about control and transcendence but do not use this granular, lane-like metacognitive model.\n\n2. Effect Uncertainty and Session Benchmarking: LOW participants continuously calibrate and compare effects across sessions, doses, and moment-to-moment sensations. They wonder if they received placebo or low dose, track being \u201cless chatty\u201d than last time, and attribute differences to shoes, blankets, room temperature, earplugs, or visual reflections. They contrast today\u2019s sensations (e.g., doubled vision, warmth, sweaty palms, jaw clenching) with previous visits and with others\u2019 reported euphoria, often concluding their experience is more muted or context-dependent. HIGH participants project confident expectations and discuss mechanisms rather than persistent dose/placebo ambiguity.\n\n3. Relationship\u2011Centered Disclosure and Future Planning: LOW participants focus extensively on intimate relationships, family roles, and concrete future plans under MDMA. They detail open-relationship boundaries, articulate proposals and timelines, ask for confidentiality to protect partners, and reflect on how to be a safe, nonjudgmental adult for a niece or future children. Stories about parents, siblings, and evolving family dynamics dominate their narratives and decisions. In contrast, HIGH participants discuss empathy broadly and festival bonding, with less sustained planning around specific relationships.\n\n4. Non\u2011Imposition Ethic and Boundary Mindfulness: LOW participants emphasize not imposing on others, mirroring the courtesy they seek for themselves. They repeatedly avoid \u201cinserting\u201d into others\u2019 lives, worry about burdening family with feelings, ask researchers not to \u201cpunish\u201d loved ones for disclosures, and calibrate how much to express in a lab. This ethic shapes communication choices and conflict resolution strategies. HIGH participants are openly sociable and physically affectionate by default, with comparatively less concern about overstepping.\n\n5. Lab\u2011Setting Constrained Expressivity: LOW participants feel the lab environment dampens expression and shapes their effects and behavior. They hold back physical self-soothing (e.g., massaging), cite blanket temperature, earplugs, and MRI visuals interfering with tasks, and seek relief in stretching, textures, and movement between scans. They explicitly believe a non-lab setting would unlock fuller emotional and behavioral expression. HIGH participants acknowledge the setting but respond with cognitive strategies (breath control) rather than sustained inhibition narratives.\n\n6. Granular Somatic Awareness and Movement\u2011Seeking: LOW participants provide rich, concrete accounts of bodily sensations and seek movement or tactile input for relief. They note sweaty palms, warmth or chills, tingling, jaw clenching, hamstring soreness, texture of wood or floors, and a strong urge to stretch or move even inside the scanner. Touch is described with specific preferences (e.g., buzz cuts), and bodily awareness is tied to comfort and performance. HIGH participants anticipate enhanced touch and arousal but describe fewer detailed, session-linked somatic textures.\n\n7. Fluctuating Task Engagement with Gentle Self\u2011Coaching: LOW participants oscillate between hyperfocus and distraction and narrate their adjustments compassionately. They miss trials after misinterpreting task rules, notice patterns in stimuli (e.g., \u201cred only happened twice\u201d), and reframe errors as motivation while telling themselves to \u201cjust try my best.\u201d They also describe how feelings intrude on tasks and strategies to filter \u201cnoise\u201d (e.g., focusing on the white triangle). HIGH participants also analyze tasks, but often through external skepticism (biases, hidden motives) rather than self-regulatory micro-adjustments.\n\n8. Social Caution and Modest Self\u2011Presentation: LOW participants report shyness, social anxiety, and uncertainty about how they come across, even when more talkative. They worry about sounding \u201cdumb,\u201d note being less chatty than expected, and self-identify as \u201cjust some guy,\u201d explicitly trying not to seem \u201cdouchey.\u201d When more comfortable post-session, they attribute it to gradual acclimation. HIGH participants portray themselves as highly open, sociable, and eager to engage, with fewer modesty disclaimers.\n\n9. Work\u2013Life Balance and Identity Reflection: LOW participants interrogate work identity, resist overwork, and seek clear separation between productivity and presence. They critique living to work, recount PhD pressure and family micromanagement, and aspire to avoid a parent\u2019s identity crisis at retirement by allocating energy for relationships and joy. HIGH participants discuss research ecosystems, control strategies, and industry dynamics more than personal boundary-setting around work identity.\n\nDifferentiator variable names:\ndifferentiator_01_name=feeling_thinking_lanes, differentiator_02_name=effect_uncertainty_benchmarking, differentiator_03_name=relationship_disclosure_planning, differentiator_04_name=non_imposition_boundaries, differentiator_05_name=lab_setting_constrained_expression, differentiator_06_name=somatic_detail_movement, differentiator_07_name=task_engagement_fluctuation, differentiator_08_name=social_caution_modesty, differentiator09_name=worklife_balance_reflection",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 4592,
+        "prompt_tokens": 14494,
+        "total_tokens": 19086,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 3456,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

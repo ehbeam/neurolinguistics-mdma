@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChMxP9Wvxyt89V60AcesEwAzrbYDs",
+    "created": 1764452387,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Metacognitive Self-Calibration: LOW participants intensely monitor and question their internal state, dosage, and signals throughout the session. They repeatedly test hypotheses about whether effects are \u201creal\u201d or placebo, interrogate bodily cues as evidence, and narrate models of \u201clanes\u201d for feeling versus thinking. This ongoing second-guessing shows up as hedging (\u201cmaybe,\u201d \u201cI don\u2019t know\u201d), comparing sessions, and constructing personal theories about how MDMA alters mental bandwidth. In contrast to HIGH, who tend to settle into a narrative or stance, LOW participants keep recalibrating their interpretation moment by moment.\n\n2. Heightened Interoception and Tactile Salience: LOW talk is packed with detailed body sensations and textures. They describe warmth versus chill, sweaty palms, jaw clenching, tingling, sore hamstrings, and shifting vision; they savor blankets, wood grain, floor textures, stretching, and movement. These fine-grained interoceptive and tactile reports are central to their account of the experience, whereas HIGH participants more often emphasize social/affiliative effects, breath regulation, or conceptual reflections over rich sensory minutiae.\n\n3. Non-Imposition Social Style: LOW participants prioritize not burdening others and restrain expression to avoid making people uncomfortable. They worry about \u201cimposing\u201d feelings, hold back physical affection in the lab, and self-identify as shy or introverted in social/professional settings. This deference also shapes their disclosure timing and content with loved ones. By contrast, HIGH participants readily lean into overt sociability, hugs, and being \u201can open book,\u201d with less hesitation about their impact on others.\n\n4. Feeling\u2013Thought Channel Switching: LOW explicitly describe managing separate \u201clanes\u201d for feelings and thoughts and the struggle when feelings crowd out task focus. They note faces or reflections pulling attention, oscillating between absorption in emotion and pulling themselves back to tasks, and later appreciating moments when \u201cnoise\u201d drops so they can think clearly. This self-described channel management contrasts with HIGH, who more often report steady focus or meta-interpret the tasks without the same felt tug-of-war.\n\n5. Structured Relational Processing: LOW devote substantial cognitive bandwidth to planning honest conversations, boundaries, and roles in relationships and family. They map out open-relationship ethics, proposals, parenting intentions, and how to communicate with partners, siblings, and in-laws, often rehearsing dialogues and outcomes. HIGH participants also discuss relationships but more as narratives and anecdotes; LOW treat relationships as deliberate projects requiring careful, transparent process.\n\n6. Work\u2013Life Segmentation Mindset: LOW emphasize not \u201cliving to work,\u201d protecting emotional space from performance demands, and resisting family micromanagement around career. They describe wanting to be fully human outside work, allocate mental resources deliberately, and reflect on identity risks of overwork, especially during advanced study. This contrasts with HIGH\u2019s focus on research ecosystems, industry dynamics, or societal control, rather than personal boundarying.\n\n7. Mellow Affect Without Peak Euphoria: LOW commonly report calm, mellow, or mixed affect rather than the ecstatic highs others describe. They note being talkative yet not euphoric, more relaxed than overwhelmed, and sometimes disappointed by the absence of a \u201chappiest moment\u201d peak\u2014prompting dose or placebo doubts. HIGH, by comparison, anticipate or recount exuberant sociability, music-driven uplift, and overt affectionate impulses.\n\n8. Context-Dependent Comfort and Performance: LOW experiences track closely with environmental factors and setup details, which they say shape comfort and strategy. They discuss temperature shifts, socks/shoes, earplugs, room aesthetics, MRI coziness, and visual reflections influencing task performance; movement breaks noticeably change their state. HIGH mention room conditions but pivot quickly to cognitive reframing (e.g., breath control), whereas LOW foreground the setting as a primary driver of their moment-to-moment experience.\n\nDifferentiator variable names:\nmetacognitive_self_calibration, heightened_interoception_tactility, non_imposition_social_style, feeling_thought_channel_switching, structured_relational_processing, work_life_segmentation_mindset, mellow_affect_without_peak_euphoria, context_dependent_comfort_performance",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 3554,
+        "prompt_tokens": 14494,
+        "total_tokens": 18048,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2688,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

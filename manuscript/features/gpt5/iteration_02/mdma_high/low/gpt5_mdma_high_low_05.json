@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChNF2yW95BFV8f96zSYd0TOv2yhiO",
+    "created": 1764453480,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Relational Non-Imposition and Boundary-Minded Openness: LOW speakers dwell on close relationships, avoid imposing, and plan explicit, consent-based conversations about feelings, roles, and future commitments.\nThey repeatedly process intimate dynamics in depth (partners, parents, siblings, niece), articulate a strong ethic of \u201cnot imposing,\u201d and pre-plan candid talks about expectations, confidentiality, and consent (e.g., open-relationship boundaries, proposing after a study-abroad year, how to support a niece). Their attention centers on others\u2019 comfort and autonomy as much as their own needs, with careful calibration of pressure, timing, and transparency. The tone is deliberative and conscientious\u2014\u201cwhat role do I want to play, and how do I communicate it kindly?\u201d\u2014and they often rehearse these dialogues in detail. By contrast, HIGH participants emphasize generalized sociability, festival contexts, and quick disclosures (\u201copen book,\u201d hugging), but less of the meticulous boundary-setting and non-imposition ethos that defines the LOW group.\n\n2. Somatic Sensory Attunement and Concrete Body Reporting: LOW transcripts emphasize detailed bodily sensations, temperature shifts, textures, proprioception, and physical comfort or discomfort throughout the session.\nLOW participants richly catalog the body: warmth vs. chills, sweaty palms, jaw clenching/teeth chatter, hamstring soreness, cozy blankets, floor textures, and subtle visual disturbances (e.g., doubles, motion, reflections). They frequently monitor changes (\u201cwarmer this time,\u201d \u201chands still a little bit\u2026,\u201d \u201cvision moving\u201d), link movement to relief, and compare sessions in fine-grained sensory terms. The MRI environment is described through tactile and thermal comfort rather than only as a stressor, and they often attribute internal states to practical factors (shoes, earplugs, room temperature). In contrast, HIGH participants note a few somatic markers but pivot quickly to breath control or conceptual frameworks; their sensory commentary is briefer and less granular.\n\n3. Epistemic Uncertainty and On-the-Fly Hypothesis Testing: LOW participants frequently doubt their drug status and generate everyday alternative explanations, revising hypotheses in real time.\nThey voice frequent \u201cmaybes\u201d and \u201cI don\u2019t knows,\u201d entertain placebo effects, and test mundane explanations (no socks, room temperature, reflections behind a fixation cross) for what they\u2019re feeling or perceiving. Confidence often evolves across the session (\u201cas time goes by\u201d), and they consciously probe whether effects are \u201creal\u201d or self-generated. This stance reflects a practical, self-skeptical empiricism: adjusting interpretations with new sensory feedback and context. By comparison, HIGH speakers more readily commit to big-picture models (serotonin/dopamine, SSRI analogies, Shulgin compounds) or meta-tests about the study\u2019s design, showing less personal doubt about drug status and more certainty in overarching theories.\n\n4. Subdued Euphoria with Present-Focused Affect: LOW narratives describe mellow, grounded positivity and connection rather than peak euphoria, exuberant sociability, or party-like highs.\nLOW participants report feeling calm, cozy, smiley, and present\u2014sometimes talkative, sometimes quieter\u2014but explicitly note the absence of \u201chappiest ever\u201d highs others describe. They favor intimate closeness over exuberance (parallel presence, gentle interaction), and several emphasize contentment without ecstasy, or being more comfortable than ecstatic. Affect is regulated, reflective, and relationally oriented; even sexual or tactile thoughts are framed in warm, contained terms. In contrast, HIGH participants anticipate or recount pronounced euphoria, hugging, dance/festival energy, and \u201cempathy drug\u201d exuberance\u2014more outwardly amplified than the LOW group\u2019s steady, grounded affect.\n\n5. Autonomy-First Work\u2013Life Framing and Non-Competitive Task Stance: LOW speakers foreground work\u2013life autonomy and accept imperfect task performance, de-emphasizing competitiveness in favor of balance and presence.\nThey articulate not \u201cliving to work,\u201d maintain sharp boundaries between work and personal life, and resist identities tied solely to productivity (often anchored by family exemplars they want to avoid). In tasks, they move from baseline competitiveness to acceptance\u2014reframing mistakes as learning, calling non-essentials \u201cnoise,\u201d and allowing feeling and thinking \u201clanes\u201d to coexist rather than forcing maximal performance. This orientation values sustainable engagement and self-definition beyond achievement metrics. HIGH transcripts, by contrast, more often dissect performance, regulate arousal to optimize focus (breath strategies), and critique task design with a results-oriented lens.\n\nDifferentiator variable names:\nrelational_non_imposition, somatic_sensory_attunement, epistemic_uncertainty, subdued_euphoria_orientation, work_life_autonomy",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 4615,
+        "prompt_tokens": 14494,
+        "total_tokens": 19109,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 3648,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChM9YHmeANnqqYgw7qBgO5BFjH8R5",
+    "created": 1764449296,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Analytical \u201cBandwidth and Lanes\u201d Framing: LOW participants conceptualize their inner experience using structured metaphors like bandwidth, lanes, allocation, and utility functions. They consistently narrate MDMA effects through highly analytic, systems-like language\u2014describing \u201callocating\u201d mental resources, switching single \u201clanes\u201d between feeling and thinking, opening an emotional \u201cvault,\u201d and optimizing a personal \u201cutility function.\u201d This meta-cognitive, engineering-style framing shows a preference for precise definitions, categorization, and operational clarity, in contrast to HIGH participants\u2019 more narrative, impressionistic accounts.\n\n2. Clear-headed, Non-Intoxicating Appraisal: LOW participants emphasize preserved mental clarity and sobriety, rejecting dreamlike or dissociative characterizations of MDMA. They repeatedly define intoxication as impairment of thinking\u2014and argue MDMA does not meet that criterion for them\u2014distinguishing mental focus (unchanged or improved) from occasional visual focus changes and contrasting MDMA with LSD or ketamine for dissociation or creativity. This separates them from HIGH participants\u2019 brighter colors, foggy/dreamlike vision, and more frequent concentration difficulties.\n\n3. Anxiety Vanishing with Sociable Openness and Reduced Defensiveness: LOW participants report near-zero anxiety on MDMA alongside marked drops in defensiveness and increased talkativeness, empathy, and eye contact. They describe becoming less guarded with strangers, initiating deep conversations, and feeling more friendly and connected, often noting sustained effects (e.g., warmer hugs, easier emotional disclosure) beyond the session. HIGH participants more often mention nerves, mistrust in the professional setting, or context-driven discomfort rather than a global anxiety vanishing paired with broad prosocial openness.\n\n4. Methodological Engagement and Boundary Sensitivity: LOW participants actively interrogate study design (placebo, randomization, data), critique survey appropriateness, and flag \u201cred\u2011flag\u201d items while monitoring interpersonal boundaries with staff. They ask if others mistake placebo for MDMA, question mind\u2013body dissociation items, wonder about ordering effects, and worry about making sober staff uncomfortable with hugs\u2014demonstrating a research- and ethics-oriented mindset. HIGH participants acknowledge the professional dynamic, but engage less in methodological probing and boundary management.\n\n5. Therapeutic Orientation and Durable Emotional Access: LOW participants frame MDMA as an aid to accessing pre-existing emotions, seeking MDMA-assisted therapy and reporting longer-lived gains in emotional openness. They describe \u201ccatching up\u201d on years of unaccessed feelings, compartmentalization habits, and a desire for a therapist who can facilitate MDMA sessions, with post-session improvements in emotional communication. HIGH participants more often contextualize MDMA in recreational or social settings and do not foreground a durable, therapy-driven emotional access narrative.\n\nDifferentiator variable names:\nanalytical_bandwidth_lanes, clearheaded_nonintoxicating_appraisal, anxiety_vanishes_social_openness, methodological_engagement_boundaries, therapeutic_orientation_durable_access",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 2148,
+        "prompt_tokens": 12392,
+        "total_tokens": 14540,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 1536,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

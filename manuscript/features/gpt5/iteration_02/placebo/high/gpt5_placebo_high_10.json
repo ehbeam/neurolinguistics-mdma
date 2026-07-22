@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChND35ls0z8godSCidLvhF3edx0Ys",
+    "created": 1764453357,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Prosocial Touch-Seeking and Supportive Engagement: HIGH participants frequently desire to hug, touch, and actively support others, showing expansive prosocial warmth during sessions. Their language emphasizes a strong pull toward physical affection and emotional support\u2014wanting to hug, touch, listen, and uplift others\u2014often describing broad, inclusive positivity toward people present. In contrast, LOW participants frame sociability as talkativeness or receptivity with more caution about boundaries (e.g., hesitance to hug staff) and focus on conversation rather than tactile closeness.\n\n2. Unconditional Friendship Ethics Over Sexual Attraction: HIGH participants explicitly prioritize unconditional, platonic friendship, resisting sexual motives to protect trust and relational integrity. They narrate deliberate choices to develop friendships without sexual involvement and stress values-driven intentions, such as preserving \u201cunconditional friendship\u201d and building trust-based bonds. LOW participants seldom foreground relational ethics; their discussion of connection focuses more on openness and therapy-like disclosure rather than principled, nonsexual boundaries.\n\n3. Active Study-Context Meta-Reasoning and Protocol Advice: HIGH participants critique design choices, discuss placebo and environment effects, and propose changes like caffeine use or sampling strategies. They repeatedly reflect on methodological issues\u2014festival versus lab context, placebo influence on survey results, caffeine restrictions, and even recommending recruitment criteria\u2014showing proactive engagement with research design. LOW participants ask procedural questions or speculate about data but typically do not offer concrete protocol modifications or sustained methodological critiques.\n\n4. Performance Vigilance and Self-Monitoring Under MDMA: HIGH participants push for 100% task performance, track mistakes, and worry about confounds like sleep or focus loss. They describe monitoring attention, counting errors, trying to \u201cbeat\u201d tiredness, and adjusting behavior because \u201cMDMA is dangerous for focus,\u201d including concern that drifting into sleep could confound results. LOW participants more often claim mental focus remains clear or reallocate \u201cbandwidth\u201d between feeling and thinking, with less emphasis on optimizing measured performance.\n\n5. Dreamlike Visuals and Enhanced Sensory Pleasantness: HIGH participants report brighter colors, foggy dreamlike vision, and heightened pleasant skin sensations and interoceptive signals. They characterize vision as \u201cfoggy\u201d or \u201cdream-like,\u201d colors as brighter, and touch as notably pleasant (e.g., skin sensitivity), aligning with classic MDMA sensory changes. LOW participants frequently deny dreamlike or unreal qualities, describe remaining clear-headed, and attribute visual blurring to other substances (e.g., LSD), minimizing MDMA-related perceptual alteration.\n\n6. Emotion-First Processing with Positive Reappraisal: HIGH participants let difficult feelings surface, then reframe them toward bonding and constructive meaning, emphasizing feeling over analysis. They narrate moving from initial sadness or discomfort to consciously embracing emotions and extracting positive outcomes (e.g., increased bonding), prioritizing feeling rather than \u201cthinking it through.\u201d LOW participants typically state MDMA helps access preexisting emotions without changing their evaluations, emphasizing anxiety reduction and \u201cbandwidth allocation\u201d over active reappraisal.\n\n7. Outward Social Expansion Beyond the Lab: HIGH participants express eagerness to socialize, reference festivals, invite others out, and seek cultural connection. Their discourse includes invitations to go out together, frequent mention of festival contexts, and highlighting cultural ties (e.g., shared heritage) as a source of immediate rapport. LOW participants describe being chatty or more receptive, but situate openness within the study setting, often stressing boundaries, caution, or contextual constraints.\n\n8. Ambivalence Toward Staff Genuineness and Boundaries: HIGH participants question staff genuineness and describe professional boundaries shaping their comfort and openness. They explicitly remark on the \u201cprofessional dynamic\u201d limiting expressiveness and wonder whether staff are being \u201cgenuine,\u201d which redirects their feelings and behavior (becoming more hermetic). LOW participants more often report feeling secure, supported, and less defensive over time, without sustained concerns about staff authenticity.\n\n9. Physiological Marker Awareness and Validation-Seeking: HIGH participants note jaw clenching, pupil dilation, shaking, and heart rate, often asking for confirmation or measurement. They closely monitor bodily signals and request verification (e.g., pupil checks), blending interoceptive noticing with external validation. LOW participants mention mild sensations (lightness, tingling) but emphasize remaining \u201cnot intoxicated\u201d mentally, and seldom seek objective confirmation of physiological signs.\n\n10. Rich Autobiographical Storytelling and Lived Context: HIGH participants weave detailed life stories into session narratives, grounding emotions in relationships, identity, and past events. They recount ex-partners, culture, travel, and personal milestones, integrating these narratives with in-the-moment feelings and social intentions. LOW participants lean toward abstract analysis\u2014utility functions, bandwidth, compartmentalization, safety flags\u2014providing fewer expansive personal stories and more conceptual framing.\n\nDifferentiator variable names:\nprosocial_touch_openness, ethical_unconditional_friendship, study_meta_reasoning, performance_vigilance, sensory_dreamlike_enhancement, emotion_reappraisal, social_expansion, staff_trust_ambivalence, physio_interoception_validation, autobiographical_narrative_depth",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 4767,
+        "prompt_tokens": 12392,
+        "total_tokens": 17159,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 3712,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

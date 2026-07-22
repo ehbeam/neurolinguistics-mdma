@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChN7MPfigCOLMz9UZwZ1ANOcH4dl0",
+    "created": 1764453004,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Analytical Self-Modeling: LOW participants frequently describe their minds using models (utility functions, lanes, bandwidth), prioritizing thinking over feeling. They habitually frame their inner life through analytical constructs\u2014utility functions, \u201cadditional lanes,\u201d bandwidth allocation, and compartmentalization\u2014often asserting that they are trained to think over feel. This meta-cognitive style shows up as careful parsing of terms, structured problem-solving about their own mental processes, and an emphasis on rational control. In contrast to HIGH participants\u2019 affect-forward narratives, LOW participants\u2019 talk centers on cognitive engineering of experience.\n\n2. Emotion-Access Framing: LOW see MDMA as unlocking preexisting emotions rather than creating new ones, emphasizing access, expression, and bandwidth. They repeatedly describe the drug as \u201copening a vault\u201d or \u201cadding an emotional lane,\u201d granting capacity to feel and express what was already present but underutilized. The change is framed as gaining bandwidth or reallocating attention to emotions, not discovering new feelings. This access-focused, non-transformational stance contrasts with HIGH participants\u2019 accounts of altered states and novel emotional sensations.\n\n3. Sensory Realism Skepticism: LOW consistently deny dreamlike states, color shifts, or dissociation, insisting experience remains anchored in ordinary reality. They emphasize that on MDMA they are \u201cin this world,\u201d with normal colors, minimal visual changes, and no dissociation; any sensory notes are subtle (light legs, tingling), not global distortions. Time is described as moving faster but simply being unnoticed. HIGH participants, by comparison, describe brighter colors, foggy/dreamlike vision, and a more altered perceptual feel.\n\n4. Perceived Sobriety and Control: LOW define intoxication as cognitive impairment and repeatedly assert feeling sober, clear-headed, and in control on MDMA. They argue MDMA is not intoxicating because it does not reduce mental clarity; they can think, focus, and complete tasks, even when chatty or emotionally engaged. Several recount feeling \u201ccompletely sober\u201d despite others\u2019 observations to the contrary, and they differentiate mental focus from any mild visual focus changes. HIGH participants more readily describe altered states and dreamy quality.\n\n5. Boundary and Security Sensitivity: LOW emphasize safety, security, and social boundaries, worrying about staff comfort and appropriate touch while on MDMA. They parse \u201csafe\u201d versus \u201csecure,\u201d attend closely to setting effects, and voice concerns about hugging or encroaching on others\u2019 space when they are open and affectionate. They attribute their sense of security to the environment and consider therapy contexts and professional boundaries extensively. HIGH participants mention setting but focus more on affective connection and comfort.\n\n6. Defensiveness Reduction: LOW report being normally guarded and defensive, with MDMA reliably reducing walls and increasing openness to strangers. They describe a baseline tendency to withhold, avoid eye contact, or keep distance, and then note marked decreases in defensiveness\u2014extended conversations with strangers, big embraces with family, and more willingness to connect. This \u201clowering of walls\u201d is a salient change they track over time, rather than a purely euphoric swing.\n\n7. Methodological and Definitional Engagement: LOW scrutinize study design and survey wording, asking about placebo, randomization, red flags, and term meanings. They question order randomization, whether participants misidentify placebo, and whether certain items are \u201csafety screens,\u201d and they critique dissociation questions as inappropriate for MDMA. They also redefine constructs like sociable, friendly, and clear-headed and discuss data collection itself. HIGH participants raise methods occasionally, but LOW participants show sustained, detailed engagement.\n\n8. Task\u2013Feeling Toggling Strategy: LOW describe consciously switching between \u201cfeeling\u201d and \u201cthinking\u201d lanes, self-steering attention back to tasks when emotions surge. They narrate attention allocation as a limited single lane at times, deciding whether it\u2019s devoted to feelings or tasks, and deliberately \u201cbringing themselves back\u201d to performance. They distinguish mental versus visual focus, notice when mind wandering leads to missing stimuli, and operate with a self-regulatory plan. HIGH participants mention concentration difficulty without this explicit lane-switching framework.\n\n9. Anxiety-Relief-Centric Profile: LOW emphasize vanishing anxiety, calm, and clarity as primary benefits, framing happiness as absence of anxiety. They often define the positive effect not as euphoria but as \u201ctime out\u201d from survival-driven stress, zero anxiety, and the return of clear thinking and emotional bandwidth. Happiness is conceptualized as relief, not exhilaration, and the after-peak calm is noted. HIGH participants center pleasant feelings, warmth, and sensory positives more than anxiety abatement.\n\n10. Therapy-Oriented Integration Mindset: LOW seek structured MDMA-assisted therapy to catch up on lifelong emotions, emphasizing durable, integrative changes post-session. They want therapists to administer MDMA, speak about \u201ccatching up\u201d on decades of unprocessed emotion, and report week-long openness and deeper conversations with family and partners. The drug is framed as a tool for emotional work and long-term alignment of thoughts and feelings, not just an acute social or sensory experience.\n\nDifferentiator variable names:\ndifferentiator_01_name: analytical_self_modeling, differentiator_02_name: emotion_access_framing, differentiator_03_name: sensory_realism_skepticism, differentiator_04_name: perceived_sobriety_control, differentiator_05_name: boundary_security_sensitivity, differentiator_06_name: defensiveness_reduction, differentiator_07_name: methodological_engagement, differentiator_08_name: task_feeling_toggling, differentiator_09_name: anxiety_relief_profile, differentiator10_name: therapy_integration_mindset",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 5081,
+        "prompt_tokens": 12392,
+        "total_tokens": 17473,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 3904,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

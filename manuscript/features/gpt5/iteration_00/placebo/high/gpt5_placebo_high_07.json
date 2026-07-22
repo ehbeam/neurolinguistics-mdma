@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChLvAoVTsEWkUc9qZadZq7ksAnm0V",
+    "created": 1764448404,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Dreamlike sensory amplification: High participants report brighter colors, mild visual fogginess, and pleasant touch with a dreamlike-but-oriented quality. Their speech repeatedly highlights sensory enhancement\u2014brighter colors, slightly blurred or \u201cfoggy\u201d vision, and notably pleasant skin sensations\u2014paired with intact orientation (\u201cI know where I am\u201d). In contrast, LOW participants emphasize stable, \u201creal\u201d perception, deny color shifts or dreamlike states, and attribute visual distortions to other drugs (e.g., LSD), marking a clear perceptual divide.\n\n2. Study-savvy meta-monitoring: High participants frequently analyze study design, confounds, and placebo, and self-monitor their performance in real time. They scrutinize caffeine restrictions, discuss ecological validity, worry about MRI sleepiness confounding results, compare baseline versus active conditions, and even request physiological confirmation (pupil dilation), reflecting a methodological vigilance absent in the LOW group, which asks occasional procedural questions without sustained meta-analysis.\n\n3. Boundary sensitivity and professional mistrust: High participants are acutely aware of staff\u2013participant boundaries and sometimes question staff genuineness, which shapes their mood and disclosure. They describe being \u201chermetic,\u201d lament \u201cnot buddy-buddy,\u201d and explicitly wonder whether staff are acting professionally or genuinely, noting the setting\u2019s impact on comfort and expression; LOW participants primarily describe feeling secure and focus on not overstepping (e.g., hugging), rather than doubting authenticity.\n\n4. Relational narrative immersion: High participants provide long, vivid interpersonal stories that foreground intimacy, identity, and connection. Their accounts include detailed histories with ex-partners, newly deepened intimacy (\u201cmade love\u201d), cultural identity linkages (shared Salvadorian background), and attempts to build \u201cunconditional friendship,\u201d which sometimes competes with task focus; LOW participants more often discuss internal emotional processes and social openness without extended, named relationship narratives.\n\n5. Task performance vigilance and compensation: High participants actively monitor and manage task performance, pushing to counter expected impairment and worrying about mistakes. They report \u201cmaking connections,\u201d noticing when focus slips, trying to re-enter patterns, and striving for \u201c100%\u201d performance while anticipating or diagnosing confounds (e.g., fatigue); LOW participants acknowledge drifting attention or \u201cone-lane\u201d bandwidth and generally accept performance variability without strong compensatory drive.\n\n6. Physiological and pharmacological theorizing: High participants interpret body sensations through mechanisms and propose protocol tweaks. They link sensations to caffeine metabolism, electrolytes/glucose, jaw clenching, heart rate, and pupil dilation, and suggest design changes (e.g., caffeine policies, excluding heavy caffeine users); LOW participants describe simple bodily feelings (light legs, tingling) with minimal mechanistic attribution or design recommendations.\n\n7. Emotional reappraisal and connection-making: High participants actively reframe negatives into positives and describe \u201cmaking connections\u201d across experiences and meanings. They move from initial sadness to recognized gains in bonding, explicitly distinguish thinking versus feeling modes, and integrate disparate elements (relationships, culture, tasks) into coherent narratives; LOW participants emphasize anxiety reduction and greater emotional access but less often narrate explicit cognitive reappraisal into positive meaning.\n\nDifferentiator variable names:\ndreamlike_sensory_amplification, study_method_meta_monitoring, boundary_sensitivity_mistrust, relational_story_immersion, task_performance_vigilance, physio_pharma_theorizing, emotional_reappraisal_connectivity",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 5120,
+        "prompt_tokens": 12391,
+        "total_tokens": 17511,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 4416,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

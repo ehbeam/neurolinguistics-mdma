@@ -1,0 +1,5 @@
+biotype,var,n_placebo,med_[quantiles]_placebo,n_mdma,med_[quantiles]_mdma,U,CLES,FDR
+high,n_first_person_singular_to_n_words,93,"0.08 [0.04, 0.11]",198,"0.08 [0.04, 0.12]",9127.0,0.50,0.91
+high,n_third_person_to_n_words,93,"0.00 [0.00, 0.01]",198,"0.00 [0.00, 0.00]",9515.0,0.52,0.91
+low,n_first_person_singular_to_n_words,207,"0.10 [0.07, 0.14]",182,"0.10 [0.06, 0.14]",19897.0,0.53,0.34
+low,n_third_person_to_n_words,207,"0.00 [0.00, 0.00]",182,"0.00 [0.00, 0.02]",15814.5,0.58,7.54x10-4***

@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChMy1llDgy5tYxOtj73ty3XNBDwdu",
+    "created": 1764452425,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Metacognitive Uncertainty and Probabilistic Self-Talk: LOW participants frequently hedge with uncertainty, entertain placebo possibilities, and narrate their experience in probabilistic, self-questioning terms. Their speech is saturated with \u201cI don\u2019t know,\u201d \u201cmaybe,\u201d and \u201cit might be placebo,\u201d repeatedly revisiting whether sensations are real or context-induced, whether dose was high or low, and whether expectations shaped outcomes. They test hypotheses about visual doubling, body sensations, and task performance, often reframing midstream. Compared to the HIGH group\u2019s more assertive, outwardly confident narratives, LOW participants foreground doubt and calibrate their interpretations continuously.\n\n2. Somatic Detail Orientation without Euphoria: They meticulously catalog subtle bodily sensations yet report muted or absent MDMA-style euphoria. LOW transcripts dwell on sweaty palms, jaw clenching, tingling, temperature shifts, hamstring soreness, and texture appreciation, often tying relief to minor actions (stretching, walking to the bathroom). While they notice bodily changes, they frequently note not feeling \u201chappiest ever,\u201d contrasting with the HIGH group\u2019s expectation of hugs, music-driven highs, and exuberant touch-seeking. The LOW group\u2019s affect is precise, embodied, and sober rather than rapturous.\n\n3. Task and Lab-Context Microanalysis: They dissect tasks and lab conditions, comment on stimuli details, and adjust strategies midstream. LOW speakers discuss crosshairs, reflections behind fixation points, triangles, face-popups, red/green counts, earplugs, and MRI temperature, explicitly describing strategy shifts (\u201cdiverted my gaze,\u201d \u201cmissed the first four,\u201d \u201cwhite triangle reduces noise\u201d). They critique the lab\u2019s fit for the experience and evaluate performance constraints. In contrast, HIGH participants tend to speculate about ulterior motives or broader themes; LOW participants drill into execution details and process-level tuning.\n\n4. Boundary-Respecting Social Openness: They are emotionally open while explicitly guarding others\u2019 boundaries and avoiding imposing feelings or touch. LOW participants emphasize not imposing their feelings, request confidentiality, and frame open relationships with clear consent and choice. They rehearse conversations to prevent pressure on partners and family, balancing honesty with respect. HIGH speakers acknowledge concern about making staff uncomfortable but tend toward effusive sociability; LOW transcripts repeatedly prioritize interpersonal boundaries and thoughtful disclosure.\n\n5. Family-Centered Empathy Mapping: They dwell on family roles, empathic rankings, and caregiving intentions toward nieces, partners, and parents. LOW participants rank friends\u2019 empathy, elaborate on caregiving identities, recount family dynamics (frugal brother, exhausted father), and craft roles (\u201csafe person\u201d for a niece). They process addiction stories, grief, and intergenerational expectations as central content. HIGH group narratives reference relationships too, but LOW participants systematically analyze empathy distributions and familial responsibilities as a core frame.\n\n6. Work-Life Balance and Identity Decoupling: They emphasize not living to work, separating work from self, and processing academic or job strain. LOW participants describe PhD pressure, introversion in high-volume service jobs, and the need to \u201cleave 100% out of work\u201d to preserve a feelings lane. They reject status ladders, prioritize satisfaction, and reflect on parents\u2019 identity tied to work, aiming to avoid that trap. HIGH group speakers discuss research and societal control of drugs, but LOW participants anchor identity in balance and boundaries away from work performance.\n\n7. Movement-Seeking and Tactile Self-Regulation: They seek movement, stretching, and tactile stimuli to self-regulate, noting jaw clenching and bodily relief after motion. LOW participants report feeling better after walking, enjoy floor textures, stretching, and tactile sensations, and consciously modulate bodily states. They narrate somatic strategies for comfort inside the MRI. HIGH group mentions breath control as the primary regulator; LOW group emphasizes movement and tactile engagement repeatedly as their self-management toolkit.\n\n8. Conceptual Self-Modeling of Feelings vs Thoughts: They build internal models\u2014\u201clanes,\u201d \u201ccapacity,\u201d \u201cutility functions\u201d\u2014to reason about feelings versus cognition. LOW transcripts frequently formalize experience with quasi-technical constructs: separate lanes for feelings and thoughts, capacity allocation, training effects, gender-role conditioning, empathy hierarchies. They ask whether MDMA adds capacity or reallocates it, and how social pressure shifts resource use. HIGH group leans toward external neurobiology discourse; LOW group applies structured models to their own inner dynamics.\n\n9. Mellow Affect with Cautious Optimism: They describe calm, present, sociable states with restrained intensity and cautious, incremental positivity. LOW participants repeatedly say \u201cmore mellow,\u201d \u201ccalmer,\u201d \u201ccomfortable,\u201d \u201cpresent,\u201d and \u201ctalkative but not chatty,\u201d often tempering claims (\u201cI won\u2019t say definitely\u201d). They celebrate cozy warmth and clarity without grandiosity, noting variability \u201cby the minute.\u201d The HIGH group often anticipates high sociability and exuberance; LOW speakers articulate measured, steady-state gains.\n\nDifferentiator variable names:\nmetacognitive_uncertainty, somatic_detail_without_euphoria, task_lab_microanalysis, boundary_respecting_openness, family_empathy_mapping, work_life_identity_balance, movement_tactile_regulation, conceptual_self_modeling, mellow_cautious_optimism",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 3833,
+        "prompt_tokens": 14494,
+        "total_tokens": 18327,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2752,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

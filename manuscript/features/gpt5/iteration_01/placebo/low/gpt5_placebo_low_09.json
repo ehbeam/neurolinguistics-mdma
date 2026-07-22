@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChMBjtYfeVSPTLyscwia0TxayqQ5Q",
+    "created": 1764449431,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Clear-Headed Emotional Access: LOW participants describe MDMA as increasing emotional clarity without cognitive impairment, intoxication, dissociation, or feeling \u201cdreamlike.\u201d They repeatedly frame MDMA as sharpening access to emotions while preserving mental focus and a sense of reality (\u201cI\u2019m in this world; I will remember things\u201d). They explicitly define intoxication as loss of cognitive control and assert MDMA does not do that for them, contrasting sharply with HIGH participants\u2019 reports of foggy vision, dreamlike states, and concern about focus lapses.\n\n2. Emotional Bandwidth Allocation: LOW participants conceptualize their experience as reallocating mental \u201cbandwidth\u201d or opening an \u201cadditional lane\u201d for feeling. They narrate MDMA as creating or protecting a dedicated channel for emotions\u2014unlocking a \u201cvault,\u201d shifting from dual lanes (thinking/feeling) to a single-feeling lane, and maintaining an allocation that prevents worries from overwriting emotions. This metacognitive, resource-allocation framing is largely absent in HIGH participants.\n\n3. Minimal Sensory Distortion: LOW participants report subtle bodily sensations (tingling, lightness) but deny color shifts, visual fog, dreaminess, or dissociation. They emphasize that sensations are \u201cnot painful,\u201d that colors don\u2019t change, and that MDMA does not produce dreamlike or dissociative effects; they remain anchored in ordinary perception. HIGH participants, by contrast, often describe brighter colors, pleasant skin sensitivity, foggier vision, and a dreamlike quality.\n\n4. Therapy-Centered Orientation and Integration: LOW participants orient MDMA toward therapeutic processing, seeking MDMA-assisted therapy and noting lasting effects (e.g., more emotionally open conversations and deeper hugs days later). They stress that MDMA helps access pre-existing feelings rather than generating novelty, and they prefer LSD for creativity. HIGH participants more commonly situate MDMA in festival/social contexts, emphasizing stimulation and social bonding rather than structured therapeutic aims.\n\n5. Guarded Baseline, Reduced Defensiveness on MDMA: LOW participants describe a typically guarded or avoidant baseline that reliably softens with MDMA\u2014more eye contact, less defensiveness, increased talkativeness, and greater warmth. They define sociability as a two-way street (listening and talking) and highlight becoming less avoidant. HIGH participants sometimes become more hermetic due to situational mistrust and professional boundaries, rather than reporting a consistent reduction in defensiveness.\n\n6. Respect for Boundaries and Setting: LOW participants show pronounced concern about not encroaching on staff, explicitly calibrating behavior (e.g., hesitating to hug sober staff), and interpreting survey items as safety screens. They value feeling secure when practical needs are met and accept the professional dynamic. HIGH participants often lament that professional boundaries detract from the experience and voice mistrust or discomfort, whereas LOW participants adapt to the setting and feel reassured.\n\n7. Sober Self-Perception and Real-World Anchoring: LOW participants repeatedly assert a sober, real-world stance\u2014\u201cnot wild\u201d on MDMA, present, remembering events, and sometimes believing they were completely sober while engaging in lengthy one-on-one talks. This contrasts with HIGH participants\u2019 frank acknowledgment of altered states, dreaminess, and sensory changes; LOW participants emphasize continuity with ordinary reality even while more emotionally expressive.\n\n8. Anxiety Abolition and Calm Comedown: LOW participants report near-zero anxiety during MDMA sessions and a calm emotional state as the effects subside, often describing pre-session fear that flips into excitement. They characterize the experience as a \u201ctime out\u201d from survival-driven stress, enabling connection and emotional work, and note a smooth return to baseline. HIGH participants more often describe nerves, sadness arising and being processed, and performance concerns.\n\n9. Methodological Curiosity and Survey Critique: LOW participants frequently question placebo status, randomization, data handling, and the appropriateness of survey items (e.g., dissociation), treating them as safety flags. They show active interest in study design and measurement quality. HIGH participants discuss task performance and environmental influences but exhibit less sustained methodological inquiry and item-level critique.\n\nDifferentiator variable names:\nclear_headed_emotional_access, emotional_bandwidth_allocation, minimal_sensory_distortion, therapy_orientation_integration, reduced_defensiveness_avoidance, boundary_setting_respect, sober_self_perception, anxiety_relief_calm_comedown, methodological_curiosity_survey_critique",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 3666,
+        "prompt_tokens": 12392,
+        "total_tokens": 16058,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2752,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChMASeQ01WH7OpTZhJyDywcAuaWzR",
+    "created": 1764449352,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Clarity-not-Intoxication Orientation: Strongly frames MDMA as increasing mental clarity without intoxication, dissociation, or dreamlike states.\nLOW participants consistently describe MDMA as leaving their thinking clear and grounded in reality: \u201cI am in this world,\u201d \u201cnot intoxicated,\u201d \u201cno dissociation,\u201d and \u201cclear-headed.\u201d They define intoxication as impaired cognition and explicitly say MDMA does not impair their mental focus, even when visual focus may wobble. Happiness is often framed as the absence of anxiety rather than euphoria. In contrast, HIGH participants repeatedly mention foggy, dreamlike vision, brighter colors, and feeling distracted or sleepy. This clarity-first stance marks LOW participants as cognitively anchored and resistant to the \u201caltered reality\u201d framing common in HIGH narratives.\n\n2. Bandwidth-and-Lanes Emotional Framework: Frequently models feelings and thoughts as \u201clanes\u201d or \u201cbandwidth,\u201d using structured introspection to explain their experience.\nLOW participants describe their inner life in engineering-like terms\u2014lanes for feeling and thinking, allocation of bandwidth, utility functions, vaults opening, and compartmentalization. They debate whether MDMA adds an \u201cextra lane\u201d for emotion or reassigns existing capacity, and emphasize accessing preexisting emotions rather than generating new ones. This meta-cognitive, model-building style recurs with detailed self-monitoring and careful distinctions (e.g., mental vs visual focus). HIGH participants rarely use formal frameworks; they speak more in anecdotes, sensations, and social stories. The LOW group\u2019s structured introspection is a defining analytic differentiation.\n\n3. Anxiety-Vanish with Security Sensitivity: Reports near-total anxiety reduction alongside strong attention to safety, boundaries, and setting.\nLOW participants emphasize \u201czero anxiety,\u201d fear transforming into excitement, and feeling secure when their physical needs are met (blankets, socks, warmth). They are highly attuned to boundaries\u2014worrying about hugging staff or making others uncomfortable\u2014and explicitly link setting to comfort and outcomes. Their security language is precise (preferring \u201csecure\u201d over \u201csafe\u201d) and they anticipate how professional environments shape their experience. HIGH participants often report lingering nerves or mistrust in the setting and describe how professionalism dampened expressiveness. The LOW group\u2019s combination of anxiety relief and boundary-respect security orientation stands out.\n\n4. Measured Openness and Reduced Defensiveness: Becomes highly talkative and open yet carefully respectful of others\u2019 boundaries, with notable drops in defensiveness and avoidance.\nLOW participants report being \u201cvery chatty,\u201d making more eye contact, feeling less avoidant and less defensive\u2014yet they underscore sociability as a two-way street focused on listening and receiving. They share examples of unexpectedly engaging with strangers (e.g., a long Lyft conversation) while staying mindful not to encroach, and they reframe \u201cfriendly\u201d as receiving, accepting, and measured giving. HIGH participants often describe desire for buddy-buddy bonding but also mistrust and pulling back due to the professional setting. The LOW group\u2019s signature is expansive openness paired with deliberate boundary awareness.\n\n5. Realism with Subtle Sensations: Describes subtle bodily tingling or lightness but rejects dreamlike visuals, dissociation, or major perceptual changes.\nLOW narratives center on light legs, scalp tingling, and non-painful bodily sensations while denying color shifts, dream states, and dissociation; time is \u201coblivious\u201d rather than altered. They differentiate MDMA from LSD or other psychedelics that they say produce visual distortions, and emphasize remaining present, not \u201cwild.\u201d HIGH participants highlight brighter colors, foggy/dreamlike vision, and tactile intensification, plus jaw tension or shaking. The LOW group\u2019s restrained, real-world sensory profile\u2014pleasant but subtle\u2014clearly contrasts with HIGH\u2019s perceptual alteration emphasis.\n\n6. Prolonged Access to Preexisting Emotions: Emphasizes that MDMA unlocks and sustains access to existing emotions rather than creating new ones.\nLOW participants repeatedly say MDMA opens a \u201cvault\u201d to feelings they already have, granting lasting access beyond the session (e.g., more heartfelt hugs with family days later). They stress that MDMA helps them feel and express what was suppressed by stress and survival demands, and they seek therapy contexts to leverage this access. Creativity or rebuilding the mind is attributed to LSD, not MDMA. HIGH narratives focus more on acute positivity, bonding, and tactile warmth in the moment, with less emphasis on sustained, structured emotional integration. This sustained-access framing is distinctive to LOW participants.\n\n7. Methodological Curiosity and Self-Monitoring: Displays strong interest in study design, placebo, and measurement, plus ongoing self-monitoring of effects.\nLOW participants ask about randomization, placebo, order effects, data, and survey appropriateness; they interpret \u201csafety\u201d items as screening tools and compare personal reports to friends\u2019 experiences. They monitor memory lapses, spacing out, and setting influences, and distinguish mental versus sensory outcomes with care. HIGH participants do mention confounds (e.g., caffeine, sleep) but generally from a pragmatic rather than systematic, model-based angle. The LOW group\u2019s methodological curiosity and granular self-tracking provide a robust, research-oriented differentiation.\n\nDifferentiator variable names:\ndifferentiator_01_name=clarity_not_intoxication, differentiator_02_name=bandwidth_lanes_introspection, differentiator_03_name=anxiety_vanish_security, differentiator_04_name=measured_openness_less_defensive, differentiator_05_name=realism_subtle_sensations, differentiator_06_name=prolonged_emotion_access, differentiator_07_name=methodological_curiosity_monitoring",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 5459,
+        "prompt_tokens": 12392,
+        "total_tokens": 17851,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 4288,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

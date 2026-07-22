@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChM4IVpn5yAIIiB9jjTLlq7aW7QSr",
+    "created": 1764448970,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. High Social Openness and Affiliation: HIGH participants display pronounced sociability, self-disclosure, and comfort with affectionate touch and empathic connection. They describe themselves as \u201copen,\u201d \u201csociable,\u201d and \u201cfriendly,\u201d proactively seeking hugs, mirroring others, and checking that their warmth does not make others uncomfortable. Their talk centers on bonding, human touch, and being an \u201copen book.\u201d In contrast, LOW participants more often mention social anxiety, reluctance to impose, or feeling out of place in the lab, and their sociability appears situational or tentative rather than consistently expansive.\n\n2. Analytical Meta-Reasoning about Tasks and Neurobiology: HIGH participants frequently interrogate study design, bias, and pharmacology, linking their experience to research and mechanisms. They reference behavioral biases (e.g., Kahneman), speculate about randomness and task motives, discuss SSRIs, dopamine vs. serotonin, Shulgin\u2019s molecules, and policy/capitalization of psychedelics. Their narrative connects immediate sensations to broader scientific and societal frames. LOW participants focus more on personal anecdotes, momentary task performance, and uncertain dose effects, seldom extending to theory or mechanisms.\n\n3. Deliberate Somatic Self-Regulation: HIGH participants actively use breathing, body scans, and cognitive reframing to manage discomfort and sustain focus. They repeatedly describe controlling breath to ground themselves, releasing muscle tension, and \u201ccollecting\u201d themselves during anxious moments, reframing challenging periods as \u201cvalleys\u201d they can traverse. LOW participants note sensations (e.g., sweating, jaw tension) and sometimes try movement, but they less often articulate systematic, intentional regulation strategies and are more environment-driven in comfort.\n\n4. Intentional Set/Setting Orientation: HIGH participants emphasize purposeful contexts and goals for MDMA and related substances, beyond party use. They describe preferring intentional spaces, using MDMA to connect and reflect, respecting different drugs\u2019 profiles (e.g., shrooms as deeply introspective), and aligning use with bonding or therapeutic aims. LOW participants more often comment that the lab is less conducive or hope for different settings, but express less consistent, forward-looking intentionality about when, why, and how to use MDMA.\n\nDifferentiator variable names:\nsocial_openness_affiliation, analytical_meta_reasoning, somatic_self_regulation, intentional_set_setting",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 3176,
+        "prompt_tokens": 14494,
+        "total_tokens": 17670,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2688,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

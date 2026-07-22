@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChLqV6S1CX4fi7kuf2KYEeontpwVR",
+    "created": 1764448115,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Deep Anxiolysis and Emotional Safety: LOW participants report near-zero anxiety and a secure \u201ctime-out\u201d from survival concerns, enabling calm engagement with feelings and connections. Their transcripts repeatedly emphasize anxiety vanishing (\u201czero anxiety,\u201d \u201cless concerned\u201d), feeling safe/secure in the environment, and relief from everyday hypervigilance. This anxiolysis frees mental bandwidth from survival-driven worry, allowing them to explore emotions, give and receive support, and process personal topics without distress. In contrast, HIGH participants frequently describe nerves, mistrust, and discomfort related to the professional setting, which constrains their social openness.\n\n2. Reality-Grounded, Low-Distortion Perception: LOW perception stays reality-grounded, non-dissociative, and minimally altered, rejecting dreaminess, color changes, and fogginess. LOW participants insist \u201cthings are quite real,\u201d explicitly deny dreamlike states or dissociation, and often reject visual changes (e.g., colors or crosses) as \u201cmore like acid, not Molly.\u201d They may note minor body sensations (light legs, tingling) or slight visual focus changes, but they preserve a clear sense of reality. By contrast, HIGH participants emphasize brighter colors, blurrier vision, and foggy, dreamlike experience.\n\n3. Uninhibited Emotional Expressivity and Talkativeness: LOW participants become highly talkative and emotionally open, eager to share, hug, and connect even with strangers. They repeatedly describe \u201chaving a lot to say,\u201d becoming \u201csuper chatty,\u201d wanting to \u201cget everything out,\u201d and seeking warm physical and emotional connection (e.g., long Lyft conversations, desire to hug). This expressivity is framed as authentic disclosure and feeling-focused dialogue. HIGH participants often report being constrained by the professional dynamic and uncertainty about staff genuineness, limiting free emotional expression in-session.\n\n4. Reduced Defensiveness and Avoidance with Active Sociability: LOW participants show markedly reduced defensiveness and avoidance, proactively approaching others with trust, eye contact, and friendliness. They describe becoming \u201cless avoidant,\u201d \u201cless defensive,\u201d and more willing to initiate contact and sustain social engagement (e.g., eye contact, spontaneous conversations, feeling closer to others). They portray sociability as a two-way street\u2014receiving and giving\u2014while emphasizing trust and openness. HIGH participants more often mention hermetic or guarded stances, boundaries in the lab, and mistrust that dampens social outreach.\n\n5. Cognitive Clarity and Control Preserved: LOW participants maintain cognitive clarity and control, distinguishing MDMA from intoxication despite occasional visual focus shifts. They define intoxication as mental loss of control (alcohol/weed) and insist MDMA does not produce that; they report clear-headedness, intact mental focus, and capability to perform tasks even when feelings surge. They differentiate mental focus (preserved) from visual focus (sometimes slightly impaired). HIGH participants more frequently note concentration difficulties, sleepiness, and concerns about memory or task performance, often wishing for caffeine to compensate.\n\n6. Structured Emotional Bandwidth Allocation: LOW participants explicitly allocate mental \u201clanes\u201d to feelings, structuring bandwidth for deliberate emotional processing during and after sessions. They describe an added or reallocated \u201clane for feeling,\u201d intentional bandwidth reserved for emotions, and compartmentalization that allows them to balance tasks and feelings. This framework supports deep emotional work and a sustained afterglow (e.g., week-long openness, more embracing with family), making the experience not just acute but integrative. HIGH transcripts do not foreground this kind of deliberate, structured emotional resource allocation.\n\n7. Therapeutic Orientation and Meta-Curiosity: LOW participants treat MDMA as a therapeutic tool and probe study mechanics with analytical, safety-focused curiosity. They discuss seeking MDMA-assisted therapy, using sessions to access feelings and relationships, and ask many meta-questions about placebo, dosing order, randomization, data, and \u201cred flag\u201d items\u2014showing high engagement with study design and safety. HIGH participants mention therapy in passing but focus more on narrative anecdotes and immediate performance concerns, showing less persistent, analytical curiosity about mechanisms and therapeutic use.\n\nDifferentiator variable names:\nanxiolysis_emotional_safety, reality_grounded_perception, uninhibited_emotional_expressivity, reduced_defensiveness_avoidance, cognitive_clarity_control, emotional_bandwidth_allocation, therapeutic_orientation_meta_curiosity",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 5061,
+        "prompt_tokens": 12391,
+        "total_tokens": 17452,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 4160,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

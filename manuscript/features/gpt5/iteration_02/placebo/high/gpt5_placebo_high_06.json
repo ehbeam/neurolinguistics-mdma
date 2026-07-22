@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChNAMC6rpGZUf838ACwDPx0tG2l7Y",
+    "created": 1764453190,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Tactile Prosocial Drive: Strong urge to physically connect\u2014hug, touch, and actively support others\u2014beyond mere talk. Participants in the HIGH group repeatedly describe wanting to \u201chug everybody,\u201d touch, listen, and actively support others, and they pursue unconditional, nonsexual connections built on care and empathy. Their sociability is embodied and expressive, extending into concrete actions and relationship-building. LOW group participants tend to frame sociability as talkativeness and listening, often emphasizing boundaries (e.g., concern about hugging sober staff) and a verbal, measured openness rather than a strong physical affiliative drive.\n\n2. Dreamlike Sensory Intensification: Marked brightened colors, foggy vision, and heightened skin sensations creating a pleasant, dreamlike state. HIGH group transcripts consistently report brighter colors, foggy or \u201cdreamlike\u201d vision, and distinctly pleasant tactile sensitivity (e.g., skin feels good to touch), with awareness of physiological changes (pupil dilation, jaw clench) tied to MDMA. LOW group participants largely deny notable perceptual changes on MDMA (often attributing visual blur to LSD), report subtle sensations like light legs or tingling, and highlight clarity rather than dreamlike alterations.\n\n3. Positive Emotional Reframing: Active reappraisal that shifts sadness or conflict toward bonding and positive meaning. HIGH group participants acknowledge difficult feelings but pivot toward the positives\u2014emphasizing bonding, \u201cmade love\u201d experiences, and feeling rather than overthinking\u2014explicitly transforming negative affect into connectedness and growth. LOW group participants focus on anxiety reduction, bandwidth allocation, and the ability to access or express preexisting feelings; they control or compartmentalize sadness and often try to replicate prior emotional states, but show less explicit, in-the-moment reappraisal into positive meaning.\n\n4. Performance Vigilance & Interoception: Hyper-aware of bodily signals and task accuracy, self-imposing standards to counter perceived MDMA effects. HIGH group participants closely monitor physiological signs (pupils, jaw, heart rate), worry about sleep confounds, evaluate memory and attention during tasks, and push themselves to perform at \u201c100%,\u201d even proposing protocol tweaks (e.g., caffeine) to optimize performance. LOW group participants generally report steady mental focus, conceptualize \u201clanes\u201d for feelings vs. thinking, and define intoxication relative to cognitive clarity, with fewer instances of real-time performance optimization or interoceptive tracking affecting task engagement.\n\n5. Authenticity/Boundary Sensitivity: Heightened concern about others\u2019 genuineness and professional boundaries that constrains expression in structured settings. HIGH group transcripts include explicit mistrust and questions about whether staff are being \u201cgenuine,\u201d describe feeling hermetic, and note that professional dynamics limit their ability to express themselves or \u201cbe buddy-buddy,\u201d which shapes their experience. LOW group participants more often report feeling secure, becoming less defensive, and debate the semantics of \u201csecure\u201d vs. \u201csafe,\u201d showing caution about encroaching on others\u2019 space but less preoccupation with authenticity or boundary distrust.\n\n6. Relational Expansiveness & Initiative: Energetic pursuit of new bonds and shared experiences, coupled with explicit, intentional relationship boundaries. HIGH group participants actively seek connection beyond the study (inviting people to go out, referencing festivals), narrate culturally resonant bonds, and articulate intentional boundaries (e.g., cultivating nonsexual, unconditional friendships), illustrating outward social initiative and relational breadth. LOW group participants emphasize introspective work, therapy settings, family interactions, and compartmentalization; they become chatty and open but exhibit less drive to initiate new shared experiences or explicitly broaden their social circles in the moment.\n\nDifferentiator variable names:\ntactile_prosocial_drive, sensory_dreamlike_intensification, positive_emotional_reframing, performance_vigilance_interoception, authenticity_boundary_sensitivity, relational_expansiveness_initiative",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 5925,
+        "prompt_tokens": 12392,
+        "total_tokens": 18317,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 5120,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

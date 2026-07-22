@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChN5y5vWmdqO943azBiXJoJtdVbxX",
+    "created": 1764452918,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Analytical bandwidth mindset: LOW participants consistently frame experiences using analytical models like utility, lanes, and bandwidth rather than purely affective narratives. They repeatedly describe their inner life with technical metaphors\u2014allocating \u201clanes\u201d and \u201cbandwidth\u201d between thinking and feeling, assessing \u201cpositive conditioning,\u201d and interrogating study design (randomization, placebo, survey intent) and data. This meta-cognitive style centers on conceptual precision, operational definitions, and cross-person comparisons, in contrast to HIGH participants\u2019 more relational, story-driven accounts. It signals a preference for analysis over affect as the primary lens for interpreting MDMA effects.\n\n2. Clear-headed sobriety: LOW participants emphasize feeling sober and mentally clear on MDMA, distinguishing intoxication from the drug\u2019s effects. They define intoxication as a loss of mental control and consistently report that MDMA does not impair thinking, even when acknowledging mild physical sensations (lightness, tingling) or occasional visual softness. They reject dreamlike or foggy states as characteristic of MDMA, often describing happiness as an absence of anxiety rather than euphoria\u2014contrasting with HIGH participants\u2019 descriptions of dreaminess, brighter colors, and altered focus.\n\n3. Emotion access, not emotion change: LOW participants describe MDMA as unlocking access to preexisting emotions rather than creating new ones or changing their values. Their language centers on \u201copening a vault\u201d or an \u201cadditional lane\u201d for feeling, with a protected allocation of mental space for emotions that previously was overwritten by worry or survival tasks. They report that post-session they can express\u2014and continue to access\u2014the same feelings they already had, whereas HIGH participants emphasize strengthened positive feelings and interpersonal warmth as an acute change.\n\n4. Setting and boundary sensitivity: LOW participants are highly attuned to environment, safety/secure distinctions, and professional boundaries, moderating behavior accordingly. They reflect on the clinical setting\u2019s influence, worry about making staff uncomfortable, and explicitly avoid crossing touch boundaries when others are sober. They often attribute security to the environment and note that if the setting felt unsafe, they would remain hypervigilant. In contrast, HIGH participants describe wanting to hug everyone and \u201cbuddy-buddy\u201d dynamics with less boundary management.\n\n5. Minimal perceptual alteration and dissociation skepticism: LOW participants report limited sensory changes and actively reject dissociation or dreamlike perception as typical for MDMA. Their accounts emphasize normal reality-testing, stable body schema, and subtle physical sensations over altered colors, tunnel vision, or fogginess; they even mark dissociation as a red flag on MDMA and more appropriate to other substances. HIGH participants frequently note brighter colors, foggy or dreamlike vision, and awareness of physiological signs like jaw clenching and pupil dilation.\n\n6. Deliberate compartmentalization of attention: LOW participants explicitly manage cognitive-emotional \u201clanes,\u201d toggling between tasks and feelings to maintain performance. They describe allocating mental resources\u2014sometimes with only one lane available\u2014choosing when to feel and when to think, and pulling themselves back from emotional immersion to complete tasks. This structured self-regulation contrasts with HIGH participants\u2019 less formalized accounts of drifting, sleepiness, and connection-making without a stated control framework.\n\n7. Controlled sociability with reduced defensiveness: LOW participants become more talkative and friendly yet emphasize listening, restraint, and decreased defensiveness rather than uninhibited affection. They define sociability as a two-way street (receiving and giving), note increased eye contact and openness with strangers, and highlight a drop in avoidance. Still, they remain mindful of context and limits\u2014unlike HIGH participants who describe strong urges to hug and touch many people and broadly amplify outward warmth.\n\nDifferentiator variable names:\nanalytic_meta_cognition, clear_headed_sobriety, emotion_access_over_change, setting_boundary_awareness, minimal_perceptual_alteration, compartmentalized_bandwidth, controlled_sociability",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 3809,
+        "prompt_tokens": 12392,
+        "total_tokens": 16201,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 3008,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChMDajb4ltRL129GuixyyGoO9ud2R",
+    "created": 1764449546,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Relational Immersion and Pro\u2011social Drive: High participants display a strong, immediate urge to bond, hug, support, and build friendships, often across detailed real-life stories and settings. Their transcripts are dense with relationship-oriented narratives (exes, new friendships, shared cultural identity, festival contexts) and explicit pro-social behaviors (wanting to go out with staff, hugging, listening, supporting). This outward, connection-seeking stance regularly shapes their experience and choices, including navigating professional boundaries to preserve rapport. In contrast, Low participants remain more self-focused and cautious\u2014discussing openness conceptually, guarding boundaries, and analyzing sociability\u2014but showing fewer vivid relational stories or spontaneous social initiatives.\n\n2. Sensory Amplification and Dreamlike Perception: High participants report brighter colors, foggy or dreamlike vision, and noticeably pleasant, heightened tactile sensations. Their descriptions include concrete sensory changes (pleasant touch, skin sensitivity, \u201cdream state\u201d feeling) and awareness of physiological markers (pupil dilation, jaw clenching, increased heart rate). These sensory-laden accounts are frequent and salient. Low participants typically minimize or deny pronounced sensory changes (e.g., \u201ccolors don\u2019t change,\u201d \u201cnot dissociated\u201d), cite only mild physical sensations (light legs, tingling), and emphasize cognitive clarity rather than altered perception.\n\n3. Study\u2011Context Metacognition and Performance Management: High participants actively critique the study environment and methods\u2014raising confounds (caffeine rules, placebo order, sleepiness), survey validity, and setting differences\u2014and purposely modulate their behavior to \u201cperform\u201d well. They frame tasks through a methodological lens, worry about results being confounded, suggest protocol adjustments, and push themselves to demonstrate focus on MDMA. Low participants occasionally wonder about placebo or ask logistics questions, but rarely engage in sustained methodological analysis or deliberate performance management; they center on their personal internal states instead.\n\n4. Intentional Emotion Processing and Positive Reappraisal: High participants explicitly let difficult feelings arise, then reframe them toward growth, bonding, and positive outcomes. They describe noticing sadness, allowing it, and then directing attention to what strengthened relationships or improved understanding\u2014showing an intentional \u201cfeel, process, reframe\u201d pattern in real time. Low participants more often emphasize anxiety reduction, clarity, or increased access to feelings as available bandwidth, but offer fewer examples of deliberate reappraisal of negative content into positive meaning or strengthened bonds.\n\nDifferentiator variable names:\ndifferentiator_01_name, differentiator_02_name, differentiator_03_name, differentiator_04_name",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 2521,
+        "prompt_tokens": 12392,
+        "total_tokens": 14913,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 1984,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

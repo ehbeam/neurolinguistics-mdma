@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChMz8OF7TTy89264zr9wWi9wuMERi",
+    "created": 1764452494,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Neuro-savvy research metacognition: Frequently references neurotransmitters, drug mechanisms, and study design, generating hypotheses about tasks and broader policy or industry contexts. Participants in the HIGH group repeatedly demonstrate a sophisticated, inquisitive framing of their experience through the lens of neuropharmacology and research. They ask about SSRIs versus dopamine pathways, mention serotonin function, Shulgin\u2019s compounds (e.g., CB2), and speculate on study design elements, task purpose, and even societal control, industry incentives, and NIH protocols. They connect immediate observations to behavioral biases (e.g., Kahneman) and discuss clinical applications (PTSD, depression), showing an active tendency to model the experience scientifically. LOW group participants rarely move beyond personal reflections or simple therapy references; their discourse is less technical and less focused on hidden task structures or policy implications.\n\n2. Breath-centered self-regulation and somatic grounding: Actively manages discomfort by monitoring tension, releasing it, and using controlled breathing to stay focused and emotionally stable. HIGH group participants frequently notice somatic cues (e.g., toe-curling, tension, temperature) and deliberately deploy breathwork and body checks to modulate anxiety, re-center, and sustain task performance. They describe grounding strategies for panic, intentional relaxation, and \u201ccollecting\u201d themselves to navigate valleys in the experience, framing control of breath as a first-line tool. In contrast, LOW group participants primarily report sensations (tingling, jaw clenching, cold/warmth, visual oddities) and feeling overwhelmed or uncertain; while some mention attempting to refocus, they seldom articulate structured, proactive regulation strategies like breath control or systematic tension release.\n\nDifferentiator variable names:\nneuro_savvy_metacognition, breath_grounding_self_regulation",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 2487,
+        "prompt_tokens": 14494,
+        "total_tokens": 16981,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2112,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

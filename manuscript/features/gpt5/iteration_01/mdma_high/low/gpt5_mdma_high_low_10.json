@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChMyY39qjAbpG6TYBCijLuab8WS0q",
+    "created": 1764452458,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Explicit Feelings\u2013Thoughts Bandwidth Modeling: LOW participants explicitly model \u201clanes\u201d for feeling versus thinking and discuss reallocating cognitive bandwidth. They repeatedly describe their inner experience as parallel \u201clanes\u201d or limited-capacity channels, debating whether MDMA adds an extra feelings pathway or diverts resources from thought. This metacognitive framing includes weighing performance demands against affect, noticing when feelings crowd out cognition, and tracking shifts from dual-lane operation to a single-lane state. The language is systematic, architecture-focused, and concerned with internal resource allocation.\n\n2. High Placebo/Dose Uncertainty and Signal-Checking: LOW participants frequently question dose identity, suspect placebo effects, and seek physiological \u201csignals\u201d to confirm MDMA. They narrate ongoing calibration (\u201cWas this placebo?\u201d \u201cLower dose?\u201d), testing hypotheses against bodily cues like palpitations, double vision, and temperature shifts. Their stance is skeptical and iterative, often revisiting interpretations over minutes and days, and explicitly comparing current responses to prior sessions to adjudicate whether the drug or context drove the effects.\n\n3. Detailed Somatic Sensation Tracking: LOW participants offer granular, moment-to-moment reports of body sensations and subtle sensory changes. They catalogue warmth versus chill, sweaty palms, jaw clenching/teeth chatter, tingling, sore hamstrings, toe awareness, visual doubling, ear sensations, and tactile appreciation of textures (wood floors, blankets). Movement (stretching, walking) is described as regulating comfort, and they infer cause from context (no socks, earplugs, chair, shoes), showcasing fine-grained interoception and environmental attribution.\n\n4. Task-Accuracy Monitoring and Strategy Adjustment: LOW participants closely monitor performance, analyze task mechanics, and adapt strategies to maintain focus. They detail missing items, misinterpreting instructions (faces vs. shapes), changing gaze tactics (diverting from faces, tracking crosshairs), filtering \u201cnoise\u201d (white triangles), and commenting on button-press contingencies (red/green frequency). They reflect on competitiveness at baseline versus \u201ctrying my best,\u201d and actively pull themselves back from affective drift to complete tasks.\n\n5. Boundary-Conscious Social Reserve: LOW participants emphasize not imposing on others and often restrain overt social expression, especially in clinical contexts. They report holding back touch or talkativeness, worry about making others uncomfortable, and describe introversion and social anxiety. Preference leans toward respectful proximity without intrusion, with explicit requests for confidentiality and careful consideration of when and how feelings should be shared with partners, family, or researchers.\n\n6. Deliberate Relationship Structuring and Ethical Disclosure: LOW participants meticulously plan conversations, boundaries, and ethical non-monogamy with clear consent and transparency. They articulate desires (sex with others, no romantic duplication), negotiate terms with partners, and outline timelines (study abroad, proposal plans), all framed as adult, open communication. They also discuss informing families and friends, aligning actions with values, and ensuring disclosures minimize pressure while maximizing mutual understanding.\n\n7. Moderated Affective Response to MDMA: LOW participants describe mellow, balanced affect rather than peak euphoria, with feelings sometimes overwhelming cognition. Reports highlight calm presence, sociability without mania, and occasional need to rein in overwhelming feeling to perform. They compare their affect to others\u2019 \u201chappiest ever\u201d claims and consistently find their own responses more tempered, reflective, and situationally dependent than uniformly blissful.\n\n8. Environmental and Context Sensitivity: LOW participants\u2019 experiences are strongly shaped by setting, temperature, equipment, and movement. They comment extensively on blankets, room warmth, MRI coziness, lab \u201cvibe,\u201d earplugs, shoes, visual reflections, and the need to move to feel better. Tactile textures and micro-environmental factors materially modulate comfort and perception, with suggestions for optimized setups (e.g., space capsule, Buddhist aesthetic) to support their preferred experiential state.\n\n9. Family Systems Reflection and Role Definition: LOW participants analyze family dynamics, define supportive roles, and negotiate autonomy versus involvement. They reflect on parents\u2019 micromanagement, a frugal brother, and a father\u2019s work-identity risks; they articulate desired roles (safe confidant for niece), discuss timing for independence, and how to communicate needs to relatives. This systems-level thinking ties MDMA-related insights to intergenerational patterns and concrete boundary-setting.\n\n10. Integration-Oriented Aftereffects and Behavioral Changes: LOW participants describe sustained post-session changes in comfort, sociability, and planned actions. They report improved workplace ease, increased chatty openness, and lingering \u201cfeelings lane\u201d access days later. Integration includes specific next steps (conversations with partners/family, testing whether effects persist, calibrating future sessions) and ongoing evaluation of the reality versus imagined nature of changes.\n\nDifferentiator variable names:\ndifferentiator_01_name: feelings_thoughts_bandwidth\ndifferentiator_02_name: placebo_dose_uncertainty\ndifferentiator_03_name: somatic_sensation_tracking\ndifferentiator_04_name: task_monitoring_strategy\ndifferentiator_05_name: social_boundary_reserve\ndifferentiator_06_name: relationship_ethics_planning\ndifferentiator_07_name: moderated_affect_mdma\ndifferentiator_08_name: context_environment_sensitivity\ndifferentiator_09_name: family_systems_reflection\ndifferentiator_10_name: post_session_integration",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 4140,
+        "prompt_tokens": 14494,
+        "total_tokens": 18634,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 3008,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

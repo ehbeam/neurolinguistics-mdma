@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChM5DiDMYfK8PL4to0CACftJv5407",
+    "created": 1764449027,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Sociable, touch-seeking openness: High participants present as highly sociable, friendly, and eager for physical affection and connection. They repeatedly describe themselves as \u201copen,\u201d \u201cfriendly,\u201d and \u201ceven more sociable,\u201d and explicitly crave human touch, hugs, and close connection, often worrying only about not making others uncomfortable with their enthusiasm. In contrast, low-group participants more often report social anxiety, shyness, reluctance to impose, and uncertainty about expressing themselves, suggesting a more restrained interpersonal stance and lower comfort with immediate intimacy or tactile connection.\n\n2. Pharmacology and mechanism curiosity: High participants actively discuss neurotransmitters, receptor targets, and named compounds and researchers. They ask detailed questions about serotonin vs. dopamine, SSRIs, CB2, and Shulgin, and reference contemporary clinical research, demonstrating scientific curiosity and literacy about the drug\u2019s mechanisms and effects. Low-group participants rarely engage this level of mechanistic inquiry, focusing more on subjective feelings, situational comfort, and personal narratives rather than neurobiological or pharmacological details.\n\n3. Study-design metacognition and skepticism: High participants analyze task structure, probe for hidden motives, and explicitly consider bias, randomness, and test purposes. They reference behavioral economics (e.g., Kahneman), hypothesize ulterior tests, and question whether certain buttons or stimuli serve real measurement goals versus keeping them engaged\u2014showing strong meta-analytic thinking about the study itself. Low-group participants predominantly describe their performance challenges and momentary confusion (e.g., reflections, double vision) without sustained meta-level scrutiny of the experimental design or its potential biases.\n\n4. Deliberate self-regulation via breath and somatic check-ins: High participants emphasize active self-regulation strategies\u2014controlling breathing, releasing tension, grounding, and \u201ccollecting\u201d themselves\u2014especially under MRI stress or rising anxiety. They articulate a clear coping toolkit, link it to prior knowledge (e.g., panic attacks), and repeatedly use breath control to restore focus and comfort. Low-group participants more often describe being overwhelmed by feelings, needing movement breaks, or effortfully \u201cbringing themselves back\u201d to the task without detailing consistent, intentional somatic techniques or structured regulation practices.\n\n5. Transcendent framing and psychedelic sense-making: High participants contextualize MDMA within a broader psychedelic and existential framework\u2014merging self with environment, discussing \u201crespect\u201d for shrooms, introspection, and distinguishing MDMA from classic psychedelics while exploring transcendence and meaning. They reflect philosophically on happiness, control, and human experience, often with historical or ethical analogies. Low-group participants seldom elaborate such expansive meaning-making, focusing more on immediate situational comfort, interpersonal dynamics, and practical concerns rather than sustained philosophical integration.\n\n6. Task focus and performance confidence: High participants frequently report enhanced focus and ease (\u201cboom, boom, boom\u201d), finding certain tasks straightforward and manageable even when distractible, and describing clear strategies to stay on task. Low-group participants more often recount difficulties focusing on crosshairs, missing items, being pulled by emotions, visual instability, or confusion about task demands\u2014suggesting lower perceived cognitive clarity and confidence during study tasks.\n\nDifferentiator variable names:\nSociable_Touch_Openness,Pharmacology_Mechanism_Curiosity,Study_Design_Metacognition,Breath_Based_Self_Regulation,Transcendent_Psychedelic_SenseMaking,Task_Focus_Confidence",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 2997,
+        "prompt_tokens": 14494,
+        "total_tokens": 17491,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2240,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

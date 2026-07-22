@@ -1,0 +1,3 @@
+var_x,var_y,n,r_[CI],FDR
+gpt5_open_boundary_openness,audio_predicted_emotion,379,"0.18 [0.10, 0.25]",1.20x10-3**
+gpt5_open_boundary_openness,text_predicted_emotion,379,"0.05 [-0.03, 0.13]",0.34

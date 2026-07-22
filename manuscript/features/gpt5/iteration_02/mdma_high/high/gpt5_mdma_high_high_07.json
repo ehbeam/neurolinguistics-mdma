@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChNKTKk6IGiB7CNhMUy1rrXWqf3ab",
+    "created": 1764453817,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Scientific, research, and neuropharmacology framing: HIGH speakers use scientific language and cite research, while LOW speakers rely on anecdote and uncertainty.\nHIGH participants habitually frame their experiences using technical terms and research logic, referencing serotonin, dopamine receptors, SSRIs, CB2, Shulgin, and even behavioral science (e.g., Kahneman) and clinical protocols. They discuss studies, NIH, and commercialization concerns, and ask mechanism-level questions (\u201cwhy is that?\u201d) that connect subjective effects to neurobiology and methodology. By contrast, LOW participants mostly narrate personal feelings, social situations, and family dynamics, frequently expressing doubt about dose/placebo and offering few mechanistic explanations. This scientific register and evidence-seeking stance sharply differentiates the HIGH group.\n\n2. Study-design metacognition and pattern testing: HIGH speakers actively hypothesize about hidden task structures and study design; LOW speakers rarely do.\nHIGH participants repeatedly infer and test possible \u201culterior\u201d elements of the protocol\u2014order changes (\u201cpeach vs. apple\u201d), psychological flexibility probes, button purpose, even room-temperature consistency\u2014while keeping a non-negative, curious tone. They monitor for bias, randomization, and task intent, treating the session as an experiment to be reverse-engineered. LOW participants seldom propose such covert-structure hypotheses; they mainly report immediate sensations or performance struggles without meta-level theorizing about why tasks are arranged as they are.\n\n3. Breath-based self-regulation and cognitive control: HIGH speakers quickly self-regulate via breath and reframing; LOW speakers report overwhelm without a clear method.\nWhen anxious or tense, HIGH participants describe recognizing bodily cues (toe curling, hyper-awareness) and deliberately grounding through breath, self-talk, and cognitive reframing (\u201ccollect myself,\u201d \u201ccontrol what I can\u201d). They generalize this skill with powerful analogies (e.g., Holocaust journals finding control in breath) and apply panic-attack de-escalation techniques. In contrast, LOW participants more often recount being flooded by feelings or distracted, occasionally trying to \u201cbring myself back,\u201d but without a consistent, articulated protocol for rapid state regulation and recovery.\n\n4. Prosocial empathy with boundary awareness: HIGH speakers show amplified empathy and sociability with explicit boundary checking; LOW speakers center their own dilemmas.\nHIGH participants expect heightened empathy, mirroring, and desire for touch and connection, yet they carefully consider others\u2019 comfort and consent (\u201cI didn\u2019t want to make you uncomfortable,\u201d \u201cI\u2019m an open book\u201d). They frame MDMA as an \u201cempathy drug,\u201d emphasize bonding, and calibrate behavior to context and roles. LOW group members discuss relationships extensively yet focus on their own emotional processing, guilt, or plans; their prosocial content is less about in-the-moment attunement and boundary-checking with others and more about their internal conflicts and decisions.\n\n5. Drug taxonomy and comparative models: HIGH speakers compare drug classes and mechanisms precisely; LOW speakers describe effects without taxonomic framing.\nHIGH participants distinguish MDMA from psychedelics conceptually and phenomenologically (\u201cnot a psychedelic per se\u201d), contrast MDMA with psilocybin\u2019s introspective qualities, and relate expected sensory/cognitive features (e.g., narrowed periphery) to those models. They also differentiate party vs. intentional therapeutic settings and tie effects to neurotransmission. LOW participants report how they felt (warmth, jaw tension, sociability) or personal meaning shifts, but seldom situate those effects within a coherent taxonomy of substances or mechanisms.\n\n6. Strategic task focus and confidence under load: HIGH speakers articulate task strategies and confidence under load; LOW speakers describe distraction, confusion, and misses.\nHIGH participants describe specific strategies (e.g., how they matched faces, maintained attention during \u201cepiphanies,\u201d rated intensity), anticipate reaction times, and evaluate task utility with insight into biases. They notice when attention drifts and recount how they refocused, often reporting tasks felt \u201ceasier\u201d or net positive despite challenges. LOW participants frequently report missing cues, confusing stimulus categories (faces vs. shapes), struggling with crosshairs and reflections, or being overwhelmed by feelings that displace task performance, and they question whether dose/placebo drove these difficulties.\n\n7. Research engagement and action orientation: HIGH speakers link insights to research, policy, and action; LOW speakers keep reflections personal and situational.\nHIGH participants discuss reaching out to PIs, scaling studies, societal control and commercialization (e.g., Compass Pathways), and implications for depression/PTSD therapy\u2014moving from insight to concrete next steps. They critique and support institutional processes, recommend study enlargement, and situate their experience in broader scientific and societal contexts. LOW participants tend to convert insights into personal conversations or relationship plans; while meaningful, these are less connected to advancing research, policy, or field-building.\n\nDifferentiator variable names:\nscientific_framing_neuro_lingo,study_design_metacognition,breath_based_self_regulation,prosocial_empathy_boundaries,drug_taxonomy_comparisons,task_strategy_focus_confidence,research_action_orientation",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 3595,
+        "prompt_tokens": 14494,
+        "total_tokens": 18089,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2560,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

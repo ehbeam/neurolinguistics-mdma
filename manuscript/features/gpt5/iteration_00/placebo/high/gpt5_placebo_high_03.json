@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChLt52RYyQvkT9oSr9stkTdznRJWp",
+    "created": 1764448275,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Dreamlike Sensory Amplification: HIGH report bright colors, foggy vision, dreamlike reality, and heightened skin sensations; LOW emphasize clear, realistic perception and minimal sensory change. HIGH participants repeatedly describe brighter colors, blurred/foggy vision, and \u201cpleasant dream\u201d feelings while maintaining reality testing, alongside detailed somatic awareness (e.g., sensitive skin, jaw clench, pupil dilation, heart rate). They often notice and speculate about bodily changes in real time. In contrast, LOW participants stress that \u201cthings are quite real,\u201d resist dreamlike interpretations, and frequently deny color changes or dissociation, characterizing their experiences as clear-headed with only mild sensations like lightness or tingling.\n\n2. Autobiographical Narrative Density: HIGH produce detailed, named, time-anchored personal stories; LOW offer abstract, task-centered reflections with fewer specifics. HIGH transcripts are rich with proper names, places, timelines, and relationship histories\u2014exes named, venues (\u201cBank at the Midway\u201d), travel (\u201cPeace Corps in Sierra Leone\u201d), identity connections (\u201cboth Salvadorian\u201d), and vivid life anecdotes (e.g., Yosemite photo), often woven into reflections on the session. LOW participants more often generalize about emotions, anxiety, and \u201cbandwidth\u201d or lanes for feeling/thinking, with briefer, less elaborated stories; when they do share examples, they tend to be succinct and serve to illustrate internal states rather than extended biographical narratives.\n\n3. Study Meta-Awareness and Boundary Sensitivity: HIGH analyze study design, confounds, caffeine effects, and professional boundaries; LOW seldom frame their experience this way. HIGH participants frequently reason about methodology (placebo effects on surveys, MRI sleep confounds), pharmacology (caffeine aiding MDMA metabolism), and how professional dynamics and mistrust in the setting alter their behavior (becoming \u201chermetic,\u201d noting staff \u201cnot buddy-buddy\u201d). They explicitly monitor performance and adjust to perceived study constraints. LOW participants occasionally ask procedural questions but primarily focus on their internal clarity, reduced anxiety, and social openness, rarely attributing their experience to study design or boundary dynamics.\n\nDifferentiator variable names:\ndreamlike_sensory_amplification, autobiographical_narrative_density, study_meta_awareness_boundary_sensitivity",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 3864,
+        "prompt_tokens": 12391,
+        "total_tokens": 16255,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 3392,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

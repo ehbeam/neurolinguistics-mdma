@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChM3asp2lYjKjxMfHzRJHHSzRUAPp",
+    "created": 1764448926,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Meta-analytic, research-oriented mindset: High-group participants frequently theorize about tasks, biases, and neurochemistry, linking their experiences to research designs and broader societal context. Participants in the HIGH group repeatedly step back to analyze the study itself\u2014questioning task motives, randomness, and measurement validity\u2014while invoking concepts like behavioral biases (e.g., Kahneman), protocol control, and pharmacology (serotonin, SSRIs, Shulgin/CB2). They connect their in-the-moment experiences to clinical evidence (PTSD/depression), ethics, commercialization, and policy, often forming hypotheses about what the researchers are testing. This meta-cognitive style includes comparing drug classes and settings, critiquing societal regulation, and seeking out primary research or PIs, showing a sustained, intellectualized engagement that goes beyond personal sensations. LOW group participants, by contrast, focus primarily on immediate feelings, relationships, and task performance without extensive theory-building or research framing.\n\n2. Deliberate self-regulation and grounding: High-group participants actively manage their internal state with breathing, tension-release, and cognitive reframing to maintain focus and emotional balance. The HIGH group consistently describes noticing rising anxiety or distraction and then applying concrete techniques\u2014controlled breathing, body scanning, releasing tension, and reframing\u2014to re-center and continue the task comfortably. They articulate a resilience mindset (e.g., \u201cvalleys and hills,\u201d focusing on controllables) and quickly translate it into action in the scanner, using breath as the first-line tool for stability and clarity. This proactive regulation reduces discomfort, sharpens attention, and sustains sociability without becoming overwhelmed. LOW group participants more often report being swept up by feelings, needing movement or breaks, or toggling between \u201clanes\u201d of feeling and thinking, with fewer explicit, structured self-regulation strategies.\n\nDifferentiator variable names:\nmeta_analytic_mindset, deliberate_self_regulation",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 2005,
+        "prompt_tokens": 14494,
+        "total_tokens": 16499,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 1600,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

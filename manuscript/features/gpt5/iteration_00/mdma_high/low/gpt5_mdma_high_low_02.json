@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChLyMMXrItylKAoV2vTC9nEYgwkZA",
+    "created": 1764448602,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Boundary-conscious relational introspection: LOW participants deeply process relationships and emotions while stressing non-imposition, consent, and measured, transparent communication.\nLOW-group speakers repeatedly dwell on intimate ties and family dynamics, using the drug experience to scrutinize boundaries, responsibility, and how to share feelings without burdening others. They plan delicate conversations (e.g., proposals, open-relationship terms), request confidentiality, and emphasize not \u201cinserting\u201d themselves into others\u2019 lives, wanting to be supportive without overstepping. This boundary mindfulness extends to broader social behavior (not wanting to impose feelings, carefully calibrating what to express), even when feeling more open. In contrast, HIGH-group speakers lean into outward sociability and physical affection (hugs, touch) and \u201copen book\u201d sharing, mentioning concern about others\u2019 comfort but not the persistent, deliberative boundary-setting and non-imposition themes that dominate the LOW narratives.\n\n2. Cautious, self-monitoring experiential stance with muted euphoria: LOW participants carefully track bodily and mental states, doubt or qualify their effects, and more often report mellow or ambivalent\u2014rather than euphoric\u2014experiences.\nLOW-group accounts are marked by ongoing self-checking (sweaty palms, jaw clenching, temperature shifts, visual oddities, muscle sensations), frequent dose/placebo uncertainty, and real-time effort to balance \u201cfeeling\u201d versus \u201cthinking\u201d lanes. They wonder if they\u2019re making sensations up, whether the setting blunts effects, and note being \u201cnot as chatty,\u201d \u201cmore mellow,\u201d or lacking the \u201chappiest ever\u201d MDMA euphoria some report. Even during tasks, they describe strategy adjustments and acceptance over competitiveness (\u201ctrying my best\u201d) while toggling attention between feelings and performance. HIGH-group speakers, by comparison, project confident expectations of empathic, tactile euphoria and apply top-down control (e.g., breath regulation) without the same persistent ambivalence about whether and how the drug is working.\n\nDifferentiator variable names:\nboundary_conscious_relational_introspection, cautious_self_monitoring_muted_euphoria",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 3126,
+        "prompt_tokens": 14494,
+        "total_tokens": 17620,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2688,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

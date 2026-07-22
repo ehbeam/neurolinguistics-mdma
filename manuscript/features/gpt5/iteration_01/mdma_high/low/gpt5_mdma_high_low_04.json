@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChMv5DrMvrshFoI7IgygwZLn9StwR",
+    "created": 1764452243,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Metacognitive Uncertainty and Self-Monitoring: LOW participants frequently hedge, question placebo or dose, and narrate continuous body checks, attention shifts, and comparisons across sessions.\nLOW transcripts are saturated with meta-commentary about what is happening internally and why: they wonder if effects are placebo or dose-dependent, compare \u201clast time\u201d versus \u201cthis time,\u201d and model their mind in \u201clanes\u201d of feeling versus thought. They track moment-to-moment interoceptive signals (jaw clenching, sweaty palms, tingling, chills/heat, vision shifts, muscle soreness) and continually test hypotheses about task performance and setting effects (e.g., lab constraints, reflections on screens, earplugs). In contrast, HIGH speakers tend to deliver more assured narratives, external theorizing (neurobiology, policy), or breath-based coping, rather than persistent self-doubt and fine-grained internal auditing.\n\n2. Non-imposition and Social Restraint: LOW participants emphasize not imposing on others, introversion, and careful boundary-setting in relationships, disclosures, and touch.\nLOW speakers repeatedly state a preference to \u201cnot impose,\u201d hold back socially in the lab, and manage their openness deliberately; they discuss being introverted, feeling out of place, and consciously limiting behaviors (e.g., touch, \u201cspooning\u201d) due to context. Their interpersonal narratives center on ethical communication and boundaries\u2014transparent discussions of open relationships, proposal planning, asking for confidentiality, and calibrating what to share with family or partners. By contrast, HIGH participants lean toward expansive sociability (desiring hugs, close contact, festival energy, being an \u201copen book\u201d), even while acknowledging concern about others\u2019 comfort.\n\n3. Attentional Filtering under Emotional Load: LOW participants actively filter emotional stimuli and devise strategies to protect task performance when feelings surge.\nLOW accounts describe intentionally diverting gaze from faces, focusing on neutral anchors (e.g., a white triangle), and \u201cbringing myself back\u201d when feelings threaten performance; they accept errors without derailment and explicitly balance cognition and affect. They articulate how strong feelings can \u201ctake the lane,\u201d forcing compensatory control to complete tasks. HIGH speakers mention focus, but are more likely to be pulled into epiphanies, meta-speculation about hidden test motives, or external frameworks, rather than detailing emotion-avoidance tactics to preserve performance.\n\n4. Muted Euphoria with Heightened Interoception and Context Sensitivity: LOW participants show muted euphoria but heightened interoception and context sensitivity, detailing bodily sensations and environmental comfort.\nLOW transcripts repeatedly report \u201cmore mellow\u201d effects and not reaching peak \u201chappiest ever\u201d states; instead they elaborate precise bodily and sensory changes (teeth chattering, jaw movement, tingling, temperature shifts, sweaty palms, vision wobble/doubles, textures of floors/wood, stretching). They are acutely sensitive to setting (blankets, room temperature, lab constraints, MRI coziness) and note how context modulates expression of effects. HIGH participants, in contrast, foreground exuberant sociability (music, hugs, empathy), confident state management via breath, and broad descriptors, with less granular somatic detailing.\n\nDifferentiator variable names:\nmeta_uncertainty_self_monitoring, social_nonimposition_restraint, attentional_filtering_task_focus, muted_euphoria_interoceptive_focus",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 3768,
+        "prompt_tokens": 14494,
+        "total_tokens": 18262,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 3072,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

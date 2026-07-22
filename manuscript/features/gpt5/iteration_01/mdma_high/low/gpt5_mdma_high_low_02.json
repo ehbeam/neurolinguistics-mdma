@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChMHQ5KGwpkjJ9b9F8IOJ5sblQO7B",
+    "created": 1764449784,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Imposition Sensitivity and Social Reservation: Low-group participants habitually restrain expression to avoid imposing, showing social anxiety and context-driven inhibition, unlike the high group's confident, touch-seeking sociability.\nLow-group transcripts repeatedly foreground worry about \u201cimposing\u201d on others, being \u201ca hardcore introvert,\u201d and feeling constrained by formal settings (\u201cin a lab with researchers, so I\u2019m holding back\u201d). They second-guess whether feelings are \u201cokay to express,\u201d report being \u201cshy at work,\u201d and describe comfort increases as notable shifts from a baseline of social self-censorship. Even intimate disclosures are framed through careful boundary management and fear of pressuring others (e.g., open-relationship negotiations, proposal planning, updating family without overstepping). In contrast, high-group participants present a default of uninhibited sociability\u2014craving touch, hugging, being \u201can open book\u201d\u2014and, while acknowledging not wanting to make staff uncomfortable, they do not show the same persistent suppression or imposition anxiety.\n\n2. Emotion-Dominant Processing with \u201cFeelings vs Thoughts\u201d Lane Framing: Low-group participants emphasize emotions overtaking cognition, describing \u201clanes\u201d of feeling vs thinking and reporting task interference and uncertain euphoria.\nLow-group speakers richly metacognize their experience as competing \u201clanes\u201d for feelings and thoughts, often noting emotions \u201coverwhelming\u201d cognition and \u201cgoing away and coming back\u201d to tasks, missing items, or diverting gaze. They discuss an \u201cadditional lane of feeling\u201d opened by MDMA, wonder whether it persists post-session, and frequently question dose/effect authenticity (\u201cmaybe placebo,\u201d \u201cI still don\u2019t know if I\u2019m taking Molly\u201d), alongside reporting muted or absent euphoria. They narrate bodily salience (jaw clenching, warmth) but center emotional inundation as the primary driver of attention. High-group participants, by contrast, more often adopt external control strategies (e.g., breathing to re-focus), describe tasks as \u201ceasy\u201d or manageable, and frame the experience through neurochemistry/research lenses rather than prolonged emotional interference with cognition.\n\nDifferentiator variable names:\nimposition_sensitivity_social_reservation, emotion_dominant_lane_processing",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 2830,
+        "prompt_tokens": 14494,
+        "total_tokens": 17324,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2368,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

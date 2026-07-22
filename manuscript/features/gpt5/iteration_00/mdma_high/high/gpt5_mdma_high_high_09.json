@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChM6qmCBxTa4j1krRHdNSuIJpsKX8",
+    "created": 1764449128,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Expansive Social Openness and Friendliness: High participants consistently present as sociable, warm, and eager to connect through conversation, hugs, and shared experiences. They self-identify as open, friendly, and \u201can open book,\u201d anticipate dilated eyes and mirroring others\u2019 reactions, and describe festival-like, hug-heavy interactions as desirable even in study settings. In contrast, low participants often note shyness, social anxiety, feeling less chatty, or reluctance to impose on others, focusing more on personal boundaries than outward connection.\n\n2. Deliberate Breath-Based Self-Regulation: High participants repeatedly use controlled breathing and body checks to manage anxiety and maintain composure during tasks. They explicitly describe grounding techniques (slow breathing, releasing bodily tension) and reframing anxious moments as manageable, citing panic attack strategies and \u201cstart with breath\u201d as a coping anchor. Low participants more often describe being overwhelmed or distracted and rarely emphasize breath or structured self-regulation in-the-moment.\n\n3. Research-Literate Mechanistic Curiosity: High participants show strong curiosity about pharmacology, study design, and societal regulation of psychedelics. They reference Daniel Kahneman and cognitive biases, Shulgin\u2019s molecules (e.g., CB2), serotonin versus dopamine mechanisms, NIH protocols, and commercialization (e.g., Compass Pathways), and openly analyze task structure and potential biases. Low participants focus primarily on personal reflections (e.g., relationships, life history) and uncertainty about dosing outcomes, with limited mechanistic or policy-level discussion.\n\n4. Empathic, Other-Oriented Attention: High participants actively attend to others\u2019 feelings, mirror reactions, and aim to ensure others\u2019 comfort and enjoyment. They call MDMA \u201cthe empathy drug,\u201d want to ensure researchers are comfortable, plan to bond and \u201cbounce epiphanies\u201d with friends, and monitor others\u2019 experiences as part of their own. Low participants often center inward\u2014on their emotional processing lanes, comfort, and personal dilemmas\u2014occasionally theorizing about empathy but showing less overt other-focused behavior in the moment.\n\n5. Resilient Positive Reframing: High participants interpret challenges as transient \u201cvalleys,\u201d emphasize net positives, and focus on what is controllable. They describe discomforts as temporary, use metaphors (\u201chills and valleys\u201d), invoke historical examples of finding solace amid hardship, and consistently pivot to action (control breath, collect oneself). Low participants more frequently express doubt, mixed or muted euphoria, and second-guessing (placebo versus dose), and they do less active reframing toward net positive narratives.\n\n6. Sensory Attunement with Touch Craving: High participants report hyper-awareness of internal sensations and a strong desire for human touch without distress. They note peripheral vision changes, sweaty palms, and heightened touch pleasure, frame sensations as \u201cmore strange than disconcerting,\u201d and actively seek tactile engagement. Low participants report bodily sensations mainly as distractions or discomfort (jaw clenching, tingling, movement urges) and often attribute them to environment or task interference rather than desired connection.\n\n7. Intentional Setting and Use Philosophy: High participants articulate thoughtful preferences for intentional, non-festival contexts and respect drug-specific qualities. They describe moving beyond party environments into \u201cintentional space,\u201d emphasize respecting shrooms as highly introspective, and discuss how set and setting inform outcomes. Low participants remark on laboratory constraints and imagined alternatives but provide fewer principled, drug-specific use philosophies or articulated setting strategies.\n\n8. Boundary Awareness and Contextual Politeness: High participants balance sociability with careful respect for boundaries and appropriateness, especially in clinical contexts. They explicitly modulate behavior to avoid making staff uncomfortable (e.g., restraining hugs, acknowledging male identity and context), showing prosocial restraint in tandem with openness. Low participants also mention not wanting to impose, but the emphasis is more on self-protective withdrawal or hesitation; highs demonstrate intentional, context-sensitive adaptation while maintaining engagement.\n\n9. Meta-Task Analysis and Cognitive Flexibility: High participants examine task purpose, patterns, and potential biases while maintaining performance focus. They question order changes, randomness, and the functional role of buttons or faces, yet report ease and refocusing when necessary. Low participants more often describe distraction or confusion (e.g., crosshair focus, missed items, visual reflections) and toggling between \u201clanes,\u201d with less evidence of analyzing task design while sustaining consistent performance.\n\nDifferentiator variable names:\ndifferentiator_01_name: social_openness\ndifferentiator_02_name: breath_self_regulation\ndifferentiator_03_name: research_literate_curiosity\ndifferentiator_04_name: empathy_orientation\ndifferentiator_05_name: resilient_reframing\ndifferentiator_06_name: sensory_touch_attunement\ndifferentiator_07_name: setting_intentionality\ndifferentiator_08_name: boundary_awareness\ndifferentiator09_name: meta_task_analysis",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 4741,
+        "prompt_tokens": 14494,
+        "total_tokens": 19235,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 3712,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

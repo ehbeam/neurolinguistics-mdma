@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChLztnO2ApbtvMVMq3IANjJlDrxLe",
+    "created": 1764448697,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Channelized Emotion-Thought Bandwidth: LOW participants portray feelings and thinking as competing \u201clanes,\u201d with emotions often overtaking cognition and requiring deliberate re-centering. They repeatedly describe their mental capacity as split into a \u201cfeelings lane\u201d versus a \u201cthinking lane,\u201d wondering whether MDMA adds bandwidth or reallocates it. When feelings surge, they report drifting from tasks, missing items, or needing to \u201cbring themselves back,\u201d contrasting with their more competitive, tightly focused baselines. They narrate the experience as managing noise versus signal (e.g., the \u201cwhite triangle\u201d), using self-talk to guide thoughts, and accepting decreased task investment in favor of processing internal states. Across sessions, they note variability\u2014sometimes overwhelmed and fast-talking, other times calmer and able to process\u2014yet the central motif is a tug-of-war between affect and cognition.\n\n2. Non-Imposition and Boundary Sensitivity: LOW participants emphasize not imposing on others and carefully calibrate disclosure to protect others\u2019 comfort and autonomy. They stress giving others the same courtesy of non-intrusion they want for themselves, critique family members who \u201cinsert themselves,\u201d and worry about burdening loved ones with their feelings or plans. In the lab, they hold back physical affection or expression because it might be \u201cnot kosher,\u201d and they explicitly request confidentiality to avoid consequences for partners. Their openness is paired with consent and choice\u2014e.g., discussing open relationships without pressure\u2014and with a cautious, considerate social stance that reduces their chatty or tactile expression in structured settings.\n\n3. Somatic Comfort-Seeking and Micro-Sensory Attunement: LOW participants display heightened attention to bodily sensations and environmental comforts, using movement, texture, and temperature to regulate state. They richly describe jaw clenching, tingling, sweaty palms, warmth versus chills, and the relief of stretching or self-massage; they savor the blankets, \u201ccozy\u201d MRI, floor texture, wood grain, and even shoe/no-shoe differences. They notice visual quirks (reflections, doubles) and attribute state changes to earplugs, chairs, or room temperature, often moving or breathing differently between scans to \u201cget it out.\u201d This micro-sensory tracking links directly to their ability to focus and feel good, with comfort-seeking behaviors serving as active regulation strategies.\n\n4. Relationship-Centered Reflection and Caregiving Orientation: LOW transcripts are saturated with detailed, practical narratives about family roles, partner plans, and how to care for others well. They sketch multi-step plans to propose after a long separation, debate open relationship boundaries with explicit consent, and define the kind of uncle, parent, or partner they aspire to be. They recount formative family dynamics (e.g., an absent, exhausted father; a frugal brother) and rehearse conversations to support loved ones, including protecting a niece\u2019s safety and autonomy. Work and achievement are reframed around relational well-being and presence, prioritizing honest communication and caregiving over status or competitive performance.\n\n5. Dose and Effect Uncertainty with Active Self-Monitoring: LOW participants frequently question dosing and effect origins, continually self-checking sensations and entertaining placebo explanations. They wonder if a higher dose would change talkativeness, whether expectations \u201cmanifested\u201d feelings, or if lab constraints muted typical effects. Moment-to-moment readings\u2014palpitations as \u201csignals,\u201d sweaty palms, vision changes, hamstring soreness\u2014prompt attributional toggling among drug, setting, equipment, or even shoes. This vigilant monitoring coexists with holding multiple hypotheses at once, reflecting a persistent ambiguity about what\u2019s drug-driven versus context-driven.\n\nDifferentiator variable names:\ndifferentiator_01_name: emotion_thought_channelization\ndifferentiator_02_name: boundary_sensitivity_non_imposition\ndifferentiator_03_name: somatic_microsensory_attunement\ndifferentiator_04_name: relationship_caregiving_focus\ndifferentiator05_name: dose_effect_uncertainty",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 3703,
+        "prompt_tokens": 14494,
+        "total_tokens": 18197,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2880,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

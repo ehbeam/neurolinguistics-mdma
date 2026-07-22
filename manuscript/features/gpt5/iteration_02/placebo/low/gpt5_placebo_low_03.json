@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChN434TzyklTSkhupLB49RkuRBEK3",
+    "created": 1764452799,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Analytic Metacognitive Framing: LOW participants narrate experiences through analytic models, metacognition, and study mechanics, prioritizing thinking over feeling.\nThey repeatedly frame their state using cognitive constructs (utility functions, bandwidth, \u201clanes,\u201d compartmentalization) and scrutinize methods (placebo, randomization, survey wording, appropriateness of items like dissociation). Their discourse centers on how they allocate mental resources, how MDMA affects \u201cprocessing\u201d rather than emotions per se, and how setting and conditioning shape outcomes. They compare their reactions to friends\u2019 reports, interrogate whether effects are environment-driven, and seek to integrate insights with therapy and life operations. This systemizing, reflective stance is far more prominent than in the HIGH group, which speaks in experiential, affective, and sensory terms.\n\n2. Reality-Anchored Emotional Access: LOW participants feel clear-headed and sober, with MDMA unlocking existing emotions without dreaminess, dissociation, or notable sensory distortion.\nThey emphasize that MDMA lets them access and express emotions they already have, in \u201cthis world,\u201d without feeling intoxicated or unreal; mental focus remains intact even if visual focus occasionally blurs. They explicitly reject dissociation and dream-like interpretations, often noting no color changes and describing time as simply less noticed rather than altered. Intoxication is defined as loss of control\u2014which they say MDMA does not cause\u2014while clarity and sober self-monitoring increase. This contrasts with HIGH participants\u2019 reports of foggy, dreamy vision, brighter colors, and more pronounced bodily sensations.\n\n3. Boundary-Conscious Measured Sociability: LOW participants are highly open and talkative yet carefully boundary-aware, qualifying sociability as reciprocal and avoiding overstepping or encroachment.\nThey become chatty, less defensive, and more emotionally expressive, but remain vigilant about professionalism and consent (e.g., worrying about hugging sober staff, respecting others\u2019 space). Sociability is defined as two-way\u2014listening and receiving are as important as speaking\u2014and friendliness is framed as acceptance rather than exuberant touchiness. They prefer secure settings, seek therapists they intellectually respect, and modulate openness based on context (group vs. one-on-one). In contrast, HIGH participants more often describe unrestrained affectionate impulses (wanting to hug everyone) with less focus on boundaries.\n\nDifferentiator variable names:\nanalytic_metacognitive_framing,reality_anchored_emotional_access,boundary_conscious_measured_sociability",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 2949,
+        "prompt_tokens": 12392,
+        "total_tokens": 15341,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2432,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

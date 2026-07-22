@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChNK6swUz38UyDpJ4E9lOdqn0pyzb",
+    "created": 1764453794,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Neurobiological fluency: High participants frequently reference neurotransmitters, receptors, and named compounds when interpreting their experiences. They talk in detail about serotonin, dopamine, SSRIs, CB2, Shulgin, and even NIH protocols, using scientific language to frame their observations and questions. This scientific literacy lets them hypothesize mechanisms (e.g., serotonin \u201ccrashes,\u201d receptor differences, contraindications) and connect personal sensations to neurochemical models. Low participants focus on how they feel and function without invoking neurobiology, rarely naming molecules or research literature.\n\n2. Meta-experimental reasoning: High participants analyze task design, biases, and hidden structures rather than just performing tasks. They infer \u201culterior tests,\u201d notice order changes (\u201capple vs peach\u201d), question whether the button press has a real function, critique the money task\u2019s bias, and cite Kahneman\u2019s work on cognitive biases. This pattern-seeking, hypothesis-testing stance treats the session as an experiment they are actively modeling. Low participants describe task performance, comfort, and errors, but seldom interrogate the experiment\u2019s structure or propose alternative interpretations.\n\n3. Breath-based self-regulation and resilience: High participants repeatedly use intentional breathing and somatic checks to manage anxiety and discomfort. They recount releasing muscle tension, grounding with breath in the MRI, reframing difficult moments as \u201cvalleys\u201d to traverse, and drawing analogies to panic-attack protocols and historical resilience. This shows a practiced, explicit strategy for regaining control. Low participants report being overwhelmed or needing to \u201cbring myself back,\u201d but rarely describe systematic techniques; their regulation is more reactive and less codified.\n\n4. Empathic sociability with boundary awareness: High participants emphasize sociability, touch, and empathy while explicitly managing consent and others\u2019 comfort. They anticipate craving hugs, mirroring reactions, connecting outside party contexts, and present themselves as \u201copen books,\u201d yet also worry about making researchers uncomfortable and respect boundaries. Low participants discuss sociability variably (often as introverts or feeling chatty), with more concern about not imposing or pulling back; the high group shows both stronger pro-social drive and clearer boundary calibration.\n\n5. Comparative psychopharmacology and phenomenology: High participants situate the experience among other drugs and states, contrasting MDMA with psilocybin, psychedelics, dissociation vs. transcendence, festival vs. intentional settings, and quantifying intensity (e.g., \u201c7.5 compared to Tame Impala\u201d). They articulate perceptual nuances (peripheral narrowing, tunnel-like vision) and conceptualize how different compounds elicit different cognitive-emotional profiles. Low participants rarely make cross-drug comparisons or phenomenological taxonomies; their accounts remain local to the current session and personal life contexts.\n\n6. Research-and-industry systems orientation: High participants think beyond the session to the ecosystem\u2014PIs to contact, NIH protocols, study enlargement, and the role of public companies like Compass Pathways and capitalism in shaping access. They evaluate societal control of drugs and the ethics of monetization while affirming research value. Low participants may mention MAPS or therapy in passing, but do not engage deeply with the research/industry landscape or its strategic implications.\n\nDifferentiator variable names:\nneurobio_fluency, meta_task_reasoning, self_reg_breathing, prosocial_with_boundaries, comparative_drug_framing, research_systems_thinking",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 2241,
+        "prompt_tokens": 14494,
+        "total_tokens": 16735,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 1536,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

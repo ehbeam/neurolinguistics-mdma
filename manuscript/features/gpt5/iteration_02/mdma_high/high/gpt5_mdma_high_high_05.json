@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChNJdMUbYxVutOOsWg74jnINRM8HY",
+    "created": 1764453765,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Mechanistic-Research Framing: High participants interpret their experiences through neurochemistry, clinical research, and literature rather than everyday feeling language. They frequently reference neurotransmitters (serotonin, dopamine), drug classes (SSRIs, psilocybin, MDMA), specific molecules (CB2), and researchers/institutions (Shulgin, NIH, MAPS), and even societal forces (capitalism\u2019s role in psychedelics). This scientific lens shapes their narratives, questions, and expectations during tasks. In contrast, low participants largely describe sensations, relationships, and personal contexts with minimal mechanistic or scholarly framing.\n\n2. Meta-Task Inference and Pattern-Seeking: High participants actively hypothesize hidden motives, experimental manipulations, and patterns beyond task instructions. They notice order changes, question whether buttons have purpose, infer \u201cpsychological flexibility\u201d tests, and see nonrandom contingencies (e.g., staff origin coincidences), often labeling this as \u201cnot negative paranoia.\u201d Low participants generally engage the tasks at face value, noting performance issues (missed items, visual reflections) without building layered, ulterior-test theories.\n\n3. Intentional Self-Regulation via Breathing and Body Checks: High participants regularly deploy explicit strategies (breath control, releasing tension, cognitive refocusing) to manage anxiety and maintain performance. They ground themselves, monitor bodily tension (e.g., toes curling), and frame difficult moments as valleys to navigate through controlled breathing and attention. Low participants more often report being overwhelmed, toggling between \u201cfeeling\u201d and \u201cthinking,\u201d or drifting focus, without naming concrete, repeatable regulation techniques.\n\n4. Empathic Social Attunement with Boundary Awareness: High participants emphasize outward empathy, mirroring others, and craving connection and touch, while simultaneously monitoring appropriateness and others\u2019 comfort. They discuss \u201cthe empathy drug,\u201d bonding intentions, and refrain from hugs to respect boundaries and social roles, often checking whether interactions might make others uncomfortable. Low participants are certainly emotional and relational, but their focus centers more on their own feelings, confidentiality concerns, and not imposing, with less real-time boundary calibration and mirroring.\n\n5. Abstract, System-Level Analogy and Philosophy: High participants generalize personal experiences into broad analogies and system-level reflections (e.g., depression as \u201cbad trips,\u201d breathing as agency under extreme historical hardship, commercialization of psychedelics, transcendent unity vs. dissociation). They connect the session to cognitive biases (Kahneman), policy, and societal control of drugs. Low participants tend to stay concrete and localized\u2014work routines, family dynamics, bodily sensations\u2014rarely elaborating into historical, philosophical, or macro-level frames.\n\nDifferentiator variable names:\nscientific_mechanistic_reasoning, meta_task_inference, breath_based_self_regulation, empathic_attunement_boundaries, abstract_system_level_framing",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 3287,
+        "prompt_tokens": 14494,
+        "total_tokens": 17781,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2688,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChNCRlM04LPRI5PU0jF0NyNGyiJtn",
+    "created": 1764453319,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Pro-social physical affection: HIGH participants show strong, spontaneous impulses to hug, touch, and actively support others; LOW participants are sociable but boundary-conscious and cautious. HIGH transcripts repeatedly emphasize wanting to hug everybody, touch others, listen, and offer support, describing warm, tactile connection as central to their experience. They also initiate affectionate, nonsexual bonds (e.g., emphasizing unconditional friendship). In contrast, LOW participants frame sociability as talkativeness and listening, often worrying about encroaching on others\u2019 space or whether hugging staff would be appropriate. Their warmth is present but tempered by concerns about propriety and setting.\n\n2. Emotional acceptance and positive reframing: HIGH participants quickly allow difficult emotions, then reframe them toward positive meaning and connection; LOW participants intellectualize feelings through bandwidth and \u201clanes\u201d models. When sadness arises, HIGH participants \u201clet myself feel\u201d and shift focus to positives (bonding, growth), showing comfort with affect and rapid integrative insight. LOW participants frequently describe feelings via cognitive allocation (\u201cadditional lane for feeling,\u201d \u201cbandwidth,\u201d compartmentalization), and emphasize that MDMA grants access to preexisting feelings without much qualitative change\u2014more analytical than affective surrender.\n\n3. Sensory amplification and dreamlike perception: HIGH participants report brighter colors, foggy or dreamlike visual quality, and heightened pleasant tactile sensitivity; LOW participants deny color changes, dissociation, or dreamlike states. HIGH transcripts describe \u201cbrighter colors,\u201d \u201cfoggy vision,\u201d \u201cpleasant sensation\u201d on skin, and feeling like reality is a \u201cpleasant dream\u201d while remaining anchored. LOW transcripts emphasize staying in the real world, unchanged colors, and lack of dissociation\u2014often describing only mild physical sensations (light legs, tingling), and distinguishing MDMA from substances that produce altered visual worlds.\n\n4. Hyper-vigilant self-monitoring and performance drive: HIGH participants actively track physiological signs and task performance, pushing to maintain focus and accuracy; LOW participants prioritize feelings over tasks and claim mental clarity without detailed performance tracking. HIGH participants note pupils dilating, jaw clenching, heart rate expectations, and worry about sleep confounding their data, striving to prove they can still perform \u201cat 100%.\u201d LOW participants often assert that mental focus is unaffected, yet describe feeling lanes overtaking tasks, or toggling between feeling and doing without the same meticulous self-measurement.\n\n5. Study-design meta-engagement: HIGH participants critique and propose protocol considerations (e.g., caffeine constraints, placebo arms, environmental mismatch) and reflect on survey interpretation; LOW participants ask many safety and placebo questions from a defensive stance. HIGH transcripts discuss pressed pills with caffeine, suggest inclusion/exclusion criteria around caffeine users, and consider how placebo-first participants affect survey data under lab conditions versus festivals. LOW transcripts seek reassurance, worry about red flags or being labeled, and ask if others mistake placebo for MDMA, but offer fewer constructive design ideas.\n\n6. Unconditional relationship ethos: HIGH participants foreground unconditional friendship and deep bonding beyond sexual motives; LOW participants present sociability as talking and receiving without emphasizing unconditional connection. HIGH transcripts include refusing sex to preserve \u201cunconditional friendship,\u201d and elaborate intimate stories about making love and cultural bonding (e.g., Salvadorian connection). LOW participants describe becoming more open or friendly, hugging more with family post-experience, but do not emphasize explicit principles of unconditional, noncontingent relationship-building.\n\n7. Social initiative and community orientation: HIGH participants initiate plans, invite group outings, and situate experiences in community contexts like festivals; LOW participants are more tentative about social moves and concerned about others\u2019 comfort. HIGH transcripts feature energetic invitations (\u201cwe should all go out\u201d) and reference festival settings as normative MDMA contexts. LOW participants worry about making staff uncomfortable, ask permission-like questions, and modulate sociability to avoid intruding, especially in structured environments.\n\n8. Narrative concreteness over analytic abstraction: HIGH participants communicate with vivid stories and concrete details; LOW participants favor analytical language, models, and abstractions. HIGH narratives include richly specific relationship histories, therapy preferences, and moment-to-moment sensory accounts. LOW participants frequently use conceptual frames (\u201cutility function,\u201d \u201callocation of bandwidth,\u201d \u201cadditional lanes,\u201d \u201ccompartmentalization\u201d), emphasizing meta-cognition over experiential storytelling.\n\n9. Authenticity-seeking amid professional boundaries: HIGH participants are sensitive to staff genuineness and feel constrained by professional dynamics, sometimes becoming guarded; LOW participants derive security from structure and respond with defensiveness rather than authenticity concerns. HIGH transcripts describe discomfort when staff must \u201cact professionally,\u201d wondering if interactions are genuine, and becoming hermetic when mistrust arises. LOW participants emphasize feeling secure because needs are met, yet also describe being defensive on screening topics, focusing on compliance and safety rather than authenticity of relational contact.\n\nDifferentiator variable names:\nprosocial_affection, emotion_reframing, sensory_dreamlike, performance_monitoring, study_meta_engagement, unconditional_friendship, social_initiative, narrative_concreteness, authenticity_boundary_tension",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 4358,
+        "prompt_tokens": 12392,
+        "total_tokens": 16750,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 3328,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

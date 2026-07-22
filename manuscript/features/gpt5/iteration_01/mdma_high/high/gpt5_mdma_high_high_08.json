@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChN1pLu6VhlgpW8ZrucqmtrEfaeLK",
+    "created": 1764452661,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Neurochemical Mechanism Fluency: High participants frequently reference neurotransmitters, receptors, and pharmacology, showing curiosity about how MDMA and related drugs work. High-group transcripts are rich with technical talk about serotonin, dopamine, SSRIs, receptor targets, and specific molecules (e.g., CB2, Shulgin), alongside questions about contraindications and mechanisms. They connect experiential effects to neurobiology and psychopharmacology, and cite research bodies (NIH) and literature (e.g., Kahneman) to frame their thinking. In contrast, low-group speakers largely stay at the level of personal feelings, situational interpretations, or general anecdotes, offering minimal mechanistic discussion. This scientific curiosity and fluency about how the drug works and why bridges their subjective experience with formal knowledge, and it reliably distinguishes the high group\u2019s discourse style.\n\n2. Protocol Meta-Analysis and Pattern-Seeking: High participants dissect study tasks, infer hidden motives, and look for patterns in ordering and design. The high group habitually theorizes about the study\u2019s structure\u2014questioning task purpose, order changes, hidden objectives, and whether elements are designed to test flexibility or bias. They notice specific procedural details (e.g., when a researcher swaps \u201capple\u201d for \u201cpeach,\u201d or why certain faces might be shown) and wonder about ulterior tests and non-randomness. Low-group participants, while describing performance and comfort, seldom attribute deeper experimental motives; they tend to narrate how they did or felt rather than reconstructing the lab\u2019s intent. This meta-cognitive stance\u2014treating the study like a puzzle to reverse-engineer\u2014marks the high group.\n\n3. Breath-Based Somatic Self-Regulation: High participants deliberately use breathing and body scans to reduce tension and regain control during challenging moments. When discomfort or anxiety arises, the high group actively checks their body (e.g., noticing curled toes), releases tension, and centers with controlled breathing. They reference grounding techniques used for panic attacks and emphasize agency: \u201cWhat can I control right now? My breath.\u201d Low-group speakers report being overwhelmed or needing to refocus but rarely describe a specific, practiced regulation method; they more often attribute states to external conditions or simply try to \u201cbring themselves back.\u201d The high group\u2019s explicit, skillful somatic regulation allows them to transform difficult moments into manageable ones, sustaining engagement and insight.\n\n4. High Affiliative Warmth and Touch Orientation with Boundary Awareness: High participants display strong affiliative drive for touch, hugs, and closeness, paired with explicit awareness of social boundaries. The high group repeatedly expresses craving for human connection\u2014hugging, embracing, mirroring others\u2019 reactions, and enjoying communal music/dance contexts\u2014while simultaneously monitoring appropriateness (\u201cI didn\u2019t want to make you uncomfortable,\u201d \u201cI\u2019m a male; I understand my place\u201d). Low-group speakers often note introversion, social anxiety, or holding back due to the lab setting, and worry about \u201cimposing\u201d feelings. The high group couples intense prosocial motivation with situational sensitivity, resulting in warm, outward-focused behavior that is intentionally calibrated to context.\n\n5. Systems-Level Policy and Ethics Reflection: High participants extrapolate to policy, ethics, and commercialization, reflecting on societal control and research governance. Beyond their personal experience, the high group analyzes broader systems: capitalism\u2019s role (Compass Pathways monetization), societal control and regulation, expansion of trials, and protocol leadership at NIH. They consider how research might scale, who decides, and the ethical implications of access and control. Low-group transcripts rarely include system-level commentary; they focus on individual relationships, work-life balance, and immediate settings. The high group\u2019s policy-minded stance and ethical reflection situate their experience within a larger social, economic, and regulatory landscape, signaling macro-level cognition.\n\n6. Referential Storytelling and Named Contexts: High participants anchor stories in named people, places, and events, often drawing cross-domain analogies and references. Names (Gabby, Jenny), places (Sierra Leone, Aptos), bands (Tame Impala), and historical analogies (Holocaust journals, Anne Frank) populate their narratives, which connect present sensations to diverse contexts, including aging eyesight and specific consumer experiences (Costco reading glasses). This referential richness creates layered meaning and provides cognitive scaffolding between personal, cultural, and historical domains. Low-group narratives center more on immediate family dynamics, lab feelings, or daily logistics, with fewer external anchors. The high group\u2019s dense, named storytelling reflects expansive cognitive linking and externalized framing.\n\n7. Analytical Sensory Monitoring and Framing: High participants describe sensory changes precisely and non-judgmentally, often quantifying or categorizing them. They differentiate tunnel-like periphery versus blur, notice temperature baselines (\u201crunning below normal\u201d), track sweat patterns, assign intensity ratings (\u201c7.5\u201d), and make clear distinctions (e.g., MDMA alters touch but not hallucinations). Low-group speakers richly report sensations (jaw clenching, tingling, warmth) but often contextualize them with situational guesses (no shoes, room vibe) and less categorical precision. The high group\u2019s analytical monitoring turns sensation into structured data, supporting stable focus and clearer communication about state changes.\n\n8. Epiphany-Oriented, Open, Proactive Engagement: High participants seek epiphanies, invite questions, and proactively engage with researchers and peers. They describe task-induced \u201cepiphanies,\u201d openly volunteer information (\u201cnothing is private, ask away\u201d), and want to contact PIs or expand studies. Socially, they plan intentional sessions to \u201cbounce epiphanies\u201d and bond, and they frame the experience as net positive growth. In contrast, low-group speakers often temper engagement with uncertainty, social caution, or environmental constraints. The high group\u2019s approach motivation\u2014curiosity, disclosure, and initiative\u2014manifests as active co-creation of the experience with others and the study itself.\n\nDifferentiator variable names:\nneurochemistry_mechanism_fluency, meta_protocol_pattern_seeking, breath_somatic_self_regulation, affiliative_touch_orientation, policy_systems_reflection, referential_named_contexts, analytical_sensory_monitoring, epiphany_openness_engagement",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 5503,
+        "prompt_tokens": 14494,
+        "total_tokens": 19997,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 4224,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

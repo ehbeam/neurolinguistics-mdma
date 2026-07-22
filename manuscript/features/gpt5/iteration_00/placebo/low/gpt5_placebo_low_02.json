@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChLo3gsEbglfZPdkhXEUmLAjzZQof",
+    "created": 1764447963,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Anxiety Suppression & Emotional Bandwidth Allocation: LOW participants report near-absence of anxiety and increased capacity to access, articulate, and share emotions, often allocating mental bandwidth specifically to feelings. LOW participants repeatedly describe \u201czero anxiety,\u201d feeling safer and less defensive, and a deliberate reallocation of mental resources toward feeling and connection. They become more talkative, trusting, and willing to engage (eye contact, hugs, extended conversations), and they frame MDMA as opening a \u201clane\u201d or \u201cvault\u201d for emotions without impairing thinking. This openness often persists beyond the acute session, enabling deeper conversations with family and friends. In contrast, HIGH participants emphasize nerves, mistrust, and discomfort with the professional setting, and more rumination about tasks, suggesting less anxiety relief and less effortless emotional access.\n\n2. Grounded Reality & Cognitive Clarity (Non-dissociative): LOW participants feel firmly in the real world with minimal perceptual change and preserved mental focus, contrasting HIGH\u2019s foggy, dreamlike visuals and concentration lapses. LOW participants consistently reject dreamlike or dissociative states, stress that \u201cI\u2019m in this world,\u201d and report little to no color change or visual distortion; they define intoxication as cognitive impairment and insist MDMA does not reduce clarity of thought. While they may notice light physical sensations (light legs, tingling) or slight visual focus shifts, they maintain mental focus and clear-headedness, often completing tasks and conversations smoothly. By contrast, HIGH participants foreground brighter colors, foggier, dreamlike vision, and difficulty concentrating (sometimes sleepiness), proposing caffeine to compensate\u2014indicating a more perceptually altered and less cognitively steady experience.\n\nDifferentiator variable names:\nanxiety_suppression_emotional_access, grounded_reality_cognitive_clarity",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 2554,
+        "prompt_tokens": 12391,
+        "total_tokens": 14945,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2176,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

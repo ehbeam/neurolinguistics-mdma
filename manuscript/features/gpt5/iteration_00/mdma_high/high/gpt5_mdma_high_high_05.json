@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChM4jIyZClAuuIFFUukJa9al37n2Q",
+    "created": 1764448997,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Social Openness and Affiliation Drive: HIGH participants consistently emphasize sociability, empathy, and craving human touch, expressing eagerness for bonding, hugs, and mirroring others\u2019 emotions. Their transcripts repeatedly frame themselves as \u201copen,\u201d \u201csociable,\u201d and highly friendly, anticipating dilated attention to others, wanting to ensure others are comfortable, and seeking tactile connection and music-driven togetherness. In contrast, LOW participants more often describe introversion, reluctance to impose on others, social anxiety, and variability in talkativeness, indicating a lower baseline affiliation drive under study conditions.\n\n2. Meta-Scientific Orientation and Task Skepticism: HIGH participants analyze study design, biases, and task purpose in real time, invoking concepts from behavioral science and research methodology. They reference cognitive bias literature (e.g., thinking fast and slow), question randomization, hypothesize ulterior motives (e.g., why order changes, whether buttons serve memory purposes), and reflect on protocol intent and NIH decision-making. LOW participants mention tasks\u2019 difficulty or personal performance but rarely interrogate experimental logic or broader methodological aims, showing less meta-level scrutiny.\n\n3. Breath-Centered Self-Regulation and Somatic Control: HIGH participants frequently deploy grounding strategies\u2014breath control, body scanning, and tension release\u2014to manage anxiety or discomfort during the MRI and tasks. They narrate recognizing rising anxiety, checking bodily tension (e.g., toes curling), and intentionally calming themselves through controlled breathing, often linking this practice to broader resilience analogies (e.g., \u201cvalleys\u201d in trips or life). LOW participants describe overwhelm, movement needs, or environmental discomfort, but show fewer explicit, structured self-regulation strategies anchored in breath and interoception.\n\n4. Pharmacology and Research Literacy: HIGH participants exhibit detailed curiosity and knowledge about neurobiology and drug mechanisms, naming molecules (CB2), Shulgin, receptor systems (serotonin vs. dopamine), SSRIs, contraindications, and clinical trends in psilocybin/MDMA for PTSD and depression. They connect personal experience to industry (Compass Pathways), clinical protocols, and the societal control of drugs, often considering outreach to researchers. LOW participants rarely delve into mechanistic or industry-level detail; when they reference research, it is more anecdotal (e.g., a MAPS story) than mechanistic or ecosystem-focused.\n\n5. Intentional Set/Setting and Meaning Integration: HIGH participants frame drug use around intentional contexts and reflective goals\u2014preferring non-festival, therapy-like environments, respect for introspective compounds, and bonding/epiphany exchange with close others. They connect experiences to big-picture themes (transcendence, self\u2013environment merging, depression as \u201cbad trips,\u201d agency over controllables) and discuss how study conditions and future use can support constructive integration. LOW participants focus more on immediate comfort, lab constraints, and personal relationship processing, showing less explicit planning for intentional settings or meaning-oriented integration.\n\nDifferentiator variable names:\nsocial_openness_affiliation, meta_science_orientation, breath_self_regulation, pharmacology_research_literacy, intentional_meaning_orientation",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 3590,
+        "prompt_tokens": 14494,
+        "total_tokens": 18084,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2944,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

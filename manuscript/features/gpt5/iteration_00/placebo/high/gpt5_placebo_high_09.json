@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChLwl7GACBR9UtWGPjTSO4EOSspkU",
+    "created": 1764448503,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Dreamlike Visuality: HIGH participants report brighter colors and foggy, dreamlike vision; LOW participants emphasize reality and minimal visual alteration.\nHIGH transcripts repeatedly describe a dreamlike, blurred visual field with heightened brightness (\u201ccolors are brighter\u2026 foggy vision\u2026 feels kind of like dreaming,\u201d \u201cbright colors and a little bit of foggy-ish vision,\u201d \u201cfeels like I\u2019m dreaming but I know it\u2019s reality\u201d). In contrast, LOW participants stress that things feel real, deny color changes, and attribute blurring to other drugs like LSD (\u201cThings are quite real\u2026 I will remember things,\u201d \u201cI don\u2019t feel colors change,\u201d \u201cblurred vision is more of an acid experience\u201d). This makes vivid, dreamlike perceptual enhancement a clear HIGH-group hallmark.\n\n2. Somatic and Autonomic Activation: HIGH participants notice skin sensitivity, heart rate increases, jaw clenching, tremor, and pupil dilation; LOW participants report mild lightness or tingling without pronounced autonomic signs.\nHIGH accounts include detailed bodily effects and interoception: increased heart rate, pleasant tactile sensitivity, jaw tightness/clenching, shaky hands, and requests to confirm dilated pupils (\u201cpleasant sensation on my skin,\u201d \u201cincreased heart rate,\u201d \u201cshaky in my hands\u2026 tightness in my jaw,\u201d \u201cconfirm if pupils are dilated\u201d). LOW reports center on light legs or non-painful tingling from equipment and feeling emotionally calm, with little autonomic arousal. This heightened somatic/autonomic profile distinguishes HIGH participants.\n\n3. Protocol-Analytic Engagement: HIGH participants analyze study design, placebo order effects, environmental confounds, and pharmacology; LOW participants ask practical questions but focus more on personal experience.\nHIGH speakers examine methodological issues (\u201cfirst time placebo\u2026 how those survey results,\u201d \u201cenvironment differs from usual MDMA settings,\u201d \u201cworry sleep will confound faces test,\u201d \u201coxygen tray risk when sober\u201d) and drug processing (\u201ccaffeine helps metabolize\u2026 pressed pills have caffeine\u201d). LOW participants sometimes inquire about randomization or placebo but rarely sustain methodological or pharmacokinetic analysis, instead centering on feelings and task experiences. The HIGH group\u2019s meta-analytic discourse is notably stronger.\n\n4. Professional-Boundary Guardedness: HIGH participants feel reserved and mistrustful in the clinical setting, emphasizing staff professionalism over camaraderie; LOW participants feel secure and become less defensive and more open.\nHIGH narratives highlight hesitancy and distance (\u201cmistrust\u2026 being more hermetic,\u201d \u201ccan\u2019t be buddy-buddy\u2026 professional dynamic took away from the experience,\u201d \u201cmore nerves today in a weird setting\u201d). LOW participants describe becoming less avoidant and defensive, feeling secure, and wanting to connect or hug, with concerns largely resolved by staff support. Sensitivity to professional boundaries and resulting guardedness is more pronounced in the HIGH group.\n\n5. Narrative Specificity and Proper Nouns: HIGH participants offer richly detailed autobiographical stories with names, places, and identities; LOW participants share experiences with fewer specific proper nouns.\nHIGH transcripts include named people and settings (ex \u201cGabby,\u201d \u201cJenny,\u201d Salvadorian identity, Peace Corps in Sierra Leone, \u201cBank at the Midway,\u201d therapist preferences), building elaborate, time-anchored narratives. LOW participants share personal stories (Lyft driver, niece, girlfriend), but with less frequent naming and situating in broader social identity or external contexts. The density of proper nouns and contextual detail is higher in the HIGH group.\n\n6. Associative Reframing Cognition: HIGH participants describe making connections between ideas and actively reframing negative emotions into positives; LOW participants emphasize clarity and bandwidth allocation without explicit reframing.\nHIGH speakers note \u201cthinking a lot or making connections,\u201d and narrate real-time reappraisal (\u201cgot sad\u2026 decided to feel it\u2026 realized more positive than negative,\u201d \u201cfocusing more on positives that came out of that\u201d). LOW participants focus on emotional access vs thinking lanes, compartmentalization, and clarity but rarely detail conscious reframing of negative affect. Associative, reappraisal-oriented cognition is more salient in HIGH transcripts.\n\n7. Task-Performance Vigilance Under Alteration: HIGH participants closely monitor performance, concentration, and memory and worry about confounds; LOW participants report task completion with minimal mental impairment or distraction.\nHIGH accounts feature performance self-monitoring (\u201cpushing myself\u2026 perform at 100%,\u201d \u201charder time concentrating\u2026 falling asleep,\u201d \u201cworry sleep confounds faces test,\u201d \u201chyper aware of memory limits,\u201d \u201cpattern detection\u2026 pulled out, then back in\u201d). LOW participants often report stable mental focus or toggling between feelings and tasks, missing items only when mind wanders, with less meta-concern about confounds. Performance vigilance and meta-cognitive monitoring differentiates the HIGH group.\n\n8. Context\u2013Stimulation Salience: HIGH participants explicitly contrast the sterile lab with typical MDMA environments and note how this shapes responses; LOW participants acknowledge setting effects but emphasize comfort and security.\nHIGH speakers underscore environmental mismatch (\u201cmajority of experiences at festivals\u2026 surveys reflect lack of stimulation here,\u201d \u201cpeople aren\u2019t taking MDMA in this environment\u201d), tying context to experience and reporting increased nerves. LOW participants remark that setting can affect experience but predominantly describe feeling secure, cozy, and supported. Sensitivity to and analysis of context-stimulation differences is stronger in HIGH transcripts.\n\n9. Physiological Hypothesis-Testing Mindset: HIGH participants propose mechanisms and interventions (caffeine, electrolytes, glucose) and seek objective corroboration; LOW participants seldom hypothesize physiological tweaks.\nHIGH narratives include theorizing about electrolytes/glucose stabilizing effects, caffeine accelerating metabolism, and requests to check pupil dilation, revealing a self-experimentation stance. LOW participants rarely suggest physiological modifications, focusing instead on subjective states and therapeutic implications. This hypothesis-testing orientation is a distinctive HIGH-group trait.\n\nDifferentiator variable names:\ndifferentiator_01_name: dreamlike_visuality\ndifferentiator_02_name: somatic_autonomic_activation\ndifferentiator_03_name: protocol_analytic_engagement\ndifferentiator_04_name: professional_boundary_guardedness\ndifferentiator_05_name: narrative_specificity\ndifferentiator_06_name: associative_reframing_cognition\ndifferentiator_07_name: performance_meta_monitoring\ndifferentiator_08_name: context_stimulation_salience\ndifferentiator_09_name: physiological_hypothesis_testing",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 4198,
+        "prompt_tokens": 12391,
+        "total_tokens": 16589,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2880,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

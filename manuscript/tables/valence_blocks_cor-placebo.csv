@@ -1,0 +1,11 @@
+var_x,var_y,block,n,r_[CI],FDR
+gpt5_open_boundary_openness,audio_predicted_emotion,1,59,"-0.40 [-0.56, -0.22]",0.01*
+gpt5_open_boundary_openness,audio_predicted_emotion,2,64,"0.16 [-0.06, 0.36]",0.46
+gpt5_open_boundary_openness,audio_predicted_emotion,3,54,"-0.13 [-0.36, 0.11]",0.49
+gpt5_open_boundary_openness,audio_predicted_emotion,4,57,"-0.20 [-0.40, 0.01]",0.46
+gpt5_open_boundary_openness,audio_predicted_emotion,5,66,"0.06 [-0.16, 0.26]",0.78
+gpt5_open_boundary_openness,text_predicted_emotion,1,59,"-0.14 [-0.34, 0.06]",0.46
+gpt5_open_boundary_openness,text_predicted_emotion,2,64,"0.02 [-0.16, 0.20]",0.89
+gpt5_open_boundary_openness,text_predicted_emotion,3,54,"-0.02 [-0.27, 0.23]",0.89
+gpt5_open_boundary_openness,text_predicted_emotion,4,57,"-0.17 [-0.39, 0.06]",0.46
+gpt5_open_boundary_openness,text_predicted_emotion,5,66,"0.15 [-0.07, 0.34]",0.46

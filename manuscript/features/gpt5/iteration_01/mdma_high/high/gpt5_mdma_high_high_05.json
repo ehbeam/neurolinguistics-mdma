@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChN0DX4FFWUZKI7qBRbCwMPsMLk50",
+    "created": 1764452561,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Mechanistic Neurochemistry and Research Framing: High participants frequently explain experiences with neurochemical and clinical research concepts; low participants rarely go beyond basic sensations and uncertainty. High-group speech is dense with terms and structures like serotonin, dopamine receptors, SSRIs, contraindications, CB2/Shulgin, NIH protocols, Compass Pathways, and references to Daniel Kahneman and PTSD trials. They ask mechanism-focused questions (\u201cdifference with dopamine receptor?\u201d, \u201cdig into the neurobiology\u201d), connect experiences to study design and policy, and frame MDMA vs psilocybin with scientific nuance. Low-group speech centers on placebo vs dose guesses, bodily feelings, and personal reflections, with minimal technical framing.\n\n2. Study-Design Metacognition and Hidden-Task Hypothesizing: High participants actively theorize about task structure, motives, and biases; low participants mainly focus on doing tasks and their own performance. High-group transcripts show ongoing analysis of \u201culterior tests,\u201d order changes, psychological flexibility, \u201cmoney task bias,\u201d and whether buttons serve real functions; they assess randomness and infer multiple embedded motives. Low-group participants describe trying to focus on crosshairs, missing items, being competitive at baseline, or treating distractors as \u201cnoise,\u201d but rarely hypothesize about the experimenters\u2019 intent.\n\n3. Breath-Led Somatic Self-Regulation: High participants emphasize deliberate breathwork and tension release to manage discomfort; low participants mostly report sensations without systematic regulation strategies. High-group narratives repeatedly describe noticing toe-curling or tension and then \u201ccontrolling my breathing,\u201d \u201creleasing tension,\u201d grounding like treating panic attacks, and reframing valleys/hills of experience through breath\u2014\u201cNet positive\u2026 collect yourself.\u201d Low-group participants detail chills, warmth, jaw clenching, tingling, or closing eyes to reduce double vision, yet seldom articulate an intentional self-regulation method beyond momentary adjustments.\n\n4. Expansive Social Openness with Boundary Awareness: High participants display strong sociability, empathy, and touch-seeking while carefully considering others\u2019 comfort; low participants show shyness, restraint, or worry about imposing. High-group speech includes \u201copen book\u201d declarations, craving hugs, mirroring others, festival bonding, intentional connection spaces, and explicit concern about not making researchers uncomfortable or respecting gendered boundaries. Low-group participants often note social anxiety, being \u201cnot as chatty,\u201d holding back in the lab, and a strong reluctance to impose feelings, even when they desire interaction.\n\n5. Macro-Contextual Analogies and External Reference Fluency: High participants place experiences within broader historical, societal, and scientific contexts; low participants largely stay with personal anecdotes and immediate sensations. High-group speakers invoke the Holocaust and breath control as resilience, Peace Corps, corporate incentives and regulation (Compass Pathways, capitalism), NIH protocol intent, population temperature trends, age-related eyesight, and Shulgin\u2019s CB2 chemistry to triangulate meaning. Low-group content centers on family dynamics, work-life balance, relationships, and bodily feelings, with few external frameworks or cross-domain analogies.\n\nDifferentiator variable names:\nneurochem_mechanistic_discourse, task_design_metacognition, somatic_breath_regulation, social_openness_boundaries, macro_context_analogy",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 3810,
+        "prompt_tokens": 14494,
+        "total_tokens": 18304,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 3136,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

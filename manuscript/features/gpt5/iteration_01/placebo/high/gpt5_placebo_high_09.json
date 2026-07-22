@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChMG4kJI5OK3hxOqJI9jII8N0yqJ3",
+    "created": 1764449700,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Social Bonding Drive: Strong, proactive desire to initiate, deepen, and celebrate interpersonal connections during and after sessions. Participants in the HIGH group consistently lean into connection\u2014suggesting going out together, foregrounding \u201cunconditional friendship,\u201d prioritizing non-sexual intimacy to protect bonds, and emphasizing shared culture and community (festivals, music). Their speech is outward-facing, affiliative, and agentic, marked by invitations, coordination, and deliberate relationship-building, whereas LOW group transcripts are more guarded, selective, or situationally constrained in sociability.\n\n2. Sensory Amplification and Dreamlike Perception: Heightened tactile pleasure, brighter colors, and foggy, dreamlike visual quality while retaining reality-testing. HIGH group participants describe pleasant touch, increased skin sensitivity, brighter colors, and a soft-focus \u201cdream state\u201d that feels surreal yet recognizable. They note pupil dilation and altered vision as salient features; the LOW group often denies color changes, emphasizes clarity, or attributes visual distortion to other drugs (e.g., LSD), marking a clear perceptual contrast.\n\n3. Emotional Reframing Resilience: Rapid recognition of difficult feelings followed by deliberate reframing toward positive meaning and strengthened bonds. HIGH group accounts show an active process: noticing sadness or discomfort, allowing the feeling, then reorienting to positives\u2014such as deepened connection or lessons learned. They \u201cfeel then reframe,\u201d emphasizing constructive outcomes; LOW group narratives more often stress anxiety reduction, bandwidth allocation, or staying mellow without the same explicit reframing arc.\n\n4. Setting and Protocol Meta-Awareness: Ongoing, explicit analysis of how environment, placebo, and study procedures shape experience and reported outcomes. HIGH group participants repeatedly contextualize their responses, contrasting lab conditions with festivals, considering placebo-arm effects on surveys, advocating caffeine policies, and worrying about confounds (sleepiness, professional boundaries). This research-minded situational awareness exceeds the LOW group\u2019s occasional procedural questions, becoming a defining lens for interpretation.\n\n5. Performance Vigilance on MDMA: Strong motivation to monitor and maximize cognitive task performance while under the drug. HIGH group transcripts emphasize pushing to \u201c100%,\u201d tracking memory accuracy, pattern detection, and error monitoring, sometimes correcting initial assumptions (e.g., \u201cdid better than I thought\u201d). The LOW group tends to describe focus as unchanged or task-simple, with less emphasis on self-driven performance optimization during the experience.\n\n6. Authenticity and Trust Calibration: Heightened sensitivity to genuineness and professional boundaries that actively reshapes engagement. HIGH group participants explicitly parse whether staff are being \u201cgenuine,\u201d note mistrust steering behavior toward hermetic compliance, and acknowledge that the professional dynamic \u201ctook away\u201d from the experience. In contrast, the LOW group often describes becoming less defensive broadly, without the same real-time boundary negotiation regarding authenticity.\n\n7. Physical Affection Impulse: Strong, embodied urge to hug, touch, and offer support to others. The HIGH group frequently expresses a desire to physically connect\u2014hugging, touching, and emotionally supporting people as a central feature of the experience. LOW group participants may become more talkative or worry about boundary appropriateness (e.g., concern about hugging staff), but they do not foreground physical affection as a dominant impulse.\n\n8. Somatic Self-Monitoring: Detailed, moment-to-moment tracking of bodily markers and drug effects. HIGH group narratives include granular physiological observations\u2014pupil dilation, heart rate changes, jaw clenching, shaking, freezing, and effects of glucose/electrolytes or caffeine abstinence. LOW group accounts focus on general sensations (lightness, tingling) and typically reject dramatic somatic changes, showing less precise physiological tracking.\n\n9. Autobiographical Narrative Density: Rich, specific storytelling that links present feelings to life history, identity, and relationships. HIGH group participants weave vivid personal stories (ex-partners, Peace Corps service, Salvadorian identity, festival culture, memorable trips) to interpret current emotions and choices. LOW group speakers emphasize introspective mechanics (bandwidth, lanes for feeling/thinking) over narrative vignettes, yielding fewer biographical anchors.\n\nDifferentiator variable names:\nsocial_bonding_drive, sensory_amplification_dreamlike, emotional_reframing_resilience, setting_protocol_meta_awareness, performance_vigilance_on_mdma, authenticity_trust_calibration, physical_affection_impulse, somatic_self_monitoring, autobiographical_narrative_density",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 3856,
+        "prompt_tokens": 12392,
+        "total_tokens": 16248,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2944,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

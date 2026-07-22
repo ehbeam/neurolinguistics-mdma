@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChM86ZOVWo00uiRRzhzbvZhbemFuv",
+    "created": 1764449206,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Reality-anchored emotional clarity: LOW participants report clear-headed, non-intoxicating, anxiety-reducing MDMA effects without dissociation, emphasizing feeling more while staying firmly in ordinary reality. LOW transcripts repeatedly stress being \u201cin this world\u201d on MDMA, maintaining mental focus and clarity, and defining intoxication as impaired thinking\u2014which they say does not occur for them on Molly. They describe reduced anxiety, no dissociation or dreamlike quality, and stable cognition alongside increased access to feelings (e.g., \u201can additional lane for feeling\u201d), plus mild, concrete bodily sensations (tingling, light legs) and time passing unnoticed rather than surreal. In contrast, HIGH participants highlight perceptual alterations (brighter colors, foggy/dreamlike vision, heightened skin sensitivity, dilated pupils) and concentration challenges tied to setting and fatigue, underscoring a more altered-state, sensory-forward experience.\n\n2. Deliberate emotional bandwidth management: LOW participants actively manage \u201cemotional bandwidth,\u201d opening feeling lanes, lowering defensiveness, and using MDMA to facilitate deep, lasting interpersonal expression. LOW transcripts portray a structured, metacognitive approach to emotions: they frame feelings and thoughts as \u201clanes,\u201d intentionally allocate mental space to feeling, and describe opening a \u201cvault\u201d of existing emotions rather than creating new ones. They emphasize reduced avoidance and defensiveness, increased eye contact and talkativeness\u2014even with strangers\u2014and lasting post-session openness (e.g., bigger hugs, more candid conversations), along with interest in MDMA-assisted therapy. HIGH participants, while often pro-social, focus more on momentary setting-driven factors (professional dynamics, mistrust/comfort, caffeine, tiredness) and sensory changes, showing less of the sustained, cognitively articulated reallocation of emotional processing that typifies the LOW group.\n\nDifferentiator variable names:\nreality_anchored_emotional_clarity, emotional_bandwidth_management",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 2833,
+        "prompt_tokens": 12392,
+        "total_tokens": 15225,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2432,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

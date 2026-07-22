@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChM6LaYeUQVtfiAoKH7gME8ZjT5b9",
+    "created": 1764449097,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Intentional Openness to Experience: High participants actively seek diverse, intentional settings and embrace new experiences beyond party contexts. They self-identify as \u201copen,\u201d choose non-festival or intentional spaces, and emphasize respecting different drugs and settings; they plan use to foster connection or introspection. In contrast, low participants more often feel constrained by the lab, uncertain about dosing, or prefer familiar social boundaries, leading to less deliberate exploration.\n\n2. Breath-Based Self-Regulation: High participants repeatedly use controlled breathing and body scanning to manage anxiety and maintain focus. They describe grounding through breath, releasing muscular tension, monitoring internal states, and \u201ccollecting\u201d themselves during uncomfortable moments\u2014turning potential distress into manageable experiences. Low participants largely report being overwhelmed or needing movement without sustained, systematic self-regulatory strategies anchored in breath.\n\n3. Empathic Sociability: High participants exhibit pronounced empathy, prosocial mirroring, and concern for others\u2019 comfort. They call MDMA \u201cthe empathy drug,\u201d watch others\u2019 reactions, avoid making people uncomfortable, and aim to ensure everyone has a good time. Low participants frequently note introversion, social anxiety, reluctance to \u201cimpose,\u201d and stricter personal boundaries, reflecting lower spontaneous prosocial engagement.\n\n4. Touch-Seeking Affinity: High participants strongly desire affectionate, nonsexual touch and highlight how touch feels uniquely rewarding on MDMA. They anticipate hugs, crave human contact, and emphasize tactile pleasure as central to their experience. Low participants mention tactile sensitivity more in private or sexual contexts, show more hesitation in clinical settings, and less generalized openness to affectionate touch.\n\n5. Research-Literate Cognitive Framing: High participants contextualize their experiences with scientific concepts, studies, and neurobiology. They reference psilocybin trials, SSRIs versus dopamine, Shulgin molecules (e.g., CB2), cognitive biases (Kahneman), and commercialization (Compass Pathways), and even consider contacting PIs\u2014demonstrating analytic, research-informed framing. Low participants occasionally cite MAPS but show less depth or sustained scientific analysis.\n\n6. Metacognitive Task Deconstruction: High participants analyze task design, speculate about hidden motives, and monitor perceptual changes while still performing. They notice order shifts, memory components, periphery changes, and question whether tasks test psychological flexibility; this reflective stance coexists with effective engagement. Low participants focus on immediate performance difficulties (e.g., confusion, missed prompts, double vision) with less meta-level deconstruction.\n\n7. Transcendent Unity Orientation: High participants describe merging with environment or nature and reduced identification with the day-to-day self. Their narratives include unity, transcendence, and philosophical reflections that situate MDMA within a broader psychedelic context. Low participants emphasize internal emotional \u201clanes\u201d and personal relationships without sustained themes of ego-dissolution or connectedness with the environment.\n\n8. Resilient Positive Reframing: High participants consistently reframe discomfort as temporary \u201cvalleys\u201d within a net-positive journey. They emphasize getting through bad moments by controlling what\u2019s controllable (often breath) and returning to presence, which maintains momentum and meaning. Low participants more often report ambivalence, reduced euphoria, or overwhelm, and do not consistently convert challenge into motivational or meaningful framing.\n\nDifferentiator variable names:\nintentional_openness, breath_self_regulation, empathic_sociability, touch_seeking_affinity, research_literate_framing, metacognitive_task_deconstruction, transcendent_unity_orientation, resilient_positive_reframing",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 3545,
+        "prompt_tokens": 14494,
+        "total_tokens": 18039,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2816,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

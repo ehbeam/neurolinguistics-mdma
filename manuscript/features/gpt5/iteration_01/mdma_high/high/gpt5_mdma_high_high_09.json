@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChN2aWEiIagtlqU5pzlk6mCMzXnf7",
+    "created": 1764452708,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Research-and-neurochemistry discourse intensity: High participants frequently discuss neurotransmitters, mechanisms, and institutions behind psychedelics with technical curiosity and confidence. They reference serotonin and dopamine systems, SSRIs, contraindications, Shulgin\u2019s compounds, CB2, and research bodies like NIH and Compass Pathways; they situate their personal experience within a broader scientific and industry landscape, weigh study design and scalability, and connect drug effects to formal literature (e.g., Kahneman on biases), signaling an unusually strong biomedical and research-oriented framing.\n\n2. Empathic touch-seeking and prosocial warmth: High participants show pronounced desire for physical affection and relational closeness, paired with overt friendliness and social attunement. They anticipate hugging, embracing, mirroring others\u2019 expressions, and bonding through music; they self-identify as sociable and empathetic, want to ensure others are comfortable, and expect MDMA to amplify prosocial engagement and shared presence, making social connection a central feature of their narrative.\n\n3. Meta-task pattern seeking and benign suspicion: High participants actively infer hidden motives or structures in study tasks without devolving into distressing paranoia. They hypothesize about \u201cpsychological flexibility\u201d probes, question whether button presses are anti-sleep controls, notice order changes (apple vs peach), and scan for subterranean tests; the tone remains curious and analytical, not fearful, indicating high meta-cognition and pattern detection during the session.\n\n4. Breath-centered self-regulation and grounding: High participants repeatedly use controlled breathing and bodily awareness to manage tension and anxiety. They detect bodily cues (toes curling, tension), consciously relax musculature, and anchor attention through breath when uncomfortable in the MRI or when thoughts race; they generalize this method to panic attacks and \u201cvalleys\u201d in drug experiences, articulating breath as a practical, primary lever of self-control.\n\n5. Societal/ethical analysis orientation: High participants zoom out to assess regulation, monetization, and public health ethics of psychedelics, often invoking historical or moral frames. They consider capitalism\u2019s role, potential over-control of drugs, study enlargement, and institutional intentions; they draw analogies to extreme contexts (e.g., Holocaust diaries) to explore agency, resilience, happiness, and sadness, placing personal experiences in a broader ethical narrative.\n\n6. Cognitive control and task adherence under influence: High participants report strong task comprehension and the ability to reorient focus despite distractions. They find some tasks \u201ceasy,\u201d identify the hardest, and deliberately redirect attention when epiphanies intrude; they emphasize training themselves to respond, maintaining performance, and describe their net experience as positive partly because of preserved executive control.\n\n7. Openness to varied settings and experiences: High participants express high openness and flexibility about where and how to engage with MDMA and related substances. They contrast festival contexts with intentional, non-party settings, expect to be \u201csuper present,\u201d and value connecting with friends to \u201cbounce epiphanies\u201d; they frame themselves as generally open to new experiences and receptive to different modalities.\n\n8. Researcher-inquisitiveness and interactive questioning: High participants proactively ask the study team detailed questions and invite reciprocal transparency. They inquire about antidepressant classes, receptor differences, contraindications, and specific molecules; they also encourage researchers to probe them (\u201cnothing is private, ask away\u201d), signaling a collaborative, investigator-like stance toward the research process.\n\n9. Cross-domain analogical thinking and theory building: High participants regularly link personal drug effects to broader theoretical distinctions and past experiences. They compare MDMA to psilocybin, debate dissociation versus psychedelic qualities, describe \u201chills and valleys\u201d of trips, and connect age-related vision changes to present perceptual shifts; these integrative analogies reveal a strong tendency to build generalizable frameworks across domains.\n\nDifferentiator variable names:\ndifferentiator_01_name=neurochem_research_discourse, differentiator_02_name=empathic_touch_seeking, differentiator_03_name=meta_task_pattern_seeking, differentiator_04_name=breath_based_self_regulation, differentiator_05_name=societal_ethics_orientation, differentiator_06_name=cognitive_control_under_drug, differentiator_07_name=openness_varied_settings, differentiator_08_name=researcher_inquisitiveness, differentiator09_name=cross_domain_analogical_thinking",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 4365,
+        "prompt_tokens": 14494,
+        "total_tokens": 18859,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 3456,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

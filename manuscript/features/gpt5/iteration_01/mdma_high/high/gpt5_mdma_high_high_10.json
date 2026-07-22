@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChN39sjW6zzWhi1SN7EpHXWZXacLI",
+    "created": 1764452743,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Rich Autobiographical Storytelling: High participants provide detailed, named, time-anchored personal narratives throughout their speech. Their transcripts are populated with specific people, places, and timelines (e.g., ex-partner names, Peace Corps in Sierra Leone, festival comparisons), weaving life events into current reflections. This narrative density signals a strong tendency to contextualize experiences in autobiographical detail, whereas Low participants speak more generically or situationally with fewer proper nouns and less chronological scaffolding.\n\n2. Neuropharmacology and Mechanism Curiosity: High participants frequently inquire about serotonin, dopamine, SSRIs, CB2, Shulgin, and contraindications. Their discourse shows an active drive to understand the biological and mechanistic underpinnings of MDMA and related compounds, asking technical questions and connecting them to clinical outcomes. Low participants rarely pursue neurobiological explanations; when they do, they are brief, less technical, and more speculative.\n\n3. Meta-Analysis of Tasks and Hidden Protocols: High participants actively infer study design motives, speculate about psychological flexibility measures, and analyze whether buttons or stimuli serve ulterior purposes. This meta-task reasoning reflects a high-level engagement with the research paradigm itself, not just task execution. Low participants report task experiences and difficulties but seldom hypothesize about hidden structures or the intent behind the protocol.\n\n4. Breath-Based Self-Regulation and Control Orientation: High participants emphasize controlling breath to manage anxiety, reframing discomfort as \u201cvalleys\u201d to move through, and drawing on panic-attack grounding techniques. They articulate concrete strategies for self-regulation and resilience, turning potential distress into \u201cnet positive\u201d outcomes. Low participants more often describe being overwhelmed or oscillating between feeling and focus without explicit, deliberate regulation strategies.\n\n5. Prosocial Warmth with Boundary Awareness: High participants express strong urges for closeness, hugging, and shared presence, paired with explicit concern about others\u2019 comfort and situational appropriateness (e.g., gender dynamics, lab setting). This combination of high sociability and boundary monitoring differentiates them from Low participants, who more often avoid imposing, note introversion, or withhold engagement due to social anxiety rather than explicitly modulating warm behavior.\n\n6. Research Ecosystem Literacy and Industry Critique: High participants reference NIH protocols, PIs, Compass Pathways, capitalism, and clinical trial expansion, and discuss outreach or collaboration. They situate the study within broader research and market contexts, expressing nuanced critique and ambition to engage. Low participants seldom display this ecosystem perspective and focus more on personal outcomes or immediate logistics than systemic considerations.\n\n7. Intentional Use Beyond Party Settings: High participants articulate interest in non-festival, intentional MDMA use for connection, epiphanies, and bonding, distinguishing it from purely recreational contexts. They frame settings as tools for targeted outcomes and growth. Low participants more often discuss comfort in lab contexts or festival anecdotes but display less emphasis on deliberately shifting to intentional, non-party use as a practice.\n\n8. Abstract, Integrative Cross-Domain Thinking: High participants connect ideas across domains\u2014biases (Kahneman), historical resilience (Holocaust journals), drug culture \u201chills and valleys,\u201d empathy, and clinical applications. This pattern shows strong conceptual synthesis and analogy-making. Low participants\u2019 thinking is more localized to immediate feelings, tasks, family dynamics, and bodily sensations, with fewer theory-level integrations.\n\n9. Assertive Openness and Confidence: High participants speak decisively, quantify experiences (e.g., \u201c7.5\u201d), and present themselves as \u201copen books,\u201d inviting questions and sharing freely. Their tone is confident and less hedged, even when noting discomfort. Low participants exhibit more uncertainty and hedging (\u201cI don\u2019t know,\u201d \u201cmaybe,\u201d \u201cit might be placebo\u201d), self-doubt, and conditional language about their experiences and interpretations.\n\n10. Active Other-Orientation and Real-Time Social Monitoring: High participants monitor and mirror others\u2019 reactions, aim to ensure the researchers\u2019 comfort, and discuss empathy as an operational stance during sessions. They comment on observing dilated eyes, mirroring, and checking whether their behavior affects others. Low participants value empathy and non-imposition but focus more on not burdening others than on actively reading and modulating in-the-moment social dynamics.\n\nDifferentiator variable names:\nautobiographical_story_density, neuropharmacology_inquiry, meta_task_inference, breath_self_regulation, sociability_with_boundaries, research_industry_awareness, intentional_use_orientation, integrative_cross_domain_thinking, assertive_open_confident_style, active_other_monitoring_empathy",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 3438,
+        "prompt_tokens": 14494,
+        "total_tokens": 17932,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2496,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

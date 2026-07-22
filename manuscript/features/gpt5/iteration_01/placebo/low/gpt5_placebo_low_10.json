@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChMCGaNVbRSK1aBRtxuIMnMoVFxf4",
+    "created": 1764449464,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Clear-headed, non-intoxicated self-perception: LOW participants consistently report enhanced mental clarity on MDMA rather than feeling intoxicated or impaired. They define intoxication as cognitive impairment and repeatedly assert that MDMA removes \u201cbrain fog\u201d and worry without degrading thinking. They emphasize being \u201cin this world,\u201d able to focus mentally, and describe themselves as sober while more talkative. In contrast to HIGH participants\u2019 foggy, dreamlike visuals and concentration lapses, LOW participants anchor their experience in clear cognition.\n\n2. Intentional emotional bandwidth allocation: LOW participants describe explicitly allocating mental \u201cbandwidth\u201d or an \u201cadditional lane\u201d to emotions while on MDMA. They frame the drug\u2019s impact as creating protected space for feelings that cannot be overwritten by worries, often using metaphors like opening a vault of pre-existing emotions. This strategic, resource-allocation framing is largely absent in HIGH transcripts, which focus more on acute mood shifts or connections than structural reallocation of mental capacity.\n\n3. Anxiety and defensiveness markedly reduced: LOW participants report near-zero anxiety on MDMA and a global drop in defensiveness and avoidance (e.g., more eye contact, easier openness with strangers and new people). They describe walls coming down and being more comfortable engaging and receiving others. HIGH participants more often mention nerves, mistrust in the professional setting, and emotional discomfort they have to work through, differentiating LOW by their pronounced relief from anxiety.\n\n4. Reality-anchored experience with minimal dissociation or visual alteration: LOW participants explicitly deny dissociation on MDMA and reject dreamlike or unreal sensations, reporting only subtle physical changes (e.g., tingling, lightness in legs) and little to no color/visual distortion. They contrast MDMA with LSD or ketamine for perceptual changes, reinforcing that MDMA feels real and present. HIGH participants, by comparison, often describe brighter colors, foggy/blurry vision, and a pleasant dream-state.\n\n5. Sociable, chatty openness with sustained cognitive focus: LOW participants become more sociable and talkative while maintaining mental focus; they can discuss topics coherently and compartmentalize feelings to complete tasks, even if visual focus narrows briefly. They stress being good listeners and define sociability as two-way openness. HIGH participants more often report concentration difficulties, sleepiness, or needing to push themselves to counter an assumed performance deficit.\n\n6. Analytical, questioning, and study-aware mindset: LOW participants repeatedly interrogate study design and data (placebo questions, randomization order, survey appropriateness, \u201cred flag\u201d safety items), demonstrating a meta-analytic stance. They categorize questions, worry about construct validity, and compare personal responses to others\u2019 anecdotes. HIGH participants occasionally reference environment effects, but the LOW group\u2019s systematic, procedural scrutiny and optimization talk (utility functions, conditioning) stands out.\n\n7. Accessing pre-existing emotions rather than changing them: LOW participants insist MDMA doesn\u2019t change who they are or create new feelings; it lets them access and express long-held emotions and relationships more openly, with some lasting increases in emotional openness. They contrast MDMA with LSD for creativity or mind-rebuilding and emphasize continuity of self. HIGH participants focus more on acute insights, bonding, or feeling connections, with less emphasis on the \u201cunchanged emotion, accessed more fully\u201d frame.\n\n8. Strong sensitivity to setting via positive conditioning and security-seeking: LOW participants highlight the setting\u2019s role, describing positive conditioning to the study room, seeking security, and worrying about appropriate boundaries (e.g., hugging sober staff). They prefer \u201csecure\u201d over \u201csafe\u201d and link repeated visits to smoother experiences. HIGH participants note the professional dynamic as reducing comfort or fostering mistrust, whereas LOW participants actively negotiate and benefit from the structured, secure environment.\n\n9. Time perceived as fast yet fully real, not dreamlike: LOW participants say time \u201cmoves fast\u201d but emphasize they remain oblivious rather than altered\u2014no sense of unreality or dream-state. They note practical cues (sunrise, watches) rather than transformed temporal experience. HIGH participants often pair time changes with dreamlike visuals and fogginess, making LOW distinct in keeping temporal shifts grounded in a real-world frame.\n\n10. Robust compartmentalization and lane-switching between tasks and feelings: LOW participants explicitly manage \u201clanes\u201d for thinking and feeling, bringing themselves back from emotional immersions to perform tasks, and articulating personal \u201cutility functions.\u201d They describe trained compartmentalization and deliberate control of attention. HIGH participants report drifting, sleepiness, and difficulty concentrating more often, underscoring the LOW group\u2019s pronounced self-directed lane-switching and task control.\n\nDifferentiator variable names:\ncognitive_clarity_nonintoxication, emotional_bandwidth_allocation, anxiety_defensiveness_reduction, minimal_sensory_distortion, talkative_open_clearthinking, meta_analytic_orientation, emotion_access_over_change, environment_conditioning_security, realistic_time_not_dreamlike, compartmentalization_lane_control",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 3071,
+        "prompt_tokens": 12392,
+        "total_tokens": 15463,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2048,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChNGh3HBLcIaWyVJGOVCT4FnXRwmN",
+    "created": 1764453583,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Emotion-First Processing: LOW participants foreground feelings over analysis, repeatedly framing experience as a \u201clane\u201d dedicated to emotions.\nLOW transcripts prioritize affective awareness and language (\u201clane of feeling,\u201d \u201cfeelings overwhelm thinking,\u201d \u201cappreciate having this lane\u201d), treating MDMA primarily as an emotional amplifier rather than an analytical tool. They describe guiding thoughts by emotional intensity and evaluating the experience in terms of how it shifts feeling capacity. In contrast, HIGH participants often frame experiences through cognitive models (neurobiology, serotonin/dopamine, task structure, biases), using analytic reasoning to interpret what\u2019s happening; LOW participants systematically lead with feelings as the primary currency of meaning and decision-making during the session.\n\n2. Deep Relational Storytelling: LOW participants engage in detailed narratives about partners, family, and future children, exploring roles, trust, and communication.\nLOW transcripts are rich with concrete relationship stories (partner discussions, proposing timelines, sister-in-law trust, niece as safe confidant, open-relationship boundaries), revealing an interpersonal focus and desire to communicate vulnerable intentions. They dwell on how MDMA shapes empathy, honesty, and relational roles, including not pressuring others and building safety. HIGH participants reference relationships more briefly or as context for broader ideas (e.g., empathy, festivals) and tend to pivot back to conceptual or research frames; LOW participants center the session around relational meaning-making.\n\n3. Somatic and Tactile Hyperawareness: LOW participants provide granular, body-based reports (warmth, sweaty palms, jaw clenching, textures, stretching, hamstring soreness, visual doubling).\nLOW transcripts consistently detail physical sensations and environmental textures (floor, wood, blankets, body temperature changes, movement/stretching feels good, tactile sensitivity, buzzing, chattering teeth), and link comfort to bodily states. This somatic focus is specific and iterative (e.g., noticing changes with shoes, eye reflections), whereas HIGH participants mention bodily states but quickly return to breath control, task execution, or conceptual comparisons; LOW participants dwell in embodied nuance and tactile appreciation as a core feature of their experience.\n\n4. Dose/Placebo Self-Doubt: LOW participants frequently question dose identity, placebo possibility, and whether sensations are \u201cmade up.\u201d\nLOW transcripts include repeated uncertainty (\u201cI still don\u2019t know if I\u2019m taking Molly,\u201d \u201cmaybe placebo,\u201d \u201cit might be because I\u2019m not wearing shoes,\u201d \u201cI wonder if it was a higher dose\u201d) and cautious self-monitoring. They test interpretations over time, comparing sessions and attributing effects to context. HIGH participants express fewer doubts about dose identity and more confidence in anticipated effects, focusing instead on comparative drug frameworks, neurobiology, and task design; LOW participants demonstrate a sustained, self-questioning stance toward what they\u2019re feeling.\n\n5. Expressive Talk Drive: LOW participants describe feeling very chatty, fast-talking, and compelled to share emotions and plans.\nLOW transcripts often note heightened sociability and talkativeness (\u201csuper smiley,\u201d \u201ctalking fast,\u201d \u201cwant to get it out\u201d), framing speech as an outlet for emotional overflow and relationship work (planning conversations, disclosures). Even when less chatty than prior sessions, they monitor and report that change. HIGH participants may be sociable or friendly but tend to emphasize focusing strategies, epiphanies, or controlled interactions (e.g., concern about hugging in a lab); LOW participants emphasize emotionally expressive communication as a central, sometimes urgent, phenomenon.\n\n6. Emotion-Driven Task Disruption: LOW participants report feelings crowding out focus, misreading tasks, and oscillating between drifting and re-centering.\nLOW transcripts repeatedly note performance impacts (\u201cfeelings overwhelm thinking,\u201d missing initial items, difficulty with crosshairs, focusing on reflections behind the plus), describing the need to bring themselves back from emotional immersion to complete tasks. HIGH participants describe more reliable task engagement and explicit strategies to maintain performance (breath control, cognitive reframing), often calling tasks \u201ceasier\u201d or analytically dissecting them; LOW participants show higher emotional interference with cognitive task execution.\n\n7. Work\u2013Life Values Orientation: LOW participants stress not \u201cworking to live,\u201d fear of becoming emotionally absent like a parent, and prioritizing balance and presence.\nLOW transcripts articulate a strong values stance about work (setting personal bars, avoiding overwork, maintaining presence with loved ones, not conflating work and life), using MDMA insights to reinforce balance and satisfaction over achievement. HIGH participants rarely elaborate on work\u2013life value narratives, focusing more on research, drug comparisons, and mental strategies; LOW participants hold a pronounced, value-laden orientation linking emotional health to daily structure and identity outside of work.\n\n8. Non-Imposition and Boundary Mindfulness: LOW participants emphasize respecting others\u2019 autonomy, confidentiality, and avoiding pressuring loved ones.\nLOW transcripts repeatedly center ethical relational boundaries (\u201cdon\u2019t impose feelings,\u201d \u201ckeep her confidence,\u201d \u201cwe\u2019re both adults,\u201d \u201cno pressure\u201d), creating a careful, consent-oriented stance. They consider how disclosures land and proactively manage impact. HIGH participants show situational sensitivity (e.g., not hugging to avoid discomfort) but are less focused on extended boundary dialogues and confidentiality commitments; LOW participants construct a sustained narrative ethic around non-imposition and mutual agreement.\n\nDifferentiator variable names:\nemotion_first_processing,deep_relational_storytelling,somatic_tactile_hyperawareness,dose_placebo_self_doubt,expressive_talk_drive,emotion_driven_task_disruption,work_life_values_orientation,boundary_non_imposition_mindfulness",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 3368,
+        "prompt_tokens": 14494,
+        "total_tokens": 17862,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2240,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

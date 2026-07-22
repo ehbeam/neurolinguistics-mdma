@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChNFk2GjP6ZFu30enPpyj70aZCt2i",
+    "created": 1764453524,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Relationship-Boundary Introspection: Low-group participants dwell extensively on close relationships, boundaries, and roles, and actively plan delicate conversations. They repeatedly process family dynamics (parents, siblings, niece), romantic partnerships, and how not to impose on others. Their speech includes concrete plans (e.g., proposing after a partner\u2019s year away), open-relationship negotiations, and careful, consent-oriented dialogue with partners and in-laws. This content is personal, specific, and sustained, contrasting with the High group\u2019s more abstract, research- or society-focused reflections about drugs and experience.\n\n2. Somatic and Tactile Attunement: Low-group speech is rich with detailed body sensations and tactile pleasure. They frequently note warmth versus cold, sweaty palms, jaw clenching, tingling, body temperature, muscle soreness, and comfort from blankets; they enjoy stretching and textures (\u201cthe floor,\u201d \u201cthe wood\u201d), and track small sensory changes across sessions (vision jitter, shoe/no-shoe effects). The High group mentions bodily states too, but foregrounds cognitive framing and breath control rather than the granular, sustained sensory tracking and tactile appreciation that dominate Low-group narratives.\n\n3. Effect Uncertainty and Cautious Attribution: Low-group participants markedly hedge about whether and why they feel different. They repeatedly wonder if it\u2019s placebo, dose, shoes, the chair, earplugs, room temperature, or expectations, and actively revise hypotheses (\u201cas time goes by, chances are less\u201d). This persistent self-doubt and environment-based attribution contrasts with the High group\u2019s more confident comparisons to prior psychedelics, neurochemical theories, and clear predictions about their own responses.\n\n4. Emotion\u2013Cognition \u201cLane\u201d Model: Low-group participants explicitly model their inner processing as resources or \u201clanes\u201d for feeling versus thinking and manage the balance. They describe feelings overtaking thoughts, bringing themselves back to a task, protecting a \u201cfeelings lane,\u201d and viewing work versus life as separable channels; they even invoke \u201cutility functions\u201d and \u201cbrain capacity\u201d allocation. The High group tends to frame experiences through external theory (serotonin, SSRIs, study design), while the Low group emphasizes an internal architecture and active reallocation between emotion and cognition during tasks.\n\n5. Mellow Affect with Selective Sociability: Low-group participants emphasize being present, calm, and sometimes less chatty or overwhelmed, often identifying as introverts with social anxiety. They note not reaching MDMA \u201ceuphoria,\u201d preferring side-by-side closeness, or wanting to interact differently depending on context; they also report afterglow effects of being more comfortable at work without becoming effusive. The High group more often anticipates or reports heightened sociability, hugging, and festival-style openness, whereas Low participants modulate connection carefully and remain non-euphoric.\n\n6. Non-Imposition and Ethical Restraint: Low-group narratives consistently foreground not burdening others, guarding confidentiality, and avoiding pressure\u2014especially toward partners and family. They explicitly seek consent, worry about how disclosures may affect loved ones, and strive to \u201cnot insert\u201d themselves while remaining supportive; even when advocating (e.g., for a niece), they stress agency and choice. High-group speakers also note respect for boundaries, but the Low group\u2019s non-imposition stance is a pervasive principle guiding disclosures, decisions, and relationship roles.\n\nDifferentiator variable names:\nrelationship_boundary_introspection, somatic_tactile_attunement, effect_uncertainty_attribution, emotion_cognition_lane_model, mellow_selective_sociability, nonimposition_ethics_orientation",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 3171,
+        "prompt_tokens": 14494,
+        "total_tokens": 17665,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2432,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

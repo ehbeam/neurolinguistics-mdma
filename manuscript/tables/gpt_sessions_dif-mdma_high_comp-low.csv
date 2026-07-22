@@ -1,0 +1,5 @@
+var,n_placebo,med_[quantiles]_placebo,n_mdma,med_[quantiles]_mdma,U,CLES,FDR
+gpt5_open_boundary_openness,207,"0.40 [0.30, 0.50]",181,"0.20 [0.00, 0.40]","26,730.5",0.71,3.88x10-13***
+gpt5_breath_self_regulation,207,"0.10 [0.00, 0.10]",181,"0.00 [0.00, 0.00]","28,101.5",0.75,6.74x10-21***
+gpt5_systems_policy_orientation,207,"0.00 [0.00, 0.00]",181,"0.00 [0.00, 0.00]","20,077",0.54,0.02*
+gpt5_boundary_conscious_social_restraint,207,"0.10 [0.10, 0.20]",182,"0.10 [0.00, 0.50]","18,648.5",0.51,0.86

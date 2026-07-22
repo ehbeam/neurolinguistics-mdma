@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChNEC9OtHY5ocCnnHZVyGda97Qjd0",
+    "created": 1764453428,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Relationship-centered emotional disclosure: LOW participants consistently dive into intimate relationship narratives and use the experience to plan conversations and define interpersonal roles. They repeatedly describe partners, family, and children in detail, explore guilt and boundaries, and frame MDMA as opening a \u201cfeelings lane\u201d that enables candid, compassionate dialogue; they plan specific talks (e.g., proposals, open-relationship terms, niece mentorship), emphasize non-imposition and trust, and assess others\u2019 empathy\u2014whereas HIGH participants discuss empathy and connection more abstractly or in research/party contexts rather than sustained personal storytelling.\n\n2. Vivid interoceptive and sensory tracking: LOW participants offer granular, ongoing reports of body sensations, temperature, and tactile urges. Warmth vs cold, sweaty palms, jaw clenching/chattering, tingling, hamstring soreness, double vision, sock/shoe impacts, and appreciation of textures and stretching are richly narrated across contexts (MRI, walking, resting), with causal attributions to small environmental changes; HIGH participants mention somatic states more briefly and quickly pivot to cognitive regulation (e.g., breath control) or theoretical framing.\n\n3. Affective dominance that interferes with task focus: LOW participants describe feelings overwhelming cognition, missing items, changing gaze strategies, and needing to \u201cbring myself back\u201d to perform tasks. They report crosshair/vision issues, faces-vs-shapes confusion, reduced competitiveness, and emotional investment that fluctuates attention, contrasting with HIGH participants\u2019 emphasis on metacognitive control (breathing to re-center), task ease, and analytical reflection on study design and performance.\n\nDifferentiator variable names:\ndifferentiator_01_name: relationship_emotional_disclosure, differentiator_02_name: interoceptive_sensory_detail, differentiator03_name: affective_task_interference",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 2175,
+        "prompt_tokens": 14494,
+        "total_tokens": 16669,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 1792,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

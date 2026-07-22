@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChM7RLQHuVH9bBr9ws2z356310vnr",
+    "created": 1764449165,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Open-Book Openness: High-group participants explicitly self-identify as open and readily disclose thoughts, feelings, and experiences. They repeatedly label themselves \u201copen,\u201d invite any question, and volunteer personal history without prompting, signaling low inhibition around self-disclosure. This openness extends to new experiences (\u201cintentional\u201d non-party settings) and frank discussion of sensitive topics, contrasting with low-group hesitancy, second-guessing, and concerns about \u201cimposing\u201d or being \u201ctoo chatty.\u201d\n\n2. Gregarious, Touch-Seeking Sociability: High-group participants display strong social approach and desire for physical connection and warmth. They anticipate and seek hugs, mirroring, and shared music/dance experiences, while also showing situational awareness about boundaries (e.g., avoiding unsolicited touch to not make staff uncomfortable). Compared with the low group\u2014who often report social anxiety or restraint\u2014high-group talk centers on connection, embodied warmth, and friendly engagement.\n\n3. Breath-Based Self-Regulation: High-group participants actively use breathing and grounding techniques to manage anxiety or discomfort. They frame moments of tension as opportunities to \u201ccontrol my breath,\u201d drawing on panic-attack strategies and even historical examples of resilience to emphasize agency. This practical, repeatable regulation contrasts with low-group narratives of being overwhelmed or struggling to reorient without a concrete somatic tool.\n\n4. Science-Literate Curiosity: High-group participants spontaneously reference research, pharmacology, and cognitive science. They cite biases (Kahneman), discuss SSRIs versus dopamine mechanisms, bring up Shulgin and CB2, and differentiate MDMA from classic psychedelics. Their knowledge-seeking tone is forward-looking and applied (e.g., interest in depression/PTSD trials), whereas low-group references are more anecdotal or secondhand and less integrative.\n\n5. Experimental Meta-Awareness: High-group participants frequently analyze the purpose and structure of tasks and study design. They wonder about \u201culterior\u201d subtests (flexibility, order changes), whether buttons are meaningful, and how money tasks might bias results\u2014without spinning into distress. This pattern-finding stance, framed as inquisitive rather than suspicious, stands apart from low-group focus on immediate task difficulty or sensory issues.\n\n6. Intentional Set-and-Setting Orientation: High-group participants emphasize intentional, non-festival contexts for MDMA and clear respect for different substances\u2019 profiles. They contrast \u201cparty\u201d settings with reflective, purposeful use (e.g., bonding with a friend, introspective mushroom sessions) and articulate why different contexts matter. The low group more often dwells on the lab\u2019s constraints without elaborating a positive, intentional alternative.\n\n7. Transpersonal Framing and Oneness Language: High-group participants describe experiences in terms of merging with environment or others and \u201ctranscendence.\u201d They contrast MDMA\u2019s profile with classic psychedelics yet still reach for transpersonal or unitive concepts. Low-group narratives largely remain personal, practical, or interpersonal without stepping into explicit oneness/transcendence frames.\n\n8. Positive Reappraisal and Resilience: High-group participants habitually recast discomfort as temporary \u201cvalleys\u201d on a journey with \u201cnet positive\u201d outcomes. They characterize odd sensations as \u201cmore strange than disconcerting,\u201d and pivot quickly to what they can control, often via breath or attention. This contrasts with low-group stories of doubt, disappointment, or unresolved confusion about their state or dose.\n\n9. Empathic Other-Orientation: High-group participants actively monitor others\u2019 states and aim to ensure others are comfortable and having a good time. They discuss observing and mirroring facial reactions, moderating their behavior to avoid discomfort, and framing MDMA as an \u201cempathy drug\u201d that heightens care for others\u2019 experience. Low-group speakers often describe inward focus (e.g., being overwhelmed, not wanting to impose), with less live tuning to others.\n\n10. Research Engagement and Policy Reflection: High-group participants engage with the broader ecosystem\u2014scaling studies, ethics, commercialization, and policy. They worry about societal control, monetization by industry, and express intent to contact PIs or contribute. Their stance is critically optimistic: the work is \u201camazing,\u201d but guardrails matter. Low-group material rarely extends to these structural reflections.\n\nDifferentiator variable names:\ndifferentiator_01_name: openness_disclosure\ndifferentiator_02_name: sociable_touch_affinity\ndifferentiator_03_name: breath_based_regulation\ndifferentiator_04_name: science_literacy_psychopharm\ndifferentiator_05_name: experimental_meta_awareness\ndifferentiator_06_name: set_setting_intentionality\ndifferentiator_07_name: transpersonal_merging_frame\ndifferentiator_08_name: positive_reappraisal_resilience\ndifferentiator_09_name: empathic_other_orientation\ndifferentiator_10_name: research_policy_engagement",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 3968,
+        "prompt_tokens": 14494,
+        "total_tokens": 18462,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2944,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

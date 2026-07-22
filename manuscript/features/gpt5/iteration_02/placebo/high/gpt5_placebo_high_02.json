@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChN81B8YgA28EeBH0tRLh7bhyjVNF",
+    "created": 1764453045,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Dreamlike Sensory Amplification: High participants experience brighter colors, foggy dreamlike vision, and heightened pleasant touch; low participants report little to no sensory change on MDMA.\nHigh-group transcripts consistently describe pronounced sensory alterations: brighter colors, slightly foggy or \u201cdreamlike\u201d visual quality, and notably pleasant, heightened skin sensation. They often note feeling as if in a pleasant dream while still oriented to reality, and reference physiological signs like pupil dilation and jaw clenching alongside tactile sensitivity. In contrast, the low group repeatedly downplays MDMA-related sensory changes, asserting the world feels \u201cquite real,\u201d denying color shifts, and attributing visual blurring to other substances (e.g., LSD). Low-group mentions of bodily sensation tend to be mild (e.g., light legs) and framed as non-transformative, reinforcing a clear sensory distinction.\n\n2. Pro-social Tactile Openness and Unconditional Support: High participants show strong urges to hug, touch, and offer unconditional support; low participants emphasize talkativeness but remain guarded about touch and relational boundaries.\nHigh-group speech reflects a robust affiliative drive centered on touch and support\u2014wanting to hug everyone, physically connect, listen, and cultivate \u201cunconditional friendship.\u201d They also describe rapid emotional bonding and positive reappraisal of difficult feelings in service of connection. Low-group participants, while often chatty and open to conversation, define sociability in terms of talking and listening rather than touch, and they explicitly maintain boundaries (e.g., hesitating to hug staff in a sober clinical setting, staying guarded with new people). When low-group participants do describe increased warmth (e.g., bigger family hugs), it is situational and less spontaneous than the pervasive tactile, supportive inclination seen in the high group.\n\nDifferentiator variable names:\nsensory_dreamlike_amplification,prosocial_tactile_openness",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 3147,
+        "prompt_tokens": 12392,
+        "total_tokens": 15539,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2752,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

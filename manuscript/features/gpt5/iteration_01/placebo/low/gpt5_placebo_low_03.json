@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChM8VyM5jXjTDVol6dQa41F7irnsN",
+    "created": 1764449231,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Reality-Anchored Clarity: LOW participants emphasize clear-headed, non-intoxicating, firmly reality-anchored experiences with minimal perceptual change. They repeatedly describe MDMA as keeping them \u201cin this world,\u201d preserving mental focus and clarity while worries fade, and reject dissociation or dreamlike states (\u201cnot intoxicated,\u201d \u201cnot a different world,\u201d \u201ccolors don\u2019t change\u201d). Even when visual focus or lightness is noted, they stress that thinking remains clear and controllable. In contrast, HIGH participants more often report foggy, dreamlike perception, brighter colors, increased skin sensitivity, and concentration challenges, highlighting altered sensory states rather than grounded clarity.\n\n2. Metacognitive Emotional Bandwidth: LOW participants describe MDMA as allocating bandwidth to pre-existing feelings, using analytical \u201clanes\u201d and \u201cutility\u201d metaphors. They frame the experience as opening access to an existing \u201cvault\u201d of feelings rather than generating new ones, and use systems-like language (lanes for feeling/thinking, allocation of space, utility functions, positive conditioning, compartmentalization) to explain how emotions are prioritized without cognitive impairment. This structured, introspective narration contrasts with HIGH participants\u2019 event-centered storytelling and sensory emphasis, who focus more on social episodes, setting, and immediate phenomenology rather than a systematic model of inner processes.\n\n3. Anxiolysis with Measured Openness: LOW participants experience strong anxiolysis and shift from guardedness to open, reciprocal sociability while maintaining boundaries. They report anxiety \u201cvanishing,\u201d becoming less defensive, making more eye contact, and being chatty and empathic, yet emphasize listening, reciprocity, and respect for others\u2019 space (e.g., cautious about hugging staff, concern about making people uncomfortable). This measured, prosocial openness often extends beyond the session (e.g., deeper family hugs, more emotionally open talks). HIGH participants more commonly describe setting-induced nerves, mistrust, or sadness and seek \u201cbuddy-buddy\u201d rapport, with less emphasis on sustained, boundary-aware anxiolysis.\n\nDifferentiator variable names:\nreality_anchored_clarity,metacognitive_emotional_bandwidth,anxiolysis_measured_openness",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 3723,
+        "prompt_tokens": 12392,
+        "total_tokens": 16115,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 3264,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

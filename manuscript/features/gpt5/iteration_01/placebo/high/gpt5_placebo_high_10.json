@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChMGcp6Tu7VMMAf0W7r9eOoW8BOJ7",
+    "created": 1764449734,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Study-Design Metacognition: They frequently analyze study design, placebo order, environmental controls, and measurement validity while answering. High-group participants repeatedly step back to consider how the study\u2019s structure shapes their experience and data, commenting on placebo-first bias, the lab\u2019s atypical stimulation versus festivals, and even proposing sleep checks and other controls. They calibrate their survey responses with this awareness (\u201cespecially when I\u2019m answering the surveys\u201d), anticipate how caffeine restrictions might shift performance, and worry about external validity\u2014nuanced, proactive critique largely absent or briefer in the low group.\n\n2. Professional-Boundary Awareness: They explicitly recognize and manage the professional dynamic with staff, modulating disclosure and behavior accordingly. High participants describe tension between wanting \u201cbuddy-buddy\u201d rapport and respecting staff roles, even becoming \u201chermetic\u201d or tempering self-expression because \u201cthis isn\u2019t hanging out.\u201d They question whether staff are being \u201cgenuine\u201d versus \u201cacting professionally,\u201d and adjust their behavior to fit the setting\u2014whereas low-group transcripts emphasize sociability and openness without sustained reflection on role boundaries.\n\n3. Amplified Sensory, Dreamlike Clarity: They describe brighter colors, pleasant touch, and foggy dreamlike vision while remaining oriented to reality. High-group accounts foreground vivid, multimodal changes\u2014brighter colors, pleasant skin sensitivity, slightly blurry or \u201cdreamlike\u201d visuals, dilated pupils, and expected autonomic shifts\u2014while maintaining identity and orientation. Low-group participants more often deny dreamlike or unreal qualities and emphasize feeling \u201cin this world,\u201d marking a clear phenomenological contrast.\n\n4. Active Emotional Reappraisal: They allow difficult feelings and deliberately reinterpret events to emphasize growth, bonding, and positives. High-group narratives show a process: letting sadness in, exploring it, then consciously shifting focus to positive outcomes (e.g., \u201chow much more we bonded after that\u201d). They articulate a felt transition from initial negativity to meaning-making, while low-group descriptions focus more on reduced anxiety, bandwidth for feelings, or clarity without this explicit, iterative reframe.\n\n5. Performance Vigilance Under Drug: They monitor task performance closely and push for 100% accuracy, noting factors like sleep and focus. High participants track their attention and memory moment to moment, compare sessions, push to \u201cperform at 100%,\u201d and preempt stereotypes that MDMA impairs focus. They attribute lapses to specific confounds (sleepiness in MRI) and self-correct; low-group speakers describe performing tasks more passively, often saying mental focus is unchanged or that tasks require little bandwidth.\n\n6. Contextual Generalization Reasoning: They reason about lab-to-real-world differences and how setting, stimulation, and caffeine habits alter outcomes. High-group participants explicitly model how festivals versus labs alter drug effects, discuss how caffeine habits could bias baselines, and suggest eligibility refinements (e.g., recruit non\u2013caffeine users). Low-group comments about setting are briefer and personal; high-group reasoning consistently extends to study-level generalization.\n\n7. Physiological Self-Monitoring and Mechanistic Hypotheses: They track bodily signs and propose mechanisms, asking to verify pupils and discussing caffeine, electrolytes, and metabolism. High participants note jaw clenching, shaky hands, temperature, and pupil size, and then hypothesize pharmacologic mechanisms (caffeine co-formulation, electrolytes/glucose, metabolism speed). They even request physiological confirmation, signaling curiosity and hypothesis testing that goes beyond the low group\u2019s simpler sensation reports (e.g., tingling, light legs).\n\n8. Deep Relational Narratives: They share rich interpersonal stories highlighting intimacy, identity, and values like unconditional friendship. High-group transcripts offer elaborate interpersonal arcs (ex-partners, \u201cmade love\u201d versus \u201cjust sex,\u201d Peace Corps history, shared Salvadorian identity) and value-driven choices (declining sex to preserve unconditional friendship). Low-group content references relationships and hugs but with less narrative depth or thematic exploration of intimacy and identity.\n\n9. Comfort-Contingent Affiliation and Touch: When comfortable, they show strong urges to hug, support, and physically connect with others. High participants repeatedly tie prosocial touch and support to contextual comfort (\u201cas long as I\u2019m comfortable... want to hug everybody\u201d), envisioning post-study socializing and emphasizing unconditional support. Low-group participants do describe being chatty and friendly, yet often pair it with guardedness or concerns about appropriateness of touch with sober staff, indicating less intense, condition-dependent affiliative drive.\n\n10. Attention State Awareness and Oscillation: They label shifting states\u2014hyperfocus, dilation, sleepiness\u2014and adapt their approach to tasks and interactions. High-group participants narrate oscillations between hyperawareness (\u201cpupils dilated,\u201d \u201choned in\u201d) and drowsiness in the scanner, anticipate their impact on tasks (e.g., face tests), and adjust strategies accordingly. Low-group accounts tend to report stable mental focus or simple visual changes, without the same metacognitive tracking of attentional fluctuations.\n\nDifferentiator variable names:\nstudy_design_metacognition, professional_boundary_awareness, sensory_dreamlike_amplification, active_emotional_reappraisal, performance_vigilance, contextual_generalization_reasoning, physiological_monitoring_hypotheses, deep_relational_narratives, comfort_contingent_affiliation, attention_state_oscillation",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 4426,
+        "prompt_tokens": 12392,
+        "total_tokens": 16818,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 3328,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

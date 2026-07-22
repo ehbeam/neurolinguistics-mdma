@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChLppGaz6Ygljn588k4xY9JNAHbPy",
+    "created": 1764448073,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Anxiety Quieting: LOW participants report near-total disappearance of anxiety, concerns, and defensiveness during sessions, feeling secure and calm. They consistently describe \u201czero anxiety,\u201d becoming less concerned and less defensive, with walls dropping around new people and strangers. The setting is experienced as secure rather than threatening, which further amplifies the calm; they worry beforehand about boundaries (e.g., hugging sober staff) but once engaged, vigilance fades. In contrast, HIGH participants more often mention nerves, mistrust, or discomfort with the professional dynamic and do not report such pervasive anxiety suppression.\n\n2. Reality Anchoring (No Dreamlike Perceptual Shift): LOW participants experience MDMA as firmly grounded in reality with minimal visual distortion, no dreamlike fog, and strong situational awareness. They emphasize \u201cI\u2019m in this world,\u201d reject dissociation, and associate blurring or vivid colors with other drugs (e.g., LSD, ketamine) rather than MDMA. Visual phenomena like tunnel vision are framed as atypical or red flags, and color enhancement is typically denied. This sharply contrasts with HIGH participants\u2019 frequent descriptions of brighter colors, foggy or blurry vision, and a pleasant, dreamlike quality.\n\n3. Emotional Access and Prosocial Disclosure: LOW participants gain powerful access to feelings and a strong urge to connect, self-disclose, and reduce avoidance. They describe an \u201cadditional lane\u201d for feelings, opening a long-locked \u201cvault,\u201d and a surge in empathy, eye contact, and talkativeness\u2014even with strangers (e.g., extended conversations with a rideshare driver). They report being more loving, less avoidant, and intentionally using the state to express feelings to close others and process relationships. HIGH participants also reference empathy, but LOW participants center their experience on deep self-disclosure and deliberate interpersonal engagement.\n\n4. Cognitive Clarity with Non-Intoxicated Framing: LOW participants emphasize mental clarity and task capability, rejecting the notion that MDMA intoxicates or impairs thinking. They define intoxication as cognitive impairment and insist MDMA does not meet that criterion; mental focus is largely preserved, even if visual focus softens at times. They speak analytically about \u201callocating bandwidth\u201d to emotions without losing the ability to perform tasks and distinguish MDMA\u2019s clarity from LSD\u2019s creativity or dissociation. HIGH participants more often report fogginess, impaired concentration, or drowsiness and frame the state as dreamlike.\n\n5. Metacognitive and Study-Oriented Curiosity: LOW participants frequently analyze the protocol, compare drugs, and question constructs, showing high metacognitive engagement. They ask about randomization, placebo, data handling, survey wording, and whether certain items are \u201cred flags,\u201d while cross-checking their experiences against peers\u2019 reports and drug taxonomies. They reflect on their own cognitive processes (e.g., compartmentalization, utility functions, bandwidth allocation) and discuss therapeutic applications (e.g., MDMA-assisted therapy). HIGH participants tend to offer narrative anecdotes and sensory accounts rather than methodological or construct-level inquiry.\n\n6. Sustained Afterglow and Integration Focus: LOW participants report enduring prosocial changes and deliberately integrate insights into relationships and therapy after sessions. They describe a week-long afterglow of openness, more affectionate behavior (e.g., bigger hugs with family), and durable shifts toward emotional conversations and reduced defensiveness. Many frame the experience as opening access to preexisting feelings and plan to continue integration (e.g., seeking an MDMA-capable therapist), aiming to build capacity so MDMA is no longer needed. These persistent, integration-oriented themes are far less evident in the HIGH group.\n\nDifferentiator variable names:\nanxiety_suppression,reality_anchoring,prosocial_emotional_openness,cognitive_clarity_nonintoxication,metacognitive_study_orientation,sustained_afterglow_integration",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 4122,
+        "prompt_tokens": 12391,
+        "total_tokens": 16513,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 3328,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-CjDC72DFs7rqIDYX5aFMDbUBHYQmR",
+    "created": 1764891515,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Meta-cognitive Emotional Bandwidth Management: LOW participants actively monitor and allocate \u201cmental bandwidth,\u201d prioritizing clarity, boundaries, and control over emotions and behavior during MDMA. LOW-group transcripts repeatedly feature planning and regulation of inner states\u2014descriptions of \u201clanes\u201d for feeling versus thinking, bringing themselves \u201cback\u201d to tasks, compartmentalizing, and defining intoxication as anything that impairs clarity. They emphasize security and boundary-respect (e.g., worrying about hugging sober people, not encroaching), and interrogate study logistics (placebo, data, survey intent) to maintain control. They frame MDMA as enabling access to pre-existing emotions rather than intoxication, and deliberately allocate space to feelings while preserving cognitive control. In contrast, HIGH participants focus more on sensory experience (brighter colors, pleasant skin, foggy/dreamlike vision), stimulation context, and general positivity, with less emphasis on deliberate self-monitoring, boundary management, or analytic regulation of their emotional state.\n\nDifferentiator variable names:\nmeta_bandwidth_regulation",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 1835,
+        "prompt_tokens": 12392,
+        "total_tokens": 14227,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 1600,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

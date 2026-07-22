@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChLug1FnrhE7BG0xVDPsckqx0b9a0",
+    "created": 1764448374,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Dreamlike Sensory Vividness: Reports of brighter colors, foggy/blurry vision, and a pleasant dreamlike state alongside intact orientation.\nParticipants in the HIGH group consistently describe MDMA experiences as visually and somatically altered: colors appear brighter, vision becomes foggy or slightly blurry, and the world can feel like a pleasant dream while they still know who and where they are. They also note heightened skin sensitivity, awareness of physiological signs (e.g., jaw clenching, pupil dilation), and expectation of increased heart rate. In contrast, LOW group participants emphasize that things feel \u201cquite real,\u201d deny color changes, and often attribute any blurring to other substances (e.g., LSD), highlighting minimal perceptual distortion with MDMA in their reports.\n\n2. Professional Boundary Salience: Heightened awareness of research staff professionalism and uncertainty about genuineness, producing guardedness and mistrust in-session.\nHIGH group participants frequently notice and comment on the clinical nature of the setting, explicitly acknowledging that \u201cthis isn\u2019t buddy-buddy\u201d and wondering if staff are being genuine or just professional. This contextual mistrust shapes their emotional trajectory, making them more hermetic and self-protective during tasks. In contrast, LOW group participants tend to describe feeling secure and supported by staff (blankets, socks), worry more about not encroaching on staff\u2019s space than staff authenticity, and report becoming less defensive and more open over time in the setting.\n\n3. Protocol Metacognition: Active theorizing about study design, pharmacology, and confounds, including caffeine, placebo, survey validity, and task measurement issues.\nHIGH group participants repeatedly engage the mechanics of the study\u2014questioning placebo effects, proposing caffeine or electrolyte/glucose impacts, worrying about sleep confounds in MRI tasks, and discussing how environmental context affects survey responses. They even suggest sample selection changes (e.g., recruiting non\u2013caffeine users) and seek physiological confirmation (pupil dilation). LOW group participants do ask procedural questions but focus mainly on their personal state and setting comfort; they rarely elaborate pharmacological hypotheses or measurement critiques with the same depth.\n\n4. Active Emotional Reframing: Explicit, deliberate reappraisal of negative feelings into constructive insights and positive outcomes during the experience.\nHIGH group narratives feature a recognizable pattern: acknowledging sadness or discomfort, then consciously allowing the feeling, making interpretive connections, and refocusing on positive consequences (e.g., \u201cmore positive came out of that than negative\u201d). This is described as \u201cmaking connections\u201d rather than just feeling clarity. LOW group accounts emphasize reduced anxiety, emotional clarity, and reaccessing feelings or bandwidth allocation; they seldom describe real-time reappraisal or reframing into positives with the same intentionality and narrative emphasis.\n\n5. Performance Self-Regulation: Strong motivation to monitor, sustain, and optimize task performance under MDMA despite distractibility or fatigue.\nHIGH group participants repeatedly self-monitor performance (e.g., pattern-finding tasks, money-earning sections), push themselves to \u201cperform at 100%,\u201d track mistakes, and worry about confounds like sleepiness affecting task outcomes. They describe losing focus but actively dragging themselves back into task engagement. LOW group participants often report that mental focus is unchanged or that tasks are simple enough to complete while feelings take precedence; when distraction occurs, they accept drifting and toggling between feeling and thinking rather than exerting continuous performance control.\n\n6. Rich Personal Narrative Elaboration: Detailed, autobiographical storytelling (relationships, cultural identity, life history) integrated into session discourse.\nHIGH group speech includes vivid, structured personal stories\u2014ex-partner dynamics, Peace Corps service, cultural identity (e.g., Salvadorian), and friendship philosophy\u2014woven into their reflections on the session and drug effects. These narratives arise spontaneously and are used to interpret the experience. LOW group talk is more about operational states (anxiety reduction, sociability, bandwidth, safety), with fewer extended biographical arcs; their personal content tends to be brief and functional (e.g., family hugs, job search) rather than elaborated life-story narratives.\n\nDifferentiator variable names:\ndreamlike_sensory_vividness, professional_boundary_salience, protocol_metacognition, emotional_reframing, performance_self_regulation, rich_personal_narrative",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 3309,
+        "prompt_tokens": 12391,
+        "total_tokens": 15700,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2432,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

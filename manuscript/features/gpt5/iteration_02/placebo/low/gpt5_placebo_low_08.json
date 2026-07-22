@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChN6RvZ04IowTBuVnKYbzcTiABRMu",
+    "created": 1764452947,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Analytical Cognitive Framing: LOW participants describe experiences through utility functions, \u201cbandwidth,\u201d and \u201clanes,\u201d privileging analytical models over affective narratives. They repeatedly conceptualize MDMA effects as a reallocation of mental resources rather than a flood of feelings, using precise frameworks like \u201cadditional lane for feeling,\u201d \u201callocation of bandwidth,\u201d and distinctions between mental versus visual focus. This meta-cognitive style shows deliberate structuring of inner states and tasks, contrasting with HIGH narratives that emphasize warmth, hugging, and dream-like immersion rather than resource models or cognitive architecture.\n\n2. Sober Clarity and Strict Intoxication Criteria: LOW participants report feeling sober and clear-headed, defining intoxication strictly as cognitive impairment or loss of control. They consistently reject dissociation, dreaminess, or unreality, saying MDMA feels \u201cin this world\u201d and \u201cquite real,\u201d with happiness framed as the absence of anxiety rather than altered consciousness. Even when chatty or physically light, they maintain mental clarity and control, unlike HIGH participants who describe foggy vision, brighter colors, and a pleasant dream-state.\n\n3. Emotion Access Without Value Shift: LOW participants describe MDMA as unlocking a vault of pre-existing feelings without changing what they feel about people or situations. They emphasize that the drug creates room to access and express long-held emotions, not to generate new ones or alter judgments\u2014\u201cI knew what was inside.\u201d This resource-access view distinguishes them from HIGH participants who characterize heightened empathy and positivity as emergent states, often accompanied by new affective meanings and bonding.\n\n4. Setting- and Boundary-Consciousness: LOW participants attribute security to the environment and are highly attuned to professional boundaries, worrying about making staff uncomfortable with touch or talkativeness. They prefer \u201csecure\u201d over \u201csafe,\u201d consider the setting pivotal to the experience, and even imagine therapist-guided MDMA as the appropriate context. In contrast, HIGH participants focus more on interpersonal warmth within the setting and describe wanting to hug and support everyone, even when acknowledging the professional dynamic.\n\n5. Study-Method Awareness and Cautious Generalization: LOW participants scrutinize study procedures and data, asking about randomization, placebo cases, survey intent, and \u201cred flag\u201d items (e.g., dissociation, bipolar screening). They frame their own experience as anecdotal and hesitate to generalize, sometimes defensive about diagnostic implications. HIGH participants do reflect on surveys and caffeine but with less methodological caution and fewer concerns about the interpretive frame or differential applicability.\n\n6. Minimal Sensory Alterations and No Dissociation: LOW participants largely deny classic perceptual changes\u2014no color shifts, no dream-like blur, little to no tunnel vision\u2014and instead note subtle lightness or tingling. They explicitly separate MDMA from LSD for visual distortions, rejecting dissociative or unreal sensations. HIGH participants commonly report brighter colors, foggy vision, and tactile pleasantness, highlighting a sensory amplification that LOW participants do not endorse.\n\n7. Listening-Led Sociability with Low Ego Change: LOW participants become more talkative and friendly but define sociability as a two-way street centered on listening, receiving, and acceptance. They report reduced defensiveness and more eye contact without feeling intoxicated or egotistical; ego change is minimal or \u201cnot a big deal.\u201d HIGH participants often emphasize outward affection and hugging, while LOW participants stress measured openness and receptivity over exuberant display.\n\n8. Post-Session Intentional Emotional Work and Compartmentalization: LOW participants describe a deliberate, extended arc of processing\u2014week-long openness, talking with family, integrating insights, and \u201ccatching up\u201d on years of unaccessed feelings. They discuss compartmentalization, positive versus negative conditioning, and allocating bandwidth to emotions so life demands don\u2019t overwrite them. HIGH participants note acute connections and reflections, but LOW narratives focus on structured follow-through and long-term emotional consolidation.\n\nDifferentiator variable names:\nanalytical_cognitive_framing, sober_clarity_non_intoxicated, emotion_access_not_value_shift, setting_boundary_conscious, study_method_awareness_cautious, minimal_sensory_change_no_dissociation, listening_led_sociability_low_ego, post_session_emotional_work_compartmentalization",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 2917,
+        "prompt_tokens": 12392,
+        "total_tokens": 15309,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2048,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

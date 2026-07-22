@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChMEt8LBFX4uD9Wu5rIqWOqyICX3f",
+    "created": 1764449627,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Study Protocol Metacognition: High participants actively analyze placebo, setting, confounds, and survey biases and incorporate that reasoning into how they interpret and answer tasks. They repeatedly flag design features (placebo ordering, lab versus festival context, caffeine restriction, sleepiness in the MRI) as potential confounds, and suggest concrete methodological fixes (e.g., sleep measures, recruiting low-caffeine users, or allowing caffeine). They also reflect on how these factors shape their survey responses and task performance, showing a research-minded stance toward the study itself. In contrast, LOW participants pose isolated curiosity questions about data or placebo but do not consistently integrate methodological reasoning into their interpretations or behavior.\n\n2. Boundary-Calibrated Interaction: High participants read and adapt to professional boundaries, explicitly weighing staff authenticity versus protocol and modulating their openness accordingly. They describe feeling \u201chermetic\u201d or restrained because \u201cthis isn\u2019t buddy-buddy time,\u201d wondering if staff are acting professionally versus showing their \u201cgenuine selves,\u201d and note how this interpersonal appraisal directly altered their mood and survey answers. LOW participants occasionally worry about being overly affectionate or talkative with staff but frame it as a one-off courtesy concern rather than an ongoing, deliberate calibration that guides their narrative and behavior.\n\n3. Deliberate Positive Reappraisal: High participants intentionally allow difficult feelings, then reframe them toward growth, bonding, or other constructive outcomes. They describe noticing sadness, choosing to \u201clet myself feel it,\u201d and then emphasizing the positives (e.g., how conflict strengthened a relationship), explicitly narrating a cognitive shift from aversive affect to adaptive meaning-making. LOW participants more often report anxiety reduction, \u201cbandwidth\u201d to feel, or being \u201cless defensive,\u201d but seldom outline the stepwise process of emotional acceptance followed by intentional positive reframing.\n\n4. Sensory Dreamlike Amplification: High participants report brightened colors, pleasant tactile sensitivity, and a foggy, dreamlike visual field while maintaining reality orientation. Their accounts consistently combine heightened touch (\u201cskin feels pleasantly sensitive\u201d), visual changes (\u201ccolors are brighter,\u201d \u201cfoggy vision\u201d), and a dreamlike feel that is nevertheless anchored in knowing who and where they are. LOW participants typically emphasize clarity and \u201crealness,\u201d deny color changes, and describe mild bodily sensations (light legs, tingling) without the cohesive dreamlike quality.\n\n5. Task Performance Vigilance: High participants closely monitor attention, memory, and errors, and push themselves to perform despite fatigue or stereotype threat. They recount being \u201chyper aware\u201d of lapses, tracking patterns in reward tasks, worrying that drowsiness might confound results, and even \u201cpushing harder\u201d to counter the notion that MDMA impairs focus. LOW participants more often describe drifting into feelings that crowd out thinking, becoming sleepy or \u201cjust doing\u201d tasks without reflective strategy, and do not highlight a compensatory performance drive.\n\n6. Intentional Deep-Bonding Orientation: High participants pursue unconditional, non-transactional relationships, often setting boundaries (e.g., avoiding sex) to protect a valued friendship and highlighting cultural kinship. Their narratives center on cultivating \u201cspecial,\u201d unconditional bonds, reflecting on what \u201cmaking love\u201d means, and prioritizing connection quality over immediate gratification. LOW participants frequently describe increased talkativeness or openness, and post-session warmth with family, but rarely articulate an explicit strategy or ethic for forming or preserving deep, unconditional ties.\n\n7. Physiological Hypothesis-Testing: High participants self-monitor bodily signals and propose mechanisms, seeking verification (e.g., pupil dilation) and linking effects to metabolism, electrolytes, or caffeine. They note heart rate changes, jaw clenching, dilated pupils, and speculate about caffeine accelerating metabolism or glucose/electrolytes stabilizing energy, asking staff to confirm physiological signs. LOW participants mention sensations (tingling, lightness, cold) but with less mechanistic reasoning, fewer checks for objective markers, and minimal hypothesis testing.\n\nDifferentiator variable names:\nstudy_protocol_metacognition,boundary_calibration,positive_reappraisal,sensory_dreamlike_amplification,task_performance_vigilance,deep_connection_orientation,physiological_hypothesis_testing",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 3932,
+        "prompt_tokens": 12392,
+        "total_tokens": 16324,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 3072,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

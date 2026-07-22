@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChMFZQ8JX8LInqAvPfGn2ygnc8u8u",
+    "created": 1764449669,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Affiliation-Seeking and Touch Orientation: High participants show strong urges to physically connect\u2014hug, touch, and support others\u2014foregrounding interpersonal warmth under MDMA. They repeatedly describe wanting to hug everyone, touch others, listen deeply, and offer support, framing relationships in terms of unconditional friendship rather than sexual attraction. Their social drive extends beyond the session (suggesting going out together, electronic music, festivals), and their desire to bond is central to how they evaluate the experience. In contrast, low participants are more guarded about boundaries, worry about encroaching on staff, and emphasize restraint even when they feel more open.\n\n2. Sensory Intensification and Dreamlike Perception: High participants report brighter colors, foggy dreamlike vision, and heightened pleasant tactile sensitivity. They characterize touch as distinctly pleasant and skin as more sensitive, with visual experience described as brighter yet slightly blurred in a \u201cpleasant dream\u201d while maintaining orientation. Low participants largely deny color changes and dissociation, often emphasizing clarity and normalcy, with sensory notes limited to lightness or mild tingling rather than robust perceptual shifts.\n\n3. Setting-Dependence and Social Context Anchoring: High participants strongly tie the quality of their experience to socially stimulating settings and feel constrained by lab professionalism. They reference festivals, dance events, and caffeine routines, and openly state the lab\u2019s professional distance dampens the experience; they seek buddy-buddy vibes and post-session socialization. Low participants acknowledge the setting matters but focus on being respectful and secure; they analyze the environment\u2019s impact without the same drive toward social stimulation or dissatisfaction with clinical boundaries.\n\n4. Emotion-Forward Reframing and Acceptance: High participants let difficult feelings arise, then actively reframe toward positive outcomes and deepened bonds. They describe noticing sadness, choosing to feel it, and then emphasizing the positives (e.g., how situations led to closeness or growth). Their process is feeling-centric and connection-oriented. Low participants talk about emotions in terms of mental \u201cbandwidth,\u201d allocation, or clarity and tend to treat MDMA as a tool to access preexisting feelings rather than actively reshaping meaning through in-the-moment emotional processing.\n\n5. Task Vigilance and Meta-Performance Monitoring: High participants intensely monitor focus and memory, worry about confounds (sleep, caffeine), and push themselves to disprove impairment stereotypes. They reflect on performance differences across visits, discuss hyper-awareness of limitations, and explicitly aim for 100% task execution. Low participants report that mental focus often feels unchanged, describe tunnel vision or visual focus shifts, and engage less in meta-monitoring or stereotype-challenging behavior during tasks.\n\n6. Narrative Expansiveness and Personal Disclosure: High participants offer rich, concrete personal stories with names, timelines, and cultural identity details. They recount relationship histories, ex-partners, Peace Corps timelines, cultural resonance (Salvadorian), and specific social episodes; they narrate how MDMA shaped these contexts. Low participants default to abstractions, definitions, and analytic frameworks (e.g., utility functions, bandwidth), sharing fewer biographical specifics and less vivid personal storytelling.\n\n7. Physiological Interoception and Symptom Noticing: High participants notice and interpret bodily signals\u2014pupil dilation, jaw clenching, increased heart rate\u2014and seek confirmation from staff. They discuss shaking, clenching, warmth/cold, and pharmacological considerations (caffeine metabolism), integrating bodily sensations into their appraisal of the experience. Low participants report minimal or vague sensations (light legs, tingling bands), often downplaying physiological change and emphasizing that they remain clear-headed or \u201csober-like.\u201d\n\n8. Authenticity Appraisal and Boundary Testing with Staff: High participants question staff genuineness, feel constrained by professionalism, and calibrate trust versus openness in-session. They explicitly wonder whether staff are being authentic, note how mistrust shaped their behavior (becoming more hermetic), and lament the \u201cnot buddy-buddy\u201d dynamic. Low participants worry more about being polite and not imposing; they frame staff as providing security and support and moderate their openness to avoid crossing boundaries.\n\nDifferentiator variable names:\naffiliation_touch,sensory_dreamlike,setting_context_anchor,emotional_reframing,task_meta_vigilance,narrative_expansiveness,physiological_interoception,authenticity_boundary",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 3706,
+        "prompt_tokens": 12392,
+        "total_tokens": 16098,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2816,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

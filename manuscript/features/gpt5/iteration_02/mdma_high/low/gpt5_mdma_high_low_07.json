@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChNGHy2PqjwzvyCsDJS5U2AQT1z5D",
+    "created": 1764453557,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Relationship-Centered Emotional Processing: LOW participants devote extensive attention to intimate relationships, empathy, guilt, and family dynamics during the experience. Their talk is saturated with stories about partners, family, and children, making amends, protecting trust, and calibrating roles (e.g., uncle, partner, sibling). They repeatedly frame MDMA\u2019s value as deepening connection, repairing bonds, and clarifying responsibilities, while weighing others\u2019 feelings. In contrast to HIGH participants\u2019 abstract or pharmacology-focused reflections, LOW participants\u2019 narratives remain personal, relational, and emotionally specific.\n\n2. Somatic-Sensory Salience and Comfort Seeking: LOW participants richly describe bodily sensations and seek tactile comfort, warmth, stretching, and movement. They detail sweaty palms, jaw clenching, tingling, body temperature changes, textures (floors, wood), and relief from blankets; they enjoy touch, massage, and physical closeness and actively regulate comfort (moving, stretching). HIGH participants note sensations but far less tactile detail or sustained comfort-seeking; LOW transcripts consistently foreground embodied feeling and environmental coziness.\n\n3. Experience Uncertainty and Hedging: LOW participants frequently question whether they received MDMA, speculate about placebo, and doubt whether feelings are \u201cmade up.\u201d Their language is tentative (\u201cI still don\u2019t know\u201d), self-questioning, and open to multiple explanations, toggling between dose possibilities and setting effects. HIGH participants more often assert interpretations, compare drugs, and analyze mechanisms; LOW participants persistently hedge, emphasizing uncertainty about cause and meaning.\n\n4. Affective Interference with Cognitive Tasks: Feelings often eclipse task focus in LOW participants, producing distractibility, misinterpretations, and variable performance. They report being overwhelmed by emotions, missing items, misreading stimuli (faces vs shapes, reflections vs crosshairs), and having to \u201cbring themselves back\u201d to the task, while also adopting a less competitive stance (\u201cI\u2019m trying my best\u201d). HIGH participants frequently emphasize control strategies (breath), task ease, or meta-analysis of task design, showing less affect-driven disruption.\n\n5. Boundary-Oriented Introversion: LOW participants emphasize non-imposition, privacy, and work\u2011life boundaries, preferring closeness without over-engagement. They describe being drained by social volume, wanting proximity without intrusion, leaving work at work, and resisting inserting themselves into others\u2019 lives. They value autonomy and mutual respect in relationships. HIGH participants tend to portray more outgoing festival-style sociability and comfort with expansive engagement.\n\n6. Intentional, Vulnerable Communication Planning: LOW participants plan candid conversations, request confidentiality, and foreground ethical transparency with partners and family. They articulate conversation \u201cgame plans,\u201d seek consent, worry about pressuring others, and define roles (e.g., open relationships, future proposals, uncle responsibilities) with care. They aim to protect trust and avoid harm. HIGH participants may state openness but are less focused on detailed, ethically cautious communication plans anchored in specific relationships.\n\n7. Emotional Lane Conceptualization (Channelized Affect): LOW participants conceptualize MDMA as opening a dedicated \u201cfeelings lane\u201d separate from thoughts. They explicitly map mental \u201clanes\u201d for feelings vs thinking, debate whether MDMA adds capacity or reallocates bandwidth, and reflect on lasting changes in access to emotion. HIGH participants discuss comparisons across drug classes and mechanisms but do not develop this distinctive \u201clane\u201d model of affect\u2013cognition channelization.\n\nDifferentiator variable names:\nrelationship_emotion_focus, somatic_sensory_salience, experience_uncertainty_hedging, affective_task_interference, boundary_oriented_introversion, vulnerable_communication_planning, emotional_lane_conceptualization",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 3250,
+        "prompt_tokens": 14494,
+        "total_tokens": 17744,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2496,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

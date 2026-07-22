@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChMzTA0kWzv2HDwDARNMSjN7FLHHe",
+    "created": 1764452515,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Scientific-Neurochemical Framing: Habitual use of scientific language and neurochemical theories to explain experiences and pose research-oriented questions. Participants in the HIGH group frequently contextualize their experiences with technical terminology and frameworks, referencing neurotransmitters (serotonin, dopamine), pharmacological classes (SSRIs), specific compounds (CB2, Shulgin\u2019s work), research protocols (NIH, clinical task design), and cognitive bias literature (e.g., Kahneman). They ask detailed, mechanism-oriented questions and connect personal phenomenology to broader scientific discourse and societal considerations (e.g., commercialization of psychedelic therapies). LOW group participants, by contrast, focus more on felt experience, uncertainty about placebo, and interpersonal dynamics, with far fewer technical or research-driven interpretations.\n\n2. Empathic Sociability and Tactile Affiliation: Markedly pro-social, touch-seeking, and empathic communication with active monitoring of others\u2019 comfort and boundaries. HIGH group speech emphasizes strong interpersonal openness\u2014desiring hugs and physical closeness, mirroring others\u2019 reactions, ensuring the researchers\u2019 comfort, and identifying as \u201can open book.\u201d They anticipate MDMA effects in relational terms (connection, bonding, shared epiphanies) and proactively modulate behavior to respect social norms (e.g., gendered boundaries). LOW group speakers often describe social anxiety, worries about \u201cimposing,\u201d hesitancy in lab settings, and introversion; their sociability is more constrained or context-dependent, with less tactile or exuberant affiliative expression.\n\n3. Metacognitive Self-Regulation and Task Hyper-Analysis: Strong metacognitive control via breath and body awareness, paired with hyper-analysis of task design and hidden patterns. HIGH group participants explicitly manage arousal and discomfort by controlling breath, releasing bodily tension, and \u201ccollecting\u201d themselves; they frame emotional turbulence as navigable through grounding techniques and analogies (e.g., valleys and hills of a trip). Simultaneously, they scrutinize experimental structure\u2014inferring potential motives, noticing order changes, and speculating about what tasks truly measure\u2014without derailing performance. LOW group narratives more often describe being overwhelmed by feelings or environmental factors, struggling to maintain focus, or processing after the fact, with less explicit, moment-to-moment self-regulatory strategy and less task-structure inference.\n\nDifferentiator variable names:\nscientific_neurochemical_framing, empathic_sociability_tactile_affiliation, metacognitive_self_regulation_task_hyperanalysis",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 2698,
+        "prompt_tokens": 14494,
+        "total_tokens": 17192,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2176,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

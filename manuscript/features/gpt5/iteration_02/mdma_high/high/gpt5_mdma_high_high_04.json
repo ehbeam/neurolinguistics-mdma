@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChNJCQdCyAvbUwgJ8rYuAr4YYeRvI",
+    "created": 1764453738,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Scientific-Analytical Framing: HIGH participants frequently use scientific terminology, research references, and cross-drug comparisons to interpret their experiences. They consistently anchor their narratives in neurobiology and behavioral science, citing serotonin, SSRIs, dopamine receptors, Shulgin\u2019s CB2, and Kahneman\u2019s bias research, and they compare MDMA with psilocybin or psychedelics broadly. They also critique study design and societal regulation (NIH protocols, Compass Pathways, capitalism), exhibiting clear epistemic curiosity and an evidence-seeking stance, whereas LOW participants largely stay in personal, experiential, and relational language without technical grounding.\n\n2. Active Self-Regulation and Breath Control: HIGH participants explicitly deploy breathwork, grounding, and tension release to manage discomfort and attention. They describe monitoring and relaxing body tension (e.g., curling toes), \u201ccollecting\u201d themselves, reframing difficult moments as valleys to traverse, and using breath as a tool to re-center\u2014often drawing on prior knowledge of panic management\u2014while LOW participants more often report being overwhelmed or distracted by sensations with less articulated, deliberate regulation strategies.\n\n3. Meta-Task Scrutiny and Pattern Detection: HIGH participants analyze task structure and hypothesize hidden motives, testing randomness and utility while monitoring performance. They infer \u201cpsychological flexibility\u201d checks from order changes, question button presses as vigilance controls, critique money-task bias, and challenge questionnaire constructs (e.g., faith), demonstrating sustained meta-cognition; LOW participants typically describe confusion, sensory interference, or momentary strategies without constructing broader theories about the experiment.\n\n4. Empathic Sociability with Boundary Awareness: HIGH participants emphasize heightened empathy, sociability, and desire for connection and touch, coupled with explicit concern for others\u2019 comfort and consent. They portray themselves as \u201copen books,\u201d mirroring others, wanting hugs and closeness, yet self-monitoring (e.g., \u201cI didn\u2019t want to make you uncomfortable as a male\u201d), and envision MDMA as an \u201cempathy drug\u201d for bonding; LOW participants more often describe social anxiety, reluctance to impose feelings, or preference for proximity without interaction.\n\nDifferentiator variable names:\ndifferentiator_01_name=scientific_analytical_framing, differentiator_02_name=active_self_regulation, differentiator_03_name=meta_task_scrutiny, differentiator04_name=empathic_sociability_boundaries",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 3319,
+        "prompt_tokens": 14494,
+        "total_tokens": 17813,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2816,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

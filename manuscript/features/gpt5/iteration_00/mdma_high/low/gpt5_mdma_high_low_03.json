@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChLytnzzRLRDhuH2hoQ923lu6146i",
+    "created": 1764448635,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Boundary-Conscious Relational Candor: LOW participants intensely process close relationships and plan candid conversations while carefully avoiding imposing on others\u2019 autonomy. LOW transcripts repeatedly center on girlfriends, open-relationship boundaries, proposing timelines, and roles with family (niece, parents, sibling), paired with requests for confidentiality and a consistent ethic of \u201cnot inserting\u201d themselves into others\u2019 lives. They frame honesty as care, stress mutual consent, and strategize discussion timing so partners feel respected rather than pressured. In contrast, HIGH participants emphasize sociability, hugs, and openness, but far less sustained, boundary-sensitive planning about intimate relationships.\n\n2. Feelings-Over-Thinking Bandwidth Framing: LOW participants explicitly conceptualize mental \u201clanes\u201d where MDMA shifts bandwidth toward feelings, often overpowering thinking and task performance. They articulate a meta-cognitive model\u2014brain capacity divided into feeling vs thinking lanes\u2014describe MDMA as adding or prioritizing a \u201cfeeling lane,\u201d and reflect on empathy distribution, utility functions, and how emotions can dominate attention. They report needing to \u201cbring themselves back\u201d from feeling to complete tasks, valuing a dedicated feelings lane even after the session. HIGH participants discuss control, breath, and focus, but do not dwell on a structured feelings-vs-thinking bandwidth model.\n\n3. Context-Sensitive Introversion and Restraint: LOW participants\u2019 sociability is highly contingent on setting; they hold back in lab contexts, report social anxiety, and prefer non-imposing, low-interaction proximity. They describe being \u201chardcore introverts,\u201d feeling \u201cout of place\u201d in the lab, modulating touch or expressiveness due to research norms, and often being less chatty than prior sessions; they also accept errors and variable task engagement (\u201ctry my best,\u201d less competitiveness). HIGH participants more consistently project outgoing, festival-ready sociability, self-manage discomfort through breath control, and pursue task focus without the same degree of environment-driven restraint.\n\nDifferentiator variable names:\nboundary_relational_candor, feelings_lane_dominance, context_sensitive_introversion",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 3059,
+        "prompt_tokens": 14494,
+        "total_tokens": 17553,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2624,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

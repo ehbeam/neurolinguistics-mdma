@@ -1,0 +1,5 @@
+biotype,var,n_placebo,med_[quantiles]_placebo,n_mdma,med_[quantiles]_mdma,U,CLES,FDR
+high,audio_predicted_emotion,93,"0.54 [0.47, 0.64]",198,"0.54 [0.46, 0.60]",9809.0,0.53,0.37
+high,text_predicted_emotion,93,"0.65 [0.47, 0.77]",198,"0.68 [0.58, 0.78]",7893.0,0.57,0.10+
+low,audio_predicted_emotion,207,"0.50 [0.43, 0.56]",182,"0.55 [0.46, 0.62]",14309.0,0.62,8.57x10-5***
+low,text_predicted_emotion,207,"0.62 [0.52, 0.75]",182,"0.68 [0.54, 0.79]",16588.0,0.56,0.04*

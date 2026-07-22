@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChLsipVwNEKsFIVpCDyI9sbucD55R",
+    "created": 1764448252,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Dreamlike Visual-Sensory Shift: HIGH participants report brighter colors, foggy dreamlike vision, and heightened touch; LOW participants emphasize realistic perception with no color changes or dissociation.\nHIGH transcripts consistently describe perceptual alteration: \u201ccolors are brighter,\u201d \u201cfoggy vision,\u201d and a feeling \u201clike dreaming,\u201d alongside somatic signs such as pleasant skin sensitivity, jaw clenching, pupil dilation, and perceived heart-rate increases. Even when acknowledging reality, HIGH participants say it \u201cfeels like a very pleasant dream.\u201d In contrast, LOW participants repeatedly anchor their experience in realism and clarity: \u201cI am in this world,\u201d \u201cthings are quite real,\u201d \u201cI don\u2019t feel colors change,\u201d and they attribute blurred vision to other drugs (e.g., acid) rather than Molly/MDMA. LOW participants also frame intoxication as loss of mental control\u2014which they do not experience\u2014highlighting a clear, grounded, and non-dissociative phenomenology.\n\n2. Setting-Driven Vigilance and Focus Drift: HIGH participants fixate on study context, mistrust, and fatigue, leading to concentration lapses; LOW participants feel secure, clear-headed, and sustain task engagement.\nHIGH transcripts show pronounced meta-awareness of the research setting and professional boundaries (\u201cnot buddy-buddy\u201d), explicit mistrust shaping their mood, and concerns about protocol confounds (sleeping in MRI, placebo effects, caffeine restrictions). They report \u201charder time concentrating,\u201d getting \u201cpulled out\u201d of task patterns, \u201cfalling asleep,\u201d and making more mistakes, with suggestions to modify protocols (e.g., caffeine). LOW participants, by contrast, emphasize security and reduced anxiety in the setting, describe being chatty and less defensive, and repeatedly claim mental clarity and intact task performance (\u201cmental focus, no\u201d), only noting occasional mind-wandering. Their attention is directed toward emotional openness rather than vigilance about study procedures, yielding steadier engagement.\n\nDifferentiator variable names:\nsensory_dreamlike_shift,context_vigilance_focus_drift",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 2676,
+        "prompt_tokens": 12391,
+        "total_tokens": 15067,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2240,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

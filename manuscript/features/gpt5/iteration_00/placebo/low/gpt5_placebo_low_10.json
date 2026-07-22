@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChLs9ipunXo3EpTVio97vg82k2r76",
+    "created": 1764448217,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Emotion-Bandwidth Allocation: MDMA creates dedicated mental \u201cspace\u201d for feelings, clearing cognitive fog and enabling emotional access without sacrificing thought clarity. LOW participants repeatedly describe an added or reallocated \u201clane\u201d for feelings that becomes protected from everyday worries, with the usual mental noise and \u201cbrain fog\u201d receding. They emphasize clarity of thoughts and emotions, reporting that they remain present, remember conversations, and operate in the real world while accessing deeper affect; by contrast, HIGH participants often highlight foggy, dreamlike perception and brighter colors rather than a structured shift of mental bandwidth.\n\n2. Anxiety Extinction: Baseline worries and \u201con-edge\u201d sensations drop to near zero, with calm emerging especially after the peak. LOW participants characterize their experience as \u201czero anxiety,\u201d \u201cless concerned,\u201d and \u201con-edge goes away,\u201d often defining happiness as the absence of anxiety rather than euphoric elevation. They describe a reliable reduction in stress and hypervigilance, even in performance-oriented settings, whereas HIGH participants more often report situational nerves, mistrust, or discomfort that complicate concentration.\n\n3. Reality Anchoring: Experiences feel distinctly real and grounded, with explicit rejection of dissociation or dreamlike states. LOW participants insist \u201cI\u2019m in this world,\u201d \u201cthings are quite real,\u201d and \u201cnot a different world\u201d; they push back on dissociation items and attribute blurred vision or color changes to other drugs (e.g., LSD), not MDMA. In contrast, HIGH participants commonly describe \u201cfoggy vision,\u201d \u201cdream state,\u201d and brighter colors\u2014markers of perceptual alteration that LOW participants specifically deny.\n\n4. Prosocial Openness: Marked increases in talkativeness, empathy, eye contact, hugging, and desire to connect, even with strangers. LOW participants detail being chatty, friendly, trusting, and less avoidant, initiating extended conversations (e.g., with a Lyft driver) and seeking mutual emotional exchange; they report big embraces with family and genuine closeness. HIGH participants also value connection, but their narratives are more tempered by environmental constraints (professional boundaries, mistrust) and sensory changes rather than a pervasive relational opening.\n\n5. Analytical Metacognition: Frequent meta-level questioning, comparisons across substances, and structured self-definitions of states and traits. LOW participants ask about placebo, randomization, data handling, and study order; they methodically define constructs (sociable, intoxicated, friendly), compare MDMA to acid/ketamine, and reflect on compartmentalization and cognitive \u201clanes.\u201d HIGH participants discuss setting and performance but show less persistent methodological probing or taxonomic parsing of experiential components.\n\n6. Preserved Cognitive Control: Mental focus and executive control are largely intact despite occasional emotional pull or slight visual focus changes. LOW participants emphasize that their \u201cmental focus\u201d remains steady\u2014tasks feel doable, thinking is clear, and intoxication is defined as lost control, which they say MDMA does not cause. They may note mild visual focus impairment or attention drawn to feelings, but they actively re-center for tasks; HIGH participants more often report concentration lapses, sleepiness, or difficulty staying tapped into tasks.\n\n7. Subtle Somatic Lightness: Gentle bodily sensations (light legs, tingling, scalp tension shifts) without prominent sensory distortions or color/vision changes. LOW participants consistently describe localized, pleasant somatic signs\u2014lightness in limbs, tingling on headbands\u2014while rejecting global perceptual alterations. HIGH participants, in contrast, foreground brighter colors, foggy vision, and tactile sensitivity as salient sensory changes.\n\n8. Non-Intoxicating Framing: MDMA is experienced as enabling clarity rather than impairing control; \u201cintoxication\u201d is rejected. LOW participants explicitly state MDMA does not intoxicate them because it doesn\u2019t take away mental clarity or control; it may make them chatty or slightly clumsy, but not cognitively clouded. HIGH participants\u2019 dreamlike and fog-related descriptions align more with an intoxicating or altered-state framing than with the LOW group\u2019s sober-clarity narrative.\n\n9. Therapeutic Orientation and Integration: A strong intent to use MDMA for emotional processing, disclosure, and lasting relational change. LOW participants plan conversations \u201con Molly\u201d to \u201cget everything out,\u201d report weeklong increases in openness, and seek MDMA-assisted therapy to access and integrate long-neglected emotions. HIGH participants mention interpersonal insights, but the LOW group\u2019s explicit, sustained therapeutic aims and post-session behavioral changes are more pronounced.\n\n10. Reduced Defensiveness and Avoidance: Lower guardedness, more vulnerability, and increased eye contact replace typical social walls, especially with new people. LOW participants report being \u201cglobally less defensive,\u201d less avoidant, and more willing to engage; initial worries about boundaries give way to trust and secure connection. HIGH participants note professional barriers and situational mistrust; the LOW group repeatedly documents a robust drop in defensive posture.\n\nDifferentiator variable names:\ndifferentiator_01_name=emotion_bandwidth_allocation, differentiator_02_name=anxiety_extinction, differentiator_03_name=reality_anchoring, differentiator_04_name=prosocial_openness, differentiator_05_name=analytic_metacognition, differentiator_06_name=cognitive_control_preserved, differentiator_07_name=somatic_lightness, differentiator_08_name=non_intoxicating_framing, differentiator_09_name=therapeutic_orientation, differentiator_10_name=reduced_defensiveness",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 4140,
+        "prompt_tokens": 12391,
+        "total_tokens": 16531,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 3008,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

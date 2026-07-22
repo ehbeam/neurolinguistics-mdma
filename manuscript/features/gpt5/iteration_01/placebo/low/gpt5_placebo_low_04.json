@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChM91RYJaHmBuu7pV50eH5rCU3L7o",
+    "created": 1764449263,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Reality-Anchored Clarity: LOW participants consistently describe MDMA as clear-headed and non-intoxicating, with no dissociation and preserved mental focus in a real-world sense. They emphasize that they remain \u201cin this world,\u201d rejecting dreamlike or unreal states and defining intoxication as impaired thinking\u2014which they say MDMA does not cause. Visual and sensory changes are minimal (e.g., lightness in legs, pleasant tingling), and they often report stable mental focus and clarity, even as time passes quickly or attention drifts. In contrast to descriptions of foggy vision, dreaminess, or difficulty concentrating common in the HIGH group, LOW participants portray MDMA as removing \u201cbrain fog,\u201d keeping thought processes coherent, and maintaining a grounded sense of reality.\n\n2. Analytical Emotional Bandwidth: LOW participants frame their experience using structured mental models\u2014\u201clanes,\u201d \u201cbandwidth,\u201d compartmentalization\u2014prioritizing analysis over novelty or perceptual changes. They repeatedly talk about allocating mental resources between feeling and thinking, adding an \u201cadditional lane\u201d for emotion, and protecting a dedicated bandwidth for feelings so worries can\u2019t overwrite it. They define sociability and friendliness with precision (receiving versus giving, listening versus talking), reflect on utility functions and conditioning, and distinguish MDMA (accessing existing emotions) from LSD (rebuilding cognition and creativity). This metacognitive, engineering-like narrative is far more prominent in LOW transcripts than in HIGH, which center more on storytelling, setting, and relational anecdotes.\n\n3. Anxiety-Offloading Openness: LOW participants report anxiety evaporating, defenses dropping, and sociability rising\u2014more eye contact, chatty openness, and comfort seeking. They describe worries \u201cvanishing,\u201d fear turning into excitement, and reduced avoidance and defensiveness (e.g., talking at length with a rideshare driver, seeking hugs while being mindful of others\u2019 boundaries). Security and safety are salient and often credited to supportive environments, enabling them to be emotionally open without feeling intoxicated or out of control. Compared with the HIGH group\u2019s accounts of nerves, mistrust in professional settings, and task-focused performance anxiety, the LOW group presents MDMA as a reliable anxiolytic that unlocks connection while preserving cognitive control.\n\n4. Extended Emotional Afterglow: LOW participants describe a sustained afterglow, with lingering access to feelings and deeper social closeness for days to weeks post-session. They recount extended periods of increased hugging and warmth with family, more emotionally open conversations, and a sense of \u201ccatching up\u201d on long-untouched feelings. Rather than novel revelations, they experience continued access to known emotions that had previously been compartmentalized or deprioritized. This persistence leads some to consider MDMA-assisted therapy, viewing the drug as a facilitator for emotional integration beyond the acute window\u2014a pattern rarely emphasized in the HIGH group\u2019s accounts, which focus more on immediate, setting-dependent effects.\n\nDifferentiator variable names:\nreality_anchored_clarity, analytical_emotional_bandwidth, anxiety_offloading_openness, extended_emotional_afterglow",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 3707,
+        "prompt_tokens": 12392,
+        "total_tokens": 16099,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 3072,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChM185S2MYgKAMgA8r2rRxkyjSnl5",
+    "created": 1764448774,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Metacognitive Ambiguity: LOW participants frequently question dose, drug identity, and mechanisms, inventing personal frameworks to explain their experiences. They repeatedly wonder whether they received MDMA or placebo, speculate about dose, and construct models (\u201clanes\u201d for feelings vs thoughts, brain \u201ccapacity\u201d) to interpret their reactions. This self-analytical rumination is persistent and unresolved. HIGH participants, by contrast, speak confidently about expected effects, reference formal research and neurobiology, and display far less uncertainty about what they took and why they felt it.\n\n2. Emotion-Driven Attentional Drift: LOW participants describe emotions overtaking cognition and impairing task focus, necessitating repeated re-centering. They report getting swept into feelings, missing items, staring at reflections, struggling with crosshairs, and oscillating between drifting into sensation and pulling themselves back to the task. While they occasionally \u201cclear the noise,\u201d the drift predominates. HIGH participants more often describe deliberate control over attention (e.g., breathing strategies) and sometimes find tasks easier, indicating less emotion-induced interference.\n\n3. Social Introversion and Restraint: LOW participants portray themselves as shy, less chatty, and socially anxious, especially in constrained settings like the lab. They emphasize being hardcore introverts, feeling mellow, speaking less, and becoming more comfortable only gradually; even when social, it\u2019s measured. HIGH participants identify as highly sociable, friendly, and openly expressive, often craving touch and interaction, and even worry about being overbearing\u2014clear contrast to LOW\u2019s self-described restraint.\n\n4. Boundary-Sensitive, Non-Imposition Ethos: LOW participants highlight not imposing on others, carefully negotiating disclosures, and protecting trust in relationships. They articulate concerns about pressuring partners, meticulously plan sensitive conversations (e.g., open relationships, proposals), and frame openness as consent-based and non-coercive. HIGH participants are warmly expansive and physically affectionate by default (hugs, tactile openness), with fewer expressions of worry about imposing\u2014LOW\u2019s boundary vigilance stands out.\n\n5. Family-Centered Moral Storytelling: LOW participants anchor their narratives in detailed family histories, values, and moral evaluations (parents\u2019 habits, sibling frugality, niece\u2019s wellbeing, childhood incidents). They reflect on caregiving roles, future parenting, and intergenerational dynamics at length. HIGH participants focus more on personal openness, research topics, drug culture, and a specific friend\u2019s episode, offering less sustained, value-laden family storytelling than LOW.\n\n6. Granular Somatic Self-Monitoring and Comfort Seeking: LOW participants richly catalog bodily micro-sensations and environmental comfort factors\u2014warmth, sweaty palms, jaw clenching, toe awareness, hamstring soreness, texture of floors, blankets, movement stretches. They frequently adjust behavior to optimize comfort (needing movement, comparing temperature differences, savoring tactile details). HIGH participants mention bodily changes (touch feels amazing, dilated pupils, cold/shivering) but emphasize top-down regulation (breath) and less detailed environmental sensory analysis.\n\n7. Work\u2013Life Boundary and Identity Management: LOW participants prioritize separating work from emotions, resisting \u201cliving to work,\u201d and crafting identity beyond achievement and parental expectations. They scrutinize utility functions, training vs feeling, PhD stress, and insist on enjoying life and relationships while being effective at work. HIGH participants discuss research frameworks, policy and commercialization, and personal openness, but with less emphasis on strict personal work\u2013life emotional boundaries.\n\nDifferentiator variable names:\nmetacognitive_ambiguity, emotion_drift_task_focus, social_introversion_restraint, boundary_sensitive_non_imposition, family_values_storytelling, somatic_comfort_attunement, work_life_boundary_identity",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 4157,
+        "prompt_tokens": 14494,
+        "total_tokens": 18651,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 3392,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

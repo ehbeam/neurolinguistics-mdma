@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChMueIS1CVWaxaWHKvYBioAwsAplt",
+    "created": 1764452216,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Metacognitive uncertainty and cognitive self-modeling: LOW participants frequently question whether they\u2019re on MDMA, analyze doses/placebo, and build \u201clanes\u201d or models of thinking versus feeling. Their transcripts repeatedly probe the authenticity and source of effects (\u201cWas it placebo?\u201d \u201cI still don\u2019t know if I am taking Molly or not\u201d), theorize about utility functions and attention allocation (\u201clane dedicated to feelings,\u201d \u201cthis chunk for feelings\u201d), and compare sessions while hypothesizing mechanisms (dose, context, expectations). This hyper-analytical stance includes self-correction during tasks (bringing themselves \u201cback\u201d from feelings to focus), humility (\u201cI\u2019m just some guy\u201d), and an emphasis on disentangling mental versus emotional capacity\u2014patterns largely absent in HIGH transcripts, which show clearer expectations, fewer doubts about dose/state, and more externally oriented narratives.\n\n2. Granular somatosensory monitoring: LOW transcripts are packed with detailed body sensations\u2014temperature shifts, sweaty palms, jaw clenching, tingling, visual doubling, textures, and movement-driven relief. LOW speakers catalog fine-grained physical states (\u201cpalms sweaty,\u201d \u201cjaw chomping,\u201d \u201chamstrings sore,\u201d \u201clittle tingling,\u201d \u201cvision doubles,\u201d \u201cperipheral cut off,\u201d socks/no-shoes temperature, cozy blankets, wood texture, floor feel), notice state-dependent changes (warm vs cold sessions), and use movement or stretching to modulate comfort. This body-focused micro-reporting dominates their narratives, whereas HIGH participants refer more globally to breath control and general sensations, with less sustained, itemized somatic detail.\n\n3. Boundary-conscious social restraint with muted euphoria: LOW participants show cautious, non-imposing social behavior and report mellow, non-euphoric affect versus the HIGH group\u2019s hug-seeking exuberance. They worry about making others uncomfortable, \u201cnot imposing\u201d feelings, holding back in the lab, and describe introversion, shyness, and being \u201cless chatty\u201d than prior sessions; they emphasize open communication and careful planning (e.g., relationship boundaries, future proposals) yet repeatedly note lacking intense MDMA \u201ceuphoria.\u201d In contrast, HIGH participants anticipate and describe gregarious touch, hugging, and overt sociability (\u201copen book\u201d), positioning LOW as reserved, boundary-aware, and affectively moderate.\n\nDifferentiator variable names:\nmetacognitive_uncertainty_self_modeling, somatosensory_detail_monitoring, boundary_conscious_social_restraint",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 3007,
+        "prompt_tokens": 14494,
+        "total_tokens": 17501,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2496,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

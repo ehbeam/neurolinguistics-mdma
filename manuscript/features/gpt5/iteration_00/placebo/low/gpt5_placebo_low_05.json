@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChLpIKA9mYvjBUvVmdYCbSdS6e2Jc",
+    "created": 1764448040,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Reality-Anchored Clarity: LOW participants describe heightened mental clarity and realism, with little to no dreamlike or visually foggy distortion. LOW transcripts repeatedly emphasize \u201cbeing in this world,\u201d clear-headed thinking, intact memory, and the feeling that a mental \u201cfog\u201d lifts; they view intoxication as loss of cognitive control and assert that MDMA does not impair their thinking. They deny dramatic visual changes (e.g., color shifts, dream-vision), often attributing such phenomena to other drugs like LSD or ketamine. This stands in contrast to HIGH participants, who frequently report brighter colors, blurrier, foggy, dream-state vision, and a subtly altered reality.\n\n2. Anxiety and Guard Reduction: LOW participants report near-elimination of anxiety and defensiveness, becoming open, trusting, less avoidant, and more comfortable with closeness. Statements like \u201czero anxiety,\u201d \u201cless concerned,\u201d and \u201cwalls down\u201d are common, alongside increased eye contact, reduced hypervigilance, and a strong sense of security in supportive settings. They worry less about boundaries and feel freer to express affection and vulnerability. HIGH participants, by comparison, often note nerves, mistrust in the professional setting, and a guarded or hermetic stance that dampens openness.\n\n3. Emotional Bandwidth Allocation: LOW participants explicitly describe reallocating cognitive bandwidth to emotions\u2014an \u201cadditional lane\u201d\u2014to access, process, and express feelings deliberately. They narrate a structured toggling between task focus and feeling, discuss \u201copening a vault\u201d of preexisting emotions, and frame MDMA as guaranteeing space for emotions that normally gets overwritten by daily worries. This metacognitive framing (lanes, allocations, bandwidth) often extends beyond sessions, supporting sustained emotional openness, therapy interest, and insight; HIGH participants mention emotional connections but rarely articulate this systematic reallocation.\n\n4. Expansive Sociability and Talkativeness: LOW participants become markedly chatty, empathetic, and eager to connect\u2014even with strangers\u2014with evident post-session pro-social carryover. They report long, engaging conversations (e.g., with drivers), more eye contact, stronger urges to hug, and bigger embraces with family, while defining sociability as both giving and receiving. They describe feeling friendly, trusting, and less avoidant, and often seek MDMA in therapeutic relational contexts. HIGH participants show social warmth too, but more frequently reference professional boundaries and task demands that limit free-flowing interaction.\n\n5. Procedural Curiosity and Critical Skepticism: LOW participants actively interrogate study design, placebo, safety constructs, and item validity, and draw clear distinctions between MDMA and other substances. They ask about randomization, placebo cases, data use, and survey red flags (e.g., dissociation, multiple personalities), and critique question appropriateness, sometimes redefining terms (e.g., \u201csecure\u201d vs. \u201csafe\u201d). They compare experiences across drugs and friends, positioning their reports within a broader analytical frame; HIGH participants mention logistics like caffeine rules but show less sustained methodological scrutiny.\n\nDifferentiator variable names:\nreality_anchored_clarity, anxiety_and_guard_reduction, emotional_bandwidth_allocation, expansive_sociability_talkativeness, procedural_curiosity_skepticism",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 3614,
+        "prompt_tokens": 12391,
+        "total_tokens": 16005,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2944,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

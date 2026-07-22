@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChMEN5j1xfRy7lUsI4sXUV1oMSc4F",
+    "created": 1764449595,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Sensory Intensification and Dreamlike Perception: High participants report brighter colors, foggy dreamlike vision, and markedly pleasant touch; low participants remain visually grounded with minimal perceptual alteration.\nHigh-group transcripts repeatedly emphasize sensory amplification: \u201ccolors are brighter,\u201d \u201cfoggy-ish vision,\u201d \u201cfeels like dreaming,\u201d \u201cpleasant sensation\u201d when touching skin, heightened sensitivity, and awareness of physiological cues (jaw clench, increased heart rate, dilated pupils). These experiences are described as immersive yet orienting (\u201cI know who I am, where I am\u201d), pointing to altered but coherent perception. In contrast, low-group narratives stress being \u201cin this world,\u201d minimal visual changes (\u201ccolors don\u2019t change\u201d), and light, localized bodily sensations (tingling, light legs) without dreamlike quality. The high group\u2019s language suggests global perceptual modulation and tactile euphoria, whereas the low group frames sensations as mild and specific.\n\n2. Pro\u2011social Affection Orientation: High participants show strong urges to hug, touch, and emotionally support others; low participants emphasize listening and restraint within boundaries.\nHigh-group participants repeatedly express wanting to hug \u201ceverybody,\u201d touch, listen, and support others, often extending connection beyond the study (inviting staff out, unconditional friendships). Their desire is embodied (touch feels \u201cpleasant,\u201d \u201cmore sensitive\u201d) and emotionally expansive. Low-group participants value sociability and empathy but qualify it as a \u201ctwo-way street,\u201d focus on receiving and listening, and explicitly restrain physical affection due to context (\u201cdidn\u2019t want to encroach on your space\u201d). Thus, the high group demonstrates a robust, outwardly affectionate drive, while the low group practices measured, boundary-aware sociability.\n\n3. Context/Setting Salience and Professional Boundary Impact: High participants\u2019 experiences are strongly shaped by study context; low participants ask procedural questions but are less emotionally impacted.\nHigh-group transcripts foreground the setting\u2019s constraints: wondering if staff are \u201cbeing genuine\u201d versus professional, noting that the \u201cprofessional dynamic\u201d took away from the experience, comparing the lab to festivals/parks, and discussing policies (no coffee/caffeine) or placebo ordering as core to how they felt and performed. They also worry about sleepiness in the MRI confounding results. Low-group participants do inquire about placebo/randomization and data, but this is posed analytically; their emotional tone is less impacted by professionalism, and they view setting effects through operational clarity rather than as a major determinant of connection or expression.\n\n4. Active Emotional Reappraisal and Integration: High participants deliberately lean into difficult feelings and reframe toward positives; low participants mainly report reduced anxiety or clarity.\nThe high group narrates an intentional process: noticing sadness, choosing to \u201clet myself feel,\u201d then shifting attention to positives (\u201chow much more we bonded\u201d), making connections, and turning discomfort into growth. They explicitly move from initial negativity to constructive meaning. The low group often reports anxiety reduction and increased clarity\u2014sometimes vivid emotional access\u2014but emphasizes that feelings were already present and simply \u201cunlocked\u201d or bandwidth was \u201callocated,\u201d rather than actively reworked. The high group\u2019s discourse reveals effortful emotional processing and positive reframing as part of the experience.\n\n5. Performance Vigilance and Metacognitive Monitoring: High participants monitor focus and memory, push to perform, and worry about sleep or caffeine confounds; low participants treat tasks as simple.\nHigh-group participants describe hyperawareness of task performance, memory, and attention (\u201cpupils dilated, honed in,\u201d \u201cpushing myself to perform at 100%\u201d), and analyze potential confounds (sleep drift, no caffeine policy) that might alter outcomes. They compare performance across sessions and contemplate survey validity and placebo-order effects. Low-group participants more often characterize tasks as manageable or secondary to feeling, engage in \u201clanes\u201d of feeling versus thinking, and report shifting between them, with less emphasis on optimizing performance or metacognitive vigilance. The high group\u2019s stance is performance-driven and confound-conscious.\n\n6. Narrative Richness and Interpersonal Storytelling: High participants share vivid interpersonal stories linking experiences; low participants prefer abstract, analytical frameworks and definitions.\nHigh-group speech is saturated with detailed, relational narratives\u2014exes, unconditional friendships, cultural identity, festival anecdotes, Peace Corps context\u2014used to anchor and interpret their experience. They weave emotional content through concrete stories. The low group more often favors conceptual frames (bandwidth allocation, lanes for feeling/thinking, utility functions), careful definitions of sociability and intoxication, and methodological queries. This difference reflects a high-group tendency to integrate experience through rich interpersonal storytelling versus the low group\u2019s preference for analytic abstraction.\n\nDifferentiator variable names:\nsensory_intensification_dreamlike_perception, prosocial_affection_orientation, context_setting_salience, active_emotional_reappraisal, performance_vigilance_metacognition, narrative_social_storytelling",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 4201,
+        "prompt_tokens": 12392,
+        "total_tokens": 16593,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 3200,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

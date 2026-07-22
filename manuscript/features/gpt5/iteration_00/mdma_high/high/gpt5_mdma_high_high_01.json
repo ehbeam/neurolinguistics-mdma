@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-CjDBfw1DGRATm4iDNILMlp8MyuP5y",
+    "created": 1764891487,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Mechanistic meta-cognition and research literacy: High group participants analyze pharmacology and study design with technical curiosity, unlike the low group\u2019s feeling-centered, uncertain, and anecdotal focus.\nHigh group transcripts repeatedly display research-literate thinking and meta-cognitive analysis: they name compounds (CB2, Shulgin), contrast serotonin and dopamine systems, question contraindications, and reflect on NIH protocols, task construction, and biases (invoking Kahneman). They scrutinize experimental elements (reaction times, letter vs. face tasks, peripheral vision changes, \u201cis this button anything?\u201d) and connect experiences to broader scientific, clinical, and societal frames (PTSD trials, Compass Pathways, regulation/capitalism). They also describe deliberate strategies (breathwork, tension release) with an explicit mechanism-oriented rationale. In contrast, low group participants largely center on subjective sensations, social comfort, personal relationships, and dosing uncertainty (placebo vs. real), rarely engaging with neurobiology or study design beyond surface remarks; their reflections are experiential and narrative rather than mechanistic or meta-analytical.\n\nDifferentiator variable names:\nmechanistic_meta_cognition",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 3071,
+        "prompt_tokens": 14494,
+        "total_tokens": 17565,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2816,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

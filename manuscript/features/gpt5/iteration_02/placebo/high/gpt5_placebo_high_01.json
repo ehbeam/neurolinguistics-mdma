@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-CjDDzxSoAODWFvHUZnq2Uh2z8qM5P",
+    "created": 1764891631,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Sensory-Dreamlike Intensity: Strong reports of brighter colors, foggy vision, pleasant tactile sensitivity, and occasional dreamlike states during MDMA experiences distinguish HIGH participants.\nHIGH participants consistently describe intensified perception and altered phenomenology: colors appear brighter, vision feels foggy or dreamlike, touch is notably more pleasant, and they sometimes note physiological/visual markers like dilated pupils or increased sensitivity. They reference the experience as \u201cdreamlike yet aware,\u201d and emphasize skin sensitivity and visual changes as salient features of the drug state. In contrast, LOW participants repeatedly emphasize clarity and reality-congruence, often denying dissociation or visual/perceptual alterations (\u201cthings are quite real,\u201d \u201cno color changes,\u201d \u201cclear-headed\u201d), and frame MDMA as reducing anxiety without substantially changing sensory processing. Where LOW participants mention perceptual effects, they\u2019re limited, context-bound, or dismissed as atypical, reinforcing the sensory-dreamlike profile as a differentiator of the HIGH group.\n\nDifferentiator variable names:\nsensory_dreamlike_intensity",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 1699,
+        "prompt_tokens": 12392,
+        "total_tokens": 14091,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 1472,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

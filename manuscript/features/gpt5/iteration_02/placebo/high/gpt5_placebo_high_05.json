@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChN9m02QHl0YcYf2YT1S9BSq6diCl",
+    "created": 1764453154,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Prosocial Tactile Warmth: High participants show strong prosocial affection, seeking hugs, close connection, and unconditional support for others. High-group transcripts repeatedly emphasize wanting to hug and physically connect, attentively listen, and emotionally support people; they talk about cultivating \u201cunconditional friendship,\u201d bonding over shared identity, and even suggesting socializing together after sessions. This outwardly focused, tactile, empathic stance drives the interaction, often overriding other motives (e.g., explicitly deprioritizing sexual attraction in favor of friendship) and marks a strong communal orientation that is less pronounced and more conditional in the low group.\n\n2. Sensory Dreamlike Modulation: High participants report vivid, dreamlike sensory shifts\u2014brighter colors, foggier vision, and heightened pleasant touch. The high group describes brighter colors, a gentle \u201cdream-state\u201d quality, foggy vision, and markedly pleasant tactile sensations; they also notice interoceptive signs like pupil dilation and jaw clenching. These experiential changes co-occur with intact reality-testing (they know where they are and who they are) but reflect an altered perceptual palette that contrasts with low-group reports of largely unchanged colors, denial of dreamlike quality, and more matter-of-fact somatic sensations.\n\n3. Meta-Protocol Vigilance: High participants closely monitor performance and study design, raising confounds and proposing protocol tweaks. High-group speakers dissect how environment, placebo, caffeine restrictions, and sleepiness might affect results; they worry about MRI drowsiness confounding task outcomes, compare festival versus lab settings, and suggest adjustments (e.g., caffeine inclusion or recruiting non\u2013habitual caffeine users). They also push themselves to \u201cperform at 100%,\u201d reflecting an assertive, research-savvy metacognition and performance-monitoring stance, whereas the low group more often defers, wonders, or frames uncertainty without proposing concrete design changes.\n\n4. Emotion-Forward Reappraisal & Relationship Meaning-Making: High participants lean into feelings, reframing negativity and deriving relationship insights through rich personal narratives. Rather than primarily optimizing or allocating \u201cbandwidth,\u201d high-group accounts describe letting themselves fully feel difficult emotions, then actively reappraising toward positives (e.g., bonding and growth after upsetting events). They weave detailed stories about intimacy, special friendships, and cultural connection, emphasizing emotionally guided conclusions; the low group more often frames MDMA as access to preexisting feelings without major reappraisal or shifts in meaning.\n\n5. Boundary Attunement and Cautious Trust: High participants are highly attuned to professional boundaries, expressing guardedness and trust questions in clinical settings. High-group narratives stress the difference between \u201cbuddy-buddy\u201d festival contexts and the lab\u2019s professional dynamics; they become more hermetic when unsure about staff genuineness, explicitly respect that staff \u201chave a job,\u201d and note how this reduces the experience\u2019s openness. This boundary sensitivity includes safety awareness (e.g., equipment in the room) and clear preference for informal, socially rich settings; low-group speakers show less persistent mistrust and more procedural or semantic concerns without sustained guardedness.\n\nDifferentiator variable names:\nprosocial_tactile_warmth, sensory_dreamlike_modulation, meta_protocol_vigilance, emotional_reappraisal_relationships, boundary_attunement_cautious_trust",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 4720,
+        "prompt_tokens": 12392,
+        "total_tokens": 17112,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 4032,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

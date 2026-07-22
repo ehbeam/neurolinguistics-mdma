@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChNLhXOvPHx2swvzWQ45neNOMQlLX",
+    "created": 1764453893,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Analytical Neurobiological Framing: High participants interpret experiences through scientific models, referencing neurotransmitters, receptors, drugs, and research institutions. They readily compare MDMA to psychedelics and SSRIs, invoke serotonin/dopamine mechanisms, name molecules (e.g., CB2), cite researchers and organizations, and discuss study design, regulation, and commercialization. This framing gives their narratives a technical, research-aware tone, anchoring subjective experiences in neurobiology and evidence.\n\n2. Meta-Task Hypothesis Generation: High participants actively infer hidden structures in tasks and test hypotheses about experimental intent. They notice order changes, question whether buttons serve real functions, consider psychological flexibility assessments, and construct \u201culterior test\u201d theories without becoming distressed. This meta-cognitive stance shows heightened pattern detection and situational analysis layered atop the primary tasks.\n\n3. Breath-Based Self-Regulation and Resilience: High participants explicitly use breath and grounding to manage anxiety, tension, and difficult moments. They analogize life\u2019s lows to \u201cbad trips,\u201d emphasize controlling what is controllable, and describe releasing physical tension and stabilizing attention via breathing. This deliberate self-regulation yields rapid recovery from discomfort and sustains task engagement despite emotional or sensory hurdles.\n\n4. Empathic Social Engagement and Touch Orientation: High participants show marked pro-social empathy, openness, and a strong orientation toward touch. They anticipate bonding, hugging, mirroring others\u2019 expressions, and \u201cbeing present,\u201d while simultaneously monitoring boundaries to avoid making others uncomfortable. The combination of warmth, prosocial drive, and mindful restraint distinguishes a socially expansive yet considerate style.\n\n5. Philosophical and Comparative Abstraction: High participants zoom out to big-picture themes, comparing drug classes, reflecting on transcendence, and linking personal regulation to historical or societal contexts. They discuss merging with environment, finding solace under adversity, and the cultural economics of psychedelics, weaving abstract reasoning into their concrete reports. This breadth of perspective adds a reflective, philosophical layer to their speech.\n\n6. Strategic Task Engagement and Cognitive Flexibility: High participants adapt strategies mid-task, prioritize focus, and self-correct despite distractions or epiphanies. They evaluate which tasks are easier or harder, consciously redirect attention back to \u201cthe task ahead,\u201d and adjust approaches (e.g., training responses) to optimize performance. This shows flexible, intentional control over cognition during testing.\n\n7. Sensory Precision and Interoceptive Monitoring: High participants report detailed, precise sensory changes and internal states. They differentiate \u201cfaded\u201d versus \u201cblurred,\u201d note peripheral narrowing, temperature shifts, sweaty palms, dilated pupils, and tension release, and track hyper-awareness of internal sensations. Their descriptions demonstrate fine-grained perceptual and interoceptive monitoring rather than vague or global impressions.\n\n8. Intentional Therapy Orientation and Research Advocacy: High participants prefer intentional settings over party contexts and actively endorse therapeutic applications and clinical research. They discuss MDMA for PTSD/depression, consider non-festival use, express net-positive expectations, and even contemplate contacting PIs or contributing to studies. This stance reflects mission-driven engagement with the therapeutic potential of the drug.\n\n9. Evidence-Based Skepticism and Bias Literacy: High participants show bias awareness and empiricism, questioning measures while rejecting conspiratorial thinking. They reference cognitive bias literature, critique questionnaires\u2019 fit, distinguish their views from faith, and assess societal control and commercialization pragmatically. This balanced skepticism combines critical scrutiny with respect for evidence and research integrity.\n\nDifferentiator variable names:\nneurobiological_framing, meta_task_hypothesis, breath_regulation_resilience, empathic_touch_orientation, philosophical_abstraction, task_strategy_flexibility, sensory_precision_monitoring, therapy_research_openness, bias_literacy_skepticism",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 3144,
+        "prompt_tokens": 14494,
+        "total_tokens": 17638,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2368,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

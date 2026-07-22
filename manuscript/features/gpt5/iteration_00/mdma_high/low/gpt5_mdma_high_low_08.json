@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChM1h7JPuHsZdlCx0JTCoCWqKmQp8",
+    "created": 1764448809,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Feelings-Lane Dominance: Emotional processing takes center stage, often overshadowing cognition and task performance. LOW participants repeatedly describe a distinct \u201clane for feelings\u201d that becomes primary under MDMA, with thoughts moving to the background and tasks needing deliberate effort to re-engage. They narrate feelings overwhelming attention (\u201cI had to bring myself back to the task\u201d), question whether MDMA adds a separate pathway for feelings, and celebrate sustained access to that feelings lane even after sessions. HIGH participants, by contrast, emphasize cognitive control, breath regulation, and philosophical or research-oriented reflection rather than feelings crowding out thinking.\n\n2. Boundary-Guarded Openness: Open emotional sharing paired with strong respect for privacy and non-imposition. LOW participants ask for confidentiality, worry about \u201cimposing\u201d feelings on others, and calibrate disclosure with partners and family (e.g., careful conversations about open relationships, proposing timelines, and protecting trust). They report social anxiety but note MDMA reduces it enough to speak candidly while still honoring boundaries. HIGH participants tend to embrace broad, immediate sociability (\u201copen book,\u201d hugs, festival hugs), showing less concern about imposing or privacy and more comfort with unfiltered openness.\n\n3. Mellow, Non-Euphoric Affect: Reports calm, present, smiley states without intense euphoria or \u201cpeak happiness.\u201d LOW transcripts frequently note being present, cozy, smiley, and warm, yet explicitly deny stereotypical MDMA euphoria (\u201cnot the happiest moment,\u201d \u201cmore mellow\u201d). They compare sessions and doses, often finding muted highs and steady mood rather than exuberant peaks. HIGH participants more often anticipate or describe socially energized, elevated states in festival-like settings and focus on empathic uplift, hugs, and positive \u201cnet\u201d experiences.\n\n4. Somatic Micro-Attunement: Highly detailed awareness of bodily sensations, movement urges, and tactile preferences. LOW participants describe sweaty palms, temperature shifts, jaw clenching/teeth chattering, tingling, stretching, desire to move between scans, appreciation of floor textures, and nuanced tactile preferences (e.g., buzz-cut touch). They use movement to regulate comfort and note sensation changes across sessions. HIGH participants mention somatic states but more briefly and often in service of regulating anxiety via breath; the LOW group\u2019s granular, body-focused tracking is more pronounced and pervasive.\n\n5. Reflective, Non-Competitive Tasking: Performance framed as trying best, with fluctuating attention and meta-commentary on tasks. LOW participants detail missing early items, struggling with crosshairs and reflections, and shifting strategies (\u201cdiverted my gaze,\u201d \u201ctry my best\u201d without disappointment). They notice task design nuances (e.g., red button appears twice) and accept variable investment, contrasting a previously competitive baseline. HIGH participants generally frame tasks as straightforward or manageable and emphasize focus through self-control and breathing, with less performance ambivalence.\n\n6. Relationship-Centric Narratives: Long, specific stories focused on family, partners, ethics, and caregiving plans. LOW transcripts are rich with personal histories\u2014parents\u2019 styles, brother\u2019s frugality, niece caregiving philosophy, open-relationship ethics, proposal plans\u2014and reflections on how MDMA informs these decisions. They prioritize relational well-being and caregiving roles, often analyzing trust, pressure, and communication. HIGH participants tend toward broader societal or research topics (studies, neurotransmitters, capitalism in psychedelics) and less detailed family-system storytelling.\n\n7. Setting-Responsive Comfort Sensitivity: Experience is strongly shaped by environment, temperature, textures, and perceived appropriateness. LOW participants repeatedly comment on blankets, warmth/cold, MRI comfort, textures of wood and floors, lab constraints on touch/spooning, vision issues, and desire for alternative spaces (\u201cspace capsule,\u201d Buddhist rendering). They attribute expression and feeling intensity to the setting and adjust behavior accordingly. HIGH participants acknowledge the setting but orient more to internal regulation (breath control) and social openness independent of environmental textures.\n\n8. Metacognitive Doubt About Drug Effects: Persistent questioning of dose, placebo, and internal models of how MDMA changes mind. LOW participants speculate about dose levels, placebo effects, lingering \u201cadditional lane\u201d of feelings, gender-role training of emotional capacity, empathy trade-offs, and whether sensations are self-induced. They build personal cognitive models and test hypotheses across sessions. HIGH participants analyze study design and societal implications, but show less sustained self-doubt about whether their own effects are placebo or about neurocognitive architectures of feeling versus thought.\n\nDifferentiator variable names:\nfeelings_lane_dominance, boundary_guarded_openness, mellow_non_euphoric_affect, somatic_micro_attunement, reflective_task_engagement, relationship_centric_narratives, setting_responsive_sensitivity, metacognitive_doubt_drug_effects",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 3487,
+        "prompt_tokens": 14494,
+        "total_tokens": 17981,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2496,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

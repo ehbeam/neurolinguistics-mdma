@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChMw84X6kj9ayfZDEUZkzljaTieAv",
+    "created": 1764452308,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Causal skepticism and active uncertainty management: Low participants continuously question whether effects are drug-induced, contextual, or placebo and keep testing explanations without settling on certainty. They repeatedly reality-check their experience in real time\u2014wondering if they took MDMA or placebo, attributing chills to missing socks, vision shifts to reflections or not wearing shoes, ear sensations to earplugs, and even muscle soreness to the chair. They theorize about dose levels, setting effects, and whether MDMA adds a \u201cfeeling lane\u201d or reallocates mental bandwidth, and they keep hedging and revising (\u201cmaybe,\u201d \u201cI don\u2019t know,\u201d \u201cit might be placebo\u201d). In contrast, High participants tend to speak with more confidence, focusing on general neurobiology, prior knowledge, or task design rather than sustained self-doubt about their own internal state.\n\n2. Fine-grained interoception and sensory tracking: They report constant, detailed body and sensory changes\u2014temperature, tingling, jaw tension, vision shifts, textures, and urges to move or stretch. Low transcripts are filled with moment-by-moment somatic notes: sweaty palms, warm body with chills, jaw clenching and lip-licking, tingling, sore hamstrings, double vision linked to blinking and reflections, and appreciation of textures (wood, floor) and movement. They micro-monitor changes across sessions (cold vs warm, ear sensations disappearing with earplugs) and tie behavior (walking, stretching) to bodily relief. High participants mention sensations but less granularly, pivoting quickly to breath control or broader meaning-making.\n\n3. Social caution and non-imposition: They prioritize not imposing on others, showing shyness, boundary-respect, and careful disclosure across labs, relationships, and family. Low participants consistently watch their social footprint: worrying about being \u201ctoo much,\u201d holding back touch in the lab (\u201cnot kosher\u201d), and managing social anxiety or introversion at work. They emphasize respectful honesty\u2014detailing open-relationship preferences, timing disclosures to avoid pressure, and navigating family boundaries without \u201cinserting\u201d themselves. High participants, by contrast, highlight gregarious engagement (hugs, festivals, \u201copen book\u201d sharing), even when they note some concern about over-friendliness.\n\n4. Tempered euphoria with a functional framing of MDMA: Affect skews mellow and purposeful, with MDMA framed as a tool for clarity, processing, and communication rather than peak euphoria. Low participants often say they\u2019re chatty and present but not ecstatic; they explicitly contrast themselves with friends who report \u201chappiest moment ever.\u201d They describe MDMA as enabling a \u201cfeeling lane\u201d to process relationships, plan conversations, or re-balance thinking versus feeling\u2014more about usefulness than bliss. High participants emphasize euphoric sociability, music, hugging, and empathic openness; Low emphasize reflective utility, composure, and pragmatic outcomes.\n\n5. Task self-monitoring with strategy shifts: They closely monitor task performance, adjust strategies, and narrate attentional shifts between stimuli, often comparing sessions and baselines. Low participants dissect how they approached crosshairs, faces, money cues, and letter/shape tasks\u2014diverting gaze to avoid distraction, noticing when they mistakenly awaited faces, observing \u201cred appears only twice,\u201d contrasting baseline competitiveness with a calmer \u201ctry my best\u201d stance, and tracking when feelings \u201covertook\u201d focus. High participants discuss tasks more globally (easier/harder, potential ulterior designs) and lean less into minute-by-minute performance self-audits.\n\n6. Role compartmentalization and articulated values: They articulate deliberate role boundaries and values, separating work from self, planning relationships, and compartmentalizing \u201cthought\u201d versus \u201cfeeling\u201d modes. Low participants explicitly separate identities (work vs life), resist living to work, and worry about family members whose identity is fused to work. They plan relationship steps (even proposals), define the role they want with a niece, and analyze empathy and gender-role training as \u201clanes\u201d they can rebalance. High participants engage sweeping ideas (neuro, society, research), but show less emphasis on carefully compartmentalizing personal roles and long-horizon relational plans.\n\nDifferentiator variable names:\ncausal_skepticism_uncertainty_management, fine_grained_interoception, social_caution_non_imposition, tempered_euphoria_functional_framing, task_self_monitoring_strategy_shift, identity_compartmentalization_values_clarity",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 4698,
+        "prompt_tokens": 14494,
+        "total_tokens": 19192,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 3776,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

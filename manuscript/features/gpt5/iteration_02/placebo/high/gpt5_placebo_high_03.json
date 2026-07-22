@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChN8SR50PX5LS3VfpX2ajxJYTP7NG",
+    "created": 1764453072,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Affectionate Prosociality: Pronounced desire to hug, touch, and emotionally support others, emphasizing unconditional friendship over sexual motives. In the HIGH group, participants consistently express strong interpersonal warmth and a physical-affection drive\u2014wanting to hug, touch, listen, and actively support others. They narrate prioritizing \u201cunconditional friendship,\u201d describe intimate relational experiences in detail, and frame interactions around empathy and bonding. In contrast, LOW group participants often discuss sociability more analytically (e.g., \u201ctalkative\u201d vs. \u201creceiving\u201d), compartmentalize emotions, and report minimal changes in warmth; they may note boundaries (e.g., hesitating to hug staff) without the pronounced impulse toward tactile, prosocial connection seen in the HIGH group.\n\n2. Dreamlike Sensory Amplification: Dreamlike sensory amplification\u2014brighter colors, foggy vision, dilated pupils, and pleasant tactile sensitivity are salient. HIGH group transcripts repeatedly describe vivid sensory and perceptual shifts: brighter colors, foggy or dreamlike visual quality while remaining oriented, conspicuously dilated pupils, and enhanced, pleasant skin sensations; occasional somatic markers (jaw clench, slight shakiness) are noted. LOW group participants typically reject such changes under MDMA, emphasizing reality-testing and clarity (\u201cthings are quite real\u201d), downplaying color/vision shifts (often attributing blurring to LSD), and describing subtler bodily sensations (e.g., lightness in legs) without the pronounced dreamlike quality.\n\n3. Procedural Vigilance and Boundary Sensitivity: High procedural vigilance and boundary sensitivity\u2014strong self-monitoring of performance and discomfort with professional distancing in the study setting. HIGH group participants are markedly preoccupied with task performance, potential confounds, and study design (e.g., caffeine restrictions, placebo effects, environment mismatch), and they actively push themselves to perform at \u201c100%,\u201d monitor memory lapses, and worry about drowsiness confounding results. They also express discomfort with professional boundaries, wondering whether staff are \u201cgenuine\u201d and lamenting the loss of \u201cbuddy-buddy\u201d connection. LOW group participants do ask procedural questions, but these are more detached and curiosity-driven; they tend to accept the setting, focus on emotional processing, and show less performance-driven vigilance or boundary distress.\n\nDifferentiator variable names:\ndifferentiator_01_name: prosocial_affection, differentiator_02_name: dreamlike_sensory_amplification, differentiator_03_name: boundary_procedural_vigilance",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 3983,
+        "prompt_tokens": 12392,
+        "total_tokens": 16375,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 3456,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

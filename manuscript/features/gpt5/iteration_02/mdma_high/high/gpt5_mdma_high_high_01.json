@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-CjDEacOZTVDtG5hxVzYqqdjiRXUls",
+    "created": 1764891668,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Active Physiological Self-Regulation: High participants explicitly monitor bodily states and use breathing to release tension, ground themselves, and maintain task focus. High-group transcripts repeatedly show participants noticing tension or arousal (e.g., toes curling, shivering, sweaty palms), then deliberately employing techniques\u2014especially controlled breathing, body scanning, and intentional relaxation\u2014to manage discomfort and sustain attention. They frame breath as the primary controllable lever, reference grounding strategies used for panic attacks, and describe \u201ccollecting\u201d themselves to pass through difficult moments. In contrast, low-group participants more often report being overwhelmed, uncertain, or simply \u201cchatty,\u201d with few explicit, systematic self-regulation strategies; when regulation appears, it\u2019s sporadic (e.g., moving around) and not articulated as a consistent, breath-anchored practice.\n\nDifferentiator variable names:\nactive_physiological_self_regulation",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 1931,
+        "prompt_tokens": 14494,
+        "total_tokens": 16425,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 1728,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

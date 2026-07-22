@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChNIffDhaZ3TLIpSWaoIMM5OKjGm7",
+    "created": 1764453705,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Research-analytic framing: Frames experiences through scientific concepts, cross-drug comparisons, and study design critiques, frequently referencing neurobiology, pharmacology, and cognitive biases. High-group participants repeatedly situate their experiences within scientific and analytical frameworks: they compare MDMA to psilocybin/LSD, debate whether MDMA is \u201cpsychedelic,\u201d and discuss serotonin, dopamine, SSRIs, CB2, and Shulgin by name. They question task design, notice potential \u201culterior tests,\u201d reference Daniel Kahneman on biases, and assess measurement validity and societal regulation (NIH protocols, commercialization). This meta-cognitive, research-literate stance shows a consistent habit of interpreting their inner state through theory and methodology rather than only personal narrative. In contrast, low-group participants focus far more on immediate feelings, relationships, and practical life contexts, occasionally speculating about placebo or MAPS but rarely sustaining detailed pharmacological or experimental analysis. The high group therefore displays pronounced scientific orientation and pattern-detecting critique that distinguishes them from the low group.\n\n2. Intentional self-regulation and grounding: Actively modulates internal state with breathwork, body scans, and cognitive reframing to manage anxiety and maintain task focus. High-group participants describe deliberate strategies to regulate arousal and discomfort\u2014controlling breath to calm anxiety, releasing muscular tension (toes curling, body scans), and reframing \u201cvalleys\u201d as manageable phases of a trip. They articulate grounding techniques for panic-like states and emphasize collecting themselves to refocus on tasks. This skillful self-regulation appears both in the MRI (cave-like calm, breath pacing) and in general philosophy (breath as a controllable anchor). Low-group participants more often report sensations (sweaty palms, jaw clenching, warmth, visual shakiness) and situational adjustments (closing eyes, moving around) without the same consistent, intentional breath-based regulation or explicit cognitive strategies. The high group thus exhibits a practiced, proactive regulation repertoire that supports stability and task engagement despite stressors.\n\n3. Prosocial empathic engagement: Strongly prosocial and empathic, seeking connection, touch, mirroring, and others\u2019 comfort; treats MDMA as a bonding tool beyond party settings. High-group participants emphasize outward-focused empathy and sociability: craving human touch, mirroring others\u2019 reactions, checking that others feel comfortable, and explicitly framing MDMA as an \u201cempathy drug\u201d for intentional connection and bonding (even beyond festivals). They present themselves as open books, eager to share and to ensure boundaries (e.g., avoiding making anyone uncomfortable), and value MDMA in relationship-building contexts. Low-group participants frequently describe introversion, reluctance to impose feelings, preference for parallel presence rather than interaction, and uncertainty about euphoria or sociability in MDMA settings. While both groups mention relationships, the high group consistently orients toward active, other-directed connection and comfort management, distinguishing their interpersonal style from the more reserved, self-protective stance in the low group.\n\nDifferentiator variable names:\nresearch_analytic_orientation, self_regulation_breathwork, prosocial_empathic_engagement",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 3851,
+        "prompt_tokens": 14494,
+        "total_tokens": 18345,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 3200,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

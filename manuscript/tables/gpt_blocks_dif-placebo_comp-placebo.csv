@@ -1,0 +1,26 @@
+var,block,n_low,med_[quantiles]_low,n_high,med_[quantiles]_high,U,CLES,FDR
+gpt5_attention_state_oscillation,1,38,"0.10 [0.00, 0.20]",21,"0.10 [0.00, 0.20]",389.5,0.51,0.88
+gpt5_attention_state_oscillation,2,46,"0.10 [0.00, 0.20]",18,"0.00 [0.00, 0.22]",517.5,0.62,0.15
+gpt5_attention_state_oscillation,3,37,"0.10 [0.00, 0.20]",17,"0.10 [0.00, 0.20]",334,0.53,0.74
+gpt5_attention_state_oscillation,4,40,"0.10 [0.00, 0.20]",17,"0.00 [0.00, 0.20]",365,0.54,0.71
+gpt5_attention_state_oscillation,5,46,"0.10 [0.00, 0.28]",20,"0.30 [0.10, 0.60]",267,0.71,0.01*
+gpt5_physiological_monitoring_hypotheses,1,38,"0.00 [0.00, 0.00]",21,"0.10 [0.00, 0.60]",238,0.70,4.61x10-3**
+gpt5_physiological_monitoring_hypotheses,2,46,"0.00 [0.00, 0.10]",18,"0.05 [0.00, 0.47]",294.5,0.64,0.07+
+gpt5_physiological_monitoring_hypotheses,3,37,"0.00 [0.00, 0.00]",17,"0.00 [0.00, 0.10]",243.5,0.61,0.09+
+gpt5_physiological_monitoring_hypotheses,4,40,"0.00 [0.00, 0.00]",17,"0.00 [0.00, 0.10]",246.5,0.64,6.45x10-3**
+gpt5_physiological_monitoring_hypotheses,5,46,"0.00 [0.00, 0.00]",20,"0.15 [0.00, 0.43]",273.5,0.70,1.01x10-3**
+gpt5_performance_vigilance,1,38,"0.00 [0.00, 0.00]",21,"0.00 [0.00, 0.00]",354,0.56,0.15
+gpt5_performance_vigilance,2,46,"0.00 [0.00, 0.00]",18,"0.00 [0.00, 0.00]",432,0.52,0.44
+gpt5_performance_vigilance,3,37,"0.00 [0.00, 0.00]",17,"0.00 [0.00, 0.20]",281,0.55,0.44
+gpt5_performance_vigilance,4,40,"0.00 [0.00, 0.00]",17,"0.00 [0.00, 0.50]",258,0.62,0.10+
+gpt5_performance_vigilance,5,46,"0.00 [0.00, 0.00]",20,"0.40 [0.00, 0.70]",199,0.78,1.40x10-5***
+gpt5_professional_boundary_awareness,1,38,"0.00 [0.00, 0.00]",21,"0.00 [0.00, 0.00]",313,0.61,0.02*
+gpt5_professional_boundary_awareness,2,46,"0.00 [0.00, 0.00]",18,"0.00 [0.00, 0.00]",380,0.54,0.44
+gpt5_professional_boundary_awareness,3,37,"0.00 [0.00, 0.00]",17,"0.00 [0.00, 0.40]",176.5,0.72,3.32x10-4***
+gpt5_professional_boundary_awareness,4,40,"0.00 [0.00, 0.00]",17,"0.00 [0.00, 0.20]",266.5,0.61,0.14
+gpt5_professional_boundary_awareness,5,46,"0.00 [0.00, 0.00]",20,"0.00 [0.00, 0.00]",413.5,0.55,0.21
+gpt5_emotional_bandwidth_allocation,1,38,"0.20 [0.10, 0.40]",21,"0.00 [0.00, 0.00]",697.5,0.87,5.95x10-6***
+gpt5_emotional_bandwidth_allocation,2,46,"0.20 [0.20, 0.30]",18,"0.00 [0.00, 0.00]",795,0.96,5.78x10-8***
+gpt5_emotional_bandwidth_allocation,3,37,"0.20 [0.20, 0.30]",17,"0.00 [0.00, 0.00]",532,0.85,1.52x10-4***
+gpt5_emotional_bandwidth_allocation,4,40,"0.30 [0.18, 0.50]",17,"0.10 [0.00, 0.20]",492,0.72,0.02*
+gpt5_emotional_bandwidth_allocation,5,46,"0.30 [0.10, 0.40]",20,"0.00 [0.00, 0.03]",802.5,0.87,7.74x10-6***

@@ -1,0 +1,6 @@
+var,n_low,med_[quantiles]_low,n_high,med_[quantiles]_high,U,CLES,FDR
+gpt5_attention_state_oscillation,182,"0.00 [0.00, 0.30]",198,"0.20 [0.00, 0.30]","14,610.5",0.59,2.43x10-3**
+gpt5_physiological_monitoring_hypotheses,182,"0.00 [0.00, 0.10]",198,"0.10 [0.00, 0.40]","11,616",0.68,1.78x10-10***
+gpt5_performance_vigilance,182,"0.00 [0.00, 0.00]",198,"0.00 [0.00, 0.00]","18,954.5",0.53,0.30
+gpt5_professional_boundary_awareness,182,"0.00 [0.00, 0.00]",198,"0.00 [0.00, 0.00]","17,429.5",0.52,0.30
+gpt5_emotional_bandwidth_allocation,182,"0.10 [0.00, 0.30]",198,"0.10 [0.00, 0.30]","18,132",0.50,0.91

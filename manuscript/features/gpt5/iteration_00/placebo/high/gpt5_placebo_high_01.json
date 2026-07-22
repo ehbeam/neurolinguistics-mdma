@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-CjDAvOcwZqS7jvwAIowqfvjGMuTCh",
+    "created": 1764891441,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Dreamlike Sensory Enhancement: High participants consistently report brighter colors, foggy vision, and a pleasant dreamlike state; low participants describe minimal visual change and grounded, non-dissociative realism. High-group transcripts repeatedly describe perceptual softening and enhancement\u2014\u201cbright colors,\u201d \u201cfoggy-ish vision,\u201d \u201cpleasant, dreamlike,\u201d and heightened tactile sensitivity\u2014often paired with awareness of physiological signs like pupil dilation and heart rate. Despite feeling dreamlike, they maintain orientation to reality. In contrast, low-group participants emphasize clarity and realism (\u201cthings are quite real,\u201d \u201cI don\u2019t feel colors change,\u201d \u201cnot dissociation\u201d), often rejecting dream/unreal language and attributing tunnel vision or blurring to other substances (e.g., LSD) or specific contexts. This differentiator captures a pronounced sensory-affective immersion in the High group versus a cognitively grounded, minimally altered perceptual experience in the Low group.\n\nDifferentiator variable names:\ndreamlike_sensory_enhancement",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 2208,
+        "prompt_tokens": 12392,
+        "total_tokens": 14600,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 1984,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

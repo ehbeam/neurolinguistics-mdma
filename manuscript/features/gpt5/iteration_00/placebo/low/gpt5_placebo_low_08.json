@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChLr50FkPkrR2uUkXPwzaGHX6YQzS",
+    "created": 1764448151,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Anxiety Quenching and Psychological Ease: LOW participants consistently report anxiety dropping to near-zero and feeling psychologically at ease. Their transcripts emphasize \u201cconcern vanishes,\u201d calm, and security; they describe Molly as a \u201ctime out\u201d from everyday anxiety that enables higher-order reflection and social connection. By contrast, HIGH participants more often mention nerves, mistrust in the professional setting, and unease about boundaries, highlighting that lowered anxiety is a defining LOW-group feature.\n\n2. Perceptual Groundedness (No Dreamlike Distortion): LOW participants describe the world as real with minimal visual changes while on Molly. They repeatedly reject dreamlike or foggy vision, say colors do not change, and explicitly attribute blurring/tunnel vision to other substances (e.g., LSD), not MDMA. HIGH participants frequently emphasize brighter colors, fogginess, and a dreamlike quality, making the LOW group\u2019s grounded, \u201cthis world\u201d perception a clear differentiator.\n\n3. Emotive Openness and Connection Seeking: LOW participants show a strong drive to disclose feelings, hug, make eye contact, and connect even with strangers. They repeatedly note becoming chatty, friendly, less avoidant, and eager to \u201cget everything out,\u201d often structuring conversations around feelings and relationships. HIGH participants endorse warmth and empathy but are more constrained by professional boundaries and mistrust in the setting; the LOW group\u2019s proactive vulnerability and connection seeking are notably stronger.\n\n4. Cognitive Clarity and Non\u2011intoxication Appraisal: LOW participants insist MDMA does not impair thinking; they define intoxication as cognitive loss, which they do not experience. They report clear-headedness, ability to focus on topics, and mental control despite occasional visual focus changes or emotional prioritization. In contrast, HIGH participants often describe lapses in concentration, sleepiness, worries about memory, and task mistakes, underscoring the LOW group\u2019s perceived clarity.\n\n5. Explicit Emotional Bandwidth Allocation: LOW participants use metacognitive frameworks to describe \u201clanes\u201d or bandwidth for feelings versus thinking and how MDMA enforces or opens an emotional lane. They discuss allocating mental resources, utility functions, and sustained access to feelings, indicating a structured introspective model of their state. HIGH participants seldom use this kind of resource-allocation language, making the LOW group\u2019s metacognitive bandwidth framing distinctive.\n\n6. Durable Prosocial Afterglow: LOW participants describe lasting changes after sessions\u2014greater openness, bigger hugs with family, extended week-long effects, and improved emotional conversations. This persistence beyond the acute session is repeatedly stressed as meaningful and behaviorally observable. HIGH participants mostly focus on immediate-session phenomena and setting constraints, so the LOW group\u2019s durable afterglow differentiates them.\n\n7. Lowered Social Defensiveness and Avoidance: LOW participants highlight diminished defensiveness and avoidance, increased eye contact, and easier engagement with new people (e.g., long conversations with drivers). They describe walls coming down and feeling less guarded in interpersonal contexts. HIGH participants tend to maintain caution due to professional dynamics and mistrust, making the LOW group\u2019s reduction in defensiveness a clear separator.\n\n8. Trustful, Method\u2011Engaged Stance Toward the Study Setting: LOW participants express security in the study context and actively engage with methodology\u2014asking about placebo, randomization, order effects, and data. They show curiosity and collaborative trust in researchers. HIGH participants more commonly question authenticity, emphasize the professional boundary, and discuss discomfort, differentiating the LOW group\u2019s trustful, inquisitive stance.\n\nDifferentiator variable names:\ndifferentiator_01_name=anxiety_ease, differentiator_02_name=grounded_perception, differentiator_03_name=open_connection, differentiator_04_name=clear_cognition_nonintox, differentiator_05_name=emotional_bandwidth, differentiator_06_name=prosocial_afterglow, differentiator_07_name=low_defensiveness, differentiator08_name=study_trust_method_engagement",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 3448,
+        "prompt_tokens": 12391,
+        "total_tokens": 15839,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2624,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

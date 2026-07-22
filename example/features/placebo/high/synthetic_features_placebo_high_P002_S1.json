@@ -1,0 +1,34 @@
+{
+    "id": "chatcmpl-E2pVLLg84oYx8sPhnbt9a2GBrRZHV",
+    "created": 1784343347,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "ID,gpt5_attention_state_oscillation,gpt5_physiological_monitoring_hypotheses,gpt5_performance_vigilance,gpt5_professional_boundary_awareness\nP002_S1_B1_L1,0.90,0.20,0.30,0.00\nP002_S1_B1_L2,0.80,0.30,0.20,0.00\nP002_S1_B1_L3,0.20,0.90,0.10,0.00\nP002_S1_B1_L4,0.50,0.90,0.40,0.00\nP002_S1_B1_L5,0.60,0.20,0.95,0.00\nP002_S1_B1_L6,0.80,0.10,0.90,0.00\nP002_S1_B1_L7,0.50,0.00,0.95,0.00\nP002_S1_B1_L8,0.20,0.00,0.95,0.00\nP002_S1_B2_L1,0.10,0.90,0.30,0.00\nP002_S1_B2_L2,0.00,0.95,0.10,0.00\nP002_S1_B2_L3,0.85,0.30,0.60,0.00\nP002_S1_B2_L4,0.90,0.20,0.30,0.00\nP002_S1_B2_L5,0.60,0.10,0.70,0.00\nP002_S1_B2_L6,0.30,0.00,0.95,0.00\nP002_S1_B2_L7,0.10,0.95,0.20,0.00\nP002_S1_B2_L8,0.10,0.00,0.10,0.95\nP002_S1_B3_L1,0.00,0.00,0.00,1.00\nP002_S1_B3_L2,0.00,0.00,0.00,0.95\nP002_S1_B3_L3,0.00,0.00,0.40,0.95\nP002_S1_B3_L4,0.85,0.20,0.70,0.10\nP002_S1_B3_L5,0.60,0.50,0.30,0.00\nP002_S1_B3_L6,0.30,0.60,0.80,0.00\nP002_S1_B3_L7,0.80,0.10,0.60,0.00\nP002_S1_B3_L8,0.80,0.00,0.40,0.00\nP002_S1_B4_L1,0.60,0.70,0.30,0.00\nP002_S1_B4_L2,0.10,0.90,0.20,0.00\nP002_S1_B4_L3,0.60,0.10,0.90,0.00\nP002_S1_B4_L4,0.30,0.00,0.90,0.60\nP002_S1_B4_L5,0.00,0.00,0.20,0.90\nP002_S1_B4_L6,0.00,0.60,0.20,0.90\nP002_S1_B4_L7,0.70,0.60,0.50,0.00\nP002_S1_B4_L8,0.20,0.60,0.80,0.00\nP002_S1_B5_L1,0.20,0.80,0.50,0.00\nP002_S1_B5_L2,0.60,0.20,0.85,0.00\nP002_S1_B5_L3,0.60,0.30,0.40,0.60\nP002_S1_B5_L4,0.10,0.00,0.50,0.90\nP002_S1_B5_L5,0.70,0.10,0.95,0.20\nP002_S1_B5_L6,0.60,0.70,0.30,0.20\nP002_S1_B5_L7,0.50,0.70,0.30,0.20\nP002_S1_B5_L8,0.90,0.10,0.85,0.70",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {}
+        }
+    ],
+    "usage": {
+        "completion_tokens": 11286,
+        "prompt_tokens": 3962,
+        "total_tokens": 15248,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 10240,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "service_tier": "default"
+}

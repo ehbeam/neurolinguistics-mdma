@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChNHByFCNNOnlDxTw45N2rai2dNJN",
+    "created": 1764453613,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Relationship-Centered Introspection: LOW participants repeatedly process feelings through the lens of close relationships and caregiving roles. They dwell on partners, nieces, parents, and siblings, using the session to plan conversations, define boundaries, and imagine future commitments (e.g., proposals, parenting values, being a \u201csafe adult\u201d for a niece). Their discourse prioritizes emotional dynamics and mutual understanding within real relationships. In contrast, HIGH participants focus more on abstract comparisons, research contexts, and broader drug culture than on intimate relational planning.\n\n2. Embodied Warmth and Tactile Sensitivity: LOW participants richly describe bodily sensations, temperature shifts, and touch. They notice sweaty palms, feeling warmer or colder, jaw clenching/chattering, tingling, hamstring soreness, and comfort from blankets, textures, and stretching; some emphasize tactile attraction and make-out impulses. Their accounts are sensory-detailed and interwoven with moment-to-moment body awareness, while HIGH participants mention senses but pivot more quickly to analysis and task framing.\n\n3. Non-Imposition and Confidential Openness: LOW participants emphasize not imposing on others and guarding trust, while still pursuing honest conversations. They explicitly avoid inserting themselves into others\u2019 lives, request confidentiality, and carefully calibrate disclosures to loved ones (e.g., sister-in-law, partner) so as not to create pressure. This boundary-conscious openness distinguishes them from HIGH participants who present themselves as \u201copen books\u201d and less concerned with the interpersonal ethics of disclosure.\n\n4. Dose Uncertainty and Self-Monitoring: LOW participants frequently question whether they received MDMA or placebo and attribute sensations to contextual factors. They track subtle internal signals (palpitations, visual movement, lightheadedness, temperature) and compare across sessions, often saying \u201cI don\u2019t know\u201d and entertaining multiple explanations. HIGH participants discuss mechanisms and effects with more certainty, rarely lingering in prolonged dose doubt or environmental attributions.\n\n5. Work\u2013Life Boundary and Anti-Status Orientation: LOW participants explicitly reject status chasing and protect work\u2013life separation to preserve feeling and presence. They articulate values like \u201clive to enjoy life,\u201d leave emotions out of work, and resist corporate ladder goals, describing a \u201crobotic\u201d work self versus a \u201chuman\u201d feeling self outside work. HIGH participants talk more about research trajectories and societal implications than normative anti-ambition stances and rigid work\u2013life boundaries.\n\n6. Explicit Emotion\u2013Thought \u201cLane\u201d Framing: LOW participants use a resource-allocation metaphor of \u201clanes\u201d for feelings and thoughts, noting how MDMA changes traffic between them. They describe an added \u201cfeeling lane\u201d or a rebalanced split, how feelings can overwhelm cognition, and strategies to bring themselves back to tasks. HIGH participants rarely use this explicit capacity model, favoring conceptual comparisons across substances and cognitive control narratives instead.\n\n7. Introverted Baseline with MDMA-Facilitated Sociability: LOW participants self-identify as introverted or socially anxious but become more chatty and comfortable under MDMA. They describe wanting closeness without interaction in daily life, then a shift toward interaction and ease talking to coworkers and friends post-session. HIGH participants often portray baseline sociability amplified by MDMA, without the same emphasis on introversion and social anxiety relief.\n\n8. Anecdotal, Family-and-Life Storytelling: LOW participants explain their experience through concrete personal stories and everyday examples. They recount childhood dynamics, a niece\u2019s bumped nose, a frugal brother negotiating groceries, and an alcoholic roommate in Yosemite to make sense of emotions and intentions. HIGH participants more often reference research literature, neurochemistry, task structures, and philosophical analogies rather than extended family-centered anecdotes.\n\n9. Tempered Affect\u2014Cozy, Present, Not Euphoric: LOW participants report mellow presence, coziness, and gratitude rather than peak euphoria. They describe feeling \u201cpresent,\u201d \u201ccozy,\u201d \u201cwarm,\u201d and \u201ccomfortable,\u201d often saying they don\u2019t reach the \u201chappiest ever\u201d states friends report on MDMA. HIGH participants more commonly anticipate or describe exuberant, festival-like highs (hugs, dancing), aligning with stronger euphoria expectations.\n\nDifferentiator variable names:\ndifferentiator_01_name: relationship_centered_introspection\ndifferentiator_02_name: embodied_warmth_tactile_sensitivity\ndifferentiator_03_name: non_imposition_confidential_openness\ndifferentiator_04_name: dose_uncertainty_self_monitoring\ndifferentiator_05_name: work_life_boundary_anti_status\ndifferentiator_06_name: emotion_thought_lane_framing\ndifferentiator_07_name: introvert_sociability_shift\ndifferentiator_08_name: anecdotal_storytelling_style\ndifferentiator_09_name: tempered_affect_mellow_presence",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 3623,
+        "prompt_tokens": 14494,
+        "total_tokens": 18117,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2624,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

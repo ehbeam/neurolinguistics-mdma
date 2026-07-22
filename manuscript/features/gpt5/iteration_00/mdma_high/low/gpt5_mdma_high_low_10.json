@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChM2zAL3nX4eLSKJiJpjt3ATHyC6n",
+    "created": 1764448889,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Non-imposing interpersonal boundaries: LOW participants consistently avoid imposing on others and prioritize courtesy, privacy, and careful disclosure in relationships. Their transcripts show repeated concern about not intruding on others\u2019 lives, asking for confidentiality, and calibrating what to share so as not to pressure partners, family, or researchers. They frame openness as consent-based and carefully negotiated, emphasizing respect and non-intrusion. In contrast, HIGH participants describe being very sociable, touch-seeking, and sometimes \u201coverbearing,\u201d signaling less emphasis on non-imposition and boundary caution.\n\n2. Affect\u2013thought lane structuring: LOW participants explicitly conceptualize separate \u201clanes\u201d for feelings and thinking and describe how MDMA changes lane allocation and traffic. They articulate models of \u201cbrain capacity\u201d and a dedicated feelings lane that can dominate attention, sometimes pushing thoughts into the background and requiring deliberate re-centering. HIGH participants discuss broader states (e.g., merging, transcendence, breath control) without the same detailed, structured self-model of affect vs. cognition.\n\n3. Muted euphoria with measured affect: LOW participants frequently report reduced or absent MDMA \u201chappiness\u201d relative to peers, feeling mellow, calm, or less chatty than expected. They note \u201cnot the happiest moment,\u201d being more present than euphoric, and sometimes wondering about dose or placebo when emotional intensity is modest. HIGH participants more often anticipate or describe expansive openness, sociability, and pleasure (e.g., festival energy, hugs), signaling higher overt euphoria and expressiveness.\n\n4. Perceptual distractibility during tasks: LOW participants describe visual anomalies and interference (reflections, doubles, moving fixation, blinking), misinterpreting tasks, and needing to refocus. They speak of \u201cnoise vs. signal\u201d and missing early questions, with emotional lanes intruding on performance. HIGH participants generally report tasks felt straightforward or manageable, using strategies (e.g., breathing) to maintain focus, and express fewer perceptual interferences in performance narratives.\n\n5. Tactile self-stimulation and micro-movements: LOW participants emphasize bodily urges to move, stretch, chew, chatter jaws, lick lips, and seek textures (floors, buzz cuts), and report sweaty palms and warmth as salient. They describe being \u201csuper smiley\u201d and enjoying micro-movement relief, even inside the MRI. HIGH participants note touch feels amazing and manage tension via breath, but they foreground social touch rather than frequent self-directed micro-movements.\n\n6. Family-centric narrative processing: LOW participants offer deep, detailed stories about parents, siblings, and nieces, including micromanagement, frugality, identity crises, and caregiving plans. They reflect on intergenerational dynamics, boundaries, and roles (e.g., being the \u201csafe\u201d adult for a niece), often using MDMA to process family relationships. HIGH participants share personal anecdotes but focus more on research, policy, and generalized human themes than sustained family-system analysis.\n\n7. Consent-focused nontraditional relationship planning: LOW participants openly discuss complex relationship goals (e.g., openness, sex with others, future proposals) anchored in consent, transparency, and respecting a partner\u2019s comfort. They weigh timing, pressure, and disclosure ethics, planning conversations with partners and in-laws to align expectations. HIGH participants emphasize general empathy and sociability rather than extended planning around unconventional relationship structures.\n\n8. Introvert baseline with moderated sociability: LOW participants identify as shy or \u201chardcore introvert,\u201d and report MDMA yields moderate increases in talkativeness and comfort, especially after-work or next-day effects. Their sociability shifts are measured and context-dependent (lab constraints, coworkers), not exuberant. HIGH participants self-identify as very open, friendly, and highly sociable, with MDMA amplifying already-extroverted engagement (e.g., festivals, hugs).\n\n9. Introspective, cozy context preference: LOW participants favor cozy, intentional, and reflective settings\u2014finding the MRI \u201ccozy,\u201d enjoying textures, warmth, and being in their body\u2014over party-like environments. They appreciate movement, comfort, and inward focus, and see labs as less conducive to ideal emotional work but still usable. HIGH participants highlight festival settings, music, and high-energy social contexts as their preferred MDMA environments.\n\n10. Pharmacological uncertainty and attribution checking: LOW participants frequently question dose, placebo status, and whether sensations are \u201creal\u201d or self-generated, monitoring signals like palpitations and changing perceptions over time. They compare sessions, seek causal explanations, and hold competing hypotheses. HIGH participants exhibit clearer expectations and confidence about effects, orienting to management (breath control) and broader meaning-making rather than sustained pharmacological doubt.\n\nDifferentiator variable names:\nnon_imposing_interpersonal_boundaries, affect_thought_lane_structuring, muted_euphoria_measured_affect, perceptual_distractibility_task_interference, tactile_self_stimulation_micro_movements, family_centric_narrative_processing, consent_focused_open_relationship_planning, introvert_baseline_moderated_sociability, introspective_cozy_context_preference, pharmacological_uncertainty_attribution_checking",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 4384,
+        "prompt_tokens": 14494,
+        "total_tokens": 18878,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 3328,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

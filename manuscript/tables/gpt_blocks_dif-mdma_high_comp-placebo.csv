@@ -1,0 +1,21 @@
+var,block,n_low,med_[quantiles]_low,n_high,med_[quantiles]_high,U,CLES,FDR
+gpt5_open_boundary_openness,1,38,"0.40 [0.30, 0.50]",21,"0.10 [0.00, 0.20]",669,0.84,1.10x10-4***
+gpt5_open_boundary_openness,2,46,"0.30 [0.23, 0.50]",18,"0.15 [0.00, 0.50]",525,0.63,0.15
+gpt5_open_boundary_openness,3,37,"0.40 [0.30, 0.40]",17,"0.20 [0.10, 0.40]",433.5,0.69,0.05*
+gpt5_open_boundary_openness,4,40,"0.40 [0.38, 0.50]",17,"0.20 [0.20, 0.30]",552,0.81,5.31x10-4***
+gpt5_open_boundary_openness,5,46,"0.40 [0.30, 0.50]",20,"0.15 [0.00, 0.30]",802.5,0.87,1.09x10-5***
+gpt5_breath_self_regulation,1,38,"0.10 [0.00, 0.18]",21,"0.00 [0.00, 0.00]",613.5,0.77,5.02x10-4***
+gpt5_breath_self_regulation,2,46,"0.10 [0.00, 0.20]",18,"0.00 [0.00, 0.00]",629.5,0.76,1.06x10-3**
+gpt5_breath_self_regulation,3,37,"0.00 [0.00, 0.10]",17,"0.00 [0.00, 0.00]",397,0.63,0.11
+gpt5_breath_self_regulation,4,40,"0.10 [0.10, 0.10]",17,"0.00 [0.00, 0.20]",462,0.68,0.05*
+gpt5_breath_self_regulation,5,46,"0.10 [0.10, 0.10]",20,"0.00 [0.00, 0.00]",841,0.91,9.12x10-8***
+gpt5_systems_policy_orientation,1,38,"0.00 [0.00, 0.00]",21,"0.00 [0.00, 0.00]",391,0.51,0.78
+gpt5_systems_policy_orientation,2,46,"0.00 [0.00, 0.00]",18,"0.00 [0.00, 0.00]",495,0.60,0.08+
+gpt5_systems_policy_orientation,3,37,"0.00 [0.00, 0.00]",17,"0.00 [0.00, 0.00]",294.5,0.53,0.53
+gpt5_systems_policy_orientation,4,40,"0.00 [0.00, 0.10]",17,"0.00 [0.00, 0.00]",370.5,0.54,0.57
+gpt5_systems_policy_orientation,5,46,"0.00 [0.00, 0.00]",20,"0.00 [0.00, 0.40]",271.5,0.70,4.77x10-4***
+gpt5_boundary_conscious_social_restraint,1,38,"0.10 [0.03, 0.20]",21,"0.00 [0.00, 0.00]",558.5,0.70,0.02*
+gpt5_boundary_conscious_social_restraint,2,46,"0.10 [0.10, 0.10]",18,"0.15 [0.03, 0.28]",335,0.60,0.30
+gpt5_boundary_conscious_social_restraint,3,37,"0.10 [0.10, 0.10]",17,"0.10 [0.00, 0.20]",307.5,0.51,0.92
+gpt5_boundary_conscious_social_restraint,4,40,"0.20 [0.00, 0.30]",17,"0.10 [0.00, 0.40]",334,0.51,0.92
+gpt5_boundary_conscious_social_restraint,5,46,"0.10 [0.03, 0.20]",20,"0.10 [0.00, 0.20]",534.5,0.58,0.37

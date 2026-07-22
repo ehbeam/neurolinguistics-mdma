@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChMzs80UJLirUHP6TWmnPUVCgZkql",
+    "created": 1764452540,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Neuropharmacology Literacy and Research Curiosity: HIGH participants frequently use technical neurobiology and pharmacology language and pose research-oriented questions. They reference serotonin, dopamine, SSRIs, receptor targets (e.g., \u201cCB2\u201d), Shulgin, NIH protocols, MAPS/PTSD work, and even behavioral-bias literature (e.g., Kahneman), weaving their experience into a scientific frame and asking about contraindications and societal regulation. LOW participants rarely invoke specific mechanisms, instead emphasizing general feelings, dose uncertainty, placebo concerns, and personal anecdotes without technical linkage.\n\n2. Breath-Grounded Self-Regulation Under Stress: HIGH participants actively manage discomfort through intentional breathing, releasing tension, and grounding strategies. They describe noticing bodily tension, \u201ccollecting\u201d themselves, controlling breath in the MRI, reframing difficult moments as navigable valleys, and applying panic-attack coping (breathing) to regain focus. LOW participants mainly report sensations (chill, sweat, jaw clench, vision shifts) or spontaneous movement helping; they seldom articulate deliberate breath-based regulation or a structured coping approach.\n\n3. Expansive Sociability and Tactile-Affiliative Orientation: HIGH participants display strong social openness and touch-seeking, emphasizing empathy, mirroring, hugging, festival bonding, concern for others\u2019 comfort, and being \u201can open book.\u201d They anticipate increased connection, enjoy observing and mirroring others, and note being \u201ctoo friendly\u201d at times. LOW participants more often express introversion, worry about imposing feelings on others, social anxiety in lab contexts, or restraint about behavior; their sociability is conditional and less tactilely driven.\n\n4. Meta-Analytic Pattern Seeking About Tasks and Study Design: HIGH participants theorize about hidden motives, nonrandom orders, and \u201cpsychological flexibility\u201d tests, and question whether buttons or conditions serve ulterior purposes; they connect tasks to cognitive biases and reflect on design logic. LOW participants focus on immediate task execution, errors, and comfort/performance (e.g., lane switching between feeling/thinking), but rarely speculate about experimental intent or broader methodological patterns.\n\nDifferentiator variable names:\ndifferentiator_01_name: neuro_pharma_literacy, differentiator_02_name: breath_self_regulation, differentiator_03_name: social_touch_affiliation, differentiator_04_name: meta_task_patterning",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 2093,
+        "prompt_tokens": 14494,
+        "total_tokens": 16587,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 1600,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

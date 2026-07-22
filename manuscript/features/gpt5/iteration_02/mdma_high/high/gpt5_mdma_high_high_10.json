@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChNM69sci275r8h71A0N4lpYu82Tz",
+    "created": 1764453918,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Neurobiological literacy and scientific framing: High group frequently cites neurochemistry, receptors, and studies; low group stays experiential and lay.\nParticipants in the HIGH group routinely anchor their experiences in scientific concepts, invoking serotonin and dopamine systems, SSRIs, receptor-level action (e.g., CB2), Shulgin\u2019s work, NIH protocols, PIs, and study designs. They ask technical questions about mechanisms, contraindications, and comparative efficacy, and reference books and cognitive science (e.g., Kahneman) to interpret biases and tasks. LOW group participants occasionally mention a well-known figure or study but largely describe how they feel or what happened, without sustained scientific framing or mechanistic reasoning.\n\n2. Meta-analysis of tasks and study design: High group interrogates task design and suspects hidden tests; low group rarely meta-analyzes.\nThe HIGH group frequently steps back to analyze the structure of the experiment, hypothesizing about changes in orders, hidden motives, or psychological flexibility assessments embedded in the tasks. They question whether buttons or stimuli serve specific experimental purposes and monitor for test validity and bias. In contrast, LOW group participants mostly report task difficulty or personal performance (e.g., missed items, visual instability) without theorizing about the experiment\u2019s internal logic or potential ulterior testing layers.\n\n3. Breath-based self-regulation and resilience: High group actively self-regulates via breath to manage anxiety; low group seldom uses structured techniques.\nHIGH group transcripts repeatedly emphasize grounding techniques, especially controlled breathing, to navigate discomfort, shivering, racing thoughts, or anxiety. They reference panic attack protocols and broader narratives (e.g., historical journals finding solace via control of breath) to maintain calm and focus. LOW group participants describe being overwhelmed or needing movement or time to settle, but seldom articulate an explicit, practiced self-regulation strategy, making their coping more reactive than intentional.\n\n4. Prosocial empathy and real-time social monitoring: High group emphasizes empathy, mirroring, and others\u2019 comfort; low group centers personal feelings and relationships.\nHIGH participants consistently foreground empathy\u2019s role in their experience, wanting to bond, mirror reactions, ensure others are comfortable, and manage boundaries (e.g., hesitating to hug to avoid discomfort). They frame MDMA as an \u201cempathy drug\u201d and describe socially attuned states. LOW group participants also value empathy but tend to narrate it through personal relationships (partners, family, niece) and their own feelings, rather than continuous, real-time monitoring of others\u2019 comfort and social cues during the session.\n\n5. Comparative pharmacology and experiential taxonomy: High group compares drugs and mechanisms with precision; low group offers general comparisons without taxonomy.\nThe HIGH group differentiates MDMA from psychedelics, contrasts festival versus intentional settings, and discusses psilocybin\u2019s introspection versus MDMA\u2019s sociability with mechanistic nuance. They analyze why certain effects occur and how they differ across compounds. LOW group participants may reference other substances or settings but rarely build a structured taxonomy; their comparisons are more anecdotal and less grounded in mechanism or study literature.\n\n6. Research ecosystem engagement and societal commentary: High group engages with research ecosystems and commercialization; low group rarely takes proactive, systemic perspectives.\nHIGH participants consider the broader landscape\u2014NIH priorities, commercialization by public companies, and how capitalism influences access\u2014while proposing to contact PIs and join or support research efforts. They discuss ethics and policy-level control of drugs. LOW group participants might mention MAPS or a public figure but do not pursue systemic analysis or proactive engagement; their perspective remains focused on personal outcomes and immediate contexts.\n\n7. Strategic task focus and cognitive flexibility: High group adopts strategies to maintain focus and adjust; low group reports distraction or overwhelm.\nHIGH participants describe real-time cognitive strategies\u2014shifting attention, suppressing \u201cepiphany\u201d tangents to prioritize the task, recalibrating when letters or faces become difficult, and recognizing reaction time changes. They display psychological flexibility in managing racing thoughts and discomfort to sustain performance. LOW participants more often recount missing cues, feeling overwhelmed by feelings, or being distracted by visual movement, with fewer explicit strategies for adjustment beyond trying harder or waiting for feelings to pass.\n\n8. Nuanced, calibrated sensory reporting: High group offers nuanced, qualified sensory descriptions; low group provides raw, less calibrated reports.\nHIGH group descriptions of perception include qualifiers and distinctions (e.g., periphery narrowing versus blur, \u201cmildly uncomfortable but not bad,\u201d subtle tunnel-like effects, internal hyper-awareness) that demonstrate calibrated observation. They often assess intensity and quality without catastrophizing. LOW group participants provide vivid but less differentiated sensory accounts (e.g., sweaty palms, doubles vision, jaw clenching, warmth/cold), focusing on raw sensations and comfort rather than nuanced perceptual analysis.\n\n9. Expressive openness with boundary awareness: High group is an \u201copen book\u201d while minding boundaries; low group is open without explicit boundary management.\nHIGH participants declare complete openness to questions yet explicitly manage social boundaries (gendered comfort, hugging restraint, not making researchers uncomfortable). They combine transparency with context-sensitive behavior. LOW participants are also open, talkative, and candid about emotions and relationships but rarely articulate concurrent boundary management or social-role sensitivity within the session.\n\n10. Abstract analogical reasoning and philosophical framing: High group frames experiences with abstract analogies and philosophy; low group stays concrete and personal.\nHIGH participants translate momentary experiences into broader analogies: depression as a bad trip, \u201chills and valleys\u201d across journeys, Holocaust journals as exemplars of agency and breath, and reflections on happiness/sadness in human life. This abstraction elevates their narrative beyond the immediate. LOW participants focus on concrete life events\u2014work tension, family dynamics, relationship decisions\u2014and personal feeling states, with less tendency to generalize into philosophical or cross-context analogies.\n\nDifferentiator variable names:\nneurobiological_literacy, meta_task_analysis, breath_self_regulation, prosocial_empathy_monitoring, pharmacology_comparison, research_engagement_commentary, strategic_task_flexibility, calibrated_sensory_reporting, open_boundary_awareness, abstract_analogy_reasoning",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 3621,
+        "prompt_tokens": 14494,
+        "total_tokens": 18115,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 2368,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

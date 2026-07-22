@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-CjDEHjGUwLcOCphPGQA0pQdeConXn",
+    "created": 1764891649,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Relational self-disclosure and boundary negotiation: LOW participants extensively discuss personal relationships, consent, and planned conversations, revealing vulnerability and detailed boundary-setting absent in the HIGH group's analytical focus.\nLOW transcripts are rich with intimate, concrete narratives about loved ones and the roles participants seek to play in those relationships. They repeatedly describe planned talks (e.g., proposing after study abroad, clarifying open-relationship boundaries), requests for confidentiality, and a strong ethic of \u201cnot imposing\u201d while still striving for honest, empathetic communication. They map out responsibilities with family (nieces, parents, siblings), explore how MDMA opens a \u201cfeelings lane,\u201d and use the experience to rehearse and refine conversations around consent, safety, expectations, and identity. In contrast, HIGH participants focus more on pharmacology, study design, breathwork, and meta-level analysis of tasks and societal implications, sharing fewer detailed personal boundary negotiations or relationship action plans. The LOW group\u2019s consistent emphasis on vulnerability, emotional clarity, and interpersonal boundary-setting distinguishes them clearly from the HIGH group.\n\nDifferentiator variable names:\nrelational_self_disclosure_boundary_negotiation",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 1844,
+        "prompt_tokens": 14494,
+        "total_tokens": 16338,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 1600,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

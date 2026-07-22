@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChNL4gJdQPcCw7DlYJWMRXHvkKGta",
+    "created": 1764453854,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Scientific Lexicon and Neurobiological Framing: High participants frequently use scientific terminology and reference neurobiology, receptors, and research design to interpret their experiences.\nHigh-group transcripts are rich with technical language and research references: they discuss serotonin versus dopamine mechanisms, SSRIs, receptor targets (e.g., CB2), Andrew Shulgin\u2019s chemistry, study questionnaires, NIH protocols, and commercialization by companies. They cite behavioral science (e.g., Kahneman), ask about contraindications, and situate their experience in ongoing clinical research. In contrast, low-group participants focus on personal feelings, relationships, and practical task performance with occasional generic references; they rarely anchor their narratives in neurobiology or formal research frameworks.\n\n2. Nuanced Cross-Drug Phenomenology: High participants compare MDMA to other drugs with nuanced distinctions about phenomenology, introspection, and transcendence versus dissociation.\nHigh-group speakers repeatedly contrast MDMA with psilocybin and other psychedelics, articulating differences in empathy versus transcendence, introspective depth, and whether MDMA is \u201cpsychedelic per se.\u201d They reflect on setting (festival vs intentional), respect for shrooms, and specific perceptual changes (e.g., periphery fading). Low-group comparisons are brief and largely about which feelings dominate (e.g., \u201cMolly is more my feelings\u201d) rather than detailed phenomenological distinctions, and they rarely expand into broader theoretical constructs.\n\n3. Experimental Meta-Analysis and Pattern-Seeking: High participants scrutinize task mechanics, infer hidden tests, and actively seek patterns within the experimental setup.\nHigh-group narratives show active hypothesizing about task structures, potential \u201culterior tests,\u201d and environmental manipulations (order changes, room temperature differences, button purpose, memory components). They analyze biases (e.g., money tasks), train responses, and consider psychological flexibility measures. Low-group participants mainly describe being overwhelmed or missing items, performance variability, or comfort/difficulty, with minimal meta-level speculation about study design or intent.\n\n4. Active Self-Regulation and Breath-Grounding: High participants deliberately regulate state through breath, tension release, and grounding to manage anxiety and maintain focus.\nHigh-group individuals repeatedly describe sensing tension, checking their bodies, releasing muscle contractions, and using controlled breathing to \u201ccollect\u201d themselves, prevent panic, and sustain attention\u2014often generalizing this to life resilience. They portray breath as an anchor in the MRI and beyond. Low-group transcripts seldom show systematic self-regulation; they mention closing eyes or moving helping occasionally, but lack the consistent, intentional breath-and-body strategy the high group employs.\n\n5. High Sociability with Empathic Boundaries: High participants display amplified sociability and empathy while explicitly attending to others\u2019 comfort, consent, and boundaries.\nHigh-group speakers anticipate heightened connection\u2014mirroring reactions, craving touch, hugging, bonding with friends, and being \u201can open book\u201d\u2014yet they emphasize avoiding discomfort, acknowledging their role (e.g., as a male) and respecting non-party, intentional contexts. Low-group speakers report variable sociability (introversion, social anxiety, uncertainty about euphoria) and focus more on their own relational logistics; they rarely highlight explicit boundary-management alongside empathic openness.\n\n6. Detailed Somatic and Sensory Monitoring: High participants provide precise, comparative tracking of bodily sensations and perceptual changes across time and context.\nHigh-group accounts include fine-grained descriptions of body temperature trends (\u201crunning below normal\u201d), hyper-awareness of internal sensations, peripheral vision narrowing, sweat patterns, touch enhancement, and systematic inventories of senses. They compare current sensations to prior sessions and interpret changes. Low-group participants note sensations (warmth, jaw tension, tingling) but with more uncertainty, less comparative structure, and fewer detailed perceptual distinctions.\n\n7. Assertive Intellectual Engagement and Agency: High participants link insights to action, careers, and policy, demonstrating assertive engagement and agency beyond the session.\nHigh-group individuals connect their experience to professional aims (contacting PIs, expanding studies), critique commercialization and regulation, challenge questionnaire assumptions, and clearly state beliefs (e.g., about faith). They plan outreach and frame their participation within larger intellectual projects. Low-group participants concentrate on personal routines, family dynamics, and immediate social decisions; they show less inclination to extrapolate into policy or career moves.\n\n8. Resilience-Oriented Meaning-Making: High participants reframe difficulties as transient valleys, emphasizing control, progress, and net-positive outcomes.\nHigh-group narratives emphasize coping frameworks\u2014\u201chills and valleys,\u201d net-positive trajectories, breathing through bad thoughts, and focusing on controllables\u2014sometimes invoking historical examples of finding solace under adversity. They treat challenging sensations as navigable, not defining. Low-group participants more often wrestle with uncertainty (placebo vs dose), overwhelm, or lack of euphoria, and are less likely to explicitly reframe difficulties into resilient meaning-making.\n\nDifferentiator variable names:\ndifferentiator_01_name=scientific_lexicon_neurobiology, differentiator_02_name=cross_drug_phenomenology, differentiator_03_name=experimental_meta_pattern_seeking, differentiator_04_name=self_regulation_breath_grounding, differentiator_05_name=sociability_empathic_boundaries, differentiator_06_name=somatic_sensory_monitoring, differentiator_07_name=intellectual_engagement_agency, differentiator08_name=resilience_meaning_making",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 4439,
+        "prompt_tokens": 14494,
+        "total_tokens": 18933,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 3328,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChM5hHk0EMcLoYcvjIBlYyDTSkM3T",
+    "created": 1764449057,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Proactive self-regulation and grounding: High participants actively use breath control and body scanning to manage arousal and refocus during challenges. They repeatedly describe noticing tension or rising anxiety and immediately deploying concrete techniques\u2014slow breathing, releasing muscle tension, grounding attention\u2014to steady themselves, even inside the MRI. They frame \u201ccontrol of breath\u201d as a first lever of agency and apply it systematically. In contrast, low participants more often report being overwhelmed, distracted, or needing movement to \u201cget it out,\u201d with fewer explicit, repeatable strategies for rapid self-calming in the moment.\n\n2. Study-task metacognition and hypothesis generation: High participants analyze task structure and generate hypotheses about hidden motives and biases without spiraling into negativity. They question randomness, infer \u201culterior tests,\u201d notice order changes, and reference behavioral bias concepts while keeping a curious, non-paranoid tone. Low participants mention surface features (e.g., red trials occurring twice) or admit confusion (e.g., focusing on reflections), but typically don\u2019t construct or sustain higher-order explanations about task intent.\n\n3. Prosocial openness and tactile empathy: High participants present as highly sociable, warm, and physically affiliative, often craving touch and eager for mutual mirroring. They self-identify as \u201copen books,\u201d anticipate hugging and eye contact, and explicitly monitor boundaries to avoid making others uncomfortable, indicating attuned empathy. Low participants more often describe social reticence, fear of imposing, and situational social anxiety, focusing on internal processing rather than outward prosocial engagement and affectionate touch.\n\n4. Positive reframing and emotional resilience: High participants consistently reinterpret discomfort as manageable, transient \u201cvalleys\u201d on a net-positive trajectory. They label odd sensations as \u201cstrange, not bad,\u201d emphasize passage through difficult moments, and stress regaining control and meaning\u2014even invoking historical examples of finding agency under duress. Low participants frequently center uncertainty, comparative disappointment versus prior sessions, or overwhelm by feelings, with fewer instances of immediate reframing toward growth and mastery.\n\n5. Focused task engagement and performance confidence: High participants report tasks feeling straightforward or \u201ceasy,\u201d describe clear strategies, and maintain focus despite distractors or racing thoughts. They distinguish hardest versus easiest tasks, discuss reaction times, and redirect attention back to the task. Low participants commonly recount misinterpreting instructions, missing early items, or being pulled off-target by sensations/thoughts\u2014then trying to recover\u2014conveying less confidence and sustained task control.\n\n6. Pharmacology and research literacy: High participants spontaneously reference neurotransmitters, receptors, and literature (e.g., SSRIs vs dopamine, Shulgin/CB2, psilocybin for depression/PTSD), plus policy/commercialization dynamics. They ask informed questions, contemplate societal regulation, and position the study within a broader scientific landscape. Low participants may cite well-known figures or general ideas but rarely sustain mechanistic or translational discussions at similar depth or breadth.\n\n7. Intentional-use orientation and integration mindset: High participants favor intentional, non-party contexts directed at connection, insight, and integration with trusted others. They discuss respecting different substances for their roles (e.g., shrooms as deeply introspective), bonding with friends, and scaling research responsibly. Low participants more often emphasize comfort/conduciveness of environments and personal processing without articulating a strong, proactive integration framework for future use.\n\nDifferentiator variable names:\nproactive_self_regulation, task_metacognitive_hypothesis, prosocial_openness_touch, positive_reframing_resilience, focused_task_performance, pharmacology_research_literacy, intentional_use_integration",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 3754,
+        "prompt_tokens": 14494,
+        "total_tokens": 18248,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 3008,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

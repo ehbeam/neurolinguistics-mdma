@@ -1,0 +1,6 @@
+var,n_placebo,med_[quantiles]_placebo,n_mdma,med_[quantiles]_mdma,U,CLES,FDR
+gpt5_attention_state_oscillation,93,"0.10 [0.00, 0.30]",198,"0.20 [0.00, 0.30]","7,990.5",0.57,0.07+
+gpt5_physiological_monitoring_hypotheses,93,"0.00 [0.00, 0.40]",198,"0.10 [0.00, 0.40]","8,067",0.56,0.07+
+gpt5_performance_vigilance,93,"0.00 [0.00, 0.20]",198,"0.00 [0.00, 0.00]","10,597.5",0.58,5.18x10-3**
+gpt5_professional_boundary_awareness,93,"0.00 [0.00, 0.10]",198,"0.00 [0.00, 0.00]","10,970.5",0.60,7.06x10-5***
+gpt5_emotional_bandwidth_allocation,93,"0.00 [0.00, 0.10]",198,"0.10 [0.00, 0.30]","5,749",0.69,1.13x10-7***

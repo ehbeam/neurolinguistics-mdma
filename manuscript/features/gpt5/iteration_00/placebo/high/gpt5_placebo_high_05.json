@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChLu9Xp8eFaEPL3WukdTfPV33irsT",
+    "created": 1764448341,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Dreamlike Sensory Vividness and Blur: High-group speech emphasizes bright colors, foggy vision, pleasant tactile sensitivity, and dreamlike quality while remaining reality-anchored; low-group minimizes such sensory changes. High participants repeatedly describe brighter colors, slightly blurred or \u201cfoggy\u201d vision, dreamlike-yet-oriented experiences, and heightened somatic sensations (pleasant touch, skin sensitivity, jaw clench, pupil dilation). They note feeling as if in a pleasant dream while still knowing who and where they are. In contrast, low participants often stress perceptual clarity (\u201cthings are quite real\u201d), deny color changes, and attribute visual distortion to other drugs (e.g., LSD), not MDMA. Low-group sensory talk tends to focus on mild body lightness or tingling rather than a vivid, immersive, dreamlike shift.\n\n2. Methodological and Contextual Meta-Awareness: High participants analyze study design, confounds, and setting effects, adjusting expectations and performance; low participants show lighter curiosity without sustained methodological focus. The high group frequently reflects on the research environment and its impact: caffeine restrictions, metabolization, placebo/order effects, MRI sleepiness confounds, task formats (e.g., faces tests), and how surveys might be context-sensitive compared to festival settings. They propose procedural tweaks (adding caffeine, screening for caffeine habits) and worry about how their state may bias results. Low participants ask occasional procedural questions (placebo, task order) but primarily center on personal feelings and comfort; they rarely sustain technical critique or self-calibrate to mitigate confounds.\n\n3. Elaborate Autobiographical Connectivity: High-group transcripts integrate detailed relationship histories and identity themes with current feelings; low-group narratives stay more present-focused and pragmatic. High participants share rich, multi-layered life stories (ex-partners, cultural identity, Peace Corps timelines), connecting those narratives to current emotions and insight. They actively link negatives to emergent positives, and emphasize meaning-making through coherent personal storytelling. Low participants mostly foreground immediate emotional states, anxiety relief, sociability, and practical worries, with fewer extended, interwoven autobiographical accounts or cultural-context links woven through their reflections.\n\n4. Performance Vigilance and Self-Regulation: High participants actively monitor focus, errors, and strategies to perform well; low participants report neutral cognition or emotions eclipsing task engagement. The high group tracks attentional drift, mistakes, and strategy (e.g., pattern detection), and explicitly \u201cpushes\u201d to meet performance expectations despite altered states or sleepiness. They worry about confounds from drowsiness, lack of caffeine, and task demands, and describe trying to counter perceived MDMA-related deficits. Low participants often assert mental clarity or note that emotions overwhelm task focus; they describe \u201clanes\u201d switching between feeling and thinking and missing task items when their mind wanders, with less emphasis on deliberate performance regulation.\n\n5. Boundary-Conscious Social Caution: High-group speech shows guardedness and boundary awareness toward staff; low-group emphasizes trust, warmth, and easy closeness. High participants repeatedly note the professional dynamic (\u201cnot buddy-buddy\u201d), express uncertainty about staff genuineness, feel mistrust at times, and self-limit social expression to respect boundaries. They describe being \u201chermetic\u201d in-session and attribute reduced comfort to the clinical setting. Low participants conversely report feeling secure, less defensive, and eager to connect\u2014seeking hugs, eye contact, and chatty openness\u2014even with strangers or new staff, signaling lower social caution and higher spontaneous closeness.\n\nDifferentiator variable names:\ndreamlike_sensory_vividness, contextual_method_awareness, autobiographical_linking, performance_vigilance, boundary_social_caution",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 4153,
+        "prompt_tokens": 12391,
+        "total_tokens": 16544,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 3392,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}

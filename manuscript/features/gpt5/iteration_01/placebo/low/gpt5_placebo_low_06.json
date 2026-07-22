@@ -1,0 +1,87 @@
+{
+    "id": "chatcmpl-ChM9sOPyvk3C1Z6KVF1GgMNhQmN0R",
+    "created": 1764449316,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+                "content": "Differentiator titles and descriptions:\n1. Analytical Metacognition and Operational Framing: LOW participants describe their inner experience using structured models and explicit definitions of states and traits. They repeatedly use technical, self-analytic language\u2014\u201clanes,\u201d \u201cbandwidth,\u201d \u201callocation,\u201d \u201cutility function,\u201d \u201ccompartmentalize\u201d\u2014to explain what MDMA does for them. They also redefine constructs like intoxication, friendliness, sociability, and focus with precise criteria, and pause to calibrate answers against \u201cbaseline\u201d and survey intent. This meta-cognitive framing distinguishes them from HIGH participants, who narrate more in story and sensation terms and less in operational models.\n\n2. Clear-Headed, Non-Intoxicating Realism: LOW consistently report MDMA increases clarity without dissociation, dreamlike vision, or major sensory distortions. They emphasize feeling \u201csober,\u201d present, and cognitively intact, denying unreal or dreamlike qualities and downplaying visual changes (colors, tunnel vision) as atypical or concerning. Sensory features are described as mild, concrete (light legs, tingling), while \u201cintoxication\u201d is reserved for states that impair thinking\u2014something they claim MDMA does not do\u2014contrasting with HIGH accounts of foggy vision, dreaminess, and amplified tactile pleasure.\n\n3. Anxiety Drop and Social De-Guarding: On MDMA, LOW show near-total anxiety relief and reduced defensiveness, becoming chatty, empathetic, and eager to connect. They repeatedly describe anxiety \u201cvanishing,\u201d walls coming down, increased eye contact, and engaging warmly with strangers (e.g., long Lyft conversations, hugging family more fully), while noting less avoidant behavior. Where HIGH participants discuss nerves, mistrust of professional dynamics, or environment-related discomfort, LOW participants emphasize feeling secure once supported and move quickly into open, prosocial engagement.\n\n4. Unlocking Pre-Existing Emotions: LOW experience MDMA as opening access to long-suppressed feelings rather than generating new insights or creativity. They frame the drug as \u201copening a vault\u201d or adding a \u201clane for feeling\u201d that lets them access and express emotions already known but previously deprioritized by survival demands; effects often persist afterward (e.g., bigger, more genuine family hugs). In contrast, HIGH narratives center more on in-the-moment connections, sensory positivity, and event-driven realizations rather than an explicit claim of accessing pre-existing, latent emotional content.\n\n5. Methodological Curiosity and Calibration: LOW interrogate placebo, randomization, survey wording, and setting effects, actively calibrating and contextualizing their responses. They ask about order, placebo rates, and safety \u201cred flags,\u201d discuss how setting and task demands shape reported effects, and compare experiences to friends\u2019 differing reactions. This shows an ongoing effort to normalize, benchmark, and rationalize their data, whereas HIGH participants focus more on practical confounds (sleep, caffeine, environment) without the same sustained, study-design-oriented inquiry.\n\n6. Feeling\u2013Task Tradeoff Awareness: LOW articulate a dynamic allocation between feeling and thinking, noting feelings can overshadow task performance. They describe switching a \u201csingle lane\u201d between emotions and cognition, monitoring when feelings \u201covertake\u201d tasks and actively pulling themselves back to perform\u2014especially when tasks require more bandwidth. HIGH participants mention concentration changes and effort, but the LOW group uniquely frames performance as a managed tradeoff driven by intentional allocation between affect and cognition.\n\nDifferentiator variable names:\nanalytical_metacognition, clear_headed_nonintoxicating_realism, anxiety_drop_social_deguarding, unlocking_preexisting_emotions, methodological_curiosity_calibration, feeling_task_tradeoff_awareness",
+                "role": "assistant",
+                "annotations": []
+            },
+            "provider_specific_fields": {
+                "content_filter_results": {
+                    "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "protected_material_code": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "protected_material_text": {
+                        "filtered": false,
+                        "detected": false
+                    },
+                    "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                    },
+                    "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                    }
+                }
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 4016,
+        "prompt_tokens": 12392,
+        "total_tokens": 16408,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 3264,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    },
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ]
+}
