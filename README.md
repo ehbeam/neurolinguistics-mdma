@@ -116,7 +116,7 @@ Participant speech data are subject to IRB and consent restrictions; please cont
 
 # Citations
 If you use this code, please cite the associated manuscript:
-- Beam, E., Zhang, X., Hilton, R., van Roessel, P. J., Rodriguez, C. I., & Williams, L. M. (In Preparation). Precision neurolinguistics reveals latent speech signatures of a negative affect biotype and its modulation by MDMA.
+- Beam, E., Zhang, X., Hilton, R., van Roessel, P. J., Rodriguez, C. I., & Williams, L. M. (In Submission). Precision neurolinguistics reveals latent speech signatures of a negative affect biotype and its modulation by MDMA.
 
 Please also cite relevant toolkits:
 - Pedregosa, F. et al. Scikit-learn: Machine learning in Python. J. Mach. Learn. Res. 12, 2825–2830 (2011).
