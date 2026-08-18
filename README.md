@@ -16,11 +16,6 @@ Our manuscript introduces a novel precision neurolinguistics framework in which 
 
 <div align="center"><img src="manuscript/images/pipeline.png" alt="Pipeline" width="650"></div>
 
-In prior work by [Zhang <i>et al.</i>](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2833328), the NTN<sub>A+</sub> subgroup with high baseline amygdala reactivity to nonconscious social threat was shown to shift toward normalization of circuit function with MDMA. The above pipeline yielded a latent speech signature which in part describes a corresponding shift within the NTN<sub>A+</sub> subgroup from low interpersonal boundary openness during placebo to high interpersonal boundary openness with MDMA, as shown here:
-
-<div align="center"><img src="manuscript/images/result.png" alt="Result" width="650"></div>
-
-
 ## Study Background
 
 - **Clinical trial:** Adults aged 18–55 with ≥2 prior MDMA uses (none within 6 months of dosing). Exclusion criteria included current/past mood, anxiety, substance use, eating, bipolar, or psychotic disorders. This study was approved by the Stanford University Institutional Review Board. All participants provided written informed consent.
@@ -33,6 +28,7 @@ In prior work by [Zhang <i>et al.</i>](https://jamanetwork.com/journals/jamanetw
 # Pipeline
 Please see the ```manuscript.ipynb``` notebook for a walk-through of our pipeline. As study data are not included here, we have created an ```example.ipynb``` notebook which generates synthetic transcripts for prototypical NTN<sub>A–</sub> and NTN<sub>A+</sub> participants and shows how GPT-5 is applied to generate latent speech signatures.
 
+
 ## 1. Audio preprocessing & transcription
 ```transcribe.py```
 - Speaker diarization (pyannote.audio).
@@ -40,6 +36,7 @@ Please see the ```manuscript.ipynb``` notebook for a walk-through of our pipelin
 - Manual removal of participant identifiers from transcripts.
 - Adjacent same-speaker utterances combined.
 - Segmentation by rolling window to a maximum of 10, 20, or 30 seconds (30 seconds selected for best performance).
+
 
 ## 2. Candidate feature generation
 ```manuscript/features/send/model_send_audio.py```
