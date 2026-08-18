@@ -54,31 +54,31 @@ Please see the ```manuscript.ipynb``` notebook for a walk-through of our pipelin
 - *Grammatical:* Word count, person/tense usage, hedges.
 
 **GPT-5 Neurolinguistic Features**
-- *Stage 1:* GPT-5 generates candidate features differentiating "low" (NTNA–) vs. "high" (NTNA+) reactivity transcripts. Each feature includes a title, one-sentence summary, and descriptive paragraph. Repeated to generate sets of 1–10 features over 3 iterations → 30 feature sets per subgroup per condition.
+- *Stage 1:* GPT-5 generates candidate features differentiating "low" (NTN<sub>A–</sub>) vs. "high" (NTN<sub>A+</sub>) reactivity transcripts. Each feature includes a title, one-sentence summary, and descriptive paragraph. Repeated to generate sets of 1–10 features over 3 iterations → 30 feature sets per subgroup per condition.
 - *Stage 2:* GPT-5 rates the degree to which each feature is present in each utterance on a continuous scale from 0.0 to 1.0.
 
 
 ## 3. Candidate feature filtering
 ```featurize.py```
 
-- Features excluded if they did not trend toward a difference between NTNA subgroups (Mann-Whitney U test, FDR < 0.1 after correction).
+- Features excluded if they did not trend toward a difference between NTN<sub>A</sub> subgroups (Mann-Whitney U test, FDR < 0.1 after correction).
 - Data split at the participant level to avoid inflation of validation/test performance.
 
 
 ## 4. Feature selection by logistic regression
 ```featurize.py```
 
-- Logistic regression predicting NTNA subgroup.
-- *Solver:* L-BFGS
-- *Intercept:* Included
-- *Iterations:* Up to 1,000
-- *Tolerance 0.0001.
-- *Regularization:* L2 
-- *Inverse of regularization strength (C):*
-  - NLP placebo model: C=0.25
-  - NLP MDMA model: C=0.5
-  - GPT-5 placebo model: C=0.5
-  - GPT-5 MDMA model: C=0.5
+- Logistic regression predicting NTN<sub>A</sub> subgroup
+  - *Solver:* L-BFGS
+  - *Intercept:* Included
+  - *Iterations:* Up to 1,000
+  - *Tolerance:* 0.0001
+  - *Regularization:* L2 
+  - *Inverse of regularization strength (C):*
+    - NLP placebo model: C=0.25
+    - NLP MDMA model: C=0.5
+    - GPT-5 placebo model: C=0.5
+    - GPT-5 MDMA model: C=0.5
   
 ## 5. Statistical analysis
 ```utils.py```
